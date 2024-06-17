@@ -1,0 +1,46 @@
+﻿<Properties StartupConfiguration="{29FC136A-2AE3-442A-5FB2-6E2509A4FAAC}|">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/Manager/GameDataMgr.cs">
+    <Files>
+      <File FileName="Assets/Scripts/BeginScene/UI/BasePanel.cs" Line="43" Column="50" />
+      <File FileName="Assets/Scripts/BeginScene/UI/BeginPanel.cs" Line="30" Column="1" />
+      <File FileName="Assets/Scripts/Manager/UIManager.cs" Line="31" Column="43" />
+      <File FileName="Assets/Scripts/BeginScene/Obj/BeginSceneMain.cs" Line="10" Column="56" />
+      <File FileName="Assets/Scripts/BeginScene/UI/LoginPanel.cs" Line="36" Column="9" />
+      <File FileName="Assets/Scripts/Manager/JsonMgr.cs" Line="39" Column="6" />
+      <File FileName="Assets/Scripts/Data/LoginData.cs" Line="13" Column="24" />
+      <File FileName="Assets/Scripts/Manager/GameDataMgr.cs" Line="1" Column="1" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="BuYuDaRen" expanded="True">
+            <Node name="Assets" expanded="True">
+              <Node name="Arts" expanded="True">
+                <Node name="Plugin" expanded="True">
+                  <Node name="litjson-0.17.0" expanded="True" />
+                </Node>
+              </Node>
+              <Node name="Scripts" expanded="True">
+                <Node name="BeginScene" expanded="True">
+                  <Node name="Obj" expanded="True" />
+                  <Node name="UI" expanded="True" />
+                </Node>
+                <Node name="Data" expanded="True">
+                  <Node name="LoginData.cs" selected="True" />
+                </Node>
+                <Node name="Manager" expanded="True" />
+              </Node>
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="69904ef3-957b-4c12-8496-4ad7a2bb1cce" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>
