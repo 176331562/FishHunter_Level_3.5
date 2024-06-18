@@ -1,14 +1,10 @@
 ﻿<Properties StartupConfiguration="{29FC136A-2AE3-442A-5FB2-6E2509A4FAAC}|">
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/BeginScene/UI/LoginPanel.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/Manager/GameDataMgr.cs">
     <Files>
-      <File FileName="Assets/Scripts/BeginScene/UI/BeginPanel.cs" Line="30" Column="1" />
-      <File FileName="Assets/Scripts/BeginScene/Obj/BeginSceneMain.cs" Line="10" Column="52" />
-      <File FileName="Assets/Scripts/BeginScene/UI/LoginPanel.cs" Line="49" Column="34" />
-      <File FileName="Assets/Scripts/Manager/JsonMgr.cs" Line="42" Column="25" />
-      <File FileName="Assets/Scripts/Manager/GameDataMgr.cs" Line="21" Column="34" />
+      <File FileName="Assets/Scripts/Manager/GameDataMgr.cs" Line="14" Column="23" />
       <File FileName="Assets/Scripts/BeginScene/UI/TipPanel.cs" Line="33" Column="33" />
-      <File FileName="Assets/Scripts/BeginScene/UI/BasePanel.cs" Line="49" Column="39" />
-      <File FileName="Assets/Scripts/BeginScene/UI/RegisterPanel.cs" Line="34" Column="34" />
+      <File FileName="Assets/Scripts/BeginScene/UI/BasePanel.cs" Line="10" Column="34" />
+      <File FileName="Assets/Scripts/Manager/UIManager.cs" Line="30" Column="55" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
@@ -23,12 +19,12 @@
               <Node name="Scripts" expanded="True">
                 <Node name="BeginScene" expanded="True">
                   <Node name="Obj" expanded="True" />
-                  <Node name="UI" expanded="True">
-                    <Node name="LoginPanel.cs" selected="True" />
-                  </Node>
+                  <Node name="UI" expanded="True" />
                 </Node>
                 <Node name="Data" expanded="True" />
-                <Node name="Manager" expanded="True" />
+                <Node name="Manager" expanded="True">
+                  <Node name="GameDataMgr.cs" selected="True" />
+                </Node>
               </Node>
             </Node>
           </Node>
@@ -38,11 +34,9 @@
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="69904ef3-957b-4c12-8496-4ad7a2bb1cce" />
+  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="6e9467d0-8a4c-4349-a688-d61fde2ddd73" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
-    <BreakpointStore>
-      <Breakpoint file="/Users/mac/Documents/GitHub/FishHunter/FishHunter/BuYuDaRen/Assets/Scripts/Manager/GameDataMgr.cs" relfile="Assets/Scripts/Manager/GameDataMgr.cs" line="14" column="1" />
-    </BreakpointStore>
+    <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MultiItemStartupConfigurations />
 </Properties>

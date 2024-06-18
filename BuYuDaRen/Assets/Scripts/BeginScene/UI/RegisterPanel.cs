@@ -56,6 +56,14 @@ public class RegisterPanel : BasePanel
         {
             RegisterAccount();
         });
+
+        btnFalse.onClick.AddListener(() =>
+        {
+            UIManager.Instance.CloseThisPanel<RegisterPanel>(true, () =>
+            {
+                UIManager.Instance.ShowThisPanel<LoginPanel>();
+            });
+        });
     }
 
     //账号密码超出长度或有问题
@@ -72,48 +80,49 @@ public class RegisterPanel : BasePanel
 
         for (int i = 0; i < loginInfo.loginDatas.Count; i++)
         {
-            //如果当前账号没注册过
-            if (loginInfo.loginDatas[i].account != accountIP.text)
+            if (loginInfo.loginDatas[i].account == accountIP.text)
             {
-                //如果账号不为空并且账号长度合适
-                if (accountIP.text != string.Empty && accountIP.text.Length < 7)
-                {
-                    //并且列表里面没有注册过当前账号
-                    if (loginInfo.loginDatas[i].account != accountIP.text)
-                    {
-                        //并且密码长度正确
-                        if (passWordIP.text != string.Empty && passWordIP.text.Length < 7)
-                        {
-                            LoginData loginData = new LoginData();
-                            loginData.account = accountIP.text;
-                            loginData.password = passWordIP.text;
+                UIManager.Instance.ShowThisPanel<TipPanel>().ChangeText("账号已被注册");
 
-                            GameDataMgr.Instane.SaveLoginData(loginData);
+                accountIP.text = string.Empty;
+                passWordIP.text = string.Empty;
 
-
-                            UIManager.Instance.CloseThisPanel<RegisterPanel>(true, () =>
-                            {
-                                UIManager.Instance.ShowThisPanel<LoginPanel>();
-                                UIManager.Instance.ShowThisPanel<TipPanel>().ChangeText("注册成功");
-
-                                
-                            });
-
-                            break;
-                        }
-                    }
-                }
-                else//如果已经被注册过了
-                {
-                    UIManager.Instance.ShowThisPanel<TipPanel>().ChangeText("账号已被注册");
-
-                    accountIP.text = string.Empty;
-                    passWordIP.text = string.Empty;
-
-                    break;
-                }
+                return;
             }
-            
+
+           
+
+        }
+
+        //如果当前账号没注册过
+        if (accountIP.text != string.Empty && accountIP.text.Length < 7)
+        {
+
+           
+             //并且列表里面没有注册过当前账号
+                
+              //并且密码长度正确
+                    if (passWordIP.text != string.Empty && passWordIP.text.Length < 7)
+                    {
+                        LoginData loginData = new LoginData();
+                        loginData.account = accountIP.text;
+                        loginData.password = passWordIP.text;
+
+                        GameDataMgr.Instane.SaveLoginData(loginData);
+
+
+                        UIManager.Instance.CloseThisPanel<RegisterPanel>(true, () =>
+                        {
+                            UIManager.Instance.ShowThisPanel<LoginPanel>();
+                            UIManager.Instance.ShowThisPanel<TipPanel>().ChangeText("注册成功");
+
+
+                        });
+
+                        
+                    }
+                
+           
         }
     }
 }

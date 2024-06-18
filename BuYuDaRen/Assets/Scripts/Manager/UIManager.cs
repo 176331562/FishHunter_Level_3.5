@@ -25,7 +25,11 @@ public class UIManager
 
             if(canvasObj == null)
             {
-                canvasObj = GameObject.Instantiate(Resources.Load<GameObject>("UI/Canvas"));
+                ResourceRequest rq1 = Resources.LoadAsync<GameObject>("UI/Canvas");
+
+                canvasObj = GameObject.Instantiate(rq1.asset as GameObject);
+
+                //canvasObj = GameObject.Instantiate(Resources.Load<GameObject>("UI/Canvas"));
                 Canvas canvas = canvasObj.GetComponent<Canvas>();
                 canvas.worldCamera = Camera.main;
                 canvasObj.name = "Canvas";
@@ -40,7 +44,10 @@ public class UIManager
             return panelDic[panelName] as T;
         }
 
-        GameObject panelObj = GameObject.Instantiate(Resources.Load<GameObject>("UI/" + panelName));
+        //GameObject panelObj = GameObject.Instantiate(Resources.Load<GameObject>("UI/" + panelName));
+        ResourceRequest rq = Resources.LoadAsync<GameObject>("UI/" + panelName);
+        GameObject panelObj = GameObject.Instantiate(rq.asset as GameObject);
+
         panelObj.name = panelName;
         panelObj.transform.SetParent(canvasObj.transform,false);
 

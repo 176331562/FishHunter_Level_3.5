@@ -8,15 +8,8 @@ public class BeginSceneMain : MonoBehaviour
     void Start()
     {
         UIManager.Instance.ShowThisPanel<LoginPanel>();
-
-        LoginData loginData = new LoginData();
-        loginData.account = "fsc";
-        loginData.password = "123";
-
-
-        GameDataMgr.Instane.SaveLoginData(loginData);
-
-        Debug.LogError(Application.persistentDataPath);
+     
+        //Debug.LogError(Application.persistentDataPath);
     }
 
     

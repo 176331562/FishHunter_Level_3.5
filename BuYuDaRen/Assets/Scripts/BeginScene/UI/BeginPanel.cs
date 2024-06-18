@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
-
+using UnityEngine.SceneManagement;
 public class BeginPanel : BasePanel
 {
     private Button btnStart;
@@ -22,7 +22,15 @@ public class BeginPanel : BasePanel
     {
         btnStart.onClick.AddListener(() =>
         {
+            UIManager.Instance.CloseThisPanel<BeginPanel>(true);
 
+            Debug.LogError("加载游戏场景");
+
+            AsyncOperation ao = SceneManager.LoadSceneAsync("GameScene");
+            ao.completed += (ao) =>
+            {
+                
+            };
         });
 
         btnSetting.onClick.AddListener(() =>
