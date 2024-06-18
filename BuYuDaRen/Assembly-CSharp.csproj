@@ -78,6 +78,9 @@
     <Compile Include="Assets/Scripts/Manager/GameDataMgr.cs" />
     <Compile Include="Assets/Scripts/BeginScene/UI/TipPanel.cs" />
     <Compile Include="Assets/Scripts/BeginScene/UI/RegisterPanel.cs" />
+    <Compile Include="Assets/Scripts/BeginScene/UI/SettingPanel.cs" />
+    <Compile Include="Assets/Scripts/Data/MusicData.cs" />
+    <Compile Include="Assets/Scripts/Manager/BKMusicMgr.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">

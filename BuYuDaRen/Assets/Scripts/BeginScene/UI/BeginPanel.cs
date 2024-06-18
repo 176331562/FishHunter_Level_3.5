@@ -35,7 +35,10 @@ public class BeginPanel : BasePanel
 
         btnSetting.onClick.AddListener(() =>
         {
-
+            UIManager.Instance.CloseThisPanel<BeginPanel>(true, () =>
+            {
+                UIManager.Instance.ShowThisPanel<SettingPanel>();
+            });
         });
 
 

@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class GameDataMgr
 {
-    public LoginInfo loginInfos;
+    
 
     private static GameDataMgr instance => new GameDataMgr();
     public static GameDataMgr Instane => instance;
@@ -12,10 +12,16 @@ public class GameDataMgr
     //当前正在使用的账号密码
     public LoginData nowSelectLogin;
     public int nowSelectIndex;
+    public LoginInfo loginInfos;
+
+    //当前音乐相关
+    public MusicData musicData;
 
     private GameDataMgr()
     {
         loginInfos = JsonMgr.Instance.LoadData<LoginInfo>("LoginData");
+
+        musicData = JsonMgr.Instance.LoadData<MusicData>("MusicData");
     }
 
     public void SaveLoginData(LoginData loginData)
@@ -38,4 +44,14 @@ public class GameDataMgr
 
         JsonMgr.Instance.SaveData(loginInfos, "LoginData");
     }
+
+    public void SaveMusicData(MusicData musicData)
+    {
+        JsonMgr.Instance.SaveData(musicData, "MusicData");
+    }
+
+    //public void SetMusicIsOpen(bool b)
+    //{
+
+    //}
 }

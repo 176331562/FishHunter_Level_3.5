@@ -1,10 +1,14 @@
 ﻿<Properties StartupConfiguration="{29FC136A-2AE3-442A-5FB2-6E2509A4FAAC}|">
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/Manager/GameDataMgr.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/BeginScene/UI/SettingPanel.cs">
     <Files>
-      <File FileName="Assets/Scripts/Manager/GameDataMgr.cs" Line="14" Column="23" />
+      <File FileName="Assets/Scripts/Manager/GameDataMgr.cs" Line="52" Column="1" />
       <File FileName="Assets/Scripts/BeginScene/UI/TipPanel.cs" Line="33" Column="33" />
       <File FileName="Assets/Scripts/BeginScene/UI/BasePanel.cs" Line="10" Column="34" />
       <File FileName="Assets/Scripts/Manager/UIManager.cs" Line="30" Column="55" />
+      <File FileName="Assets/Scripts/Data/MusicData.cs" Line="11" Column="29" />
+      <File FileName="Assets/Scripts/BeginScene/UI/BeginPanel.cs" Line="38" Column="42" />
+      <File FileName="Assets/Scripts/BeginScene/UI/SettingPanel.cs" Line="44" Column="12" />
+      <File FileName="Assets/Scripts/Manager/BKMusicMgr.cs" Line="23" Column="45" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
@@ -19,12 +23,12 @@
               <Node name="Scripts" expanded="True">
                 <Node name="BeginScene" expanded="True">
                   <Node name="Obj" expanded="True" />
-                  <Node name="UI" expanded="True" />
+                  <Node name="UI" expanded="True">
+                    <Node name="SettingPanel.cs" selected="True" />
+                  </Node>
                 </Node>
                 <Node name="Data" expanded="True" />
-                <Node name="Manager" expanded="True">
-                  <Node name="GameDataMgr.cs" selected="True" />
-                </Node>
+                <Node name="Manager" expanded="True" />
               </Node>
             </Node>
           </Node>
@@ -34,9 +38,11 @@
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="6e9467d0-8a4c-4349-a688-d61fde2ddd73" />
+  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="69904ef3-957b-4c12-8496-4ad7a2bb1cce" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
-    <BreakpointStore />
+    <BreakpointStore>
+      <Breakpoint file="/Users/mac/Documents/GitHub/FishHunter/FishHunter/BuYuDaRen/Assets/Scripts/BeginScene/UI/SettingPanel.cs" relfile="Assets/Scripts/BeginScene/UI/SettingPanel.cs" line="71" column="1" />
+    </BreakpointStore>
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MultiItemStartupConfigurations />
 </Properties>
