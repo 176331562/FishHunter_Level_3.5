@@ -11,13 +11,13 @@ public class GameDataMgr
 
     private GameDataMgr()
     {
-        loginInfos = JsonMgr.Instance.Load<LoginInfo>("LoginData");
+        loginInfos = JsonMgr.Instance.LoadData<LoginInfo>("LoginData");
     }
 
     public void SaveLoginData(LoginData loginData)
     {
         loginInfos.loginDatas.Add(loginData);
 
-        JsonMgr.Instance.Save(loginInfos, "LoginData");
+        JsonMgr.Instance.SaveData(loginInfos, "LoginData");
     }
 }

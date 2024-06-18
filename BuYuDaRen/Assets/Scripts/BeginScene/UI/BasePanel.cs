@@ -15,6 +15,8 @@ public abstract class BasePanel : MonoBehaviour
 
     protected virtual void Awake()
     {
+        canvasGroup = this.gameObject.GetComponent<CanvasGroup>();
+
         if (canvasGroup == null)
         {
             canvasGroup = this.gameObject.AddComponent<CanvasGroup>();
@@ -42,9 +44,9 @@ public abstract class BasePanel : MonoBehaviour
         }
         else if(!isShow && canvasGroup.alpha != 0)
         {
-            canvasGroup.alpha -= canvasGroup.alpha * Time.deltaTime;
+            canvasGroup.alpha -= canvasSpeed * Time.deltaTime;
 
-            if(canvasGroup.alpha <= 0)
+            if(canvasGroup.alpha <= 0.1f)
             {
                 canvasGroup.alpha = 0;
 

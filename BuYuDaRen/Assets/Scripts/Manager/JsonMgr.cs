@@ -3,6 +3,13 @@ using System.Collections.Generic;
 using UnityEngine;
 using System.IO;
 using LitJson;
+public enum JsonType
+{
+    JsonUtlity,
+    LitJson,
+}
+
+
 public class JsonMgr
 {
     private static JsonMgr instance = new JsonMgr();
@@ -13,53 +20,34 @@ public class JsonMgr
 
     }
 
-    public T Load<T>(string dataName) where T : new()
+    public T LoadData<T>(string dataName) where T : new()
     {
-        string path = Application.persistentDataPath + "/" + dataName + ".json";
+        string path = Application.streamingAssetsPath + "/" + dataName + ".json";
 
-        if (File.Exists(path))
-        {
-            if(string.IsNullOrEmpty(File.ReadAllText(path)))
-            {
-                T t = new T();
+        if (!File.Exists(path))
+            path = Application.persistentDataPath + "/" + dataName + ".json";
 
-                File.WriteAllText(path, JsonMapper.ToJson(t));
+        if (!File.Exists(path))
+            return new T();
 
-                return t;
-            }
-            else
-            {
-                T t = JsonMapper.ToObject<T>(File.ReadAllText(path));
+        string contentText = string.Empty;        
 
-                return t;
-            }
-        }
-        else
-        {
-            File.Create(path);
+        contentText = File.ReadAllText(path);
 
-            T t = default(T);
+        T t = JsonMapper.ToObject<T>(contentText);
 
-            File.WriteAllText(path, JsonMapper.ToJson(t));
-
-            return t;
-        }
-        
+        return t;
     }
 
-    public void Save(object obj,string dataName)
+    public void SaveData(object obj,string dataName)
     {
         string path = Application.persistentDataPath + "/" + dataName + ".json";
 
-        if (File.Exists(path))
-        {
-            string contentText = JsonMapper.ToJson(obj);
+        string contentText = string.Empty;
 
-            File.WriteAllText(path, contentText);
-        }
-        else
-        {
-            Debug.LogError("没有这个文件");
-        }
+        contentText = JsonMapper.ToJson(obj);
+
+        File.WriteAllText(path, contentText);
     }
 }
+   

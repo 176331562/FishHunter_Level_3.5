@@ -33,6 +33,49 @@ public class LoginPanel : BasePanel
 
     public override void Init()
     {
-        
+        rememberAccountToggle.onValueChanged.AddListener((b) =>
+        {
+
+        });
+
+
+        rememberPassWordToggle.onValueChanged.AddListener((b) =>
+        {
+
+        });
+
+        registerBtn.onClick.AddListener(() =>
+        {
+            UIManager.Instance.CloseThisPanel<LoginPanel>(true, () =>
+            {
+                UIManager.Instance.ShowThisPanel<RegisterPanel>();
+            });
+        });
+
+        loginBtn.onClick.AddListener(() =>
+        {
+            LoginInfo loginInfo = GameDataMgr.Instane.loginInfos;
+
+            for (int i = 0; i < loginInfo.loginDatas.Count; i++)
+            {
+                if(loginInfo.loginDatas[i].account == accountIP.text && loginInfo.loginDatas[i].password == passWordIP.text)
+                {
+                    UIManager.Instance.ShowThisPanel<TipPanel>().ChangeText("账号密码正确");
+
+                    break;
+                }
+                else
+                {
+                    UIManager.Instance.ShowThisPanel<TipPanel>().ChangeText("没有此账号或账号密码错误");
+                    accountIP.text = string.Empty;
+                    passWordIP.text = string.Empty;
+                }
+            }
+        });
+
+        questionBtn.onClick.AddListener(() =>
+        {
+            UIManager.Instance.ShowThisPanel<TipPanel>().ChangeText("账号密码最多七位");
+        });
     }
 }

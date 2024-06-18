@@ -7,7 +7,7 @@ public class BeginSceneMain : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        UIManager.Instance.ShowThisPanel<BeginPanel>();
+        UIManager.Instance.ShowThisPanel<LoginPanel>();
 
         LoginData loginData = new LoginData();
         loginData.account = "fsc";

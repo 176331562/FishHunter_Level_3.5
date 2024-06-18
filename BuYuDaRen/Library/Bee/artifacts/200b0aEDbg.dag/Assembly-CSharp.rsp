@@ -363,6 +363,8 @@
 "Assets/Scripts/BeginScene/UI/BasePanel.cs"
 "Assets/Scripts/BeginScene/UI/BeginPanel.cs"
 "Assets/Scripts/BeginScene/UI/LoginPanel.cs"
+"Assets/Scripts/BeginScene/UI/RegisterPanel.cs"
+"Assets/Scripts/BeginScene/UI/TipPanel.cs"
 "Assets/Scripts/Data/LoginData.cs"
 "Assets/Scripts/Manager/GameDataMgr.cs"
 "Assets/Scripts/Manager/JsonMgr.cs"

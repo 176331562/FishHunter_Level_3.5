@@ -76,6 +76,8 @@
     <Compile Include="Assets/Arts/Plugin/litjson-0.17.0/src/LitJson/IJsonWrapper.cs" />
     <Compile Include="Assets/Scripts/Data/LoginData.cs" />
     <Compile Include="Assets/Scripts/Manager/GameDataMgr.cs" />
+    <Compile Include="Assets/Scripts/BeginScene/UI/TipPanel.cs" />
+    <Compile Include="Assets/Scripts/BeginScene/UI/RegisterPanel.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">
