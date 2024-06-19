@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class FishData 
 {
+    
     public int id;
     public string name;
     public int hp;

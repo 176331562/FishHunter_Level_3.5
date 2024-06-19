@@ -58,11 +58,14 @@
     <Analyzer Include="/Applications/Visual Studio.app/Contents/Resources/lib/monodevelop/AddIns/MonoDevelop.Unity/Analyzers/Microsoft.Unity.Analyzers.dll" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets/Scripts/Data/PlayerData.cs" />
     <Compile Include="Assets/Scripts/Manager/UIManager.cs" />
+    <Compile Include="Assets/Scripts/Data/FishData.cs" />
     <Compile Include="Assets/Scripts/BeginScene/UI/BeginPanel.cs" />
     <Compile Include="Assets/Scripts/Data/LoginData.cs" />
     <Compile Include="Assets/Arts/Plugin/litjson-0.17.0/src/LitJson/IJsonWrapper.cs" />
     <Compile Include="Assets/Scripts/Manager/GameDataMgr.cs" />
+    <Compile Include="Assets/Scripts/GameScene/Obj/WaterWave.cs" />
     <Compile Include="Assets/Arts/Plugin/litjson-0.17.0/src/LitJson/JsonException.cs" />
     <Compile Include="Assets/Scripts/Data/MusicData.cs" />
     <Compile Include="Assets/Arts/Plugin/litjson-0.17.0/src/LitJson/JsonMockWrapper.cs" />
@@ -70,19 +73,22 @@
     <Compile Include="Assets/Arts/Plugin/litjson-0.17.0/src/LitJson/JsonData.cs" />
     <Compile Include="Assets/Arts/Plugin/litjson-0.17.0/src/LitJson/Lexer.cs" />
     <Compile Include="Assets/Scripts/BeginScene/UI/SettingPanel.cs" />
+    <Compile Include="Assets/Scripts/GameScene/UI/GamePanel.cs" />
     <Compile Include="Assets/Scripts/BeginScene/Obj/BeginSceneMain.cs" />
     <Compile Include="Assets/Scripts/BeginScene/UI/TipPanel.cs" />
     <Compile Include="Assets/Scripts/BeginScene/UI/LoginPanel.cs" />
     <Compile Include="Assets/Arts/Plugin/litjson-0.17.0/src/LitJson/ParserToken.cs" />
     <Compile Include="Assets/Arts/Plugin/litjson-0.17.0/src/LitJson/JsonMapper.cs" />
     <Compile Include="Assets/Arts/Plugin/litjson-0.17.0/src/LitJson/JsonWriter.cs" />
+    <Compile Include="Assets/Scripts/GameScene/Obj/FishPoint.cs" />
+    <Compile Include="Assets/Scripts/GameScene/Obj/FishObj.cs" />
     <Compile Include="Assets/Arts/Plugin/litjson-0.17.0/src/LitJson/Netstandard15Polyfill.cs" />
     <Compile Include="Assets/Scripts/BeginScene/UI/BasePanel.cs" />
+    <Compile Include="Assets/Scripts/BeginScene/Obj/ShootGun.cs" />
     <Compile Include="Assets/Arts/Plugin/litjson-0.17.0/src/LitJson/JsonReader.cs" />
+    <Compile Include="Assets/Scripts/GameScene/Obj/GameSceneMain.cs" />
     <Compile Include="Assets/Scripts/Manager/JsonMgr.cs" />
     <Compile Include="Assets/Scripts/Manager/BKMusicMgr.cs" />
-    <Compile Include="Assets/Scripts/BeginScene/Obj/ShootGun.cs" />
-    <Compile Include="Assets/Scripts/Data/FishData.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">

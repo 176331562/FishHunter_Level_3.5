@@ -87,6 +87,8 @@ public class LoginPanel : BasePanel
         loginBtn.onClick.AddListener(() =>
         {
             CheckLogin();
+
+            
         });
 
         questionBtn.onClick.AddListener(() =>
@@ -96,42 +98,41 @@ public class LoginPanel : BasePanel
     }
 
     //检查账号密码
-    private void CheckLogin()
+    private LoginData CheckLogin()
     {
         LoginInfo loginInfo = GameDataMgr.Instane.loginInfos;
 
         for (int i = 0; i < loginInfo.loginDatas.Count; i++)
         {
-            //Debug.LogError("账号" + loginInfo.loginDatas[i].account);
-            //Debug.LogError("密码" + loginInfo.loginDatas[i].password);
+            Debug.LogError("账号" + loginInfo.loginDatas[i].account);
+            Debug.LogError("密码" + loginInfo.loginDatas[i].password);
             if (loginInfo.loginDatas[i].account == accountIP.text && loginInfo.loginDatas[i].password == passWordIP.text)
             {
-                GameDataMgr.Instane.nowSelectLogin = loginInfo.loginDatas[i];
-                GameDataMgr.Instane.nowSelectIndex = i - 1;
-
                 //保存当前是否保存账号/自动登录
                 LoginData loginData = loginInfo.loginDatas[i];
                 loginData.isRememberAccount = rememberAccountToggle.isOn;
                 loginData.isRememberPassWord = rememberPassWordToggle.isOn;
+
+                GameDataMgr.Instane.InitNowSelectLogin(loginData, i - 1);               
+
                 GameDataMgr.Instane.SaveLoginData(loginData);
 
-                //UIManager.Instance.ShowThisPanel<TipPanel>().ChangeText("账号密码正确");
-
-                //UIManager.Instance.CloseThisPanel<LoginPanel>(true, () =>
-                //{
-                //    UIManager.Instance.ShowThisPanel<BeginPanel>();
-                //});
                 ShowLoginAnimator();
 
-                break;
+                return loginData;
             }
             else if (loginInfo.loginDatas[i].account == accountIP.text && loginInfo.loginDatas[i].password != passWordIP.text)
             {
                 UIManager.Instance.ShowThisPanel<TipPanel>().ChangeText("没有此账号或账号密码错误");
                 accountIP.text = string.Empty;
                 passWordIP.text = string.Empty;
+
+                return null;
             }
+            
         }
+
+        return null;
     }
 
     //显示登录动画
