@@ -17,11 +17,16 @@ public class GameDataMgr
     //当前音乐相关
     public MusicData musicData;
 
+    //读取鱼的属性数据
+    public List<FishData> fishDatas;
+
     private GameDataMgr()
     {
         loginInfos = JsonMgr.Instance.LoadData<LoginInfo>("LoginData");
 
         musicData = JsonMgr.Instance.LoadData<MusicData>("MusicData");
+
+        fishDatas = JsonMgr.Instance.LoadData<List<FishData>>("FishData");
     }
 
     public void SaveLoginData(LoginData loginData)
@@ -50,8 +55,4 @@ public class GameDataMgr
         JsonMgr.Instance.SaveData(musicData, "MusicData");
     }
 
-    //public void SetMusicIsOpen(bool b)
-    //{
-
-    //}
 }
