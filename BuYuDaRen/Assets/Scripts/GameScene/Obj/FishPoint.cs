@@ -16,7 +16,7 @@ public class FishPoint : MonoBehaviour
    
     public void CreateFish()
     {
-        int num = Random.Range(1, 4);
+        int num = Random.Range(1, 10);
         int fishIndex = Random.Range(0, 17);
 
         FishData fishData = GameDataMgr.Instane.fishDatas[fishIndex];

@@ -24,12 +24,10 @@ public class BeginPanel : BasePanel
         {
             UIManager.Instance.CloseThisPanel<BeginPanel>(true);
 
-            Debug.LogError("加载游戏场景");
-
             AsyncOperation ao = SceneManager.LoadSceneAsync("GameScene");
             ao.completed += (ao) =>
             {
-                
+                //UIManager.Instance.ShowThisPanel<GamePanel>();
             };
         });
 

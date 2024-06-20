@@ -5,16 +5,16 @@ m_ProjectFiles:
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 638542092890000000
-    m_Hash: 1020869311
+      ticks: 638544416240000000
+    m_Hash: 3829237668
   m_LockFileStatus:
     m_FilePath: /Users/mac/Documents/GitHub/FishHunter/FishHunter/BuYuDaRen/Packages/packages-lock.json
     m_PathExists: 1
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 638542092890000000
-    m_Hash: 3536958523
+      ticks: 638544416240000000
+    m_Hash: 2352375339
 m_EmbeddedPackageManifests:
   m_ManifestsStatus: {}
 m_LocalPackages:
@@ -73,6 +73,68 @@ m_ResolvedPackages:
     path: 
   unityLifecycle:
     version: 1.0.0
+    nextVersion: 
+- packageId: com.unity.assetbundlebrowser@https://github.com/Unity-Technologies/AssetBundles-Browser.git
+  testable: 0
+  isDirectDependency: 1
+  version: 1.7.0
+  source: 5
+  resolvedPath: /Users/mac/Documents/GitHub/FishHunter/FishHunter/BuYuDaRen/Library/PackageCache/com.unity.assetbundlebrowser@ad2a81ec30
+  assetPath: Packages/com.unity.assetbundlebrowser
+  name: com.unity.assetbundlebrowser
+  displayName: Asset Bundle Browser
+  author:
+    name: 
+    email: 
+    url: 
+  category: Asset Bundles
+  type: 
+  description: 'The Asset Bundle Browser tool makes it possible to inspect the content
+    of built AssetBundles.  It also has basic functionality to view and edit the
+    configuration of AssetBundles and to launch builds.
+
+
+    Use this tool as an
+    alternative to selecting assets and setting their asset bundle manually in the
+    inspector. Installing it will create a new menu item in Window > AssetBundle
+    Browser.
+
+
+    Note: For new projects consider using the Addressables package
+    instead.'
+  status: 0
+  errors: []
+  versions:
+    all: []
+    compatible: []
+    verified: 
+  dependencies: []
+  resolvedDependencies: []
+  keywords:
+  - asset
+  - bundle
+  - bundles
+  - assetbundles
+  registry:
+    id: main
+    name: 
+    url: https://packages.unity.cn
+    scopes: []
+    isDefault: 1
+    capabilities: 7
+    configSource: 0
+  hideInEditor: 1
+  isAssetStorePackage: 0
+  datePublishedTicks: 0
+  documentationUrl: 
+  hasRepository: 0
+  repository:
+    type: 
+    url: 
+    revision: 
+    path: 
+  unityLifecycle:
+    version: 
     nextVersion: 
 - packageId: com.unity.collab-proxy@2.2.0
   testable: 0

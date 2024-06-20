@@ -1,0 +1,10 @@
+ManifestFileVersion: 0
+CRC: 2846789012
+AssetBundleManifest:
+  AssetBundleInfos:
+    Info_0:
+      Name: ui
+      Dependencies: {}
+    Info_1:
+      Name: fish
+      Dependencies: {}

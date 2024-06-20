@@ -11,9 +11,10 @@ GameObject:
   - component: {fileID: 4558999024303696813}
   - component: {fileID: 4558999024303696810}
   - component: {fileID: 4558999024303696811}
+  - component: {fileID: -2796468587410588544}
   m_Layer: 0
   m_Name: "\u5B54\u96C0\u9C7C"
-  m_TagString: Untagged
+  m_TagString: Fish
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -106,3 +107,16 @@ Animator:
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
   m_WriteDefaultValuesOnDisable: 0
+--- !u!65 &-2796468587410588544
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4558999024303696808}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 2.2, y: 0.88, z: 0.2}
+  m_Center: {x: 0, y: 0, z: 0}

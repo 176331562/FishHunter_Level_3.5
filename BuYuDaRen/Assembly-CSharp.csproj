@@ -84,11 +84,17 @@
     <Compile Include="Assets/Scripts/GameScene/Obj/FishObj.cs" />
     <Compile Include="Assets/Arts/Plugin/litjson-0.17.0/src/LitJson/Netstandard15Polyfill.cs" />
     <Compile Include="Assets/Scripts/BeginScene/UI/BasePanel.cs" />
-    <Compile Include="Assets/Scripts/BeginScene/Obj/ShootGun.cs" />
+    <Compile Include="Assets/Scripts/GameScene/Obj/ShootGun.cs" />
     <Compile Include="Assets/Arts/Plugin/litjson-0.17.0/src/LitJson/JsonReader.cs" />
     <Compile Include="Assets/Scripts/GameScene/Obj/GameSceneMain.cs" />
     <Compile Include="Assets/Scripts/Manager/JsonMgr.cs" />
     <Compile Include="Assets/Scripts/Manager/BKMusicMgr.cs" />
+    <Compile Include="Assets/Scripts/Data/ShootGunData.cs" />
+    <Compile Include="Assets/Scripts/GameScene/Obj/GunFather.cs" />
+    <Compile Include="Assets/Scripts/Data/GunBulletData.cs" />
+    <Compile Include="Assets/Scripts/GameScene/Obj/BulletObj.cs" />
+    <Compile Include="Assets/Scripts/Data/WebData.cs" />
+    <Compile Include="Assets/Scripts/GameScene/Obj/WebObj.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">
@@ -1029,6 +1035,10 @@
     </Reference>
     <Reference Include="Unity.EditorCoroutines.Editor">
       <HintPath>Library/ScriptAssemblies/Unity.EditorCoroutines.Editor.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Unity.AssetBundleBrowser.Editor">
+      <HintPath>Library/ScriptAssemblies/Unity.AssetBundleBrowser.Editor.dll</HintPath>
       <Private>False</Private>
     </Reference>
   </ItemGroup>

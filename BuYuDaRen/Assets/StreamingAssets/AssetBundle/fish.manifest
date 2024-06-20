@@ -1,0 +1,51 @@
+ManifestFileVersion: 0
+CRC: 729106736
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: a4070b8df3c0f8f293ec8e7b7ca3281a
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: acdf477bc8624d647885e8fccaf992f6
+HashAppended: 0
+ClassTypes:
+- Class: 1
+  Script: {instanceID: 0}
+- Class: 4
+  Script: {instanceID: 0}
+- Class: 21
+  Script: {instanceID: 0}
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 48
+  Script: {instanceID: 0}
+- Class: 74
+  Script: {instanceID: 0}
+- Class: 91
+  Script: {instanceID: 0}
+- Class: 95
+  Script: {instanceID: 0}
+- Class: 212
+  Script: {instanceID: 0}
+- Class: 213
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- "Assets/Resources/Fish/\u523A\u732C\u9C7C.prefab"
+- "Assets/Resources/Fish/\u91D1\u9CA8.prefab"
+- "Assets/Resources/Fish/\u94F6\u9CA8.prefab"
+- "Assets/Resources/Fish/\u5C0F\u4E11\u9C7C.prefab"
+- "Assets/Resources/Fish/\u795E\u4ED9\u9C7C.prefab"
+- "Assets/Resources/Fish/\u8774\u8776\u9C7C.prefab"
+- "Assets/Resources/Fish/\u77F3\u6591\u9C7C.prefab"
+- "Assets/Resources/Fish/\u5C0F\u9752\u9C7C.prefab"
+- "Assets/Resources/Fish/\u4E4C\u9F9F.prefab"
+- "Assets/Resources/Fish/\u5C0F\u9EC4\u9C7C.prefab"
+- "Assets/Resources/Fish/\u5B54\u96C0\u9C7C.prefab"
+- "Assets/Resources/Fish/\u5C0F\u84DD\u9C7C.prefab"
+- "Assets/Resources/Fish/\u9B54\u9B3C\u9C7C.prefab"
+- "Assets/Resources/Fish/\u706F\u7B3C\u9C7C.prefab"
+- "Assets/Resources/Fish/\u5927\u773C\u775B\u9C7C.prefab"
+- "Assets/Resources/Fish/\u67AA\u9C7C.prefab"
+- "Assets/Resources/Fish/\u87CB\u87C0\u9C7C.prefab"
+Dependencies: []

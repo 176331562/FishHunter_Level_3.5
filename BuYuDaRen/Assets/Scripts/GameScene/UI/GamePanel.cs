@@ -19,6 +19,8 @@ public class GamePanel : BasePanel
 
     private Button btnBack;
 
+    private GunFather shootFather;
+
 
     protected override void Awake()
     {
@@ -37,6 +39,8 @@ public class GamePanel : BasePanel
         btnRight = this.transform.Find("ShootBK/RightBtn").GetComponent<Button>();
 
         btnBack = this.transform.Find("BackBtn").GetComponent<Button>();
+
+        shootFather = GameObject.FindGameObjectWithTag("ShootFather").GetComponent<GunFather>();
     }
 
 
@@ -49,17 +53,17 @@ public class GamePanel : BasePanel
 
         btnLeft.onClick.AddListener(() =>
         {
-
+            shootFather.LevelDownGun();
         });
 
         btnRight.onClick.AddListener(() =>
         {
-
+            shootFather.LevelUpGun();
         });
 
         btnBack.onClick.AddListener(() =>
         {
-
+            GameDataMgr.Instane.SavePlayerData(GameDataMgr.Instane.nowSelectPlayerData);
         });
     }
 
@@ -67,9 +71,38 @@ public class GamePanel : BasePanel
     {
         levelText.text = playerData.level.ToString();
         levelName.text = playerData.levelName;
-        expImg.fillAmount = playerData.exp/10;
+        int nextLevelExp = 1000 * playerData.level;
+        expImg.fillAmount = ((float)playerData.exp / nextLevelExp);
 
         money.text = playerData.gold.ToString();
         smallTimeText.text = "60";
+    }
+
+    public void ChangeGold(int gold)
+    {
+        money.text = gold.ToString();
+    }
+
+    public void ChangeLevel(int exp,int level)
+    {
+        PlayerData nowSelectPlayerData = GameDataMgr.Instane.nowSelectPlayerData;
+
+        int nextLevelExp = 1000 * nowSelectPlayerData.level;
+
+        if(exp > nextLevelExp)
+        {
+            level += (int)exp / nextLevelExp;
+
+            exp -= nextLevelExp;
+
+            expImg.fillAmount = (float)(exp / nextLevelExp);
+
+            GameDataMgr.Instane.nowSelectPlayerData.level = level;
+            GameDataMgr.Instane.nowSelectPlayerData.exp = exp;
+        }
+       
+        expImg.fillAmount = ((float)exp / nextLevelExp);
+
+        levelText.text = level.ToString();
     }
 }

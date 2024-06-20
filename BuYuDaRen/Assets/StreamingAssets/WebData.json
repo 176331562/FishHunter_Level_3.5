@@ -1,0 +1,11 @@
+[
+{"id":1,"level":1,"name":"web_1","damage":10},
+{"id":2,"level":2,"name":"web_2","damage":20},
+{"id":3,"level":3,"name":"web_3","damage":30},
+{"id":4,"level":4,"name":"web_4","damage":50},
+{"id":5,"level":5,"name":"web_5","damage":80},
+{"id":6,"level":6,"name":"web_6","damage":100},
+{"id":7,"level":7,"name":"web_7","damage":150},
+{"id":8,"level":8,"name":"web_8","damage":200},
+{"id":9,"level":9,"name":"web_9","damage":250}
+]

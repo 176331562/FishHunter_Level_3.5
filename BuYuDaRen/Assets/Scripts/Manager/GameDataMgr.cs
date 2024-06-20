@@ -31,9 +31,23 @@ public class GameDataMgr
     public List<FishData> fishDatas;
 
     //读取玩家仓库数据
-    public PlayerInfo playerDatas;
+    public List<PlayerData> playerDatas;
     public PlayerData nowSelectPlayerData;
     public int nowPlayerIndex;
+
+
+    //读取枪械数据
+    public List<ShootGunData> shootGunDatas;
+    public ShootGunData nowSelectGunData;
+    public int nowGunDataIndex;
+
+
+    //读取子弹数据
+    public List<GunBulletData> gunBulletDatas;
+    public GunBulletData nowSelectBulletData;
+
+    //读取捕鱼网数据
+    public List<WebData> webDatas;
 
     private GameDataMgr()
     {
@@ -43,9 +57,13 @@ public class GameDataMgr
 
         fishDatas = JsonMgr.Instance.LoadData<List<FishData>>("FishData");
 
-        playerDatas = JsonMgr.Instance.LoadData<PlayerInfo>("PlayerData");
+        playerDatas = JsonMgr.Instance.LoadData<List<PlayerData>>("PlayerData");
 
-       
+        shootGunDatas = JsonMgr.Instance.LoadData<List<ShootGunData>>("ShootGunData");
+
+        gunBulletDatas = JsonMgr.Instance.LoadData<List<GunBulletData>>("GunBulletData");
+
+        webDatas = JsonMgr.Instance.LoadData<List<WebData>>("WebData");
     }
 
     public void SaveLoginData(LoginData loginData)
@@ -81,23 +99,23 @@ public class GameDataMgr
     public void SavePlayerData(PlayerData playerData)
     {
         //说明当前打开的是当前登录的仓库数据
-        if(nowSelectLogin.account == playerData.account)
-        {
-            for (int i = 0; i < playerDatas.playerDatas.Count; i++)
+        if (nowSelectLogin.account == playerData.account)
+        {           
+            for (int i = 0; i < playerDatas.Count; i++)
             {
                 //如果里面有这个用户数据，就直接替换
-                if(playerDatas.playerDatas[i].account == playerData.account)
+                if(playerDatas[i].account == playerData.account)
                 {
-                    playerDatas.playerDatas[i] = playerData;
-
+                    playerDatas[i] = playerData;
+                   
                     JsonMgr.Instance.SaveData(playerDatas, "PlayerData");
 
                     return;
-                }
-               
+                }              
             }
 
-            playerDatas.playerDatas.Add(playerData);
+            playerDatas.Add(playerData);
+
             JsonMgr.Instance.SaveData(playerDatas, "PlayerData");
 
         }
@@ -107,35 +125,38 @@ public class GameDataMgr
     {
         this.nowSelectLogin = loginData;
 
-        this.nowSelectIndex = nowSelectLoginIndex;
-
-        
+        this.nowSelectIndex = nowSelectLoginIndex;       
     }
 
     public PlayerData GetNowPlayerData()
     {
-        Debug.LogError(nowSelectLogin.account);
-
-        for (int i = 0; i < playerDatas.playerDatas.Count; i++)
+        for (int i = 0; i < playerDatas.Count; i++)
         {
             //如果里面有这个用户数据，就直接替换
-            if (playerDatas.playerDatas[i].account == nowSelectLogin.account)
+            if (playerDatas[i].account == nowSelectLogin.account)
             {
-                nowSelectPlayerData = playerDatas.playerDatas[i];
+                nowSelectPlayerData = playerDatas[i];
                 nowPlayerIndex = i;
+
                 return nowSelectPlayerData;
             }
         }
 
         PlayerData playerData = new PlayerData();
         playerData.account = nowSelectLogin.account;
+        //playerData.account = "2";
         playerData.level = 1;
         playerData.levelName = "菜鸟";
         playerData.gold = 500;
         playerData.exp = 0;
 
-        JsonMgr.Instance.SaveData(playerData, "PlayerData");
+        playerDatas.Add(playerData);
+        nowSelectPlayerData = playerData;
+
+        JsonMgr.Instance.SaveData(playerDatas, "PlayerData");
 
         return playerData;
     }
+
+    
 }
