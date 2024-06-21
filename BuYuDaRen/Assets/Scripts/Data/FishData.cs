@@ -12,4 +12,7 @@ public class FishData
     public int layer;
     public int gold;
     public int exp;
+    public string sound;
+    public string coin;
+    public string effect;
 }

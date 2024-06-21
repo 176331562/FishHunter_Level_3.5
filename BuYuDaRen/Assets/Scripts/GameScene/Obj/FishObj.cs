@@ -10,6 +10,7 @@ public class FishObj : MonoBehaviour
 
     private SpriteRenderer spriteRenderer;
 
+    public bool isLine;
 
     public int id;
     public int hp;
@@ -18,6 +19,11 @@ public class FishObj : MonoBehaviour
     public int gold;
 
     private bool isDead = false;
+
+    private FishData nowFishData;
+
+    //随机每一条鱼的旋转速度
+    private float rotateSpeed;
 
     private void OnEnable()
     {
@@ -28,19 +34,28 @@ public class FishObj : MonoBehaviour
 
     void Update()
     {
-        if(!isDead)
+        if(!isDead && isLine)
         {
             this.transform.Translate(Vector3.right * 3 * Time.deltaTime);
-        }        
+        }
+
+        if(!isLine && !isDead)
+        {
+            this.transform.Translate(Vector3.right * 3 * Time.deltaTime);
+            this.transform.Rotate(Vector3.forward * rotateSpeed * Time.deltaTime);
+        }
     }
 
-    public void InitFish(int createIndex,FishData fishData)
+    public void InitFish(int createIndex,FishData fishData,bool isLine,float rotateSpeed)
     {
         this.hp = fishData.hp;
         this.id = fishData.id;
         this.exp = fishData.exp;
         this.speed = fishData.speed;
         this.gold = fishData.gold;
+        this.isLine = isLine;
+        this.nowFishData = fishData;
+        this.rotateSpeed = rotateSpeed;
 
         spriteRenderer.sortingOrder = fishData.layer+createIndex;
     }
@@ -60,7 +75,20 @@ public class FishObj : MonoBehaviour
         UIManager.Instance.GetPanel<GamePanel>().ChangeLevel(GameDataMgr.Instane.nowSelectPlayerData.exp,
             GameDataMgr.Instane.nowSelectPlayerData.level);
 
-
+        FishMusicMgr.Instance.PlayerAudio(nowFishData.sound);
         Destroy(this.gameObject, time);
+
+        if(nowFishData.coin != "null")
+        {
+            ResourceRequest rq = Resources.LoadAsync<GameObject>("Coin/" + nowFishData.coin);
+            GameObject coinObj = GameObject.Instantiate(rq.asset as GameObject, this.transform.position, this.transform.rotation);
+            //coinObj.transform.SetParent(this.transform,false);
+        }
+
+        if(nowFishData.effect != "null")
+        {
+            ResourceRequest rq = Resources.LoadAsync<GameObject>("Effect/" + nowFishData.effect);
+            GameObject effectObj = GameObject.Instantiate(rq.asset as GameObject);
+        }
     }
 }

@@ -12,15 +12,27 @@ public class GamePanel : BasePanel
     private Text money;
     private Text smallTimeText;
 
-    private Button moneyBtn;
+    private Text seaWaveText;
 
     private Button btnLeft;
     private Button btnRight;
 
     private Button btnBack;
 
+    //炮的父物体
     private GunFather shootFather;
 
+    //没过60秒发一次零花钱
+    private float smallTime = 60;
+    private float nowSmallTime;
+
+    //防止频繁读取造成内存消耗
+    private List<LevelNameData> nowLevelNameList;
+
+
+    //浪潮每四分钟生成一次
+    private float seaWaveTime = 14;
+    private float nowSeaWaveTime;
 
     protected override void Awake()
     {
@@ -33,7 +45,7 @@ public class GamePanel : BasePanel
         money = this.transform.Find("MoneyBK/Money").GetComponent<Text>();
         smallTimeText = this.transform.Find("MoneyBK/smallTimer").GetComponent<Text>();
 
-        moneyBtn = this.transform.Find("CountDownBK/btnMoney").GetComponent<Button>();
+        seaWaveText = this.transform.Find("CountDownBK/SeaWave/TimeText").GetComponent<Text>();
 
         btnLeft = this.transform.Find("ShootBK/LeftBtn").GetComponent<Button>();
         btnRight = this.transform.Find("ShootBK/RightBtn").GetComponent<Button>();
@@ -41,15 +53,31 @@ public class GamePanel : BasePanel
         btnBack = this.transform.Find("BackBtn").GetComponent<Button>();
 
         shootFather = GameObject.FindGameObjectWithTag("ShootFather").GetComponent<GunFather>();
+
+        //当前零花钱时间
+        nowSmallTime = smallTime;
+
+        //当前浪潮时间
+        nowSeaWaveTime = seaWaveTime;
+
+        //称号列表
+        nowLevelNameList = GameDataMgr.Instane.levelNameDatas;
+    }
+
+    protected override void Update()
+    {
+        base.Update();
+
+        ChangeSmallTime();
+
+        ChangeSeaWaveTime();
+
     }
 
 
     public override void Init()
     {
-        moneyBtn.onClick.AddListener(() =>
-        {
-
-        });
+       
 
         btnLeft.onClick.AddListener(() =>
         {
@@ -67,6 +95,9 @@ public class GamePanel : BasePanel
         });
     }
 
+
+  
+
     public void InitPanel(PlayerData playerData)
     {
         levelText.text = playerData.level.ToString();
@@ -76,11 +107,15 @@ public class GamePanel : BasePanel
 
         money.text = playerData.gold.ToString();
         smallTimeText.text = "60";
+
+        ChangeLevelName(playerData.level);
     }
 
     public void ChangeGold(int gold)
     {
         money.text = gold.ToString();
+
+        GameDataMgr.Instane.nowSelectPlayerData.gold = gold;
     }
 
     public void ChangeLevel(int exp,int level)
@@ -93,16 +128,90 @@ public class GamePanel : BasePanel
         {
             level += (int)exp / nextLevelExp;
 
-            exp -= nextLevelExp;
+            //显示升级UI
+            UIManager.Instance.ShowThisPanel<LevelUpPanel>().ShowLevelUp(level);
 
-            expImg.fillAmount = (float)(exp / nextLevelExp);
-
-            GameDataMgr.Instane.nowSelectPlayerData.level = level;
-            GameDataMgr.Instane.nowSelectPlayerData.exp = exp;
+            exp -= nextLevelExp;           
         }
-       
-        expImg.fillAmount = ((float)exp / nextLevelExp);
+
+        GameDataMgr.Instane.nowSelectPlayerData.level = level;
+        GameDataMgr.Instane.nowSelectPlayerData.exp = exp;
+
+        expImg.fillAmount = (((float)exp / nextLevelExp));
+        //StartCoroutine(ExpLerp(expImg.fillAmount, ((float)exp / nextLevelExp)));
+
+        ChangeLevelName(level);
 
         levelText.text = level.ToString();
+    }
+
+
+    //每60秒发一次零花钱
+    public void ChangeSmallTime()
+    {
+        //开始倒计时
+        if (nowSmallTime > 0)
+        {
+            nowSmallTime -= Time.deltaTime;
+        }
+        else
+        {
+            nowSmallTime = smallTime;
+
+            //加零花钱的规则是按照当前等级*50
+            int result = GameDataMgr.Instane.nowSelectPlayerData.gold + ((int)(GameDataMgr.Instane.nowSelectPlayerData.level * 10));
+
+            ChangeGold(result);
+        }
+
+        smallTimeText.text = ((int)nowSmallTime).ToString();
+    }
+
+    //根据等级改变称号
+    public void ChangeLevelName(int nowLevel)
+    {
+        //等级/10获得当前段位
+        //int nowLevelIndex = (int)nowLevel / 10;
+
+        //默认为1，/10会为0，防止是刚注册账号
+        int nowLevelIndex = (int)nowLevel / 10 > 0 ? (int)nowLevel / 10 : 1;
+
+        LevelNameData nowLevelNameData = nowLevelNameList[nowLevelIndex - 1];
+        
+        GameDataMgr.Instane.nowLevelIndex = nowLevelIndex;
+        GameDataMgr.Instane.nowlevelNameData = nowLevelNameData;
+
+        //如果当前保存的段位不是现在这个
+        if(GameDataMgr.Instane.nowSelectPlayerData.levelName != nowLevelNameData.levelName)
+        {
+            GameDataMgr.Instane.nowSelectPlayerData.levelName = nowLevelNameData.levelName;
+        }
+
+        levelName.text = nowLevelNameData.levelName;
+    }
+
+    public void ChangeSeaWaveTime()
+    {
+        nowSeaWaveTime -= Time.deltaTime;
+
+        if(nowSeaWaveTime <= 0)
+        {
+            nowSeaWaveTime = seaWaveTime;
+
+            CreateSeaWave();
+        }
+
+        seaWaveText.text = ((int)nowSeaWaveTime).ToString();
+    }
+
+    public void CreateSeaWave()
+    {
+        ResourceRequest rq = Resources.LoadAsync<GameObject>("SeaWave/SeaWave");
+
+        GameObject seaWaveObj = GameObject.Instantiate(rq.asset as GameObject);
+
+        GameDataMgr.Instane.nowBKIndex = GameDataMgr.Instane.nowBKIndex+1 > ChangeBK.Instance.sprites.Count - 1 ? 0 : GameDataMgr.Instane.nowBKIndex+1;
+
+        ChangeBK.Instance.BK(GameDataMgr.Instane.nowBKIndex);
     }
 }

@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using UnityEngine.EventSystems;
 public class ShootGun : MonoBehaviour
 {
     [HideInInspector]
@@ -22,7 +23,7 @@ public class ShootGun : MonoBehaviour
         shootPoint = this.transform.Find("Fire/FirePoint").transform;
     }
 
-    // Update is called once per frame
+
     void Update()
     {
         Vector2 pos;
@@ -41,26 +42,38 @@ public class ShootGun : MonoBehaviour
             this.transform.rotation = Quaternion.AngleAxis(nowAngle, Vector3.forward);
         }
 
-        if(Input.GetMouseButtonDown(0))
+        //如果钱够了并且没点在UI上就发射炮弹
+        if(Input.GetMouseButtonDown(0) && !EventSystem.current.IsPointerOverGameObject())
         {
-            CreateBullet(99);
+           
+            if(GameDataMgr.Instane.nowSelectPlayerData.gold >= GameDataMgr.Instane.nowSelectGunData.gold)
+            {
+                
+
+                GameDataMgr.Instane.nowSelectPlayerData.gold -= GameDataMgr.Instane.nowSelectGunData.gold;              
+
+                CreateBullet(GameDataMgr.Instane.nowSelectPlayerData.level);
+
+                UIManager.Instance.GetPanel<GamePanel>().ChangeGold(GameDataMgr.Instane.nowSelectPlayerData.gold);
+            }          
         }
+       
     }
 
 
     //创建子弹
    public void CreateBullet(int nowLevel)
-    {
+    {       
         ShootGunData nowSelectGun = GameDataMgr.Instane.nowSelectGunData;
 
-        int levelBullet = nowLevel % 10;        
-
+        int levelBullet = nowLevel % 10;
+       
         //id*9
-        int index = nowSelectGun.id * (nowBulletData.Count / GameDataMgr.Instane.shootGunDatas.Count);
-        //Debug.LogError("11" + nowBulletData.Count / GameDataMgr.Instane.shootGunDatas.Count);
-        //Debug.LogError("index" + index);
+        int index = ((nowSelectGun.id-1) * (nowBulletData.Count / GameDataMgr.Instane.shootGunDatas.Count));
 
-        for (int i = index - 1; i < nowBulletData.Count; i++)
+        
+
+        for (int i = index; i < nowBulletData.Count; i++)
         {
             if(nowBulletData[i].level == levelBullet && nowSelectGun.name == nowBulletData[i].gunName)
             {
@@ -73,7 +86,7 @@ public class ShootGun : MonoBehaviour
                     shootPoint.transform.rotation);
                 bulletObj.AddComponent<BulletObj>().InitBullet(GameDataMgr.Instane.webDatas[nowSelectGun.id-1]);
 
-                
+                FireMusicMgr.Instance.PlayerAudio("Fire");
 
                 break;
             }

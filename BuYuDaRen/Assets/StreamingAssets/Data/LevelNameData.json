@@ -1,0 +1,11 @@
+[
+{"id":1,"level":10,"levelName":"青铜"},
+{"id":2,"level":20,"levelName":"白银"},
+{"id":3,"level":30,"levelName":"黄金"},
+{"id":4,"level":40,"levelName":"铂金"},
+{"id":5,"level":50,"levelName":"翡翠"},
+{"id":6,"level":60,"levelName":"钻石"},
+{"id":7,"level":70,"levelName":"大师"},
+{"id":8,"level":80,"levelName":"宗师"},
+{"id":9,"level":90,"levelName":"王者"}
+]

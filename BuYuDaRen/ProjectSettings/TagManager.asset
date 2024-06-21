@@ -9,6 +9,9 @@ TagManager:
   - Canvas
   - ShootFather
   - Web
+  - CoinTarget
+  - Coin
+  - AirWall
   layers:
   - Default
   - TransparentFX

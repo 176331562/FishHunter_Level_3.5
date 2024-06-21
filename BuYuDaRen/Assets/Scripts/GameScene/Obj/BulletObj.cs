@@ -9,7 +9,7 @@ public class BulletObj : MonoBehaviour
 
     private void Start()
     {
-        
+        Destroy(this.gameObject, 5);
     }
 
     void Update()
@@ -45,6 +45,8 @@ public class BulletObj : MonoBehaviour
         web.HurtFish(fishObj.GetComponent<FishObj>());
 
         web.DelayDestroy(time);
+
+        WebMusicMgr.Instance.PlayerAudio("Web");
     }
 
     

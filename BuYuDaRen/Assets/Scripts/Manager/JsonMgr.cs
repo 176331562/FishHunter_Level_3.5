@@ -22,7 +22,7 @@ public class JsonMgr
 
     public T LoadData<T>(string dataName) where T : new()
     {
-        string path = Application.streamingAssetsPath + "/" + dataName + ".json";
+        string path = Application.streamingAssetsPath + "/Data/" + dataName + ".json";
 
         if (!File.Exists(path))
             path = Application.persistentDataPath + "/" + dataName + ".json";

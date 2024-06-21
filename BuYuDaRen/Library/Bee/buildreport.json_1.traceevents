@@ -1,0 +1,540 @@
+{ "pid": 0, "tid": -1, "ph": "M", "name": "process_name", "args": { "name": "BeeDriver" } },
+{ "pid": 0, "tid": -1, "ph": "M", "name": "process_sort_index", "args": { "sort_index": "-2" } },
+{ "pid": 0, "tid": 1, "ph": "M", "name": "thread_name", "args": { "name": "" } },
+{ "pid": 0, "tid": 1, "ts": 1718970011270112, "dur": 395221, "ph": "X", "name": "Build Player", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1718970011270276, "dur": 1165, "ph": "X", "name": "WriteBuildProgramData", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1718970011271443, "dur": 45299, "ph": "X", "name": "Run Backend", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1718970011316746, "dur": 302672, "ph": "X", "name": "BuildProgram", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1718970011619423, "dur": 44762, "ph": "X", "name": "Run Backend", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1718970011664188, "dur": 1144, "ph": "X", "name": "Finish", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1718970011665487, "dur": 8, "ph": "X", "name": "", "args": {} },
+{ "pid": 35942, "tid": -1, "ph": "M", "name": "process_name", "args": { "name": "netcorerun.dll" } },
+{ "pid": 35942, "tid": -1, "ph": "M", "name": "process_sort_index", "args": { "sort_index": "-1" } },
+{ "pid": 35942, "tid": 1, "ph": "M", "name": "thread_name", "args": { "name": "" } },
+{ "pid": 35942, "tid": 1, "ts": 1718970011421546, "dur": 163922, "ph": "X", "name": "BuildProgram", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1718970011422137, "dur": 101404, "ph": "X", "name": "BuildProgramContextConstructor", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1718970011564709, "dur": 5632, "ph": "X", "name": "OutputData.Write", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1718970011570343, "dur": 15121, "ph": "X", "name": "Backend.Write", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1718970011571388, "dur": 13743, "ph": "X", "name": "JsonToString", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1718970011590135, "dur": 1097, "ph": "X", "name": "", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1718970011588610, "dur": 2645, "ph": "X", "name": "Write chrome-trace events", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1718970011665537, "dur": 60, "ph": "X", "name": "buildprogram0.traceevents", "args": {} },
+{ "cat":"", "pid":12345, "tid":0, "ts":0, "ph":"M", "name":"process_name", "args": { "name":"bee_backend" } }
+,{ "pid":12345, "tid":0, "ts":1718970011638976, "dur":765, "ph":"X", "name": "DriverInitData",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1718970011639746, "dur":491, "ph":"X", "name": "Tundra",  "args": { "detail":"RemoveStaleOutputs" }}
+,{ "pid":12345, "tid":0, "ts":1718970011640240, "dur":9, "ph":"X", "name": "Tundra",  "args": { "detail":"PrepareNodes" }}
+,{ "pid":12345, "tid":0, "ts":1718970011640249, "dur":68, "ph":"X", "name": "Tundra",  "args": { "detail":"BuildQueueInit" }}
+,{ "pid":12345, "tid":0, "ts":1718970011640322, "dur":147, "ph":"X", "name": "EnqueueRequestedNodes",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1718970011640469, "dur":1, "ph":"X", "name": "SortWorkingStack",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1718970011657888, "dur":4, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1718970011657892, "dur":1, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1718970011657893, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1718970011657895, "dur":1, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1718970011657896, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1718970011657897, "dur":8, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1718970011657905, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1718970011657907, "dur":0, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1718970011657907, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1718970011657909, "dur":0, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1718970011657909, "dur":3, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1718970011657912, "dur":4, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1718970011657916, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1718970011657918, "dur":0, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1718970011657918, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1718970011657920, "dur":7, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1718970011657927, "dur":0, "ph":"X", "name": "SharedResourceDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1718970011657930, "dur":1, "ph":"X", "name": "BuildQueueDestroyTail",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1718970011657931, "dur":1069, "ph":"X", "name": "Tundra",  "args": { "detail":"Write AllBuiltNodes" }}
+,{ "pid":12345, "tid":1, "ts":1718970011640273, "dur":200, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1718970011640474, "dur":1097, "ph":"X", "name": "CheckDagSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1718970011641576, "dur":1, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"WriteText Library/Bee/artifacts/WinPlayerBuildProgram/Data/app.info" }}
+,{ "pid":12345, "tid":1, "ts":1718970011641578, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1718970011641741, "dur":139, "ph":"X", "name": "WriteText",  "args": { "detail":"Library/Bee/artifacts/WinPlayerBuildProgram/Data/app.info" }}
+,{ "pid":12345, "tid":1, "ts":1718970011641881, "dur":3, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/mac/Desktop/FishCounter/BuYuDaRen_Data/app.info" }}
+,{ "pid":12345, "tid":1, "ts":1718970011641884, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1718970011641948, "dur":154, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/mac/Desktop/FishCounter/BuYuDaRen_Data/app.info" }}
+,{ "pid":12345, "tid":1, "ts":1718970011642102, "dur":4, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/mac/Desktop/FishCounter/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":1, "ts":1718970011642106, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1718970011642123, "dur":290, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/mac/Desktop/FishCounter/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":1, "ts":1718970011642462, "dur":485, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/mac/Desktop/FishCounter/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":1, "ts":1718970011642947, "dur":23, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1718970011643118, "dur":201, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/mac/Desktop/FishCounter/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":1, "ts":1718970011643321, "dur":26, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/mac/Desktop/FishCounter/BuYuDaRen_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1718970011643348, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1718970011643404, "dur":122, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/mac/Desktop/FishCounter/BuYuDaRen_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1718970011643528, "dur":22, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/mac/Desktop/FishCounter/BuYuDaRen_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1718970011643550, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1718970011643554, "dur":130, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/mac/Desktop/FishCounter/BuYuDaRen_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1718970011643686, "dur":100, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/mac/Desktop/FishCounter/BuYuDaRen_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":1, "ts":1718970011643797, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1718970011643799, "dur":135, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/mac/Desktop/FishCounter/BuYuDaRen_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":1, "ts":1718970011643938, "dur":46, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/mac/Desktop/FishCounter/BuYuDaRen_Data/Managed/UnityEngine.UNETModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1718970011643985, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1718970011643986, "dur":169, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/mac/Desktop/FishCounter/BuYuDaRen_Data/Managed/UnityEngine.UNETModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1718970011644157, "dur":28, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/mac/Desktop/FishCounter/BuYuDaRen_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1718970011644185, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1718970011644187, "dur":132, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/mac/Desktop/FishCounter/BuYuDaRen_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1718970011644322, "dur":19, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/mac/Desktop/FishCounter/BuYuDaRen_Data/Managed/UnityEngine.UnityAnalyticsCommonModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1718970011644342, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1718970011644343, "dur":146, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/mac/Desktop/FishCounter/BuYuDaRen_Data/Managed/UnityEngine.UnityAnalyticsCommonModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1718970011644493, "dur":6906, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/mac/Desktop/FishCounter/BuYuDaRen_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":1, "ts":1718970011651400, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1718970011651402, "dur":156, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/mac/Desktop/FishCounter/BuYuDaRen_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":1, "ts":1718970011651560, "dur":145, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/mac/Desktop/FishCounter/BuYuDaRen_Data/StreamingAssets/Data/GunBulletData.json" }}
+,{ "pid":12345, "tid":1, "ts":1718970011651706, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1718970011652063, "dur":712, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/mac/Desktop/FishCounter/BuYuDaRen_Data/StreamingAssets/Data/GunBulletData.json" }}
+,{ "pid":12345, "tid":1, "ts":1718970011652777, "dur":33, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/mac/Desktop/FishCounter/BuYuDaRen_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":1, "ts":1718970011652810, "dur":35, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1718970011652891, "dur":444, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/mac/Desktop/FishCounter/BuYuDaRen_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":1, "ts":1718970011653390, "dur":75, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/mac/Desktop/FishCounter/BuYuDaRen_Data/boot.config" }}
+,{ "pid":12345, "tid":1, "ts":1718970011653466, "dur":15, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1718970011653637, "dur":307, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/mac/Desktop/FishCounter/BuYuDaRen_Data/boot.config" }}
+,{ "pid":12345, "tid":1, "ts":1718970011654043, "dur":3823, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1718970011640280, "dur":196, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1718970011640476, "dur":1119, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1718970011641596, "dur":654, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/mac/Desktop/FishCounter/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":2, "ts":1718970011642252, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1718970011642374, "dur":248, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/mac/Desktop/FishCounter/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":2, "ts":1718970011642690, "dur":22, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/mac/Desktop/FishCounter/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":2, "ts":1718970011642713, "dur":12, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1718970011642847, "dur":348, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/mac/Desktop/FishCounter/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":2, "ts":1718970011643212, "dur":3, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/mac/Desktop/FishCounter/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":2, "ts":1718970011643215, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1718970011643446, "dur":118, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/mac/Desktop/FishCounter/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":2, "ts":1718970011643582, "dur":35, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/mac/Desktop/FishCounter/BuYuDaRen_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1718970011643618, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1718970011643620, "dur":219, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/mac/Desktop/FishCounter/BuYuDaRen_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1718970011643841, "dur":34, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/mac/Desktop/FishCounter/BuYuDaRen_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1718970011643876, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1718970011643877, "dur":120, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/mac/Desktop/FishCounter/BuYuDaRen_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1718970011643999, "dur":32, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/mac/Desktop/FishCounter/BuYuDaRen_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1718970011644032, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1718970011644033, "dur":381, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/mac/Desktop/FishCounter/BuYuDaRen_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1718970011644421, "dur":63, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/mac/Desktop/FishCounter/BuYuDaRen_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1718970011644486, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1718970011644492, "dur":190, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/mac/Desktop/FishCounter/BuYuDaRen_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1718970011644684, "dur":379, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/mac/Desktop/FishCounter/BuYuDaRen_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1718970011645063, "dur":13, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1718970011645102, "dur":196, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/mac/Desktop/FishCounter/BuYuDaRen_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1718970011645300, "dur":20, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/mac/Desktop/FishCounter/BuYuDaRen_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1718970011645320, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1718970011645322, "dur":216, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/mac/Desktop/FishCounter/BuYuDaRen_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1718970011645644, "dur":6167, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/mac/Desktop/FishCounter/BuYuDaRen_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":2, "ts":1718970011651811, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1718970011651813, "dur":151, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/mac/Desktop/FishCounter/BuYuDaRen_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":2, "ts":1718970011651966, "dur":5, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/mac/Desktop/FishCounter/BuYuDaRen_Data/StreamingAssets/AssetBundle/fish" }}
+,{ "pid":12345, "tid":2, "ts":1718970011651972, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1718970011652047, "dur":175, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/mac/Desktop/FishCounter/BuYuDaRen_Data/StreamingAssets/AssetBundle/fish" }}
+,{ "pid":12345, "tid":2, "ts":1718970011652224, "dur":3, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/mac/Desktop/FishCounter/BuYuDaRen_Data/StreamingAssets/AssetBundle/AssetBundle.manifest" }}
+,{ "pid":12345, "tid":2, "ts":1718970011652228, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1718970011652241, "dur":171, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/mac/Desktop/FishCounter/BuYuDaRen_Data/StreamingAssets/AssetBundle/AssetBundle.manifest" }}
+,{ "pid":12345, "tid":2, "ts":1718970011652414, "dur":4, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/mac/Desktop/FishCounter/BuYuDaRen_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":2, "ts":1718970011652419, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1718970011652427, "dur":422, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/mac/Desktop/FishCounter/BuYuDaRen_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":2, "ts":1718970011652872, "dur":31, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/mac/Desktop/FishCounter/BuYuDaRen_Data/level1.resS" }}
+,{ "pid":12345, "tid":2, "ts":1718970011652904, "dur":17, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1718970011653034, "dur":393, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/mac/Desktop/FishCounter/BuYuDaRen_Data/level1.resS" }}
+,{ "pid":12345, "tid":2, "ts":1718970011653499, "dur":38, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/mac/Desktop/FishCounter/BuYuDaRen_Data/sharedassets1.assets" }}
+,{ "pid":12345, "tid":2, "ts":1718970011653537, "dur":66, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1718970011653713, "dur":441, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/mac/Desktop/FishCounter/BuYuDaRen_Data/sharedassets1.assets" }}
+,{ "pid":12345, "tid":2, "ts":1718970011654285, "dur":3596, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1718970011640286, "dur":192, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1718970011640478, "dur":1098, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1718970011641576, "dur":10, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/mac/Desktop/FishCounter/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":3, "ts":1718970011641587, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1718970011642062, "dur":154, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/mac/Desktop/FishCounter/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":3, "ts":1718970011642219, "dur":425, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/mac/Desktop/FishCounter/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":3, "ts":1718970011642644, "dur":39, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1718970011642734, "dur":282, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/mac/Desktop/FishCounter/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":3, "ts":1718970011643097, "dur":14562, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/mac/Desktop/FishCounter/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":3, "ts":1718970011657661, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1718970011657664, "dur":163, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/mac/Desktop/FishCounter/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":3, "ts":1718970011657831, "dur":1, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"Player" }}
+,{ "pid":12345, "tid":3, "ts":1718970011657832, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1718970011640293, "dur":186, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1718970011640479, "dur":1114, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1718970011641593, "dur":238, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/mac/Desktop/FishCounter/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":4, "ts":1718970011641832, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1718970011641983, "dur":192, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/mac/Desktop/FishCounter/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":4, "ts":1718970011642179, "dur":3, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/mac/Desktop/FishCounter/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":4, "ts":1718970011642183, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1718970011642185, "dur":202, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/mac/Desktop/FishCounter/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":4, "ts":1718970011642430, "dur":22, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/mac/Desktop/FishCounter/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":4, "ts":1718970011642452, "dur":31, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1718970011642537, "dur":261, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/mac/Desktop/FishCounter/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":4, "ts":1718970011642841, "dur":933, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/mac/Desktop/FishCounter/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":4, "ts":1718970011643796, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1718970011643844, "dur":128, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/mac/Desktop/FishCounter/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":4, "ts":1718970011643975, "dur":225, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/mac/Desktop/FishCounter/BuYuDaRen_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":4, "ts":1718970011644215, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1718970011644216, "dur":125, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/mac/Desktop/FishCounter/BuYuDaRen_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":4, "ts":1718970011644344, "dur":85, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/mac/Desktop/FishCounter/BuYuDaRen_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":4, "ts":1718970011644430, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1718970011644431, "dur":434, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/mac/Desktop/FishCounter/BuYuDaRen_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":4, "ts":1718970011644920, "dur":142, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/mac/Desktop/FishCounter/BuYuDaRen_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1718970011645063, "dur":12, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1718970011645091, "dur":140, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/mac/Desktop/FishCounter/BuYuDaRen_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1718970011645233, "dur":28, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/mac/Desktop/FishCounter/BuYuDaRen_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1718970011645261, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1718970011645263, "dur":118, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/mac/Desktop/FishCounter/BuYuDaRen_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1718970011645454, "dur":95, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/mac/Desktop/FishCounter/BuYuDaRen_Data/Managed/UnityEngine.UIWidgetsModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1718970011645549, "dur":42, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1718970011645720, "dur":196, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/mac/Desktop/FishCounter/BuYuDaRen_Data/Managed/UnityEngine.UIWidgetsModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1718970011645918, "dur":20, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/mac/Desktop/FishCounter/BuYuDaRen_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1718970011645938, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1718970011645940, "dur":137, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/mac/Desktop/FishCounter/BuYuDaRen_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1718970011646079, "dur":40, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/mac/Desktop/FishCounter/BuYuDaRen_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1718970011646120, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1718970011646121, "dur":141, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/mac/Desktop/FishCounter/BuYuDaRen_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1718970011646264, "dur":25, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/mac/Desktop/FishCounter/BuYuDaRen_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":4, "ts":1718970011646315, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1718970011646316, "dur":136, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/mac/Desktop/FishCounter/BuYuDaRen_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":4, "ts":1718970011646454, "dur":41, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/mac/Desktop/FishCounter/BuYuDaRen_Data/Managed/UnityEngine.UIElementsNativeModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1718970011646495, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1718970011646497, "dur":169, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/mac/Desktop/FishCounter/BuYuDaRen_Data/Managed/UnityEngine.UIElementsNativeModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1718970011646668, "dur":22, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/mac/Desktop/FishCounter/BuYuDaRen_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1718970011646690, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1718970011646691, "dur":118, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/mac/Desktop/FishCounter/BuYuDaRen_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1718970011646811, "dur":25, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/mac/Desktop/FishCounter/BuYuDaRen_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1718970011646837, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1718970011646838, "dur":140, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/mac/Desktop/FishCounter/BuYuDaRen_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1718970011646994, "dur":41, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/mac/Desktop/FishCounter/BuYuDaRen_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1718970011647035, "dur":6, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1718970011647098, "dur":224, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/mac/Desktop/FishCounter/BuYuDaRen_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1718970011647332, "dur":71, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/mac/Desktop/FishCounter/BuYuDaRen_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1718970011647403, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1718970011647405, "dur":259, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/mac/Desktop/FishCounter/BuYuDaRen_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1718970011647692, "dur":6245, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/mac/Desktop/FishCounter/BuYuDaRen_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":4, "ts":1718970011653938, "dur":15, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1718970011654164, "dur":304, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/mac/Desktop/FishCounter/BuYuDaRen_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":4, "ts":1718970011654471, "dur":3383, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1718970011640299, "dur":182, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1718970011640481, "dur":1099, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1718970011641581, "dur":58, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/mac/Desktop/FishCounter/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":5, "ts":1718970011641639, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1718970011642367, "dur":257, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/mac/Desktop/FishCounter/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":5, "ts":1718970011642680, "dur":44, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/mac/Desktop/FishCounter/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":5, "ts":1718970011642724, "dur":25, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1718970011642815, "dur":298, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/mac/Desktop/FishCounter/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":5, "ts":1718970011643167, "dur":32, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/mac/Desktop/FishCounter/BuYuDaRen_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":5, "ts":1718970011643199, "dur":6, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1718970011643266, "dur":136, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/mac/Desktop/FishCounter/BuYuDaRen_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":5, "ts":1718970011643405, "dur":388, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/mac/Desktop/FishCounter/BuYuDaRen_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":5, "ts":1718970011643807, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1718970011643837, "dur":390, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/mac/Desktop/FishCounter/BuYuDaRen_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":5, "ts":1718970011644229, "dur":23, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/mac/Desktop/FishCounter/BuYuDaRen_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1718970011644252, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1718970011644254, "dur":279, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/mac/Desktop/FishCounter/BuYuDaRen_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1718970011644537, "dur":200, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/mac/Desktop/FishCounter/BuYuDaRen_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":5, "ts":1718970011644739, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1718970011644743, "dur":272, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/mac/Desktop/FishCounter/BuYuDaRen_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":5, "ts":1718970011645017, "dur":22, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/mac/Desktop/FishCounter/BuYuDaRen_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1718970011645040, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1718970011645053, "dur":318, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/mac/Desktop/FishCounter/BuYuDaRen_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1718970011645374, "dur":28, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/mac/Desktop/FishCounter/BuYuDaRen_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1718970011645403, "dur":21, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1718970011645597, "dur":274, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/mac/Desktop/FishCounter/BuYuDaRen_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1718970011645875, "dur":22, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/mac/Desktop/FishCounter/BuYuDaRen_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1718970011645898, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1718970011645899, "dur":122, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/mac/Desktop/FishCounter/BuYuDaRen_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1718970011646024, "dur":23, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/mac/Desktop/FishCounter/BuYuDaRen_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1718970011646047, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1718970011646054, "dur":151, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/mac/Desktop/FishCounter/BuYuDaRen_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1718970011646207, "dur":22, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/mac/Desktop/FishCounter/BuYuDaRen_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1718970011646229, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1718970011646231, "dur":151, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/mac/Desktop/FishCounter/BuYuDaRen_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1718970011646385, "dur":69, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/mac/Desktop/FishCounter/BuYuDaRen_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":5, "ts":1718970011646455, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1718970011646456, "dur":127, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/mac/Desktop/FishCounter/BuYuDaRen_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":5, "ts":1718970011646587, "dur":23, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/mac/Desktop/FishCounter/BuYuDaRen_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1718970011646611, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1718970011646612, "dur":137, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/mac/Desktop/FishCounter/BuYuDaRen_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1718970011646751, "dur":111, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/mac/Desktop/FishCounter/BuYuDaRen_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":5, "ts":1718970011646862, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1718970011646863, "dur":159, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/mac/Desktop/FishCounter/BuYuDaRen_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":5, "ts":1718970011647044, "dur":27, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/mac/Desktop/FishCounter/BuYuDaRen_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1718970011647072, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1718970011647074, "dur":166, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/mac/Desktop/FishCounter/BuYuDaRen_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1718970011647242, "dur":64, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/mac/Desktop/FishCounter/BuYuDaRen_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1718970011647321, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1718970011647400, "dur":280, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/mac/Desktop/FishCounter/BuYuDaRen_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1718970011647705, "dur":126, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/mac/Desktop/FishCounter/BuYuDaRen_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":5, "ts":1718970011647832, "dur":12, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1718970011647988, "dur":399, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/mac/Desktop/FishCounter/BuYuDaRen_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":5, "ts":1718970011648392, "dur":28, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/mac/Desktop/FishCounter/BuYuDaRen_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1718970011648421, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1718970011648422, "dur":141, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/mac/Desktop/FishCounter/BuYuDaRen_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1718970011648571, "dur":36, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/mac/Desktop/FishCounter/BuYuDaRen_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll" }}
+,{ "pid":12345, "tid":5, "ts":1718970011648621, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1718970011648623, "dur":124, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/mac/Desktop/FishCounter/BuYuDaRen_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll" }}
+,{ "pid":12345, "tid":5, "ts":1718970011648749, "dur":57, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/mac/Desktop/FishCounter/BuYuDaRen_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1718970011648806, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1718970011648808, "dur":134, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/mac/Desktop/FishCounter/BuYuDaRen_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1718970011648943, "dur":254, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/mac/Desktop/FishCounter/BuYuDaRen_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":5, "ts":1718970011649198, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1718970011649199, "dur":143, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/mac/Desktop/FishCounter/BuYuDaRen_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":5, "ts":1718970011649394, "dur":132, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/mac/Desktop/FishCounter/BuYuDaRen_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1718970011649526, "dur":47, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1718970011649591, "dur":193, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/mac/Desktop/FishCounter/BuYuDaRen_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1718970011649786, "dur":26, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/mac/Desktop/FishCounter/BuYuDaRen_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1718970011649812, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1718970011649814, "dur":215, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/mac/Desktop/FishCounter/BuYuDaRen_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1718970011650032, "dur":22, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/mac/Desktop/FishCounter/BuYuDaRen_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1718970011650054, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1718970011650056, "dur":166, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/mac/Desktop/FishCounter/BuYuDaRen_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1718970011650256, "dur":63, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/mac/Desktop/FishCounter/BuYuDaRen_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":5, "ts":1718970011650319, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1718970011650321, "dur":237, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/mac/Desktop/FishCounter/BuYuDaRen_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":5, "ts":1718970011650642, "dur":169, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/mac/Desktop/FishCounter/BuYuDaRen_Data/Managed/Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":5, "ts":1718970011650812, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1718970011650813, "dur":125, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/mac/Desktop/FishCounter/BuYuDaRen_Data/Managed/Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":5, "ts":1718970011650939, "dur":20, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/mac/Desktop/FishCounter/BuYuDaRen_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1718970011650960, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1718970011650961, "dur":117, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/mac/Desktop/FishCounter/BuYuDaRen_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1718970011651080, "dur":338, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/mac/Desktop/FishCounter/BuYuDaRen_Data/StreamingAssets/Data/FishData.json" }}
+,{ "pid":12345, "tid":5, "ts":1718970011651418, "dur":27, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1718970011651596, "dur":1047, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/mac/Desktop/FishCounter/BuYuDaRen_Data/StreamingAssets/Data/FishData.json" }}
+,{ "pid":12345, "tid":5, "ts":1718970011652645, "dur":3, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/mac/Desktop/FishCounter/BuYuDaRen_Data/level1" }}
+,{ "pid":12345, "tid":5, "ts":1718970011652649, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1718970011652662, "dur":204, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/mac/Desktop/FishCounter/BuYuDaRen_Data/level1" }}
+,{ "pid":12345, "tid":5, "ts":1718970011652905, "dur":44, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/mac/Desktop/FishCounter/BuYuDaRen_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":5, "ts":1718970011652950, "dur":10, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1718970011653064, "dur":421, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/mac/Desktop/FishCounter/BuYuDaRen_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":5, "ts":1718970011653525, "dur":118, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/mac/Desktop/FishCounter/BuYuDaRen_Data/sharedassets1.assets.resS" }}
+,{ "pid":12345, "tid":5, "ts":1718970011653643, "dur":20, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1718970011653891, "dur":335, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/mac/Desktop/FishCounter/BuYuDaRen_Data/sharedassets1.assets.resS" }}
+,{ "pid":12345, "tid":5, "ts":1718970011654330, "dur":3520, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1718970011640306, "dur":176, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1718970011640483, "dur":1099, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1718970011641582, "dur":34, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/mac/Desktop/FishCounter/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":6, "ts":1718970011641617, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1718970011641976, "dur":296, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/mac/Desktop/FishCounter/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":6, "ts":1718970011642310, "dur":54, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/mac/Desktop/FishCounter/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":6, "ts":1718970011642365, "dur":15, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1718970011642547, "dur":270, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/mac/Desktop/FishCounter/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":6, "ts":1718970011642893, "dur":6079, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/mac/Desktop/FishCounter/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":6, "ts":1718970011648972, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1718970011648983, "dur":150, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/mac/Desktop/FishCounter/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":6, "ts":1718970011649137, "dur":24, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/mac/Desktop/FishCounter/BuYuDaRen_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1718970011649162, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1718970011649163, "dur":145, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/mac/Desktop/FishCounter/BuYuDaRen_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1718970011649311, "dur":20, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/mac/Desktop/FishCounter/BuYuDaRen_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1718970011649331, "dur":7, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1718970011649377, "dur":325, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/mac/Desktop/FishCounter/BuYuDaRen_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1718970011649705, "dur":55, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/mac/Desktop/FishCounter/BuYuDaRen_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1718970011649760, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1718970011649762, "dur":166, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/mac/Desktop/FishCounter/BuYuDaRen_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1718970011649930, "dur":83, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/mac/Desktop/FishCounter/BuYuDaRen_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":6, "ts":1718970011650014, "dur":6, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1718970011650025, "dur":238, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/mac/Desktop/FishCounter/BuYuDaRen_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":6, "ts":1718970011650284, "dur":41, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/mac/Desktop/FishCounter/BuYuDaRen_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1718970011650326, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1718970011650327, "dur":152, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/mac/Desktop/FishCounter/BuYuDaRen_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1718970011650483, "dur":36, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/mac/Desktop/FishCounter/BuYuDaRen_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1718970011650519, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1718970011650521, "dur":211, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/mac/Desktop/FishCounter/BuYuDaRen_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1718970011650735, "dur":23, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/mac/Desktop/FishCounter/BuYuDaRen_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1718970011650759, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1718970011650760, "dur":334, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/mac/Desktop/FishCounter/BuYuDaRen_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1718970011651096, "dur":340, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/mac/Desktop/FishCounter/BuYuDaRen_Data/StreamingAssets/Data/LevelNameData.json" }}
+,{ "pid":12345, "tid":6, "ts":1718970011651437, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1718970011651519, "dur":486, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/mac/Desktop/FishCounter/BuYuDaRen_Data/StreamingAssets/Data/LevelNameData.json" }}
+,{ "pid":12345, "tid":6, "ts":1718970011652007, "dur":2, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/mac/Desktop/FishCounter/BuYuDaRen_Data/StreamingAssets/AssetBundle/AssetBundle" }}
+,{ "pid":12345, "tid":6, "ts":1718970011652009, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1718970011652060, "dur":269, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/mac/Desktop/FishCounter/BuYuDaRen_Data/StreamingAssets/AssetBundle/AssetBundle" }}
+,{ "pid":12345, "tid":6, "ts":1718970011652331, "dur":2, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/mac/Desktop/FishCounter/BuYuDaRen_Data/StreamingAssets/AssetBundle/ui" }}
+,{ "pid":12345, "tid":6, "ts":1718970011652334, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1718970011652336, "dur":155, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/mac/Desktop/FishCounter/BuYuDaRen_Data/StreamingAssets/AssetBundle/ui" }}
+,{ "pid":12345, "tid":6, "ts":1718970011652493, "dur":3, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/mac/Desktop/FishCounter/BuYuDaRen_Data/resources.assets.resS" }}
+,{ "pid":12345, "tid":6, "ts":1718970011652497, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1718970011652498, "dur":229, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/mac/Desktop/FishCounter/BuYuDaRen_Data/resources.assets.resS" }}
+,{ "pid":12345, "tid":6, "ts":1718970011652729, "dur":2, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/mac/Desktop/FishCounter/BuYuDaRen_Data/level0.resS" }}
+,{ "pid":12345, "tid":6, "ts":1718970011652732, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1718970011652733, "dur":213, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/mac/Desktop/FishCounter/BuYuDaRen_Data/level0.resS" }}
+,{ "pid":12345, "tid":6, "ts":1718970011653016, "dur":29, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/mac/Desktop/FishCounter/BuYuDaRen_Data/resources.resource" }}
+,{ "pid":12345, "tid":6, "ts":1718970011653045, "dur":13, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1718970011653252, "dur":395, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/mac/Desktop/FishCounter/BuYuDaRen_Data/resources.resource" }}
+,{ "pid":12345, "tid":6, "ts":1718970011653696, "dur":151, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/mac/Desktop/FishCounter/BuYuDaRen_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":6, "ts":1718970011653848, "dur":43, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1718970011653957, "dur":424, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/mac/Desktop/FishCounter/BuYuDaRen_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":6, "ts":1718970011654432, "dur":3443, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1718970011640312, "dur":172, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1718970011640484, "dur":1104, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1718970011641588, "dur":48, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/mac/Desktop/FishCounter/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":7, "ts":1718970011641636, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1718970011642030, "dur":168, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/mac/Desktop/FishCounter/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":7, "ts":1718970011642200, "dur":395, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/mac/Desktop/FishCounter/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":7, "ts":1718970011642595, "dur":8, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1718970011642739, "dur":325, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/mac/Desktop/FishCounter/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":7, "ts":1718970011643115, "dur":270, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/mac/Desktop/FishCounter/BuYuDaRen.exe" }}
+,{ "pid":12345, "tid":7, "ts":1718970011643385, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1718970011643386, "dur":114, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/mac/Desktop/FishCounter/BuYuDaRen.exe" }}
+,{ "pid":12345, "tid":7, "ts":1718970011643502, "dur":62, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/mac/Desktop/FishCounter/BuYuDaRen_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1718970011643564, "dur":13, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1718970011643600, "dur":310, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/mac/Desktop/FishCounter/BuYuDaRen_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1718970011643912, "dur":22, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/mac/Desktop/FishCounter/BuYuDaRen_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1718970011643935, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1718970011643943, "dur":292, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/mac/Desktop/FishCounter/BuYuDaRen_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1718970011644244, "dur":144, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/mac/Desktop/FishCounter/BuYuDaRen_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1718970011644388, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1718970011644390, "dur":254, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/mac/Desktop/FishCounter/BuYuDaRen_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1718970011644651, "dur":73, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/mac/Desktop/FishCounter/BuYuDaRen_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1718970011644726, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1718970011644731, "dur":311, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/mac/Desktop/FishCounter/BuYuDaRen_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1718970011645071, "dur":136, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/mac/Desktop/FishCounter/BuYuDaRen_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1718970011645208, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1718970011645210, "dur":112, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/mac/Desktop/FishCounter/BuYuDaRen_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1718970011645324, "dur":50, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/mac/Desktop/FishCounter/BuYuDaRen_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":7, "ts":1718970011645375, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1718970011645377, "dur":346, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/mac/Desktop/FishCounter/BuYuDaRen_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":7, "ts":1718970011645791, "dur":246, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/mac/Desktop/FishCounter/BuYuDaRen_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":7, "ts":1718970011646038, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1718970011646039, "dur":275, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/mac/Desktop/FishCounter/BuYuDaRen_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":7, "ts":1718970011646317, "dur":20, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/mac/Desktop/FishCounter/BuYuDaRen_Data/Managed/UnityEngine.AutoStreamingModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1718970011646337, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1718970011646338, "dur":151, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/mac/Desktop/FishCounter/BuYuDaRen_Data/Managed/UnityEngine.AutoStreamingModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1718970011646491, "dur":23, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/mac/Desktop/FishCounter/BuYuDaRen_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1718970011646514, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1718970011646516, "dur":493, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/mac/Desktop/FishCounter/BuYuDaRen_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1718970011647030, "dur":50, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/mac/Desktop/FishCounter/BuYuDaRen_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":7, "ts":1718970011647081, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1718970011647088, "dur":183, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/mac/Desktop/FishCounter/BuYuDaRen_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":7, "ts":1718970011647273, "dur":18, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/mac/Desktop/FishCounter/BuYuDaRen_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1718970011647292, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1718970011647293, "dur":205, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/mac/Desktop/FishCounter/BuYuDaRen_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1718970011647531, "dur":119, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/mac/Desktop/FishCounter/BuYuDaRen_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":7, "ts":1718970011647650, "dur":8, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1718970011647693, "dur":248, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/mac/Desktop/FishCounter/BuYuDaRen_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":7, "ts":1718970011647983, "dur":43, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/mac/Desktop/FishCounter/BuYuDaRen_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1718970011648026, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1718970011648041, "dur":167, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/mac/Desktop/FishCounter/BuYuDaRen_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1718970011648210, "dur":25, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/mac/Desktop/FishCounter/BuYuDaRen_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1718970011648235, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1718970011648237, "dur":174, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/mac/Desktop/FishCounter/BuYuDaRen_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1718970011648413, "dur":21, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/mac/Desktop/FishCounter/BuYuDaRen_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1718970011648434, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1718970011648435, "dur":141, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/mac/Desktop/FishCounter/BuYuDaRen_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1718970011648578, "dur":34, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/mac/Desktop/FishCounter/BuYuDaRen_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1718970011648624, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1718970011648626, "dur":144, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/mac/Desktop/FishCounter/BuYuDaRen_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1718970011648771, "dur":22, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/mac/Desktop/FishCounter/BuYuDaRen_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":7, "ts":1718970011648794, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1718970011648795, "dur":709, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/mac/Desktop/FishCounter/BuYuDaRen_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":7, "ts":1718970011649589, "dur":54, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/mac/Desktop/FishCounter/BuYuDaRen_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":7, "ts":1718970011649643, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1718970011649645, "dur":145, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/mac/Desktop/FishCounter/BuYuDaRen_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":7, "ts":1718970011649792, "dur":21, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/mac/Desktop/FishCounter/BuYuDaRen_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1718970011649813, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1718970011649815, "dur":177, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/mac/Desktop/FishCounter/BuYuDaRen_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1718970011650005, "dur":32, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/mac/Desktop/FishCounter/BuYuDaRen_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1718970011650037, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1718970011650039, "dur":173, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/mac/Desktop/FishCounter/BuYuDaRen_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1718970011650247, "dur":49, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/mac/Desktop/FishCounter/BuYuDaRen_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1718970011650297, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1718970011650298, "dur":195, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/mac/Desktop/FishCounter/BuYuDaRen_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1718970011650495, "dur":25, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/mac/Desktop/FishCounter/BuYuDaRen_Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1718970011650521, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1718970011650522, "dur":209, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/mac/Desktop/FishCounter/BuYuDaRen_Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1718970011650734, "dur":27, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/mac/Desktop/FishCounter/BuYuDaRen_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1718970011650761, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1718970011650763, "dur":239, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/mac/Desktop/FishCounter/BuYuDaRen_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1718970011651004, "dur":411, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/mac/Desktop/FishCounter/BuYuDaRen_Data/StreamingAssets/Data/ShootGunData.json" }}
+,{ "pid":12345, "tid":7, "ts":1718970011651416, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1718970011651978, "dur":695, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/mac/Desktop/FishCounter/BuYuDaRen_Data/StreamingAssets/Data/ShootGunData.json" }}
+,{ "pid":12345, "tid":7, "ts":1718970011652676, "dur":2, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/mac/Desktop/FishCounter/BuYuDaRen_Data/level0" }}
+,{ "pid":12345, "tid":7, "ts":1718970011652678, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1718970011652680, "dur":363, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/mac/Desktop/FishCounter/BuYuDaRen_Data/level0" }}
+,{ "pid":12345, "tid":7, "ts":1718970011653143, "dur":11, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/mac/Desktop/FishCounter/BuYuDaRen_Data/resources.assets" }}
+,{ "pid":12345, "tid":7, "ts":1718970011653180, "dur":22, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1718970011653371, "dur":316, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/mac/Desktop/FishCounter/BuYuDaRen_Data/resources.assets" }}
+,{ "pid":12345, "tid":7, "ts":1718970011653716, "dur":183, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/mac/Desktop/FishCounter/BuYuDaRen_Data/sharedassets0.resource" }}
+,{ "pid":12345, "tid":7, "ts":1718970011653900, "dur":7, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1718970011654034, "dur":353, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/mac/Desktop/FishCounter/BuYuDaRen_Data/sharedassets0.resource" }}
+,{ "pid":12345, "tid":7, "ts":1718970011654434, "dur":3433, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1718970011640318, "dur":168, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1718970011640486, "dur":1105, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1718970011641591, "dur":667, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/mac/Desktop/FishCounter/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":8, "ts":1718970011642259, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1718970011642262, "dur":271, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/mac/Desktop/FishCounter/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":8, "ts":1718970011642585, "dur":92, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/mac/Desktop/FishCounter/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":8, "ts":1718970011642678, "dur":12, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1718970011642692, "dur":262, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/mac/Desktop/FishCounter/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":8, "ts":1718970011643001, "dur":1402, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/mac/Desktop/FishCounter/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":8, "ts":1718970011644403, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1718970011644405, "dur":225, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/mac/Desktop/FishCounter/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":8, "ts":1718970011644634, "dur":30, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/mac/Desktop/FishCounter/BuYuDaRen_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1718970011644665, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1718970011644666, "dur":247, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/mac/Desktop/FishCounter/BuYuDaRen_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1718970011644920, "dur":111, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/mac/Desktop/FishCounter/BuYuDaRen_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1718970011645032, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1718970011645033, "dur":591, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/mac/Desktop/FishCounter/BuYuDaRen_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1718970011645707, "dur":1057, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/mac/Desktop/FishCounter/BuYuDaRen_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":8, "ts":1718970011646778, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1718970011646780, "dur":131, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/mac/Desktop/FishCounter/BuYuDaRen_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":8, "ts":1718970011646913, "dur":427, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/mac/Desktop/FishCounter/BuYuDaRen_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1718970011647340, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1718970011647342, "dur":316, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/mac/Desktop/FishCounter/BuYuDaRen_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1718970011647684, "dur":39, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/mac/Desktop/FishCounter/BuYuDaRen_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1718970011647723, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1718970011647725, "dur":276, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/mac/Desktop/FishCounter/BuYuDaRen_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1718970011648010, "dur":26, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/mac/Desktop/FishCounter/BuYuDaRen_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1718970011648042, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1718970011648043, "dur":151, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/mac/Desktop/FishCounter/BuYuDaRen_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1718970011648196, "dur":20, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/mac/Desktop/FishCounter/BuYuDaRen_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1718970011648216, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1718970011648218, "dur":169, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/mac/Desktop/FishCounter/BuYuDaRen_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1718970011648451, "dur":23, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/mac/Desktop/FishCounter/BuYuDaRen_Data/Managed/Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":8, "ts":1718970011648475, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1718970011648476, "dur":161, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/mac/Desktop/FishCounter/BuYuDaRen_Data/Managed/Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":8, "ts":1718970011648639, "dur":30, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/mac/Desktop/FishCounter/BuYuDaRen_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1718970011648670, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1718970011648671, "dur":153, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/mac/Desktop/FishCounter/BuYuDaRen_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1718970011648826, "dur":45, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/mac/Desktop/FishCounter/BuYuDaRen_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":8, "ts":1718970011648871, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1718970011648873, "dur":133, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/mac/Desktop/FishCounter/BuYuDaRen_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":8, "ts":1718970011649010, "dur":24, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/mac/Desktop/FishCounter/BuYuDaRen_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1718970011649035, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1718970011649036, "dur":530, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/mac/Desktop/FishCounter/BuYuDaRen_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1718970011649586, "dur":53, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/mac/Desktop/FishCounter/BuYuDaRen_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":8, "ts":1718970011649639, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1718970011649641, "dur":357, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/mac/Desktop/FishCounter/BuYuDaRen_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":8, "ts":1718970011650023, "dur":20, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/mac/Desktop/FishCounter/BuYuDaRen_Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1718970011650043, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1718970011650044, "dur":222, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/mac/Desktop/FishCounter/BuYuDaRen_Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1718970011650286, "dur":57, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/mac/Desktop/FishCounter/BuYuDaRen_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1718970011650344, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1718970011650345, "dur":178, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/mac/Desktop/FishCounter/BuYuDaRen_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1718970011650526, "dur":35, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/mac/Desktop/FishCounter/BuYuDaRen_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":8, "ts":1718970011650561, "dur":9, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1718970011650712, "dur":122, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/mac/Desktop/FishCounter/BuYuDaRen_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":8, "ts":1718970011650836, "dur":46, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/mac/Desktop/FishCounter/BuYuDaRen_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":8, "ts":1718970011650882, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1718970011650884, "dur":117, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/mac/Desktop/FishCounter/BuYuDaRen_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":8, "ts":1718970011651003, "dur":102, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/mac/Desktop/FishCounter/BuYuDaRen_Data/Managed/Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":8, "ts":1718970011651106, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1718970011651107, "dur":142, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/mac/Desktop/FishCounter/BuYuDaRen_Data/Managed/Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":8, "ts":1718970011651251, "dur":229, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/mac/Desktop/FishCounter/BuYuDaRen_Data/StreamingAssets/Data/WebData.json" }}
+,{ "pid":12345, "tid":8, "ts":1718970011651481, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1718970011651528, "dur":494, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/mac/Desktop/FishCounter/BuYuDaRen_Data/StreamingAssets/Data/WebData.json" }}
+,{ "pid":12345, "tid":8, "ts":1718970011652024, "dur":2, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/mac/Desktop/FishCounter/BuYuDaRen_Data/StreamingAssets/AssetBundle/fish.manifest" }}
+,{ "pid":12345, "tid":8, "ts":1718970011652027, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1718970011652047, "dur":205, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/mac/Desktop/FishCounter/BuYuDaRen_Data/StreamingAssets/AssetBundle/fish.manifest" }}
+,{ "pid":12345, "tid":8, "ts":1718970011652295, "dur":17, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/mac/Desktop/FishCounter/BuYuDaRen_Data/StreamingAssets/AssetBundle/ui.manifest" }}
+,{ "pid":12345, "tid":8, "ts":1718970011652312, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1718970011652314, "dur":155, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/mac/Desktop/FishCounter/BuYuDaRen_Data/StreamingAssets/AssetBundle/ui.manifest" }}
+,{ "pid":12345, "tid":8, "ts":1718970011652472, "dur":3, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/mac/Desktop/FishCounter/BuYuDaRen_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":8, "ts":1718970011652475, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1718970011652477, "dur":401, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/mac/Desktop/FishCounter/BuYuDaRen_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":8, "ts":1718970011652939, "dur":44, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/mac/Desktop/FishCounter/BuYuDaRen_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":8, "ts":1718970011652983, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1718970011652985, "dur":323, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/mac/Desktop/FishCounter/BuYuDaRen_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":8, "ts":1718970011653379, "dur":71, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/mac/Desktop/FishCounter/BuYuDaRen_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":8, "ts":1718970011653451, "dur":27, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1718970011653626, "dur":308, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/mac/Desktop/FishCounter/BuYuDaRen_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":8, "ts":1718970011654032, "dur":68, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/mac/Desktop/FishCounter/BuYuDaRen_Data/sharedassets1.resource" }}
+,{ "pid":12345, "tid":8, "ts":1718970011654101, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1718970011654102, "dur":339, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/mac/Desktop/FishCounter/BuYuDaRen_Data/sharedassets1.resource" }}
+,{ "pid":12345, "tid":8, "ts":1718970011654444, "dur":3407, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1718970011659879, "dur":338, "ph":"X", "name": "ProfilerWriteOutput" }
+,{ "pid": 0, "tid": 1, "ts": 1718970011665607, "dur": 288, "ph": "X", "name": "backend_profiler1.traceevents", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1718970011665475, "dur": 424, "ph": "X", "name": "Write chrome-trace events", "args": {} },

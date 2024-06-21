@@ -104,8 +104,8 @@ public class LoginPanel : BasePanel
 
         for (int i = 0; i < loginInfo.loginDatas.Count; i++)
         {
-            Debug.LogError("账号" + loginInfo.loginDatas[i].account);
-            Debug.LogError("密码" + loginInfo.loginDatas[i].password);
+            //Debug.LogError("账号" + loginInfo.loginDatas[i].account);
+            //Debug.LogError("密码" + loginInfo.loginDatas[i].password);
             if (loginInfo.loginDatas[i].account == accountIP.text && loginInfo.loginDatas[i].password == passWordIP.text)
             {
                 //保存当前是否保存账号/自动登录
@@ -121,16 +121,13 @@ public class LoginPanel : BasePanel
 
                 return loginData;
             }
-            else if (loginInfo.loginDatas[i].account == accountIP.text && loginInfo.loginDatas[i].password != passWordIP.text)
-            {
-                UIManager.Instance.ShowThisPanel<TipPanel>().ChangeText("没有此账号或账号密码错误");
-                accountIP.text = string.Empty;
-                passWordIP.text = string.Empty;
-
-                return null;
-            }
             
         }
+        //说明没有这个账号，要么账号密码错误
+        UIManager.Instance.ShowThisPanel<TipPanel>().ChangeText("没有此账号或账号密码错误");
+        accountIP.text = string.Empty;
+        passWordIP.text = string.Empty;
+
 
         return null;
     }

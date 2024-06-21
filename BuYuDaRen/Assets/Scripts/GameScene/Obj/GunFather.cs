@@ -29,6 +29,7 @@ public class GunFather : MonoBehaviour
         nowGunObj = GameObject.Instantiate(Resources.Load<GameObject>("Gun/" + nowGunData.name), this.transform.position, Quaternion.identity);
         nowGunObj.transform.SetParent(this.transform, false);
 
+       
         nowGunObj.AddComponent<ShootGun>();
     }
 
@@ -42,6 +43,8 @@ public class GunFather : MonoBehaviour
 
         Debug.LogError("当前下标为"+nowIndex);
 
+        FireMusicMgr.Instance.PlayerAudio("ChangeFire");
+
         CreateGun(nowIndex);
     }
 
@@ -53,7 +56,9 @@ public class GunFather : MonoBehaviour
 
         nowIndex = nowIndex - 1 < 0? shootGunDatas.Count -1 : nowIndex-1;
 
-        Debug.LogError("当前下标为" + nowIndex);
+        //Debug.LogError("当前下标为" + nowIndex);
+
+        FireMusicMgr.Instance.PlayerAudio("ChangeFire");
 
         CreateGun(nowIndex);
     }

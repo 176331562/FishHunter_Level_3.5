@@ -49,6 +49,19 @@ public class GameDataMgr
     //读取捕鱼网数据
     public List<WebData> webDatas;
 
+
+    //读取等级称号数据
+    public List<LevelNameData> levelNameDatas;
+    public LevelNameData nowlevelNameData;
+    public int nowLevelIndex;
+
+    //当前场景中存在多少个生成点
+    public Dictionary<string,FishPoint> fishPoints = new Dictionary<string, FishPoint>();
+
+    //当前背景下标
+    public int nowBKIndex;
+
+
     private GameDataMgr()
     {
         loginInfos = JsonMgr.Instance.LoadData<LoginInfo>("LoginData");
@@ -64,6 +77,8 @@ public class GameDataMgr
         gunBulletDatas = JsonMgr.Instance.LoadData<List<GunBulletData>>("GunBulletData");
 
         webDatas = JsonMgr.Instance.LoadData<List<WebData>>("WebData");
+
+        levelNameDatas = JsonMgr.Instance.LoadData<List<LevelNameData>>("LevelNameData");
     }
 
     public void SaveLoginData(LoginData loginData)
@@ -146,8 +161,8 @@ public class GameDataMgr
         playerData.account = nowSelectLogin.account;
         //playerData.account = "2";
         playerData.level = 1;
-        playerData.levelName = "菜鸟";
-        playerData.gold = 500;
+        playerData.levelName = levelNameDatas[0].levelName;
+        playerData.gold = 50000;
         playerData.exp = 0;
 
         playerDatas.Add(playerData);
