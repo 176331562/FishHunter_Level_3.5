@@ -34,7 +34,7 @@ public class ChangeBK : MonoBehaviour
     {
         if(isShow)
         {
-            BK_2.fillAmount += 0.0025F;
+            BK_2.fillAmount += 0.008F;
 
             if(BK_2.fillAmount >= 1f)
             {

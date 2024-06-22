@@ -1233,4 +1233,4 @@ ScriptsOnlyBuild:
   scenePathNames:
   - Assets/Scenes/BeginScene.unity
   - Assets/Scenes/GameScene.unity
-  playerPath: /Users/mac/Desktop/FishCounter/BuYuDaRen.exe
+  playerPath: /Users/mac/Desktop/4/BuYuDaRen.exe

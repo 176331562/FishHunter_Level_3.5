@@ -389,6 +389,7 @@
 "Assets/Scripts/GameScene/Obj/ShootGun.cs"
 "Assets/Scripts/GameScene/Obj/WaterWave.cs"
 "Assets/Scripts/GameScene/Obj/WebObj.cs"
+"Assets/Scripts/GameScene/UI/ChangeBK.cs"
 "Assets/Scripts/GameScene/UI/GamePanel.cs"
 "Assets/Scripts/GameScene/UI/LevelUpPanel.cs"
 "Assets/Scripts/Manager/BKMusicMgr.cs"

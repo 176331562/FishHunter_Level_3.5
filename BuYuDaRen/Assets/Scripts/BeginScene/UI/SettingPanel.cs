@@ -51,9 +51,12 @@ public class SettingPanel : BasePanel
 
         soundSlider.onValueChanged.AddListener((v) =>
         {
-            FireMusicMgr.Instance.SetSoundValue(v);
-            FishMusicMgr.Instance.SetSoundValue(v);
-            WebMusicMgr.Instance.SetSoundValue(v);
+            if(SceneManager.GetActiveScene().name == "GameScene")
+            {
+                FireMusicMgr.Instance.SetSoundValue(v);
+                FishMusicMgr.Instance.SetSoundValue(v);
+                WebMusicMgr.Instance.SetSoundValue(v);
+            }            
         });
 
         btnClose.onClick.AddListener(() =>
