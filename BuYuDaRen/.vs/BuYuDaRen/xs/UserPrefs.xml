@@ -1,26 +1,26 @@
 ﻿<Properties StartupConfiguration="{29FC136A-2AE3-442A-5FB2-6E2509A4FAAC}|">
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/GameScene/UI/ChangeBK.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/BeginScene/Obj/BeginSceneMain.cs">
     <Files>
       <File FileName="Assets/Scripts/Manager/GameDataMgr.cs" Line="83" Column="9" />
-      <File FileName="Assets/Scripts/GameScene/UI/GamePanel.cs" Line="103" Column="62" />
-      <File FileName="Assets/Scripts/BeginScene/UI/LoginPanel.cs" Line="171" Column="10" />
-      <File FileName="Assets/Scripts/BeginScene/UI/RegisterPanel.cs" Line="83" Column="58" />
-      <File FileName="Assets/Scripts/BeginScene/UI/SettingPanel.cs" Line="38" Column="66" />
+      <File FileName="Assets/Scripts/GameScene/UI/GamePanel.cs" />
+      <File FileName="Assets/Scripts/BeginScene/UI/LoginPanel.cs" />
+      <File FileName="Assets/Scripts/BeginScene/UI/RegisterPanel.cs" />
+      <File FileName="Assets/Scripts/BeginScene/UI/SettingPanel.cs" />
       <File FileName="Assets/Scripts/BeginScene/Obj/BeginSceneMain.cs" Line="10" Column="56" />
-      <File FileName="Assets/Scripts/GameScene/Obj/GameSceneMain.cs" Line="12" Column="72" />
-      <File FileName="Assets/Scripts/GameScene/Obj/FishPoint.cs" Line="67" Column="32" />
-      <File FileName="Assets/Scripts/GameScene/Obj/FishPointFather.cs" Line="29" Column="1" />
-      <File FileName="Assets/Scripts/Manager/FishMusicMgr.cs" Line="63" Column="6" />
-      <File FileName="Assets/Scripts/Manager/WebMusicMgr.cs" Line="61" Column="65" />
-      <File FileName="Assets/Scripts/Manager/FireMusicMgr.cs" Line="62" Column="65" />
-      <File FileName="Assets/Scripts/GameScene/Obj/SeaWaveObj.cs" Line="1" Column="1" />
-      <File FileName="Assets/Scripts/GameScene/UI/ChangeBK.cs" Line="37" Column="36" />
+      <File FileName="Assets/Scripts/GameScene/Obj/GameSceneMain.cs" />
+      <File FileName="Assets/Scripts/GameScene/Obj/FishPoint.cs" />
+      <File FileName="Assets/Scripts/GameScene/Obj/FishPointFather.cs" />
+      <File FileName="Assets/Scripts/Manager/FishMusicMgr.cs" />
+      <File FileName="Assets/Scripts/Manager/WebMusicMgr.cs" />
+      <File FileName="Assets/Scripts/Manager/FireMusicMgr.cs" />
+      <File FileName="Assets/Scripts/GameScene/Obj/SeaWaveObj.cs" />
+      <File FileName="Assets/Scripts/GameScene/UI/ChangeBK.cs" Line="37" Column="37" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="BuYuDaRen" expanded="True">
-            <Node name="Assets" expanded="True">
+            <Node name="Assets" expanded="True" selected="True">
               <Node name="Arts" expanded="True">
                 <Node name="Plugin" expanded="True">
                   <Node name="litjson-0.17.0" expanded="True" />
@@ -34,9 +34,7 @@
                 <Node name="Data" expanded="True" />
                 <Node name="GameScene" expanded="True">
                   <Node name="Obj" expanded="True" />
-                  <Node name="UI" expanded="True">
-                    <Node name="ChangeBK.cs" selected="True" />
-                  </Node>
+                  <Node name="UI" expanded="True" />
                 </Node>
                 <Node name="Manager" expanded="True" />
               </Node>
@@ -48,7 +46,7 @@
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="16d0a527-44ee-42d4-be0b-60c98d9d8a7c" />
+  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="3a334118-8b13-46a6-987b-aacb284efcbb" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore>
       <Breakpoint file="/Users/mac/Documents/GitHub/FishHunter/FishHunter/BuYuDaRen/Assets/Scripts/GameScene/Obj/FishObj.cs" relfile="Assets/Scripts/GameScene/Obj/FishObj.cs" line="71" column="1" />

@@ -1920,3 +1920,19 @@ AssetImportParameters requested are different than current active one (requested
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
   custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 3730.017839 seconds.
+  path: Assets/Scripts/BeginScene
+  artifactKey: Guid(367491fd2c8a74983b6debbedf839a86) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Scripts/BeginScene using Guid(367491fd2c8a74983b6debbedf839a86) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8f86e2fbc049cf74a675d4cddcb8b332') in 0.005734 seconds 
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 1.242757 seconds.
+  path: Assets/Scripts/BeginScene/Obj/BeginSceneMain.cs
+  artifactKey: Guid(4b915ef15ea114625bee0edd280491ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Scripts/BeginScene/Obj/BeginSceneMain.cs using Guid(4b915ef15ea114625bee0edd280491ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '371e1c6beff1b641cad9c24f405b9125') in 0.596029 seconds 
+Number of asset objects unloaded after import = 0
