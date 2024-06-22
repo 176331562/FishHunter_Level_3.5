@@ -4,10 +4,16 @@ using UnityEngine;
 
 public class BeginSceneMain : MonoBehaviour
 {
+
+    private void Awake()
+    {
+        UIManager.Instance.ShowThisPanel<LoginPanel>();
+    }
+
     // Start is called before the first frame update
     void Start()
     {
-        UIManager.Instance.ShowThisPanel<LoginPanel>();
+        
      
         //Debug.LogError(Application.persistentDataPath);
     }

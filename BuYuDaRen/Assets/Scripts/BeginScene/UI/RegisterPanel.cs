@@ -76,6 +76,13 @@ public class RegisterPanel : BasePanel
     //注册账号
     private void RegisterAccount()
     {
+        //第一次注册时是没有登录数据的
+        if(GameDataMgr.Instane.loginInfos == null)
+        {
+            LoginData loginData = new LoginData();
+            GameDataMgr.Instane.SaveLoginData(loginData);
+        }
+
         LoginInfo loginInfo = GameDataMgr.Instane.loginInfos;
 
         for (int i = 0; i < loginInfo.loginDatas.Count; i++)

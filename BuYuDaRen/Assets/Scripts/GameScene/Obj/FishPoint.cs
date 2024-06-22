@@ -59,4 +59,11 @@ public class FishPoint : MonoBehaviour
     {
         this.isFinishCreate = isFinish;
     }
+
+    private void OnDisable()
+    {
+        StopCoroutine("DelayTimeToCreate");
+
+        isFinishCreate = false;
+    }
 }

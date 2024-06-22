@@ -2,6 +2,8 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using UnityEngine.SceneManagement;
+
 public class GamePanel : BasePanel
 {
 
@@ -18,6 +20,7 @@ public class GamePanel : BasePanel
     private Button btnRight;
 
     private Button btnBack;
+    private Button btnSetting;
 
     //炮的父物体
     private GunFather shootFather;
@@ -51,6 +54,7 @@ public class GamePanel : BasePanel
         btnRight = this.transform.Find("ShootBK/RightBtn").GetComponent<Button>();
 
         btnBack = this.transform.Find("BackBtn").GetComponent<Button>();
+        btnSetting = this.transform.Find("SettingBtn").GetComponent<Button>();
 
         shootFather = GameObject.FindGameObjectWithTag("ShootFather").GetComponent<GunFather>();
 
@@ -91,7 +95,12 @@ public class GamePanel : BasePanel
 
         btnBack.onClick.AddListener(() =>
         {
-            GameDataMgr.Instane.SavePlayerData(GameDataMgr.Instane.nowSelectPlayerData);
+            BackBeginScene();
+        });
+
+        btnSetting.onClick.AddListener(() =>
+        {
+            UIManager.Instance.ShowThisPanel<SettingPanel>();
         });
     }
 
@@ -204,6 +213,7 @@ public class GamePanel : BasePanel
         seaWaveText.text = ((int)nowSeaWaveTime).ToString();
     }
 
+    //创建浪潮切换背景图
     public void CreateSeaWave()
     {
         ResourceRequest rq = Resources.LoadAsync<GameObject>("SeaWave/SeaWave");
@@ -213,5 +223,17 @@ public class GamePanel : BasePanel
         GameDataMgr.Instane.nowBKIndex = GameDataMgr.Instane.nowBKIndex+1 > ChangeBK.Instance.sprites.Count - 1 ? 0 : GameDataMgr.Instane.nowBKIndex+1;
 
         ChangeBK.Instance.BK(GameDataMgr.Instane.nowBKIndex);
+    }
+
+    //点击返回按钮就要保存当前的玩家数据并返回之前场景
+    public void BackBeginScene()
+    {
+        //保存数据
+        GameDataMgr.Instane.SavePlayerData(GameDataMgr.Instane.nowSelectPlayerData);
+
+        //加载之前场景并显示开始界面
+        AsyncOperation ao = SceneManager.LoadSceneAsync("BeginScene");
+
+        UIManager.Instance.CloseThisPanel<GamePanel>(true);      
     }
 }

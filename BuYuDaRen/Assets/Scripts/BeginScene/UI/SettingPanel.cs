@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using UnityEngine.SceneManagement;
 public class SettingPanel : BasePanel
 {
     private Toggle musicToggle;
@@ -34,7 +35,12 @@ public class SettingPanel : BasePanel
 
         soundToggle.onValueChanged.AddListener((b) =>
         {
-
+            if(SceneManager.GetActiveScene().name == "GameScene")
+            {
+                FireMusicMgr.Instance.SetIsOpen(b);
+                WebMusicMgr.Instance.SetIsOpen(b);
+                FishMusicMgr.Instance.SetIsOpen(b);
+            }
         });
 
 
@@ -45,17 +51,30 @@ public class SettingPanel : BasePanel
 
         soundSlider.onValueChanged.AddListener((v) =>
         {
-
+            FireMusicMgr.Instance.SetSoundValue(v);
+            FishMusicMgr.Instance.SetSoundValue(v);
+            WebMusicMgr.Instance.SetSoundValue(v);
         });
 
         btnClose.onClick.AddListener(() =>
         {
-            SaveValue();
 
-            UIManager.Instance.CloseThisPanel<SettingPanel>(true, () =>
+            if(SceneManager.GetActiveScene().name != "GameScene")
             {
-                UIManager.Instance.ShowThisPanel<BeginPanel>();
-            });
+                SaveValue();
+
+                UIManager.Instance.CloseThisPanel<SettingPanel>(true, () =>
+                {
+                    UIManager.Instance.ShowThisPanel<BeginPanel>();
+                });
+            }
+            else
+            {
+                SaveValue();
+
+                UIManager.Instance.CloseThisPanel<SettingPanel>(true);
+            }
+            
         });
     }
 
@@ -77,12 +96,23 @@ public class SettingPanel : BasePanel
     {
         base.ShowThisPanel();
 
-        MusicData musicData = GameDataMgr.Instane.musicData;
+        //如果第一次登录是没有musicData的就得去创建
+        if(GameDataMgr.Instane.musicData == null)
+        {
+            MusicData musicDataDefault = new MusicData();
 
-        musicToggle.isOn = musicData.isOpenMusic;
-        soundToggle.isOn = musicData.isOpenSound;
+            GameDataMgr.Instane.SaveMusicData(musicDataDefault);
+        }
 
-        musicSlider.value = musicData.musicValue;
-        soundSlider.value = musicData.soundValue;
+        if(GameDataMgr.Instane.musicData != null)
+        {
+            MusicData musicData = GameDataMgr.Instane.musicData;
+
+            musicToggle.isOn = musicData.isOpenMusic;
+            soundToggle.isOn = musicData.isOpenSound;
+
+            musicSlider.value = musicData.musicValue;
+            soundSlider.value = musicData.soundValue;
+        }       
     }
 }

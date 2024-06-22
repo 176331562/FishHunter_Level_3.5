@@ -45,6 +45,21 @@ public class FireMusicMgr : MonoBehaviour
         }        
     }
 
+    public void SetIsOpen(bool b)
+    {
+        audioSource.mute = !b;
+    }
 
-  
+    public void SetSoundValue(float value)
+    {
+        audioSource.volume = value;
+    }
+
+    private void OnEnable()
+    {
+        SetIsOpen(GameDataMgr.Instane.musicData.isOpenSound);
+
+        SetSoundValue(GameDataMgr.Instane.musicData.soundValue);
+    }
+
 }

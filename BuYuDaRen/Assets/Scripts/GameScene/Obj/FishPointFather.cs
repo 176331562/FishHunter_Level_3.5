@@ -5,45 +5,27 @@ using UnityEngine;
 public class FishPointFather : MonoBehaviour
 {
 
-    private void Awake()
-    {
-        
-    }
-
-    void Start()
-    {
-        AddFishPoint();
-
-        StartCoroutine(CreateFish(2));
-    }  
+    Dictionary<string, FishPoint> fishPoints;
 
     private void AddFishPoint()
     {
-        Dictionary<string, FishPoint> fishPoints = GameDataMgr.Instane.fishPoints;
-
         //先看看是不是已经存储过了
-        if(fishPoints.Count == this.transform.childCount)
+        if (fishPoints.Count != this.transform.childCount)
         {
-            return;
-        }
-
-        //添加子物体
-        for (int i = 0; i < this.transform.childCount; i++)
-        {
-            if(!fishPoints.ContainsKey(this.transform.GetChild(i).name))
+            //添加子物体
+            for (int i = 0; i < this.transform.childCount; i++)
             {
-                FishPoint fishPoint = this.transform.GetChild(i).GetComponent<FishPoint>();
-                fishPoint.InitState(true);
+                if (!fishPoints.ContainsKey(this.transform.GetChild(i).name))
+                {
+                    FishPoint fishPoint = this.transform.GetChild(i).GetComponent<FishPoint>();
+                    fishPoint.InitState(true);
 
-
-                fishPoints.Add(fishPoint.gameObject.name, fishPoint);
-
-                
+                    fishPoints.Add(fishPoint.gameObject.name, fishPoint);
+                }
             }
+
+            GameDataMgr.Instane.fishPoints = fishPoints;
         }
-
-        GameDataMgr.Instane.fishPoints = fishPoints;
-
     }
 
 
@@ -52,7 +34,7 @@ public class FishPointFather : MonoBehaviour
         foreach (FishPoint item in GameDataMgr.Instane.fishPoints.Values)
         {          
             if (item.isFinishCreate)
-            {
+            {               
                 item.CreateFish(delayTime);
             }
         }      
@@ -65,6 +47,31 @@ public class FishPointFather : MonoBehaviour
             ShowFishPointToCreate(delayTime);
 
             yield return new WaitForSeconds(delayTime);
+        }
+    }
+
+    private void OnEnable()
+    {
+        fishPoints = new Dictionary<string, FishPoint>();
+
+        ResetFishPoint();
+
+        AddFishPoint();
+
+        StartCoroutine(CreateFish(2));
+    }
+
+    private void OnDisable()
+    {
+        StopCoroutine("CreateFish");
+    }
+
+    //初始化鱼的生成点的状态
+    private void ResetFishPoint()
+    {
+        foreach (FishPoint item in fishPoints.Values)
+        {
+            item.isFinishCreate = true;
         }
     }
 }

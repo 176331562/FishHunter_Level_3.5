@@ -11,6 +11,8 @@ public class LoginData
     public bool isRememberPassWord;
 
     public string tips;
+
+    public bool isShowFirst;
 }
 
 public class LoginInfo

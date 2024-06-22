@@ -57,7 +57,7 @@ public class GameDataMgr
 
     //当前场景中存在多少个生成点
     public Dictionary<string,FishPoint> fishPoints = new Dictionary<string, FishPoint>();
-
+    
     //当前背景下标
     public int nowBKIndex;
 
@@ -79,10 +79,24 @@ public class GameDataMgr
         webDatas = JsonMgr.Instance.LoadData<List<WebData>>("WebData");
 
         levelNameDatas = JsonMgr.Instance.LoadData<List<LevelNameData>>("LevelNameData");
+
+        
     }
 
     public void SaveLoginData(LoginData loginData)
     {
+
+        if(loginInfos == null)
+        {
+            loginInfos.loginDatas.Add(loginData);
+
+            nowSelectLogin = loginData;
+
+            JsonMgr.Instance.SaveData(loginInfos, "LoginData");
+
+            return;
+        }
+
         //遍历用户数据列表
         for (int i = 0; i < loginInfos.loginDatas.Count; i++)
         {

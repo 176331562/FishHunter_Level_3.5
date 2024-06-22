@@ -100,6 +100,12 @@ public class LoginPanel : BasePanel
     //检查账号密码
     private LoginData CheckLogin()
     {
+        //如果用户第一次登录时，这个数据表里面默认为null
+        if(GameDataMgr.Instane.loginInfos == null)
+        {
+            return null;
+        }
+
         LoginInfo loginInfo = GameDataMgr.Instane.loginInfos;
 
         for (int i = 0; i < loginInfo.loginDatas.Count; i++)
@@ -112,6 +118,7 @@ public class LoginPanel : BasePanel
                 LoginData loginData = loginInfo.loginDatas[i];
                 loginData.isRememberAccount = rememberAccountToggle.isOn;
                 loginData.isRememberPassWord = rememberPassWordToggle.isOn;
+                loginData.isShowFirst = rememberPassWordToggle.isOn;
 
                 GameDataMgr.Instane.InitNowSelectLogin(loginData, i - 1);               
 
@@ -155,17 +162,55 @@ public class LoginPanel : BasePanel
     {
         base.ShowThisPanel();
 
-
-        int index = GameDataMgr.Instane.nowSelectIndex;
-        LoginData loginData = GameDataMgr.Instane.loginInfos.loginDatas[index];
-
-        rememberAccountToggle.isOn = loginData.isRememberAccount;
-        rememberPassWordToggle.isOn = loginData.isRememberPassWord;
-
-        if (loginData.isRememberAccount)
+        //如果啥也没有说明可能连文件都没有
+        if(GameDataMgr.Instane.loginInfos.loginDatas.Count == 0)
         {
-            accountIP.text = loginData.account;
-            passWordIP.text = loginData.password;            
+            LoginData logindata = new LoginData();
+
+            GameDataMgr.Instane.SaveLoginData(logindata);            
+        }    
+
+        //默认也是没有音乐的，让它自己创建
+        if(GameDataMgr.Instane.musicData == null)
+        {
+            MusicData musicData = new MusicData();
+
+            GameDataMgr.Instane.SaveMusicData(musicData);
+        }
+
+        //如果有文件并且有用户数据的时候
+        if(GameDataMgr.Instane.loginInfos.loginDatas.Count != 0)
+        {
+            //默认上来值为0！！
+            int index = GameDataMgr.Instane.nowSelectIndex;
+
+            //我们就直接遍历用户数据表看看就把第一个记住密码的作为默认值
+            for (int i = 0; i < GameDataMgr.Instane.loginInfos.loginDatas.Count; i++)
+            {
+                //如果优先展示默认展示第一个
+                if (GameDataMgr.Instane.loginInfos.loginDatas[i].isShowFirst)
+                {
+                    LoginData loginData = GameDataMgr.Instane.loginInfos.loginDatas[i];
+
+                    rememberAccountToggle.isOn = loginData.isRememberAccount;
+                    rememberPassWordToggle.isOn = loginData.isRememberPassWord;
+
+                    if (loginData.isRememberAccount)
+                    {
+                        accountIP.text = loginData.account;
+                        passWordIP.text = loginData.password;
+                    }
+
+                    return;
+                }
+            }
+
+            //如果没有自动登录的账号就直接设置默认设置
+            accountIP.text = string.Empty;
+            passWordIP.text = string.Empty;
+
+            rememberAccountToggle.isOn = false;
+            rememberPassWordToggle.isOn = false;
         }
     }
 }

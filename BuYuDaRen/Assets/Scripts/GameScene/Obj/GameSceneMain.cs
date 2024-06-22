@@ -9,9 +9,7 @@ public class GameSceneMain : MonoBehaviour
     {
         Debug.LogError(Application.persistentDataPath);
 
-        PlayerData playerData = GameDataMgr.Instane.GetNowPlayerData();
-
-        
+        PlayerData playerData = GameDataMgr.Instane.GetNowPlayerData();       
 
         UIManager.Instance.ShowThisPanel<GamePanel>().InitPanel(playerData);
     }
