@@ -1,9 +1,9 @@
 ManifestFileVersion: 0
-CRC: 3795706235
+CRC: 3657469092
 Hashes:
   AssetFileHash:
     serializedVersion: 2
-    Hash: 66885f1b14d8907deef57575bf824494
+    Hash: de9ca02d73fa445bbfbdb3f87a95534b
   TypeTreeHash:
     serializedVersion: 2
     Hash: 53321bac4c669eb7d682442fdc6f05e0
@@ -109,12 +109,12 @@ SerializeReferenceClassIdentifiers:
 - AssemblyName: UnityEngine.UI
   ClassName: UnityEngine.UI.Toggle/ToggleEvent
 Assets:
-- Assets/Resources/UI/BeginPanel.prefab
-- Assets/Resources/UI/LoginPanel.prefab
-- Assets/Resources/UI/RegisterPanel.prefab
-- Assets/Resources/UI/SettingPanel.prefab
-- Assets/Resources/UI/LevelUpPanel.prefab
-- Assets/Resources/UI/TipPanel.prefab
-- Assets/Resources/UI/Canvas.prefab
-- Assets/Resources/UI/GamePanel.prefab
+- Assets/Arts/Prefabs/UI/SettingPanel.prefab
+- Assets/Arts/Prefabs/UI/BeginPanel.prefab
+- Assets/Arts/Prefabs/UI/LoginPanel.prefab
+- Assets/Arts/Prefabs/UI/RegisterPanel.prefab
+- Assets/Arts/Prefabs/UI/LevelUpPanel.prefab
+- Assets/Arts/Prefabs/UI/TipPanel.prefab
+- Assets/Arts/Prefabs/UI/Canvas.prefab
+- Assets/Arts/Prefabs/UI/GamePanel.prefab
 Dependencies: []

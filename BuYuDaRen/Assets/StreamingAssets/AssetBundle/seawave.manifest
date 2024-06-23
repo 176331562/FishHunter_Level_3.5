@@ -1,5 +1,5 @@
 ManifestFileVersion: 0
-CRC: 2132832478
+CRC: 2007758582
 Hashes:
   AssetFileHash:
     serializedVersion: 2
@@ -41,5 +41,5 @@ ClassTypes:
   Script: {instanceID: 0}
 SerializeReferenceClassIdentifiers: []
 Assets:
-- Assets/Resources/SeaWave/SeaWave.prefab
+- Assets/Arts/Prefabs/SeaWave/SeaWave.prefab
 Dependencies: []

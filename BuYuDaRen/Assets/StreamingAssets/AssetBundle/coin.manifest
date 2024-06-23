@@ -1,5 +1,5 @@
 ManifestFileVersion: 0
-CRC: 3764862205
+CRC: 1846227239
 Hashes:
   AssetFileHash:
     serializedVersion: 2
@@ -39,7 +39,7 @@ ClassTypes:
   Script: {instanceID: 0}
 SerializeReferenceClassIdentifiers: []
 Assets:
-- Assets/Resources/Coin/SmallGold.prefab
-- Assets/Resources/Coin/Sliver.prefab
-- Assets/Resources/Coin/Gold.prefab
+- Assets/Arts/Prefabs/Coin/SmallGold.prefab
+- Assets/Arts/Prefabs/Coin/Sliver.prefab
+- Assets/Arts/Prefabs/Coin/Gold.prefab
 Dependencies: []

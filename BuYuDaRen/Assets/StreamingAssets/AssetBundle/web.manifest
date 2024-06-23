@@ -1,5 +1,5 @@
 ManifestFileVersion: 0
-CRC: 3175086380
+CRC: 3041999624
 Hashes:
   AssetFileHash:
     serializedVersion: 2
@@ -27,13 +27,13 @@ ClassTypes:
   Script: {instanceID: 0}
 SerializeReferenceClassIdentifiers: []
 Assets:
-- Assets/Resources/Web/web_3.prefab
-- Assets/Resources/Web/web_1.prefab
-- Assets/Resources/Web/web_4.prefab
-- Assets/Resources/Web/web_2.prefab
-- Assets/Resources/Web/web_9.prefab
-- Assets/Resources/Web/web_5.prefab
-- Assets/Resources/Web/web_8.prefab
-- Assets/Resources/Web/web_6.prefab
-- Assets/Resources/Web/web_7.prefab
+- Assets/Arts/Prefabs/Web/web_3.prefab
+- Assets/Arts/Prefabs/Web/web_1.prefab
+- Assets/Arts/Prefabs/Web/web_4.prefab
+- Assets/Arts/Prefabs/Web/web_2.prefab
+- Assets/Arts/Prefabs/Web/web_9.prefab
+- Assets/Arts/Prefabs/Web/web_5.prefab
+- Assets/Arts/Prefabs/Web/web_8.prefab
+- Assets/Arts/Prefabs/Web/web_6.prefab
+- Assets/Arts/Prefabs/Web/web_7.prefab
 Dependencies: []

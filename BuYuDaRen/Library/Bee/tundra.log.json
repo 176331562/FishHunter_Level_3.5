@@ -343,8 +343,8 @@
 {"msg":"runNodeAction","annotation":"Csc Library/Bee/artifacts/200b0aE.dag/Assembly-CSharp.dll (+2 others)","index":266}
 {"msg":"noderesult","processed_node_count":336,"number_of_nodes_ever_queued":340,"annotation":"Csc Library/Bee/artifacts/200b0aE.dag/Assembly-CSharp.dll (+2 others)","index":266,"exitcode":0,"outputfile":"Library/Bee/artifacts/200b0aE.dag/Assembly-CSharp.dll","stdout":"Assets/Arts/Plugin/litjson-0.17.0/src/LitJson/JsonWriter.cs(387,21): warning CS3021: 'JsonWriter.Write(ulong)' does not need a CLSCompliant attribute because the assembly does not have a CLSCompliant attribute"}
 {"msg":"inputSignatureChanged","annotation":"CopyFiles Library/ScriptAssemblies/Assembly-CSharp.pdb","index":340,"changes":[{"key":"InputFileList","value":["Library/Bee/artifacts/200b0aE.dag/Assembly-CSharp.pdb"],"oldvalue":[],"dependency":"explicit"}]}
-{"msg":"runNodeAction","annotation":"CopyFiles Library/ScriptAssemblies/Assembly-CSharp.pdb","index":340}
 {"msg":"inputSignatureChanged","annotation":"CopyFiles Library/ScriptAssemblies/Assembly-CSharp.dll","index":339,"changes":[{"key":"InputFileList","value":["Library/Bee/artifacts/200b0aE.dag/Assembly-CSharp.dll"],"oldvalue":[],"dependency":"explicit"}]}
+{"msg":"runNodeAction","annotation":"CopyFiles Library/ScriptAssemblies/Assembly-CSharp.pdb","index":340}
 {"msg":"runNodeAction","annotation":"CopyFiles Library/ScriptAssemblies/Assembly-CSharp.dll","index":339}
 {"msg":"noderesult","processed_node_count":337,"number_of_nodes_ever_queued":340,"annotation":"CopyFiles Library/ScriptAssemblies/Assembly-CSharp.pdb","index":340,"exitcode":0,"outputfile":"Library/ScriptAssemblies/Assembly-CSharp.pdb"}
 {"msg":"noderesult","processed_node_count":338,"number_of_nodes_ever_queued":340,"annotation":"CopyFiles Library/ScriptAssemblies/Assembly-CSharp.dll","index":339,"exitcode":0,"outputfile":"Library/ScriptAssemblies/Assembly-CSharp.dll"}

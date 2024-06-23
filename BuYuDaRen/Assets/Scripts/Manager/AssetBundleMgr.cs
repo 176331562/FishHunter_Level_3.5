@@ -1,7 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-
+using System.Threading;
 public class AssetBundleMgr
 {
     private static AssetBundleMgr instance;
@@ -66,9 +66,47 @@ public class AssetBundleMgr
           
             loadedAssetBundle.Add(assetBundleName, ab);
 
+            LoadDependBundle(assetBundleName);
+
             return ab;
         }
 
         return null;
     }
+
+    //加载依赖包
+    public void LoadDependBundle(string bundleName)
+    {
+        if(!loadedAssetBundle.ContainsKey("assetBundle"))
+        {
+            AssetBundle assetBundle = AssetBundle.LoadFromFile(Application.streamingAssetsPath + "/AssetBundle/AssetBundle");
+
+            AssetBundleManifest assetBundleManifest = assetBundle.LoadAsset<AssetBundleManifest>("AssetBundleManifest");
+
+            loadedAssetBundle.Add("assetBundle", assetBundle);
+
+            string[] dependBundles = assetBundleManifest.GetAllDependencies(bundleName);
+
+            if(dependBundles != null)
+            {
+                Debug.LogError("加载依赖包");
+
+                for (int i = 0; i < dependBundles.Length; i++)
+                {
+                    if (!loadedAssetBundle.ContainsKey(dependBundles[i]))
+                    {
+                        AssetBundleCreateRequest acr = AssetBundle.LoadFromFileAsync(Application.streamingAssetsPath + "/AssetBundle/" + bundleName);
+
+                        AssetBundle ab = acr.assetBundle;
+
+                        loadedAssetBundle.Add(bundleName, ab);
+                    }
+                }
+
+            }
+
+        }
+    }
+
+        
 }

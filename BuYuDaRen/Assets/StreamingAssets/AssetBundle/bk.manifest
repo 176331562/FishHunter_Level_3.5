@@ -1,5 +1,5 @@
 ManifestFileVersion: 0
-CRC: 3929634209
+CRC: 1086535555
 Hashes:
   AssetFileHash:
     serializedVersion: 2
@@ -15,8 +15,8 @@ ClassTypes:
   Script: {instanceID: 0}
 SerializeReferenceClassIdentifiers: []
 Assets:
-- Assets/Resources/BK/3.png
-- Assets/Resources/BK/4.png
-- Assets/Resources/BK/2.png
-- Assets/Resources/BK/1.png
+- Assets/Arts/Prefabs/BK/3.png
+- Assets/Arts/Prefabs/BK/4.png
+- Assets/Arts/Prefabs/BK/2.png
+- Assets/Arts/Prefabs/BK/1.png
 Dependencies: []

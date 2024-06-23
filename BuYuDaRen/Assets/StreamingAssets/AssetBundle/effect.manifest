@@ -1,5 +1,5 @@
 ManifestFileVersion: 0
-CRC: 1258866030
+CRC: 3502960134
 Hashes:
   AssetFileHash:
     serializedVersion: 2
@@ -31,8 +31,8 @@ ClassTypes:
   Script: {instanceID: 0}
 SerializeReferenceClassIdentifiers: []
 Assets:
-- Assets/Resources/Effect/Other.prefab
-- Assets/Resources/Effect/Sliver.prefab
-- Assets/Resources/Effect/LevelUp.prefab
-- Assets/Resources/Effect/Gold.prefab
+- Assets/Arts/Prefabs/Effect/Other.prefab
+- Assets/Arts/Prefabs/Effect/Sliver.prefab
+- Assets/Arts/Prefabs/Effect/LevelUp.prefab
+- Assets/Arts/Prefabs/Effect/Gold.prefab
 Dependencies: []

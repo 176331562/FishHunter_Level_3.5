@@ -1,9 +1,9 @@
 ManifestFileVersion: 0
-CRC: 1074357591
+CRC: 2433852396
 Hashes:
   AssetFileHash:
     serializedVersion: 2
-    Hash: 9c7d4ca226884ddffbcfc109fe9e978a
+    Hash: 5dabbd8ef510cf2688594dffb456eca7
   TypeTreeHash:
     serializedVersion: 2
     Hash: dddf03d9620c09e7c60f80477fd9e5ab
@@ -31,9 +31,9 @@ SerializeReferenceClassIdentifiers:
 - AssemblyName: UnityEngine.UI
   ClassName: UnityEngine.UI.MaskableGraphic/CullStateChangedEvent
 Assets:
-- Assets/Resources/Gun/Level_5.prefab
-- Assets/Resources/Gun/Level_3.prefab
-- Assets/Resources/Gun/Level_4.prefab
-- Assets/Resources/Gun/Level_2.prefab
-- Assets/Resources/Gun/Level_1.prefab
+- Assets/Arts/Prefabs/Gun/Level_5.prefab
+- Assets/Arts/Prefabs/Gun/Level_3.prefab
+- Assets/Arts/Prefabs/Gun/Level_4.prefab
+- Assets/Arts/Prefabs/Gun/Level_2.prefab
+- Assets/Arts/Prefabs/Gun/Level_1.prefab
 Dependencies: []
