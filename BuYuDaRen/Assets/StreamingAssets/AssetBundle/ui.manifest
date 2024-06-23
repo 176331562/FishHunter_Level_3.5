@@ -1,12 +1,12 @@
 ManifestFileVersion: 0
-CRC: 1993815834
+CRC: 3795706235
 Hashes:
   AssetFileHash:
     serializedVersion: 2
-    Hash: f2065ce947adec6999a534e8836e8e31
+    Hash: 66885f1b14d8907deef57575bf824494
   TypeTreeHash:
     serializedVersion: 2
-    Hash: 8ba9d9050375f83b618d87c4e577ecbc
+    Hash: 53321bac4c669eb7d682442fdc6f05e0
 HashAppended: 0
 ClassTypes:
 - Class: 1
@@ -30,7 +30,11 @@ ClassTypes:
 - Class: 114
   Script: {fileID: 11500000, guid: 4e29b1a8efbd4b44bb3f3716e73f07ff, type: 3}
 - Class: 114
+  Script: {fileID: 11500000, guid: 5f7201a12d95ffc409449d95f23cf332, type: 3}
+- Class: 114
   Script: {fileID: 11500000, guid: 0cd44c1031e13a943bb63640046fad76, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 2fab0fc094c9a4b46ba9176ff853c6ea, type: 3}
 - Class: 114
   Script: {fileID: 11500000, guid: a0fbaa04bb29441e69138c959e8e79d4, type: 3}
 - Class: 114
@@ -39,6 +43,8 @@ ClassTypes:
   Script: {fileID: 11500000, guid: dc42784cf147c0c48a680349fa168899, type: 3}
 - Class: 114
   Script: {fileID: 11500000, guid: d199490a83bb2b844b9695cbf13b01ef, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: b9651b6d02ca446a9a5f46bc0d84e646, type: 3}
 - Class: 114
   Script: {fileID: 11500000, guid: 565fc9b4264f14e5a8ec93a0b62ae7b9, type: 3}
 - Class: 114
@@ -52,15 +58,11 @@ ClassTypes:
 - Class: 114
   Script: {fileID: 11500000, guid: 67db9e8f0e2ae9c40bc1e2b64352a6b4, type: 3}
 - Class: 114
-  Script: {fileID: 11500000, guid: 5f7201a12d95ffc409449d95f23cf332, type: 3}
-- Class: 114
   Script: {fileID: 11500000, guid: d629a0ecedea24ac1ab8c87594750205, type: 3}
 - Class: 114
   Script: {fileID: 11500000, guid: a4bb2f68d03b149d79bf950c0e831c6d, type: 3}
 - Class: 114
   Script: {fileID: 11500000, guid: 4f231c4fb786f3946a6b90b886c48677, type: 3}
-- Class: 114
-  Script: {fileID: 11500000, guid: 34772468cfb8d48d6a6d5056ed9bf392, type: 3}
 - Class: 115
   Script: {instanceID: 0}
 - Class: 128
@@ -111,6 +113,7 @@ Assets:
 - Assets/Resources/UI/LoginPanel.prefab
 - Assets/Resources/UI/RegisterPanel.prefab
 - Assets/Resources/UI/SettingPanel.prefab
+- Assets/Resources/UI/LevelUpPanel.prefab
 - Assets/Resources/UI/TipPanel.prefab
 - Assets/Resources/UI/Canvas.prefab
 - Assets/Resources/UI/GamePanel.prefab

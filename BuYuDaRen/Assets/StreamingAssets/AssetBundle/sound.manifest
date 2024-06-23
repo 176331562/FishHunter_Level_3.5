@@ -1,0 +1,26 @@
+ManifestFileVersion: 0
+CRC: 3135281898
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 6c96c62280768ed21640db61dc3e4484
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 9a2ca7bdbd1871f7131daf57de908e0c
+HashAppended: 0
+ClassTypes:
+- Class: 83
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- "Assets/Resources/Sound/FX_\u83B7\u520602.wav"
+- "Assets/Resources/Sound/FX_\u89D2\u8272_\u706F\u7B3C\u9C7C_02.wav"
+- "Assets/Resources/Sound/FX_\u89D2\u8272_\u91D1\u67AA\u9C7C_01.wav"
+- "Assets/Resources/Sound/FX_\u89D2\u8272_\u8759\u8760\u9C7C_01.wav"
+- "Assets/Resources/Sound/FX_\u89D2\u8272_\u5927\u91D1\u9CA8_01.wav"
+- "Assets/Resources/Sound/FX_\u89D2\u8272_\u4E4C\u9F9F_01.wav"
+- Assets/Resources/Sound/ChangeFire.wav
+- Assets/Resources/Sound/Web.wav
+- "Assets/Resources/Sound/FX_\u89D2\u8272_\u5927\u94F6\u9CA8_01.wav"
+- Assets/Resources/Sound/Fire.wav
+Dependencies: []

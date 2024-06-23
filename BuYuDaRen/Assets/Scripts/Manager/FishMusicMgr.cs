@@ -41,11 +41,13 @@ public class FishMusicMgr : MonoBehaviour
         {           
             if (!audioSource.isPlaying)
             {
-                ResourceRequest rq = Resources.LoadAsync<AudioClip>("Sound/" + audioClipName);
 
-                audioSource.clip = rq.asset as AudioClip;
+                AudioClip fishClip = AssetBundleMgr.Instance.LoadAsset<AudioClip>("sound", audioClipName);
+                //ResourceRequest rq = Resources.LoadAsync<AudioClip>("Sound/" + audioClipName);
 
-                loadClip.Add(audioClipName, rq.asset as AudioClip);
+                audioSource.clip = fishClip;
+
+                loadClip.Add(audioClipName, fishClip);
 
                 audioSource.Play();
             }           

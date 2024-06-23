@@ -1,9 +1,7 @@
 fileFormatVersion: 2
-guid: de4a3154bfa62ee4596e78fe86dcce85
-timeCreated: 1513158183
-licenseType: Pro
-NativeFormatImporter:
-  mainObjectFileID: 100100000
+guid: 04777d3de9f524728bbfce67f1789b68
+PrefabImporter:
+  externalObjects: {}
   userData: 
-  assetBundleName: 
+  assetBundleName: fish
   assetBundleVariant: 

@@ -34,11 +34,12 @@ public class WebMusicMgr : MonoBehaviour
         }
         else
         {
-            ResourceRequest rq = Resources.LoadAsync<AudioClip>("Sound/" + audioClipName);
+            AudioClip webClip = AssetBundleMgr.Instance.LoadAsset<AudioClip>("sound", audioClipName);
+            //ResourceRequest rq = Resources.LoadAsync<AudioClip>("Sound/" + audioClipName);
 
-            audioSource.clip = rq.asset as AudioClip;
+            audioSource.clip = webClip;
 
-            loadClip.Add(audioClipName, rq.asset as AudioClip);
+            loadClip.Add(audioClipName, webClip);
 
             audioSource.Play();
         }

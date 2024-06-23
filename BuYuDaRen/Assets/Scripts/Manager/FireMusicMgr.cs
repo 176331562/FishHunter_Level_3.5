@@ -35,11 +35,12 @@ public class FireMusicMgr : MonoBehaviour
         }
         else
         {
-            ResourceRequest rq = Resources.LoadAsync<AudioClip>("Sound/" + audioClipName);
+            AudioClip fire = AssetBundleMgr.Instance.LoadAsset<AudioClip>("sound", audioClipName);
+            //ResourceRequest rq = Resources.LoadAsync<AudioClip>("Sound/" + audioClipName);
 
-            audioSource.clip = rq.asset as AudioClip;
+            audioSource.clip = fire;
 
-            loadClip.Add(audioClipName, rq.asset as AudioClip);
+            loadClip.Add(audioClipName, fire);
 
             audioSource.Play();
         }        

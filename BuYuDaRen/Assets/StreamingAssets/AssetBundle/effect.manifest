@@ -1,0 +1,38 @@
+ManifestFileVersion: 0
+CRC: 1258866030
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: cf995162b62fea5c10e38a504b9496fb
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 1f6a71ff054f10df3af551a500b6fc99
+HashAppended: 0
+ClassTypes:
+- Class: 1
+  Script: {instanceID: 0}
+- Class: 4
+  Script: {instanceID: 0}
+- Class: 21
+  Script: {instanceID: 0}
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 43
+  Script: {instanceID: 0}
+- Class: 48
+  Script: {instanceID: 0}
+- Class: 114
+  Script: {fileID: 11500000, guid: 75012361864384a92800c1b69b46d084, type: 3}
+- Class: 115
+  Script: {instanceID: 0}
+- Class: 198
+  Script: {instanceID: 0}
+- Class: 199
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/Resources/Effect/Other.prefab
+- Assets/Resources/Effect/Sliver.prefab
+- Assets/Resources/Effect/LevelUp.prefab
+- Assets/Resources/Effect/Gold.prefab
+Dependencies: []

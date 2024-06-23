@@ -25,9 +25,10 @@ public class UIManager
 
             if(canvasObj == null)
             {
-                ResourceRequest rq1 = Resources.LoadAsync<GameObject>("UI/Canvas");
+                canvasObj = GameObject.Instantiate(AssetBundleMgr.Instance.LoadAsset<GameObject>("ui","Canvas"));
+                //ResourceRequest rq1 = Resources.LoadAsync<GameObject>("UI/Canvas");
 
-                canvasObj = GameObject.Instantiate(rq1.asset as GameObject);
+                //canvasObj = GameObject.Instantiate(rq1.asset as GameObject);
 
                 //canvasObj = GameObject.Instantiate(Resources.Load<GameObject>("UI/Canvas"));
                 Canvas canvas = canvasObj.GetComponent<Canvas>();
@@ -45,8 +46,10 @@ public class UIManager
         }
 
         //GameObject panelObj = GameObject.Instantiate(Resources.Load<GameObject>("UI/" + panelName));
-        ResourceRequest rq = Resources.LoadAsync<GameObject>("UI/" + panelName);
-        GameObject panelObj = GameObject.Instantiate(rq.asset as GameObject);
+        //ResourceRequest rq = Resources.LoadAsync<GameObject>("UI/" + panelName);
+        //GameObject panelObj = GameObject.Instantiate(rq.asset as GameObject);
+        GameObject panelObj = GameObject.Instantiate(AssetBundleMgr.Instance.LoadAsset<GameObject>("ui",panelName));
+
 
         panelObj.name = panelName;
         panelObj.transform.SetParent(canvasObj.transform,false);

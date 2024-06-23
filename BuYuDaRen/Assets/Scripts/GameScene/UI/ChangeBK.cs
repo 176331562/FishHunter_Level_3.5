@@ -27,6 +27,12 @@ public class ChangeBK : MonoBehaviour
     {
         BK_1 = this.transform.Find("BK").GetComponent<Image>();
         BK_2 = this.transform.Find("BK2").GetComponent<Image>();
+
+        AssetBundle bk = AssetBundleMgr.Instance.GetAB("bk");
+
+        Sprite[] sprites1 = bk.LoadAllAssets<Sprite>();
+
+        sprites.AddRange(sprites1);
     }
 
     // Update is called once per frame

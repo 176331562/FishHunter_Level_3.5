@@ -80,15 +80,21 @@ public class FishObj : MonoBehaviour
 
         if(nowFishData.coin != "null")
         {
-            ResourceRequest rq = Resources.LoadAsync<GameObject>("Coin/" + nowFishData.coin);
-            GameObject coinObj = GameObject.Instantiate(rq.asset as GameObject, this.transform.position, this.transform.rotation);
+            //ResourceRequest rq = Resources.LoadAsync<GameObject>("Coin/" + nowFishData.coin);
+            //GameObject coinObj = GameObject.Instantiate(rq.asset as GameObject, this.transform.position, this.transform.rotation);
             //coinObj.transform.SetParent(this.transform,false);
+
+            GameObject coinObj = AssetBundleMgr.Instance.LoadAsset<GameObject>("coin", nowFishData.coin);
+            coinObj = GameObject.Instantiate(coinObj, this.transform.position, this.transform.rotation);
         }
 
-        if(nowFishData.effect != "null")
+        if (nowFishData.effect != "null")
         {
-            ResourceRequest rq = Resources.LoadAsync<GameObject>("Effect/" + nowFishData.effect);
-            GameObject effectObj = GameObject.Instantiate(rq.asset as GameObject);
+            //ResourceRequest rq = Resources.LoadAsync<GameObject>("Effect/" + nowFishData.effect);
+            //GameObject effectObj = GameObject.Instantiate(rq.asset as GameObject);
+
+            GameObject effectObj = AssetBundleMgr.Instance.LoadAsset<GameObject>("effect", nowFishData.coin);
+            effectObj = GameObject.Instantiate(effectObj, this.transform.position, this.transform.rotation);
         }
     }
 }

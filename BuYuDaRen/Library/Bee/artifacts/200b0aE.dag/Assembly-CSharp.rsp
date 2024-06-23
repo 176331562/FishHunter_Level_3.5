@@ -392,6 +392,7 @@
 "Assets/Scripts/GameScene/UI/ChangeBK.cs"
 "Assets/Scripts/GameScene/UI/GamePanel.cs"
 "Assets/Scripts/GameScene/UI/LevelUpPanel.cs"
+"Assets/Scripts/Manager/AssetBundleMgr.cs"
 "Assets/Scripts/Manager/BKMusicMgr.cs"
 "Assets/Scripts/Manager/FireMusicMgr.cs"
 "Assets/Scripts/Manager/FishMusicMgr.cs"

@@ -1,0 +1,79 @@
+ManifestFileVersion: 0
+CRC: 1996202037
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: bd5bba89071c4ca4fac29d4756773856
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: f0cc69634a02b9a6d7b377bbaf698769
+HashAppended: 0
+ClassTypes:
+- Class: 1
+  Script: {instanceID: 0}
+- Class: 4
+  Script: {instanceID: 0}
+- Class: 21
+  Script: {instanceID: 0}
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 48
+  Script: {instanceID: 0}
+- Class: 54
+  Script: {instanceID: 0}
+- Class: 65
+  Script: {instanceID: 0}
+- Class: 212
+  Script: {instanceID: 0}
+- Class: 213
+  Script: {instanceID: 0}
+- Class: 687078895
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/Resources/Bullets/Level1_1Bullet.prefab
+- Assets/Resources/Bullets/Level5_4Bullet.prefab
+- Assets/Resources/Bullets/Level4_6Bullet.prefab
+- Assets/Resources/Bullets/Level2_1Bullet.prefab
+- Assets/Resources/Bullets/Level5_7Bullet.prefab
+- Assets/Resources/Bullets/Level3_4Bullet.prefab
+- Assets/Resources/Bullets/Level5_9Bullet.prefab
+- Assets/Resources/Bullets/Level5_6Bullet.prefab
+- Assets/Resources/Bullets/Level2_5Bullet.prefab
+- Assets/Resources/Bullets/Level3_8Bullet.prefab
+- Assets/Resources/Bullets/Level1_3Bullet.prefab
+- Assets/Resources/Bullets/Level1_2Bullet.prefab
+- Assets/Resources/Bullets/Level4_3Bullet.prefab
+- Assets/Resources/Bullets/Level2_8Bullet.prefab
+- Assets/Resources/Bullets/Level5_1Bullet.prefab
+- Assets/Resources/Bullets/Level3_1Bullet.prefab
+- Assets/Resources/Bullets/Level5_2Bullet.prefab
+- Assets/Resources/Bullets/Level2_4Bullet.prefab
+- Assets/Resources/Bullets/Level4_9Bullet.prefab
+- Assets/Resources/Bullets/Level1_9Bullet.prefab
+- Assets/Resources/Bullets/Level4_2Bullet.prefab
+- Assets/Resources/Bullets/Level3_7Bullet.prefab
+- Assets/Resources/Bullets/Level3_9Bullet.prefab
+- Assets/Resources/Bullets/Level5_8Bullet.prefab
+- Assets/Resources/Bullets/Level3_2Bullet.prefab
+- Assets/Resources/Bullets/Level2_9Bullet.prefab
+- Assets/Resources/Bullets/Level5_3Bullet.prefab
+- Assets/Resources/Bullets/Level3_5Bullet.prefab
+- Assets/Resources/Bullets/Level2_7Bullet.prefab
+- Assets/Resources/Bullets/Level1_4Bullet.prefab
+- Assets/Resources/Bullets/Level1_5Bullet.prefab
+- Assets/Resources/Bullets/Level4_5Bullet.prefab
+- Assets/Resources/Bullets/Level4_7Bullet.prefab
+- Assets/Resources/Bullets/Level2_2Bullet.prefab
+- Assets/Resources/Bullets/Level5_5Bullet.prefab
+- Assets/Resources/Bullets/Level1_7Bullet.prefab
+- Assets/Resources/Bullets/Level4_4Bullet.prefab
+- Assets/Resources/Bullets/Level3_6Bullet.prefab
+- Assets/Resources/Bullets/Level1_6Bullet.prefab
+- Assets/Resources/Bullets/Level2_6Bullet.prefab
+- Assets/Resources/Bullets/Level3_3Bullet.prefab
+- Assets/Resources/Bullets/Level2_3Bullet.prefab
+- Assets/Resources/Bullets/Level4_8Bullet.prefab
+- Assets/Resources/Bullets/Level4_1Bullet.prefab
+- Assets/Resources/Bullets/Level1_8Bullet.prefab
+Dependencies: []

@@ -27,7 +27,14 @@ public class BeginPanel : BasePanel
             AsyncOperation ao = SceneManager.LoadSceneAsync("GameScene");
             ao.completed += (ao) =>
             {
-                //UIManager.Instance.ShowThisPanel<GamePanel>();
+                AssetBundleMgr.Instance.GetAB("fish");
+                AssetBundleMgr.Instance.GetAB("web");
+                AssetBundleMgr.Instance.GetAB("gun");
+                AssetBundleMgr.Instance.GetAB("bullets");
+                AssetBundleMgr.Instance.GetAB("coin");
+                AssetBundleMgr.Instance.GetAB("effect");
+                AssetBundleMgr.Instance.GetAB("seawave");
+                AssetBundleMgr.Instance.GetAB("sound");
             };
         });
 

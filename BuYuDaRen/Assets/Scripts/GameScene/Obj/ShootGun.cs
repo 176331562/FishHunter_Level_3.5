@@ -79,9 +79,11 @@ public class ShootGun : MonoBehaviour
             {
                 GameDataMgr.Instane.nowSelectBulletData = nowBulletData[i];
 
-                ResourceRequest rq = Resources.LoadAsync<GameObject>("Bullets/" + nowBulletData[i].bulletName);
+                GameObject bulletObj = AssetBundleMgr.Instance.LoadAsset<GameObject>("bullets", nowBulletData[i].bulletName);
 
-                GameObject bulletObj = GameObject.Instantiate(rq.asset as GameObject,
+                //ResourceRequest rq = Resources.LoadAsync<GameObject>("Bullets/" + nowBulletData[i].bulletName);
+
+                bulletObj = GameObject.Instantiate(bulletObj,
                     new Vector3(shootPoint.transform.position.x,shootPoint.transform.position.y,0),
                     shootPoint.transform.rotation);
                 bulletObj.AddComponent<BulletObj>().InitBullet(GameDataMgr.Instane.webDatas[nowSelectGun.id-1]);

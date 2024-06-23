@@ -216,9 +216,11 @@ public class GamePanel : BasePanel
     //创建浪潮切换背景图
     public void CreateSeaWave()
     {
-        ResourceRequest rq = Resources.LoadAsync<GameObject>("SeaWave/SeaWave");
+        //ResourceRequest rq = Resources.LoadAsync<GameObject>("SeaWave/SeaWave");
 
-        GameObject seaWaveObj = GameObject.Instantiate(rq.asset as GameObject);
+        //GameObject seaWaveObj = GameObject.Instantiate(rq.asset as GameObject);
+
+        GameObject seaWaveObj = GameObject.Instantiate(AssetBundleMgr.Instance.LoadAsset<GameObject>("seawave","SeaWave"));
 
         GameDataMgr.Instane.nowBKIndex = GameDataMgr.Instane.nowBKIndex+1 > ChangeBK.Instance.sprites.Count - 1 ? 0 : GameDataMgr.Instane.nowBKIndex+1;
 

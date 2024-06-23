@@ -37,11 +37,13 @@ public class FishPoint : MonoBehaviour
 
         int nowCreateIndex = 0;
 
-        ResourceRequest rq = Resources.LoadAsync<GameObject>("Fish/" + fishData.name);
-
+        //ResourceRequest rq = Resources.LoadAsync<GameObject>("Fish/" + fishData.name);
+        GameObject otherObj = AssetBundleMgr.Instance.LoadAsset<GameObject>("fish", fishData.name);
         while (nowCreateIndex < createNum)
         {
-            GameObject fishObj = GameObject.Instantiate(rq.asset as GameObject, this.transform.position, this.transform.rotation);
+            //GameObject fishObj = GameObject.Instantiate(rq.asset as GameObject, this.transform.position, this.transform.rotation);
+            GameObject fishObj = GameObject.Instantiate(otherObj, this.transform.position, this.transform.rotation);
+
             fishObj.name = fishData.name;
             fishObj.transform.SetParent(this.transform);
             FishObj fishObjComponet = fishObj.AddComponent<FishObj>();

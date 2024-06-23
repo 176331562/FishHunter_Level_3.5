@@ -76,6 +76,8 @@
     <Compile Include="Assets/Scripts/GameScene/UI/LevelUpPanel.cs" />
     <Compile Include="Assets/Scripts/GameScene/Obj/AirWall.cs" />
     <Compile Include="Assets/Scripts/GameScene/Obj/CoinObj.cs" />
+    <Compile Include="Assets/Scripts/Manager/AssetBundleMgr.cs" />
+    <Compile Include="Assets/Scripts/GameScene/UI/ChangeBK.cs" />
     <Compile Include="Assets/Arts/Plugin/litjson-0.17.0/src/LitJson/JsonMockWrapper.cs" />
     <Compile Include="Assets/Scripts/BeginScene/UI/RegisterPanel.cs" />
     <Compile Include="Assets/Arts/Plugin/litjson-0.17.0/src/LitJson/JsonData.cs" />
@@ -106,7 +108,6 @@
     <Compile Include="Assets/Scripts/GameScene/Obj/FishPointFather.cs" />
     <Compile Include="Assets/Scripts/Manager/FishMusicMgr.cs" />
     <Compile Include="Assets/Scripts/Manager/BKMusicMgr.cs" />
-    <Compile Include="Assets/Scripts/GameScene/UI/ChangeBK.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">

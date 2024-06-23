@@ -34,9 +34,13 @@ public class BulletObj : MonoBehaviour
 
     private void CreateWeb(int layer,float time,GameObject fishObj)
     {
-        ResourceRequest rq = Resources.LoadAsync<GameObject>("Web/" + webData.name);
+        GameObject otherObj = AssetBundleMgr.Instance.LoadAsset<GameObject>("web", webData.name);
 
-        GameObject webObj = GameObject.Instantiate(rq.asset as GameObject, this.transform.position, this.transform.rotation);
+       GameObject  webObj = GameObject.Instantiate(otherObj, this.transform.position, this.transform.rotation);
+
+        //ResourceRequest rq = Resources.LoadAsync<GameObject>("Web/" + webData.name);
+
+        //GameObject webObj = GameObject.Instantiate(rq.asset as GameObject, this.transform.position, this.transform.rotation);
 
         WebObj web = webObj.AddComponent<WebObj>();
 

@@ -1,5 +1,5 @@
 ManifestFileVersion: 0
-CRC: 2846789012
+CRC: 3381629671
 AssetBundleManifest:
   AssetBundleInfos:
     Info_0:
@@ -7,4 +7,28 @@ AssetBundleManifest:
       Dependencies: {}
     Info_1:
       Name: fish
+      Dependencies: {}
+    Info_2:
+      Name: bk
+      Dependencies: {}
+    Info_3:
+      Name: bullets
+      Dependencies: {}
+    Info_4:
+      Name: coin
+      Dependencies: {}
+    Info_5:
+      Name: effect
+      Dependencies: {}
+    Info_6:
+      Name: gun
+      Dependencies: {}
+    Info_7:
+      Name: seawave
+      Dependencies: {}
+    Info_8:
+      Name: sound
+      Dependencies: {}
+    Info_9:
+      Name: web
       Dependencies: {}

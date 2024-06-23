@@ -26,7 +26,11 @@ public class GunFather : MonoBehaviour
         GameDataMgr.Instane.nowGunDataIndex = index;
         GameDataMgr.Instane.nowSelectGunData = nowGunData;
 
-        nowGunObj = GameObject.Instantiate(Resources.Load<GameObject>("Gun/" + nowGunData.name), this.transform.position, Quaternion.identity);
+        nowGunObj = AssetBundleMgr.Instance.LoadAsset<GameObject>("gun", nowGunData.name);
+
+        nowGunObj = GameObject.Instantiate(nowGunObj, this.transform.position, Quaternion.identity);
+
+        //nowGunObj = GameObject.Instantiate(Resources.Load<GameObject>("Gun/" + nowGunData.name), this.transform.position, Quaternion.identity);
         nowGunObj.transform.SetParent(this.transform, false);
 
        
