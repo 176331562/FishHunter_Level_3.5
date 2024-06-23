@@ -3,25 +3,14 @@ ScriptsOnlyBuild:
     Assembly-CSharp.dll:
     - AirWall
     - BKMusicMgr
-    - BeginPanel
     - BeginSceneMain
     - ChangeBK
-    - CoinObj
     - CoinTarget
     - FireMusicMgr
-    - FishEffect
     - FishMusicMgr
     - FishPoint
     - FishPointFather
-    - GamePanel
     - GameSceneMain
-    - GunFather
-    - LevelUpPanel
-    - LoginPanel
-    - RegisterPanel
-    - SeaWaveObj
-    - SettingPanel
-    - TipPanel
     - WaterWave
     - WebMusicMgr
     Unity.AssetBundleBrowser.Editor.dll:
@@ -31,10 +20,8 @@ ScriptsOnlyBuild:
     UnityEditor.Graphs.dll:
     - UnityEditor.Graphs.AnimationBlendTree.Graph
     - UnityEditor.Graphs.AnimationBlendTree.GraphGUI
-    - UnityEditor.Graphs.AnimationStateMachine.AnyStateNode
     - UnityEditor.Graphs.AnimationStateMachine.Graph
     - UnityEditor.Graphs.AnimationStateMachine.GraphGUI
-    - UnityEditor.Graphs.AnimationStateMachine.StateNode
     - UnityEditor.Graphs.AnimatorControllerTool
     UnityEditor.TestRunner.dll:
     - UnityEditor.TestTools.TestRunner.Api.CallbacksHolder
@@ -43,37 +30,14 @@ ScriptsOnlyBuild:
     UnityEngine.UI.dll:
     - UnityEngine.EventSystems.EventSystem
     - UnityEngine.EventSystems.StandaloneInputModule
-    - UnityEngine.UI.Button
     - UnityEngine.UI.CanvasScaler
-    - UnityEngine.UI.ContentSizeFitter
     - UnityEngine.UI.GraphicRaycaster
-    - UnityEngine.UI.GridLayoutGroup
     - UnityEngine.UI.Image
-    - UnityEngine.UI.InputField
-    - UnityEngine.UI.Mask
-    - UnityEngine.UI.ScrollRect
-    - UnityEngine.UI.Slider
-    - UnityEngine.UI.Text
-    - UnityEngine.UI.Toggle
-    - UnityEngine.UI.VerticalLayoutGroup
   serializedClasses:
     UnityEngine.CoreModule:
     - UnityEngine.Events.PersistentCallGroup
-    - UnityEngine.RectOffset
     UnityEngine.UI:
-    - UnityEngine.UI.AnimationTriggers
-    - UnityEngine.UI.Button/ButtonClickedEvent
-    - UnityEngine.UI.ColorBlock
-    - UnityEngine.UI.FontData
-    - UnityEngine.UI.InputField/EndEditEvent
-    - UnityEngine.UI.InputField/OnChangeEvent
-    - UnityEngine.UI.InputField/SubmitEvent
     - UnityEngine.UI.MaskableGraphic/CullStateChangedEvent
-    - UnityEngine.UI.Navigation
-    - UnityEngine.UI.ScrollRect/ScrollRectEvent
-    - UnityEngine.UI.Slider/SliderEvent
-    - UnityEngine.UI.SpriteState
-    - UnityEngine.UI.Toggle/ToggleEvent
   methodsToPreserve: []
   sceneClasses:
     Assets/Scenes/BeginScene.unity:
@@ -87,13 +51,7 @@ ScriptsOnlyBuild:
       Script: {instanceID: 0}
     - Class: 28
       Script: {instanceID: 0}
-    - Class: 43
-      Script: {instanceID: 0}
     - Class: 48
-      Script: {instanceID: 0}
-    - Class: 54
-      Script: {instanceID: 0}
-    - Class: 65
       Script: {instanceID: 0}
     - Class: 74
       Script: {instanceID: 0}
@@ -116,64 +74,18 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 16024}
     - Class: 114
-      Script: {instanceID: 16026}
-    - Class: 114
-      Script: {instanceID: 16028}
-    - Class: 114
-      Script: {instanceID: 16030}
-    - Class: 114
       Script: {instanceID: 16032}
     - Class: 114
-      Script: {instanceID: 16094}
+      Script: {instanceID: 17096}
     - Class: 114
-      Script: {instanceID: 16598}
+      Script: {instanceID: 17298}
     - Class: 114
-      Script: {instanceID: 16780}
+      Script: {instanceID: 19544}
     - Class: 114
-      Script: {instanceID: 17094}
+      Script: {instanceID: 20584}
     - Class: 114
-      Script: {instanceID: 17296}
-    - Class: 114
-      Script: {instanceID: 17344}
-    - Class: 114
-      Script: {instanceID: 17612}
-    - Class: 114
-      Script: {instanceID: 17756}
-    - Class: 114
-      Script: {instanceID: 17962}
-    - Class: 114
-      Script: {instanceID: 18046}
-    - Class: 114
-      Script: {instanceID: 18356}
-    - Class: 114
-      Script: {instanceID: 18770}
-    - Class: 114
-      Script: {instanceID: 19206}
-    - Class: 114
-      Script: {instanceID: 19240}
-    - Class: 114
-      Script: {instanceID: 19360}
-    - Class: 114
-      Script: {instanceID: 19432}
-    - Class: 114
-      Script: {instanceID: 19482}
-    - Class: 114
-      Script: {instanceID: 19538}
-    - Class: 114
-      Script: {instanceID: 19924}
-    - Class: 114
-      Script: {instanceID: 19976}
-    - Class: 114
-      Script: {instanceID: 20578}
-    - Class: 114
-      Script: {instanceID: 20998}
-    - Class: 114
-      Script: {instanceID: 22400}
-    - Class: 114
-      Script: {instanceID: 41238}
+      Script: {instanceID: 22406}
     - Class: 115
-      Script: {instanceID: 0}
-    - Class: 128
       Script: {instanceID: 0}
     - Class: 157
       Script: {instanceID: 0}
@@ -192,10 +104,6 @@ ScriptsOnlyBuild:
     - Class: 223
       Script: {instanceID: 0}
     - Class: 224
-      Script: {instanceID: 0}
-    - Class: 225
-      Script: {instanceID: 0}
-    - Class: 687078895
       Script: {instanceID: 0}
     Assets/Scenes/GameScene.unity:
     - Class: 1
@@ -245,33 +153,33 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 16032}
     - Class: 114
-      Script: {instanceID: 16378}
+      Script: {instanceID: 16380}
     - Class: 114
-      Script: {instanceID: 17094}
+      Script: {instanceID: 17096}
     - Class: 114
-      Script: {instanceID: 17296}
+      Script: {instanceID: 17298}
     - Class: 114
-      Script: {instanceID: 17734}
+      Script: {instanceID: 17736}
     - Class: 114
-      Script: {instanceID: 17772}
+      Script: {instanceID: 17774}
     - Class: 114
-      Script: {instanceID: 18008}
+      Script: {instanceID: 18010}
     - Class: 114
-      Script: {instanceID: 18994}
+      Script: {instanceID: 18206}
     - Class: 114
-      Script: {instanceID: 20578}
+      Script: {instanceID: 19000}
     - Class: 114
-      Script: {instanceID: 20922}
+      Script: {instanceID: 20584}
     - Class: 114
-      Script: {instanceID: 21846}
+      Script: {instanceID: 20928}
     - Class: 114
-      Script: {instanceID: 22304}
+      Script: {instanceID: 21852}
     - Class: 114
-      Script: {instanceID: 22392}
+      Script: {instanceID: 22310}
     - Class: 114
-      Script: {instanceID: 22400}
+      Script: {instanceID: 22398}
     - Class: 114
-      Script: {instanceID: 40892}
+      Script: {instanceID: 22406}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 157
@@ -671,6 +579,12 @@ ScriptsOnlyBuild:
     assemblyName: Unity.VisualScripting.Flow.dll
     namespaceName: Unity.VisualScripting
     className: ScriptGraphAsset
+  - hash:
+      serializedVersion: 2
+      Hash: 83a6119949d907192fa75e3f152c9f91
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: ChangeBK
   - hash:
       serializedVersion: 2
       Hash: 3c3e5980c88a14a86741564a7fd08aaa
@@ -1223,14 +1137,8 @@ ScriptsOnlyBuild:
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: BKMusicMgr
-  - hash:
-      serializedVersion: 2
-      Hash: 83a6119949d907192fa75e3f152c9f91
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: ChangeBK
   platform: 19
   scenePathNames:
   - Assets/Scenes/BeginScene.unity
   - Assets/Scenes/GameScene.unity
-  playerPath: /Users/mac/Desktop/4/BuYuDaRen.exe
+  playerPath: /Users/mac/Desktop/123/BuYuDaRen.exe

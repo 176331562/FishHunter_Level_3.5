@@ -38,10 +38,6 @@ public class BulletObj : MonoBehaviour
 
        GameObject  webObj = GameObject.Instantiate(otherObj, this.transform.position, this.transform.rotation);
 
-        //ResourceRequest rq = Resources.LoadAsync<GameObject>("Web/" + webData.name);
-
-        //GameObject webObj = GameObject.Instantiate(rq.asset as GameObject, this.transform.position, this.transform.rotation);
-
         WebObj web = webObj.AddComponent<WebObj>();
 
         web.InitWeb(layer,webData);

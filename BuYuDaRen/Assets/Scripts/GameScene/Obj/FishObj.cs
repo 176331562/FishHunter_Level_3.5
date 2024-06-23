@@ -76,25 +76,20 @@ public class FishObj : MonoBehaviour
             GameDataMgr.Instane.nowSelectPlayerData.level);
 
         FishMusicMgr.Instance.PlayerAudio(nowFishData.sound);
-        Destroy(this.gameObject, time);
+        
 
         if(nowFishData.coin != "null")
-        {
-            //ResourceRequest rq = Resources.LoadAsync<GameObject>("Coin/" + nowFishData.coin);
-            //GameObject coinObj = GameObject.Instantiate(rq.asset as GameObject, this.transform.position, this.transform.rotation);
-            //coinObj.transform.SetParent(this.transform,false);
-
-            GameObject coinObj = AssetBundleMgr.Instance.LoadAsset<GameObject>("coin", nowFishData.coin);
-            coinObj = GameObject.Instantiate(coinObj, this.transform.position, this.transform.rotation);
+        {       
+            GameObject otherObj = AssetBundleMgr.Instance.LoadAsset<GameObject>("coin", nowFishData.coin);
+            GameObject coinObj = GameObject.Instantiate(otherObj, this.transform.position, this.transform.rotation);
         }
 
         if (nowFishData.effect != "null")
         {
-            //ResourceRequest rq = Resources.LoadAsync<GameObject>("Effect/" + nowFishData.effect);
-            //GameObject effectObj = GameObject.Instantiate(rq.asset as GameObject);
-
-            GameObject effectObj = AssetBundleMgr.Instance.LoadAsset<GameObject>("effect", nowFishData.coin);
-            effectObj = GameObject.Instantiate(effectObj, this.transform.position, this.transform.rotation);
+            GameObject otherObj = AssetBundleMgr.Instance.LoadAsset<GameObject>("effect", nowFishData.effect);
+            GameObject effectObj = GameObject.Instantiate(otherObj, this.transform.position, this.transform.rotation);
         }
+
+        Destroy(this.gameObject, time);
     }
 }

@@ -53,9 +53,11 @@ public class LevelUpPanel : BasePanel
 
         if(levelUpEffect == null)
         {
-            ResourceRequest rq = Resources.LoadAsync<GameObject>("Effect/LevelUp");
+            GameObject levelObj = AssetBundleMgr.Instance.LoadAsset<GameObject>("effect", "LevelUp");
+            levelObj = GameObject.Instantiate(levelObj);
+            //ResourceRequest rq = Resources.LoadAsync<GameObject>("Effect/LevelUp");
 
-            levelUpEffect = GameObject.Instantiate(rq.asset as GameObject);
+            //levelUpEffect = GameObject.Instantiate(rq.asset as GameObject);
         }
     }
 

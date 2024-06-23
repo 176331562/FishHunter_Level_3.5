@@ -31,16 +31,22 @@ public class AssetBundleMgr
        
         //如果字典里面已经有当前的ab包了就直接返回
         if (loadedAssetBundle.ContainsKey(assetBundleName))
+        {         
             return loadedAssetBundle[assetBundleName].LoadAssetAsync<T>(assetName).asset as T;
+        }
+            
 
         //如果没有就直接加载
         if(!loadedAssetBundle.ContainsKey(assetBundleName))
         {
-            AssetBundleCreateRequest acr = AssetBundle.LoadFromFileAsync(Application.streamingAssetsPath + "/AssetBundle/" + assetBundleName);
-
-            AssetBundle ab = acr.assetBundle;
+            AssetBundle ab = AssetBundle.LoadFromFile(Application.streamingAssetsPath + "/AssetBundle/" + assetBundleName);
 
             AssetBundleRequest ar = ab.LoadAssetAsync<T>(assetName);
+
+            ar.completed += (ao) =>
+            {
+                Debug.LogError(132);
+            };
 
             loadedAssetBundle.Add(assetBundleName, ab);
 
@@ -52,7 +58,6 @@ public class AssetBundleMgr
 
     public AssetBundle GetAB(string assetBundleName)
     {
-    
         //如果字典里面已经有当前的ab包了就直接返回
         if (loadedAssetBundle.ContainsKey(assetBundleName))
             return loadedAssetBundle[assetBundleName];
@@ -66,7 +71,7 @@ public class AssetBundleMgr
           
             loadedAssetBundle.Add(assetBundleName, ab);
 
-            LoadDependBundle(assetBundleName);
+            //LoadDependBundle(assetBundleName);
 
             return ab;
         }
@@ -108,5 +113,5 @@ public class AssetBundleMgr
         }
     }
 
-        
+  
 }

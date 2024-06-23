@@ -364,7 +364,20 @@
         356,
         357,
         358,
-        359
+        359,
+        360,
+        361,
+        362,
+        363,
+        364,
+        365,
+        366,
+        367,
+        368,
+        369,
+        370,
+        371,
+        372
       ],
       "AllowUnexpectedOutput": true,
       "DebugActionIndex": 0
@@ -447,28 +460,6 @@
       "DebugActionIndex": 7
     },
     {
-      "Annotation": "CopyFiles /Users/mac/Desktop/5.app/Contents/Resources/Data/resources.assets",
-      "ActionType": "CopyFiles",
-      "Inputs": [
-        "Library/PlayerDataCache/OSXUniversal/Data/resources.assets"
-      ],
-      "Outputs": [
-        "/Users/mac/Desktop/5.app/Contents/Resources/Data/resources.assets"
-      ],
-      "DebugActionIndex": 8
-    },
-    {
-      "Annotation": "CopyFiles /Users/mac/Desktop/5.app/Contents/Resources/Data/resources.resource",
-      "ActionType": "CopyFiles",
-      "Inputs": [
-        "Library/PlayerDataCache/OSXUniversal/Data/resources.resource"
-      ],
-      "Outputs": [
-        "/Users/mac/Desktop/5.app/Contents/Resources/Data/resources.resource"
-      ],
-      "DebugActionIndex": 9
-    },
-    {
       "Annotation": "CopyFiles /Users/mac/Desktop/5.app/Contents/Resources/Data/ScriptingAssemblies.json",
       "ActionType": "CopyFiles",
       "Inputs": [
@@ -477,7 +468,7 @@
       "Outputs": [
         "/Users/mac/Desktop/5.app/Contents/Resources/Data/ScriptingAssemblies.json"
       ],
-      "DebugActionIndex": 10
+      "DebugActionIndex": 8
     },
     {
       "Annotation": "CopyFiles /Users/mac/Desktop/5.app/Contents/Resources/Data/sharedassets0.assets.resS",
@@ -488,7 +479,7 @@
       "Outputs": [
         "/Users/mac/Desktop/5.app/Contents/Resources/Data/sharedassets0.assets.resS"
       ],
-      "DebugActionIndex": 11
+      "DebugActionIndex": 9
     },
     {
       "Annotation": "CopyFiles /Users/mac/Desktop/5.app/Contents/Resources/Data/level1.resS",
@@ -499,7 +490,7 @@
       "Outputs": [
         "/Users/mac/Desktop/5.app/Contents/Resources/Data/level1.resS"
       ],
-      "DebugActionIndex": 12
+      "DebugActionIndex": 10
     },
     {
       "Annotation": "CopyFiles /Users/mac/Desktop/5.app/Contents/Resources/Data/sharedassets0.assets",
@@ -510,7 +501,7 @@
       "Outputs": [
         "/Users/mac/Desktop/5.app/Contents/Resources/Data/sharedassets0.assets"
       ],
-      "DebugActionIndex": 13
+      "DebugActionIndex": 11
     },
     {
       "Annotation": "CopyFiles /Users/mac/Desktop/5.app/Contents/Resources/Data/level0.resS",
@@ -521,7 +512,7 @@
       "Outputs": [
         "/Users/mac/Desktop/5.app/Contents/Resources/Data/level0.resS"
       ],
-      "DebugActionIndex": 14
+      "DebugActionIndex": 12
     },
     {
       "Annotation": "CopyFiles /Users/mac/Desktop/5.app/Contents/Resources/Data/level0",
@@ -532,7 +523,7 @@
       "Outputs": [
         "/Users/mac/Desktop/5.app/Contents/Resources/Data/level0"
       ],
-      "DebugActionIndex": 15
+      "DebugActionIndex": 13
     },
     {
       "Annotation": "CopyFiles /Users/mac/Desktop/5.app/Contents/Resources/Data/level1",
@@ -543,18 +534,7 @@
       "Outputs": [
         "/Users/mac/Desktop/5.app/Contents/Resources/Data/level1"
       ],
-      "DebugActionIndex": 16
-    },
-    {
-      "Annotation": "CopyFiles /Users/mac/Desktop/5.app/Contents/Resources/Data/resources.assets.resS",
-      "ActionType": "CopyFiles",
-      "Inputs": [
-        "Library/PlayerDataCache/OSXUniversal/Data/resources.assets.resS"
-      ],
-      "Outputs": [
-        "/Users/mac/Desktop/5.app/Contents/Resources/Data/resources.assets.resS"
-      ],
-      "DebugActionIndex": 17
+      "DebugActionIndex": 14
     },
     {
       "Annotation": "CopyFiles /Users/mac/Desktop/5.app/Contents/Resources/Data/globalgamemanagers.assets",
@@ -565,7 +545,7 @@
       "Outputs": [
         "/Users/mac/Desktop/5.app/Contents/Resources/Data/globalgamemanagers.assets"
       ],
-      "DebugActionIndex": 18
+      "DebugActionIndex": 15
     },
     {
       "Annotation": "CopyFiles /Users/mac/Desktop/5.app/Contents/Resources/Data/Resources/unity_builtin_extra",
@@ -576,7 +556,18 @@
       "Outputs": [
         "/Users/mac/Desktop/5.app/Contents/Resources/Data/Resources/unity_builtin_extra"
       ],
-      "DebugActionIndex": 19
+      "DebugActionIndex": 16
+    },
+    {
+      "Annotation": "CopyFiles /Users/mac/Desktop/5.app/Contents/Resources/Data/StreamingAssets/AssetBundle/seawave",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "Assets/StreamingAssets/AssetBundle/seawave"
+      ],
+      "Outputs": [
+        "/Users/mac/Desktop/5.app/Contents/Resources/Data/StreamingAssets/AssetBundle/seawave"
+      ],
+      "DebugActionIndex": 17
     },
     {
       "Annotation": "CopyFiles /Users/mac/Desktop/5.app/Contents/Resources/Data/StreamingAssets/AssetBundle/ui",
@@ -587,7 +578,51 @@
       "Outputs": [
         "/Users/mac/Desktop/5.app/Contents/Resources/Data/StreamingAssets/AssetBundle/ui"
       ],
+      "DebugActionIndex": 18
+    },
+    {
+      "Annotation": "CopyFiles /Users/mac/Desktop/5.app/Contents/Resources/Data/StreamingAssets/AssetBundle/bullets",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "Assets/StreamingAssets/AssetBundle/bullets"
+      ],
+      "Outputs": [
+        "/Users/mac/Desktop/5.app/Contents/Resources/Data/StreamingAssets/AssetBundle/bullets"
+      ],
+      "DebugActionIndex": 19
+    },
+    {
+      "Annotation": "CopyFiles /Users/mac/Desktop/5.app/Contents/Resources/Data/StreamingAssets/AssetBundle/bk",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "Assets/StreamingAssets/AssetBundle/bk"
+      ],
+      "Outputs": [
+        "/Users/mac/Desktop/5.app/Contents/Resources/Data/StreamingAssets/AssetBundle/bk"
+      ],
       "DebugActionIndex": 20
+    },
+    {
+      "Annotation": "CopyFiles /Users/mac/Desktop/5.app/Contents/Resources/Data/StreamingAssets/AssetBundle/web",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "Assets/StreamingAssets/AssetBundle/web"
+      ],
+      "Outputs": [
+        "/Users/mac/Desktop/5.app/Contents/Resources/Data/StreamingAssets/AssetBundle/web"
+      ],
+      "DebugActionIndex": 21
+    },
+    {
+      "Annotation": "CopyFiles /Users/mac/Desktop/5.app/Contents/Resources/Data/StreamingAssets/AssetBundle/bk.manifest",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "Assets/StreamingAssets/AssetBundle/bk.manifest"
+      ],
+      "Outputs": [
+        "/Users/mac/Desktop/5.app/Contents/Resources/Data/StreamingAssets/AssetBundle/bk.manifest"
+      ],
+      "DebugActionIndex": 22
     },
     {
       "Annotation": "CopyFiles /Users/mac/Desktop/5.app/Contents/Resources/Data/StreamingAssets/AssetBundle/ui.manifest",
@@ -598,7 +633,51 @@
       "Outputs": [
         "/Users/mac/Desktop/5.app/Contents/Resources/Data/StreamingAssets/AssetBundle/ui.manifest"
       ],
-      "DebugActionIndex": 21
+      "DebugActionIndex": 23
+    },
+    {
+      "Annotation": "CopyFiles /Users/mac/Desktop/5.app/Contents/Resources/Data/StreamingAssets/AssetBundle/effect",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "Assets/StreamingAssets/AssetBundle/effect"
+      ],
+      "Outputs": [
+        "/Users/mac/Desktop/5.app/Contents/Resources/Data/StreamingAssets/AssetBundle/effect"
+      ],
+      "DebugActionIndex": 24
+    },
+    {
+      "Annotation": "CopyFiles /Users/mac/Desktop/5.app/Contents/Resources/Data/StreamingAssets/AssetBundle/coin",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "Assets/StreamingAssets/AssetBundle/coin"
+      ],
+      "Outputs": [
+        "/Users/mac/Desktop/5.app/Contents/Resources/Data/StreamingAssets/AssetBundle/coin"
+      ],
+      "DebugActionIndex": 25
+    },
+    {
+      "Annotation": "CopyFiles /Users/mac/Desktop/5.app/Contents/Resources/Data/StreamingAssets/AssetBundle/coin.manifest",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "Assets/StreamingAssets/AssetBundle/coin.manifest"
+      ],
+      "Outputs": [
+        "/Users/mac/Desktop/5.app/Contents/Resources/Data/StreamingAssets/AssetBundle/coin.manifest"
+      ],
+      "DebugActionIndex": 26
+    },
+    {
+      "Annotation": "CopyFiles /Users/mac/Desktop/5.app/Contents/Resources/Data/StreamingAssets/AssetBundle/gun",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "Assets/StreamingAssets/AssetBundle/gun"
+      ],
+      "Outputs": [
+        "/Users/mac/Desktop/5.app/Contents/Resources/Data/StreamingAssets/AssetBundle/gun"
+      ],
+      "DebugActionIndex": 27
     },
     {
       "Annotation": "CopyFiles /Users/mac/Desktop/5.app/Contents/Resources/Data/StreamingAssets/AssetBundle/AssetBundle.manifest",
@@ -609,7 +688,7 @@
       "Outputs": [
         "/Users/mac/Desktop/5.app/Contents/Resources/Data/StreamingAssets/AssetBundle/AssetBundle.manifest"
       ],
-      "DebugActionIndex": 22
+      "DebugActionIndex": 28
     },
     {
       "Annotation": "CopyFiles /Users/mac/Desktop/5.app/Contents/Resources/Data/StreamingAssets/AssetBundle/fish.manifest",
@@ -620,7 +699,29 @@
       "Outputs": [
         "/Users/mac/Desktop/5.app/Contents/Resources/Data/StreamingAssets/AssetBundle/fish.manifest"
       ],
-      "DebugActionIndex": 23
+      "DebugActionIndex": 29
+    },
+    {
+      "Annotation": "CopyFiles /Users/mac/Desktop/5.app/Contents/Resources/Data/StreamingAssets/AssetBundle/gun.manifest",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "Assets/StreamingAssets/AssetBundle/gun.manifest"
+      ],
+      "Outputs": [
+        "/Users/mac/Desktop/5.app/Contents/Resources/Data/StreamingAssets/AssetBundle/gun.manifest"
+      ],
+      "DebugActionIndex": 30
+    },
+    {
+      "Annotation": "CopyFiles /Users/mac/Desktop/5.app/Contents/Resources/Data/StreamingAssets/AssetBundle/seawave.manifest",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "Assets/StreamingAssets/AssetBundle/seawave.manifest"
+      ],
+      "Outputs": [
+        "/Users/mac/Desktop/5.app/Contents/Resources/Data/StreamingAssets/AssetBundle/seawave.manifest"
+      ],
+      "DebugActionIndex": 31
     },
     {
       "Annotation": "CopyFiles /Users/mac/Desktop/5.app/Contents/Resources/Data/StreamingAssets/AssetBundle/AssetBundle",
@@ -631,7 +732,40 @@
       "Outputs": [
         "/Users/mac/Desktop/5.app/Contents/Resources/Data/StreamingAssets/AssetBundle/AssetBundle"
       ],
-      "DebugActionIndex": 24
+      "DebugActionIndex": 32
+    },
+    {
+      "Annotation": "CopyFiles /Users/mac/Desktop/5.app/Contents/Resources/Data/StreamingAssets/AssetBundle/bullets.manifest",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "Assets/StreamingAssets/AssetBundle/bullets.manifest"
+      ],
+      "Outputs": [
+        "/Users/mac/Desktop/5.app/Contents/Resources/Data/StreamingAssets/AssetBundle/bullets.manifest"
+      ],
+      "DebugActionIndex": 33
+    },
+    {
+      "Annotation": "CopyFiles /Users/mac/Desktop/5.app/Contents/Resources/Data/StreamingAssets/AssetBundle/web.manifest",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "Assets/StreamingAssets/AssetBundle/web.manifest"
+      ],
+      "Outputs": [
+        "/Users/mac/Desktop/5.app/Contents/Resources/Data/StreamingAssets/AssetBundle/web.manifest"
+      ],
+      "DebugActionIndex": 34
+    },
+    {
+      "Annotation": "CopyFiles /Users/mac/Desktop/5.app/Contents/Resources/Data/StreamingAssets/AssetBundle/sound",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "Assets/StreamingAssets/AssetBundle/sound"
+      ],
+      "Outputs": [
+        "/Users/mac/Desktop/5.app/Contents/Resources/Data/StreamingAssets/AssetBundle/sound"
+      ],
+      "DebugActionIndex": 35
     },
     {
       "Annotation": "CopyFiles /Users/mac/Desktop/5.app/Contents/Resources/Data/StreamingAssets/AssetBundle/fish",
@@ -642,7 +776,29 @@
       "Outputs": [
         "/Users/mac/Desktop/5.app/Contents/Resources/Data/StreamingAssets/AssetBundle/fish"
       ],
-      "DebugActionIndex": 25
+      "DebugActionIndex": 36
+    },
+    {
+      "Annotation": "CopyFiles /Users/mac/Desktop/5.app/Contents/Resources/Data/StreamingAssets/AssetBundle/effect.manifest",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "Assets/StreamingAssets/AssetBundle/effect.manifest"
+      ],
+      "Outputs": [
+        "/Users/mac/Desktop/5.app/Contents/Resources/Data/StreamingAssets/AssetBundle/effect.manifest"
+      ],
+      "DebugActionIndex": 37
+    },
+    {
+      "Annotation": "CopyFiles /Users/mac/Desktop/5.app/Contents/Resources/Data/StreamingAssets/AssetBundle/sound.manifest",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "Assets/StreamingAssets/AssetBundle/sound.manifest"
+      ],
+      "Outputs": [
+        "/Users/mac/Desktop/5.app/Contents/Resources/Data/StreamingAssets/AssetBundle/sound.manifest"
+      ],
+      "DebugActionIndex": 38
     },
     {
       "Annotation": "CopyFiles /Users/mac/Desktop/5.app/Contents/Resources/Data/StreamingAssets/Data/GunBulletData.json",
@@ -653,7 +809,7 @@
       "Outputs": [
         "/Users/mac/Desktop/5.app/Contents/Resources/Data/StreamingAssets/Data/GunBulletData.json"
       ],
-      "DebugActionIndex": 26
+      "DebugActionIndex": 39
     },
     {
       "Annotation": "CopyFiles /Users/mac/Desktop/5.app/Contents/Resources/Data/StreamingAssets/Data/WebData.json",
@@ -664,7 +820,7 @@
       "Outputs": [
         "/Users/mac/Desktop/5.app/Contents/Resources/Data/StreamingAssets/Data/WebData.json"
       ],
-      "DebugActionIndex": 27
+      "DebugActionIndex": 40
     },
     {
       "Annotation": "CopyFiles /Users/mac/Desktop/5.app/Contents/Resources/Data/StreamingAssets/Data/LevelNameData.json",
@@ -675,7 +831,7 @@
       "Outputs": [
         "/Users/mac/Desktop/5.app/Contents/Resources/Data/StreamingAssets/Data/LevelNameData.json"
       ],
-      "DebugActionIndex": 28
+      "DebugActionIndex": 41
     },
     {
       "Annotation": "CopyFiles /Users/mac/Desktop/5.app/Contents/Resources/Data/StreamingAssets/Data/FishData.json",
@@ -686,7 +842,7 @@
       "Outputs": [
         "/Users/mac/Desktop/5.app/Contents/Resources/Data/StreamingAssets/Data/FishData.json"
       ],
-      "DebugActionIndex": 29
+      "DebugActionIndex": 42
     },
     {
       "Annotation": "CopyFiles /Users/mac/Desktop/5.app/Contents/Resources/Data/StreamingAssets/Data/ShootGunData.json",
@@ -697,7 +853,7 @@
       "Outputs": [
         "/Users/mac/Desktop/5.app/Contents/Resources/Data/StreamingAssets/Data/ShootGunData.json"
       ],
-      "DebugActionIndex": 30
+      "DebugActionIndex": 43
     },
     {
       "Annotation": "CopyFiles /Users/mac/Desktop/5.app/Contents/Resources/Data/Managed/Unity.VisualScripting.Flow.dll",
@@ -708,7 +864,7 @@
       "Outputs": [
         "/Users/mac/Desktop/5.app/Contents/Resources/Data/Managed/Unity.VisualScripting.Flow.dll"
       ],
-      "DebugActionIndex": 31
+      "DebugActionIndex": 44
     },
     {
       "Annotation": "CopyFiles /Users/mac/Desktop/5.app/Contents/Resources/Data/Managed/UnityEngine.TerrainPhysicsModule.dll",
@@ -719,7 +875,7 @@
       "Outputs": [
         "/Users/mac/Desktop/5.app/Contents/Resources/Data/Managed/UnityEngine.TerrainPhysicsModule.dll"
       ],
-      "DebugActionIndex": 32
+      "DebugActionIndex": 45
     },
     {
       "Annotation": "CopyFiles /Users/mac/Desktop/5.app/Contents/Resources/Data/Managed/System.Xml.Linq.dll",
@@ -730,7 +886,7 @@
       "Outputs": [
         "/Users/mac/Desktop/5.app/Contents/Resources/Data/Managed/System.Xml.Linq.dll"
       ],
-      "DebugActionIndex": 33
+      "DebugActionIndex": 46
     },
     {
       "Annotation": "CopyFiles /Users/mac/Desktop/5.app/Contents/Resources/Data/Managed/UnityEngine.SpriteMaskModule.dll",
@@ -741,7 +897,7 @@
       "Outputs": [
         "/Users/mac/Desktop/5.app/Contents/Resources/Data/Managed/UnityEngine.SpriteMaskModule.dll"
       ],
-      "DebugActionIndex": 34
+      "DebugActionIndex": 47
     },
     {
       "Annotation": "CopyFiles /Users/mac/Desktop/5.app/Contents/Resources/Data/Managed/UnityEngine.CrashReportingModule.dll",
@@ -752,7 +908,7 @@
       "Outputs": [
         "/Users/mac/Desktop/5.app/Contents/Resources/Data/Managed/UnityEngine.CrashReportingModule.dll"
       ],
-      "DebugActionIndex": 35
+      "DebugActionIndex": 48
     },
     {
       "Annotation": "CopyFiles /Users/mac/Desktop/5.app/Contents/Resources/Data/Managed/Unity.VisualScripting.Core.dll",
@@ -763,7 +919,7 @@
       "Outputs": [
         "/Users/mac/Desktop/5.app/Contents/Resources/Data/Managed/Unity.VisualScripting.Core.dll"
       ],
-      "DebugActionIndex": 36
+      "DebugActionIndex": 49
     },
     {
       "Annotation": "CopyFiles /Users/mac/Desktop/5.app/Contents/Resources/Data/Managed/System.IO.Compression.FileSystem.dll",
@@ -774,7 +930,7 @@
       "Outputs": [
         "/Users/mac/Desktop/5.app/Contents/Resources/Data/Managed/System.IO.Compression.FileSystem.dll"
       ],
-      "DebugActionIndex": 37
+      "DebugActionIndex": 50
     },
     {
       "Annotation": "CopyFiles /Users/mac/Desktop/5.app/Contents/Resources/Data/Managed/UnityEngine.ProfilerModule.dll",
@@ -785,7 +941,7 @@
       "Outputs": [
         "/Users/mac/Desktop/5.app/Contents/Resources/Data/Managed/UnityEngine.ProfilerModule.dll"
       ],
-      "DebugActionIndex": 38
+      "DebugActionIndex": 51
     },
     {
       "Annotation": "CopyFiles /Users/mac/Desktop/5.app/Contents/Resources/Data/Managed/UnityEngine.UnityAnalyticsModule.dll",
@@ -796,7 +952,7 @@
       "Outputs": [
         "/Users/mac/Desktop/5.app/Contents/Resources/Data/Managed/UnityEngine.UnityAnalyticsModule.dll"
       ],
-      "DebugActionIndex": 39
+      "DebugActionIndex": 52
     },
     {
       "Annotation": "CopyFiles /Users/mac/Desktop/5.app/Contents/Resources/Data/Managed/UnityEngine.UmbraModule.dll",
@@ -807,7 +963,7 @@
       "Outputs": [
         "/Users/mac/Desktop/5.app/Contents/Resources/Data/Managed/UnityEngine.UmbraModule.dll"
       ],
-      "DebugActionIndex": 40
+      "DebugActionIndex": 53
     },
     {
       "Annotation": "CopyFiles /Users/mac/Desktop/5.app/Contents/Resources/Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll",
@@ -818,7 +974,7 @@
       "Outputs": [
         "/Users/mac/Desktop/5.app/Contents/Resources/Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll"
       ],
-      "DebugActionIndex": 41
+      "DebugActionIndex": 54
     },
     {
       "Annotation": "CopyFiles /Users/mac/Desktop/5.app/Contents/Resources/Data/Managed/netstandard.dll",
@@ -829,7 +985,7 @@
       "Outputs": [
         "/Users/mac/Desktop/5.app/Contents/Resources/Data/Managed/netstandard.dll"
       ],
-      "DebugActionIndex": 42
+      "DebugActionIndex": 55
     },
     {
       "Annotation": "CopyFiles /Users/mac/Desktop/5.app/Contents/Resources/Data/Managed/UnityEngine.VirtualTexturingModule.dll",
@@ -840,7 +996,7 @@
       "Outputs": [
         "/Users/mac/Desktop/5.app/Contents/Resources/Data/Managed/UnityEngine.VirtualTexturingModule.dll"
       ],
-      "DebugActionIndex": 43
+      "DebugActionIndex": 56
     },
     {
       "Annotation": "CopyFiles /Users/mac/Desktop/5.app/Contents/Resources/Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll",
@@ -851,7 +1007,7 @@
       "Outputs": [
         "/Users/mac/Desktop/5.app/Contents/Resources/Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll"
       ],
-      "DebugActionIndex": 44
+      "DebugActionIndex": 57
     },
     {
       "Annotation": "CopyFiles /Users/mac/Desktop/5.app/Contents/Resources/Data/Managed/UnityEngine.ARModule.dll",
@@ -862,7 +1018,7 @@
       "Outputs": [
         "/Users/mac/Desktop/5.app/Contents/Resources/Data/Managed/UnityEngine.ARModule.dll"
       ],
-      "DebugActionIndex": 45
+      "DebugActionIndex": 58
     },
     {
       "Annotation": "CopyFiles /Users/mac/Desktop/5.app/Contents/Resources/Data/Managed/UnityEngine.AccessibilityModule.dll",
@@ -873,7 +1029,7 @@
       "Outputs": [
         "/Users/mac/Desktop/5.app/Contents/Resources/Data/Managed/UnityEngine.AccessibilityModule.dll"
       ],
-      "DebugActionIndex": 46
+      "DebugActionIndex": 59
     },
     {
       "Annotation": "CopyFiles /Users/mac/Desktop/5.app/Contents/Resources/Data/Managed/System.Configuration.dll",
@@ -884,7 +1040,7 @@
       "Outputs": [
         "/Users/mac/Desktop/5.app/Contents/Resources/Data/Managed/System.Configuration.dll"
       ],
-      "DebugActionIndex": 47
+      "DebugActionIndex": 60
     },
     {
       "Annotation": "CopyFiles /Users/mac/Desktop/5.app/Contents/Resources/Data/Managed/UnityEngine.GIModule.dll",
@@ -895,7 +1051,7 @@
       "Outputs": [
         "/Users/mac/Desktop/5.app/Contents/Resources/Data/Managed/UnityEngine.GIModule.dll"
       ],
-      "DebugActionIndex": 48
+      "DebugActionIndex": 61
     },
     {
       "Annotation": "CopyFiles /Users/mac/Desktop/5.app/Contents/Resources/Data/Managed/UnityEngine.SpriteShapeModule.dll",
@@ -906,7 +1062,7 @@
       "Outputs": [
         "/Users/mac/Desktop/5.app/Contents/Resources/Data/Managed/UnityEngine.SpriteShapeModule.dll"
       ],
-      "DebugActionIndex": 49
+      "DebugActionIndex": 62
     },
     {
       "Annotation": "CopyFiles /Users/mac/Desktop/5.app/Contents/Resources/Data/Managed/UnityEngine.TextRenderingModule.dll",
@@ -917,7 +1073,7 @@
       "Outputs": [
         "/Users/mac/Desktop/5.app/Contents/Resources/Data/Managed/UnityEngine.TextRenderingModule.dll"
       ],
-      "DebugActionIndex": 50
+      "DebugActionIndex": 63
     },
     {
       "Annotation": "CopyFiles /Users/mac/Desktop/5.app/Contents/Resources/Data/Managed/System.Net.Http.dll",
@@ -928,7 +1084,7 @@
       "Outputs": [
         "/Users/mac/Desktop/5.app/Contents/Resources/Data/Managed/System.Net.Http.dll"
       ],
-      "DebugActionIndex": 51
+      "DebugActionIndex": 64
     },
     {
       "Annotation": "CopyFiles /Users/mac/Desktop/5.app/Contents/Resources/Data/Managed/Assembly-CSharp.dll",
@@ -939,7 +1095,7 @@
       "Outputs": [
         "/Users/mac/Desktop/5.app/Contents/Resources/Data/Managed/Assembly-CSharp.dll"
       ],
-      "DebugActionIndex": 52
+      "DebugActionIndex": 65
     },
     {
       "Annotation": "CopyFiles /Users/mac/Desktop/5.app/Contents/Resources/Data/Managed/UnityEngine.DSPGraphModule.dll",
@@ -950,7 +1106,7 @@
       "Outputs": [
         "/Users/mac/Desktop/5.app/Contents/Resources/Data/Managed/UnityEngine.DSPGraphModule.dll"
       ],
-      "DebugActionIndex": 53
+      "DebugActionIndex": 66
     },
     {
       "Annotation": "CopyFiles /Users/mac/Desktop/5.app/Contents/Resources/Data/Managed/UnityEngine.LocalizationModule.dll",
@@ -961,7 +1117,7 @@
       "Outputs": [
         "/Users/mac/Desktop/5.app/Contents/Resources/Data/Managed/UnityEngine.LocalizationModule.dll"
       ],
-      "DebugActionIndex": 54
+      "DebugActionIndex": 67
     },
     {
       "Annotation": "CopyFiles /Users/mac/Desktop/5.app/Contents/Resources/Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll",
@@ -972,7 +1128,7 @@
       "Outputs": [
         "/Users/mac/Desktop/5.app/Contents/Resources/Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll"
       ],
-      "DebugActionIndex": 55
+      "DebugActionIndex": 68
     },
     {
       "Annotation": "CopyFiles /Users/mac/Desktop/5.app/Contents/Resources/Data/Managed/UnityEngine.AssetBundleModule.dll",
@@ -983,7 +1139,7 @@
       "Outputs": [
         "/Users/mac/Desktop/5.app/Contents/Resources/Data/Managed/UnityEngine.AssetBundleModule.dll"
       ],
-      "DebugActionIndex": 56
+      "DebugActionIndex": 69
     },
     {
       "Annotation": "CopyFiles /Users/mac/Desktop/5.app/Contents/Resources/Data/Managed/System.Runtime.Serialization.dll",
@@ -994,7 +1150,7 @@
       "Outputs": [
         "/Users/mac/Desktop/5.app/Contents/Resources/Data/Managed/System.Runtime.Serialization.dll"
       ],
-      "DebugActionIndex": 57
+      "DebugActionIndex": 70
     },
     {
       "Annotation": "CopyFiles /Users/mac/Desktop/5.app/Contents/Resources/Data/Managed/System.IO.Compression.dll",
@@ -1005,7 +1161,7 @@
       "Outputs": [
         "/Users/mac/Desktop/5.app/Contents/Resources/Data/Managed/System.IO.Compression.dll"
       ],
-      "DebugActionIndex": 58
+      "DebugActionIndex": 71
     },
     {
       "Annotation": "CopyFiles /Users/mac/Desktop/5.app/Contents/Resources/Data/Managed/System.Data.DataSetExtensions.dll",
@@ -1016,7 +1172,7 @@
       "Outputs": [
         "/Users/mac/Desktop/5.app/Contents/Resources/Data/Managed/System.Data.DataSetExtensions.dll"
       ],
-      "DebugActionIndex": 59
+      "DebugActionIndex": 72
     },
     {
       "Annotation": "CopyFiles /Users/mac/Desktop/5.app/Contents/Resources/Data/Managed/UnityEngine.AnimationModule.dll",
@@ -1027,7 +1183,7 @@
       "Outputs": [
         "/Users/mac/Desktop/5.app/Contents/Resources/Data/Managed/UnityEngine.AnimationModule.dll"
       ],
-      "DebugActionIndex": 60
+      "DebugActionIndex": 73
     },
     {
       "Annotation": "CopyFiles /Users/mac/Desktop/5.app/Contents/Resources/Data/Managed/UnityEngine.AudioModule.dll",
@@ -1038,7 +1194,7 @@
       "Outputs": [
         "/Users/mac/Desktop/5.app/Contents/Resources/Data/Managed/UnityEngine.AudioModule.dll"
       ],
-      "DebugActionIndex": 61
+      "DebugActionIndex": 74
     },
     {
       "Annotation": "CopyFiles /Users/mac/Desktop/5.app/Contents/Resources/Data/Managed/UnityEngine.XRModule.dll",
@@ -1049,7 +1205,7 @@
       "Outputs": [
         "/Users/mac/Desktop/5.app/Contents/Resources/Data/Managed/UnityEngine.XRModule.dll"
       ],
-      "DebugActionIndex": 62
+      "DebugActionIndex": 75
     },
     {
       "Annotation": "CopyFiles /Users/mac/Desktop/5.app/Contents/Resources/Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll",
@@ -1060,7 +1216,7 @@
       "Outputs": [
         "/Users/mac/Desktop/5.app/Contents/Resources/Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll"
       ],
-      "DebugActionIndex": 63
+      "DebugActionIndex": 76
     },
     {
       "Annotation": "CopyFiles /Users/mac/Desktop/5.app/Contents/Resources/Data/Managed/Unity.VisualScripting.State.dll",
@@ -1071,7 +1227,7 @@
       "Outputs": [
         "/Users/mac/Desktop/5.app/Contents/Resources/Data/Managed/Unity.VisualScripting.State.dll"
       ],
-      "DebugActionIndex": 64
+      "DebugActionIndex": 77
     },
     {
       "Annotation": "CopyFiles /Users/mac/Desktop/5.app/Contents/Resources/Data/Managed/UnityEngine.ClusterInputModule.dll",
@@ -1082,7 +1238,7 @@
       "Outputs": [
         "/Users/mac/Desktop/5.app/Contents/Resources/Data/Managed/UnityEngine.ClusterInputModule.dll"
       ],
-      "DebugActionIndex": 65
+      "DebugActionIndex": 78
     },
     {
       "Annotation": "CopyFiles /Users/mac/Desktop/5.app/Contents/Resources/Data/Managed/UnityEngine.VFXModule.dll",
@@ -1093,7 +1249,7 @@
       "Outputs": [
         "/Users/mac/Desktop/5.app/Contents/Resources/Data/Managed/UnityEngine.VFXModule.dll"
       ],
-      "DebugActionIndex": 66
+      "DebugActionIndex": 79
     },
     {
       "Annotation": "CopyFiles /Users/mac/Desktop/5.app/Contents/Resources/Data/Managed/UnityEngine.InputLegacyModule.dll",
@@ -1104,7 +1260,7 @@
       "Outputs": [
         "/Users/mac/Desktop/5.app/Contents/Resources/Data/Managed/UnityEngine.InputLegacyModule.dll"
       ],
-      "DebugActionIndex": 67
+      "DebugActionIndex": 80
     },
     {
       "Annotation": "CopyFiles /Users/mac/Desktop/5.app/Contents/Resources/Data/Managed/UnityEngine.InputModule.dll",
@@ -1115,7 +1271,7 @@
       "Outputs": [
         "/Users/mac/Desktop/5.app/Contents/Resources/Data/Managed/UnityEngine.InputModule.dll"
       ],
-      "DebugActionIndex": 68
+      "DebugActionIndex": 81
     },
     {
       "Annotation": "CopyFiles /Users/mac/Desktop/5.app/Contents/Resources/Data/Managed/UnityEngine.DirectorModule.dll",
@@ -1126,7 +1282,7 @@
       "Outputs": [
         "/Users/mac/Desktop/5.app/Contents/Resources/Data/Managed/UnityEngine.DirectorModule.dll"
       ],
-      "DebugActionIndex": 69
+      "DebugActionIndex": 82
     },
     {
       "Annotation": "CopyFiles /Users/mac/Desktop/5.app/Contents/Resources/Data/Managed/Unity.TextMeshPro.dll",
@@ -1137,7 +1293,7 @@
       "Outputs": [
         "/Users/mac/Desktop/5.app/Contents/Resources/Data/Managed/Unity.TextMeshPro.dll"
       ],
-      "DebugActionIndex": 70
+      "DebugActionIndex": 83
     },
     {
       "Annotation": "CopyFiles /Users/mac/Desktop/5.app/Contents/Resources/Data/Managed/mscorlib.dll",
@@ -1148,7 +1304,7 @@
       "Outputs": [
         "/Users/mac/Desktop/5.app/Contents/Resources/Data/Managed/mscorlib.dll"
       ],
-      "DebugActionIndex": 71
+      "DebugActionIndex": 84
     },
     {
       "Annotation": "CopyFiles /Users/mac/Desktop/5.app/Contents/Resources/Data/Managed/UnityEngine.GameCenterModule.dll",
@@ -1159,7 +1315,7 @@
       "Outputs": [
         "/Users/mac/Desktop/5.app/Contents/Resources/Data/Managed/UnityEngine.GameCenterModule.dll"
       ],
-      "DebugActionIndex": 72
+      "DebugActionIndex": 85
     },
     {
       "Annotation": "CopyFiles /Users/mac/Desktop/5.app/Contents/Resources/Data/Managed/System.EnterpriseServices.dll",
@@ -1170,7 +1326,7 @@
       "Outputs": [
         "/Users/mac/Desktop/5.app/Contents/Resources/Data/Managed/System.EnterpriseServices.dll"
       ],
-      "DebugActionIndex": 73
+      "DebugActionIndex": 86
     },
     {
       "Annotation": "CopyFiles /Users/mac/Desktop/5.app/Contents/Resources/Data/Managed/UnityEngine.TextCoreTextEngineModule.dll",
@@ -1181,7 +1337,7 @@
       "Outputs": [
         "/Users/mac/Desktop/5.app/Contents/Resources/Data/Managed/UnityEngine.TextCoreTextEngineModule.dll"
       ],
-      "DebugActionIndex": 74
+      "DebugActionIndex": 87
     },
     {
       "Annotation": "CopyFiles /Users/mac/Desktop/5.app/Contents/Resources/Data/Managed/UnityEngine.StreamingModule.dll",
@@ -1192,7 +1348,7 @@
       "Outputs": [
         "/Users/mac/Desktop/5.app/Contents/Resources/Data/Managed/UnityEngine.StreamingModule.dll"
       ],
-      "DebugActionIndex": 75
+      "DebugActionIndex": 88
     },
     {
       "Annotation": "CopyFiles /Users/mac/Desktop/5.app/Contents/Resources/Data/Managed/UnityEngine.Physics2DModule.dll",
@@ -1203,7 +1359,7 @@
       "Outputs": [
         "/Users/mac/Desktop/5.app/Contents/Resources/Data/Managed/UnityEngine.Physics2DModule.dll"
       ],
-      "DebugActionIndex": 76
+      "DebugActionIndex": 89
     },
     {
       "Annotation": "CopyFiles /Users/mac/Desktop/5.app/Contents/Resources/Data/Managed/UnityEngine.UnityConnectModule.dll",
@@ -1214,7 +1370,7 @@
       "Outputs": [
         "/Users/mac/Desktop/5.app/Contents/Resources/Data/Managed/UnityEngine.UnityConnectModule.dll"
       ],
-      "DebugActionIndex": 77
+      "DebugActionIndex": 90
     },
     {
       "Annotation": "CopyFiles /Users/mac/Desktop/5.app/Contents/Resources/Data/Managed/UnityEngine.dll",
@@ -1225,7 +1381,7 @@
       "Outputs": [
         "/Users/mac/Desktop/5.app/Contents/Resources/Data/Managed/UnityEngine.dll"
       ],
-      "DebugActionIndex": 78
+      "DebugActionIndex": 91
     },
     {
       "Annotation": "CopyFiles /Users/mac/Desktop/5.app/Contents/Resources/Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll",
@@ -1236,7 +1392,7 @@
       "Outputs": [
         "/Users/mac/Desktop/5.app/Contents/Resources/Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll"
       ],
-      "DebugActionIndex": 79
+      "DebugActionIndex": 92
     },
     {
       "Annotation": "CopyFiles /Users/mac/Desktop/5.app/Contents/Resources/Data/Managed/UnityEngine.UIElementsModule.dll",
@@ -1247,7 +1403,7 @@
       "Outputs": [
         "/Users/mac/Desktop/5.app/Contents/Resources/Data/Managed/UnityEngine.UIElementsModule.dll"
       ],
-      "DebugActionIndex": 80
+      "DebugActionIndex": 93
     },
     {
       "Annotation": "CopyFiles /Users/mac/Desktop/5.app/Contents/Resources/Data/Managed/UnityEngine.UIModule.dll",
@@ -1258,7 +1414,7 @@
       "Outputs": [
         "/Users/mac/Desktop/5.app/Contents/Resources/Data/Managed/UnityEngine.UIModule.dll"
       ],
-      "DebugActionIndex": 81
+      "DebugActionIndex": 94
     },
     {
       "Annotation": "CopyFiles /Users/mac/Desktop/5.app/Contents/Resources/Data/Managed/UnityEngine.UI.dll",
@@ -1269,7 +1425,7 @@
       "Outputs": [
         "/Users/mac/Desktop/5.app/Contents/Resources/Data/Managed/UnityEngine.UI.dll"
       ],
-      "DebugActionIndex": 82
+      "DebugActionIndex": 95
     },
     {
       "Annotation": "CopyFiles /Users/mac/Desktop/5.app/Contents/Resources/Data/Managed/UnityEngine.UnityCurlModule.dll",
@@ -1280,7 +1436,7 @@
       "Outputs": [
         "/Users/mac/Desktop/5.app/Contents/Resources/Data/Managed/UnityEngine.UnityCurlModule.dll"
       ],
-      "DebugActionIndex": 83
+      "DebugActionIndex": 96
     },
     {
       "Annotation": "CopyFiles /Users/mac/Desktop/5.app/Contents/Resources/Data/Managed/UnityEngine.SubstanceModule.dll",
@@ -1291,7 +1447,7 @@
       "Outputs": [
         "/Users/mac/Desktop/5.app/Contents/Resources/Data/Managed/UnityEngine.SubstanceModule.dll"
       ],
-      "DebugActionIndex": 84
+      "DebugActionIndex": 97
     },
     {
       "Annotation": "CopyFiles /Users/mac/Desktop/5.app/Contents/Resources/Data/Managed/UnityEngine.HotReloadModule.dll",
@@ -1302,7 +1458,7 @@
       "Outputs": [
         "/Users/mac/Desktop/5.app/Contents/Resources/Data/Managed/UnityEngine.HotReloadModule.dll"
       ],
-      "DebugActionIndex": 85
+      "DebugActionIndex": 98
     },
     {
       "Annotation": "CopyFiles /Users/mac/Desktop/5.app/Contents/Resources/Data/Managed/UnityEngine.UIElementsNativeModule.dll",
@@ -1313,7 +1469,7 @@
       "Outputs": [
         "/Users/mac/Desktop/5.app/Contents/Resources/Data/Managed/UnityEngine.UIElementsNativeModule.dll"
       ],
-      "DebugActionIndex": 86
+      "DebugActionIndex": 99
     },
     {
       "Annotation": "CopyFiles /Users/mac/Desktop/5.app/Contents/Resources/Data/Managed/System.ServiceModel.Internals.dll",
@@ -1324,7 +1480,7 @@
       "Outputs": [
         "/Users/mac/Desktop/5.app/Contents/Resources/Data/Managed/System.ServiceModel.Internals.dll"
       ],
-      "DebugActionIndex": 87
+      "DebugActionIndex": 100
     },
     {
       "Annotation": "CopyFiles /Users/mac/Desktop/5.app/Contents/Resources/Data/Managed/UnityEngine.AutoStreamingModule.dll",
@@ -1335,7 +1491,7 @@
       "Outputs": [
         "/Users/mac/Desktop/5.app/Contents/Resources/Data/Managed/UnityEngine.AutoStreamingModule.dll"
       ],
-      "DebugActionIndex": 88
+      "DebugActionIndex": 101
     },
     {
       "Annotation": "CopyFiles /Users/mac/Desktop/5.app/Contents/Resources/Data/Managed/System.Transactions.dll",
@@ -1346,7 +1502,7 @@
       "Outputs": [
         "/Users/mac/Desktop/5.app/Contents/Resources/Data/Managed/System.Transactions.dll"
       ],
-      "DebugActionIndex": 89
+      "DebugActionIndex": 102
     },
     {
       "Annotation": "CopyFiles /Users/mac/Desktop/5.app/Contents/Resources/Data/Managed/UnityEngine.GridModule.dll",
@@ -1357,7 +1513,7 @@
       "Outputs": [
         "/Users/mac/Desktop/5.app/Contents/Resources/Data/Managed/UnityEngine.GridModule.dll"
       ],
-      "DebugActionIndex": 90
+      "DebugActionIndex": 103
     },
     {
       "Annotation": "CopyFiles /Users/mac/Desktop/5.app/Contents/Resources/Data/Managed/UnityEngine.TerrainModule.dll",
@@ -1368,7 +1524,7 @@
       "Outputs": [
         "/Users/mac/Desktop/5.app/Contents/Resources/Data/Managed/UnityEngine.TerrainModule.dll"
       ],
-      "DebugActionIndex": 91
+      "DebugActionIndex": 104
     },
     {
       "Annotation": "CopyFiles /Users/mac/Desktop/5.app/Contents/Resources/Data/Managed/UnityEngine.VRModule.dll",
@@ -1379,7 +1535,7 @@
       "Outputs": [
         "/Users/mac/Desktop/5.app/Contents/Resources/Data/Managed/UnityEngine.VRModule.dll"
       ],
-      "DebugActionIndex": 92
+      "DebugActionIndex": 105
     },
     {
       "Annotation": "CopyFiles /Users/mac/Desktop/5.app/Contents/Resources/Data/Managed/UnityEngine.JSONSerializeModule.dll",
@@ -1390,7 +1546,7 @@
       "Outputs": [
         "/Users/mac/Desktop/5.app/Contents/Resources/Data/Managed/UnityEngine.JSONSerializeModule.dll"
       ],
-      "DebugActionIndex": 93
+      "DebugActionIndex": 106
     },
     {
       "Annotation": "CopyFiles /Users/mac/Desktop/5.app/Contents/Resources/Data/Managed/UnityEngine.UnityTestProtocolModule.dll",
@@ -1401,7 +1557,7 @@
       "Outputs": [
         "/Users/mac/Desktop/5.app/Contents/Resources/Data/Managed/UnityEngine.UnityTestProtocolModule.dll"
       ],
-      "DebugActionIndex": 94
+      "DebugActionIndex": 107
     },
     {
       "Annotation": "CopyFiles /Users/mac/Desktop/5.app/Contents/Resources/Data/Managed/Mono.Security.dll",
@@ -1412,7 +1568,7 @@
       "Outputs": [
         "/Users/mac/Desktop/5.app/Contents/Resources/Data/Managed/Mono.Security.dll"
       ],
-      "DebugActionIndex": 95
+      "DebugActionIndex": 108
     },
     {
       "Annotation": "CopyFiles /Users/mac/Desktop/5.app/Contents/Resources/Data/Managed/System.Data.dll",
@@ -1423,7 +1579,7 @@
       "Outputs": [
         "/Users/mac/Desktop/5.app/Contents/Resources/Data/Managed/System.Data.dll"
       ],
-      "DebugActionIndex": 96
+      "DebugActionIndex": 109
     },
     {
       "Annotation": "CopyFiles /Users/mac/Desktop/5.app/Contents/Resources/Data/Managed/System.dll",
@@ -1434,7 +1590,7 @@
       "Outputs": [
         "/Users/mac/Desktop/5.app/Contents/Resources/Data/Managed/System.dll"
       ],
-      "DebugActionIndex": 97
+      "DebugActionIndex": 110
     },
     {
       "Annotation": "CopyFiles /Users/mac/Desktop/5.app/Contents/Resources/Data/Managed/UnityEngine.UIWidgetsModule.dll",
@@ -1445,7 +1601,7 @@
       "Outputs": [
         "/Users/mac/Desktop/5.app/Contents/Resources/Data/Managed/UnityEngine.UIWidgetsModule.dll"
       ],
-      "DebugActionIndex": 98
+      "DebugActionIndex": 111
     },
     {
       "Annotation": "CopyFiles /Users/mac/Desktop/5.app/Contents/Resources/Data/Managed/UnityEngine.SharedInternalsModule.dll",
@@ -1456,7 +1612,7 @@
       "Outputs": [
         "/Users/mac/Desktop/5.app/Contents/Resources/Data/Managed/UnityEngine.SharedInternalsModule.dll"
       ],
-      "DebugActionIndex": 99
+      "DebugActionIndex": 112
     },
     {
       "Annotation": "CopyFiles /Users/mac/Desktop/5.app/Contents/Resources/Data/Managed/Unity.Timeline.dll",
@@ -1467,7 +1623,7 @@
       "Outputs": [
         "/Users/mac/Desktop/5.app/Contents/Resources/Data/Managed/Unity.Timeline.dll"
       ],
-      "DebugActionIndex": 100
+      "DebugActionIndex": 113
     },
     {
       "Annotation": "CopyFiles /Users/mac/Desktop/5.app/Contents/Resources/Data/Managed/UnityEngine.ImageConversionModule.dll",
@@ -1478,7 +1634,7 @@
       "Outputs": [
         "/Users/mac/Desktop/5.app/Contents/Resources/Data/Managed/UnityEngine.ImageConversionModule.dll"
       ],
-      "DebugActionIndex": 101
+      "DebugActionIndex": 114
     },
     {
       "Annotation": "CopyFiles /Users/mac/Desktop/5.app/Contents/Resources/Data/Managed/UnityEngine.TilemapModule.dll",
@@ -1489,7 +1645,7 @@
       "Outputs": [
         "/Users/mac/Desktop/5.app/Contents/Resources/Data/Managed/UnityEngine.TilemapModule.dll"
       ],
-      "DebugActionIndex": 102
+      "DebugActionIndex": 115
     },
     {
       "Annotation": "CopyFiles /Users/mac/Desktop/5.app/Contents/Resources/Data/Managed/UnityEngine.ParticleSystemModule.dll",
@@ -1500,7 +1656,7 @@
       "Outputs": [
         "/Users/mac/Desktop/5.app/Contents/Resources/Data/Managed/UnityEngine.ParticleSystemModule.dll"
       ],
-      "DebugActionIndex": 103
+      "DebugActionIndex": 116
     },
     {
       "Annotation": "CopyFiles /Users/mac/Desktop/5.app/Contents/Resources/Data/Managed/UnityEngine.VehiclesModule.dll",
@@ -1511,7 +1667,7 @@
       "Outputs": [
         "/Users/mac/Desktop/5.app/Contents/Resources/Data/Managed/UnityEngine.VehiclesModule.dll"
       ],
-      "DebugActionIndex": 104
+      "DebugActionIndex": 117
     },
     {
       "Annotation": "CopyFiles /Users/mac/Desktop/5.app/Contents/Resources/Data/Managed/UnityEngine.TextCoreFontEngineModule.dll",
@@ -1522,7 +1678,7 @@
       "Outputs": [
         "/Users/mac/Desktop/5.app/Contents/Resources/Data/Managed/UnityEngine.TextCoreFontEngineModule.dll"
       ],
-      "DebugActionIndex": 105
+      "DebugActionIndex": 118
     },
     {
       "Annotation": "CopyFiles /Users/mac/Desktop/5.app/Contents/Resources/Data/Managed/UnityEngine.PhysicsModule.dll",
@@ -1533,7 +1689,7 @@
       "Outputs": [
         "/Users/mac/Desktop/5.app/Contents/Resources/Data/Managed/UnityEngine.PhysicsModule.dll"
       ],
-      "DebugActionIndex": 106
+      "DebugActionIndex": 119
     },
     {
       "Annotation": "CopyFiles /Users/mac/Desktop/5.app/Contents/Resources/Data/Managed/UnityEngine.CoreModule.dll",
@@ -1544,7 +1700,7 @@
       "Outputs": [
         "/Users/mac/Desktop/5.app/Contents/Resources/Data/Managed/UnityEngine.CoreModule.dll"
       ],
-      "DebugActionIndex": 107
+      "DebugActionIndex": 120
     },
     {
       "Annotation": "CopyFiles /Users/mac/Desktop/5.app/Contents/Resources/Data/Managed/UnityEngine.PerformanceReportingModule.dll",
@@ -1555,7 +1711,7 @@
       "Outputs": [
         "/Users/mac/Desktop/5.app/Contents/Resources/Data/Managed/UnityEngine.PerformanceReportingModule.dll"
       ],
-      "DebugActionIndex": 108
+      "DebugActionIndex": 121
     },
     {
       "Annotation": "CopyFiles /Users/mac/Desktop/5.app/Contents/Resources/Data/Managed/UnityEngine.SubsystemsModule.dll",
@@ -1566,7 +1722,7 @@
       "Outputs": [
         "/Users/mac/Desktop/5.app/Contents/Resources/Data/Managed/UnityEngine.SubsystemsModule.dll"
       ],
-      "DebugActionIndex": 109
+      "DebugActionIndex": 122
     },
     {
       "Annotation": "CopyFiles /Users/mac/Desktop/5.app/Contents/Resources/Data/Managed/System.Numerics.dll",
@@ -1577,7 +1733,7 @@
       "Outputs": [
         "/Users/mac/Desktop/5.app/Contents/Resources/Data/Managed/System.Numerics.dll"
       ],
-      "DebugActionIndex": 110
+      "DebugActionIndex": 123
     },
     {
       "Annotation": "CopyFiles /Users/mac/Desktop/5.app/Contents/Resources/Data/Managed/System.Xml.dll",
@@ -1588,7 +1744,7 @@
       "Outputs": [
         "/Users/mac/Desktop/5.app/Contents/Resources/Data/Managed/System.Xml.dll"
       ],
-      "DebugActionIndex": 111
+      "DebugActionIndex": 124
     },
     {
       "Annotation": "CopyFiles /Users/mac/Desktop/5.app/Contents/Resources/Data/Managed/UnityEngine.WindModule.dll",
@@ -1599,7 +1755,7 @@
       "Outputs": [
         "/Users/mac/Desktop/5.app/Contents/Resources/Data/Managed/UnityEngine.WindModule.dll"
       ],
-      "DebugActionIndex": 112
+      "DebugActionIndex": 125
     },
     {
       "Annotation": "CopyFiles /Users/mac/Desktop/5.app/Contents/Resources/Data/Managed/System.ComponentModel.Composition.dll",
@@ -1610,7 +1766,7 @@
       "Outputs": [
         "/Users/mac/Desktop/5.app/Contents/Resources/Data/Managed/System.ComponentModel.Composition.dll"
       ],
-      "DebugActionIndex": 113
+      "DebugActionIndex": 126
     },
     {
       "Annotation": "CopyFiles /Users/mac/Desktop/5.app/Contents/Resources/Data/Managed/UnityEngine.UnityAnalyticsCommonModule.dll",
@@ -1621,7 +1777,7 @@
       "Outputs": [
         "/Users/mac/Desktop/5.app/Contents/Resources/Data/Managed/UnityEngine.UnityAnalyticsCommonModule.dll"
       ],
-      "DebugActionIndex": 114
+      "DebugActionIndex": 127
     },
     {
       "Annotation": "CopyFiles /Users/mac/Desktop/5.app/Contents/Resources/Data/Managed/UnityEngine.ScreenCaptureModule.dll",
@@ -1632,7 +1788,7 @@
       "Outputs": [
         "/Users/mac/Desktop/5.app/Contents/Resources/Data/Managed/UnityEngine.ScreenCaptureModule.dll"
       ],
-      "DebugActionIndex": 115
+      "DebugActionIndex": 128
     },
     {
       "Annotation": "CopyFiles /Users/mac/Desktop/5.app/Contents/Resources/Data/Managed/UnityEngine.ClusterRendererModule.dll",
@@ -1643,7 +1799,7 @@
       "Outputs": [
         "/Users/mac/Desktop/5.app/Contents/Resources/Data/Managed/UnityEngine.ClusterRendererModule.dll"
       ],
-      "DebugActionIndex": 116
+      "DebugActionIndex": 129
     },
     {
       "Annotation": "CopyFiles /Users/mac/Desktop/5.app/Contents/Resources/Data/Managed/UnityEngine.UnityWebRequestModule.dll",
@@ -1654,7 +1810,7 @@
       "Outputs": [
         "/Users/mac/Desktop/5.app/Contents/Resources/Data/Managed/UnityEngine.UnityWebRequestModule.dll"
       ],
-      "DebugActionIndex": 117
+      "DebugActionIndex": 130
     },
     {
       "Annotation": "CopyFiles /Users/mac/Desktop/5.app/Contents/Resources/Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll",
@@ -1665,7 +1821,7 @@
       "Outputs": [
         "/Users/mac/Desktop/5.app/Contents/Resources/Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll"
       ],
-      "DebugActionIndex": 118
+      "DebugActionIndex": 131
     },
     {
       "Annotation": "CopyFiles /Users/mac/Desktop/5.app/Contents/Resources/Data/Managed/System.Drawing.dll",
@@ -1676,7 +1832,7 @@
       "Outputs": [
         "/Users/mac/Desktop/5.app/Contents/Resources/Data/Managed/System.Drawing.dll"
       ],
-      "DebugActionIndex": 119
+      "DebugActionIndex": 132
     },
     {
       "Annotation": "CopyFiles /Users/mac/Desktop/5.app/Contents/Resources/Data/Managed/UnityEngine.UNETModule.dll",
@@ -1687,7 +1843,7 @@
       "Outputs": [
         "/Users/mac/Desktop/5.app/Contents/Resources/Data/Managed/UnityEngine.UNETModule.dll"
       ],
-      "DebugActionIndex": 120
+      "DebugActionIndex": 133
     },
     {
       "Annotation": "CopyFiles /Users/mac/Desktop/5.app/Contents/Resources/Data/Managed/UnityEngine.ClothModule.dll",
@@ -1698,7 +1854,7 @@
       "Outputs": [
         "/Users/mac/Desktop/5.app/Contents/Resources/Data/Managed/UnityEngine.ClothModule.dll"
       ],
-      "DebugActionIndex": 121
+      "DebugActionIndex": 134
     },
     {
       "Annotation": "CopyFiles /Users/mac/Desktop/5.app/Contents/Resources/Data/Managed/UnityEngine.AndroidJNIModule.dll",
@@ -1709,7 +1865,7 @@
       "Outputs": [
         "/Users/mac/Desktop/5.app/Contents/Resources/Data/Managed/UnityEngine.AndroidJNIModule.dll"
       ],
-      "DebugActionIndex": 122
+      "DebugActionIndex": 135
     },
     {
       "Annotation": "CopyFiles /Users/mac/Desktop/5.app/Contents/Resources/Data/Managed/System.Security.dll",
@@ -1720,7 +1876,7 @@
       "Outputs": [
         "/Users/mac/Desktop/5.app/Contents/Resources/Data/Managed/System.Security.dll"
       ],
-      "DebugActionIndex": 123
+      "DebugActionIndex": 136
     },
     {
       "Annotation": "CopyFiles /Users/mac/Desktop/5.app/Contents/Resources/Data/Managed/UnityEngine.AIModule.dll",
@@ -1731,7 +1887,7 @@
       "Outputs": [
         "/Users/mac/Desktop/5.app/Contents/Resources/Data/Managed/UnityEngine.AIModule.dll"
       ],
-      "DebugActionIndex": 124
+      "DebugActionIndex": 137
     },
     {
       "Annotation": "CopyFiles /Users/mac/Desktop/5.app/Contents/Resources/Data/Managed/UnityEngine.TLSModule.dll",
@@ -1742,7 +1898,7 @@
       "Outputs": [
         "/Users/mac/Desktop/5.app/Contents/Resources/Data/Managed/UnityEngine.TLSModule.dll"
       ],
-      "DebugActionIndex": 125
+      "DebugActionIndex": 138
     },
     {
       "Annotation": "CopyFiles /Users/mac/Desktop/5.app/Contents/Resources/Data/Managed/UnityEngine.IMGUIModule.dll",
@@ -1753,7 +1909,7 @@
       "Outputs": [
         "/Users/mac/Desktop/5.app/Contents/Resources/Data/Managed/UnityEngine.IMGUIModule.dll"
       ],
-      "DebugActionIndex": 126
+      "DebugActionIndex": 139
     },
     {
       "Annotation": "CopyFiles /Users/mac/Desktop/5.app/Contents/Resources/Data/Managed/System.Core.dll",
@@ -1764,7 +1920,7 @@
       "Outputs": [
         "/Users/mac/Desktop/5.app/Contents/Resources/Data/Managed/System.Core.dll"
       ],
-      "DebugActionIndex": 127
+      "DebugActionIndex": 140
     },
     {
       "Annotation": "CopyFiles /Users/mac/Desktop/5.app/Contents/Resources/Data/Managed/UnityEngine.VideoModule.dll",
@@ -1775,7 +1931,7 @@
       "Outputs": [
         "/Users/mac/Desktop/5.app/Contents/Resources/Data/Managed/UnityEngine.VideoModule.dll"
       ],
-      "DebugActionIndex": 128
+      "DebugActionIndex": 141
     },
     {
       "Annotation": "WriteText Library/Bee/artifacts/MacStandalonePlayerBuildProgram/Features/FeatureCheckList.txt",
@@ -1786,7 +1942,7 @@
         "Library/Bee/artifacts/MacStandalonePlayerBuildProgram/Features/FeatureCheckList.txt"
       ],
       "AllowUnwrittenOutputFiles": true,
-      "DebugActionIndex": 129
+      "DebugActionIndex": 142
     },
     {
       "Annotation": "WriteText Library/Bee/artifacts/csharpactions/Unity.VisualScripting.Flow-FeaturesChecked.txt_ugjg.info",
@@ -1797,7 +1953,7 @@
         "Library/Bee/artifacts/csharpactions/Unity.VisualScripting.Flow-FeaturesChecked.txt_ugjg.info"
       ],
       "AllowUnwrittenOutputFiles": true,
-      "DebugActionIndex": 130
+      "DebugActionIndex": 143
     },
     {
       "Annotation": "ExtractUsedFeatures Library/Bee/artifacts/MacStandalonePlayerBuildProgram/Features/Unity.VisualScripting.Flow-FeaturesChecked.txt",
@@ -1852,12 +2008,12 @@
         "Library/Bee/artifacts/MacStandalonePlayerBuildProgram/Features/Unity.VisualScripting.Flow-FeaturesChecked.txt"
       ],
       "ToBuildDependencies": [
-        129,
-        130
+        142,
+        143
       ],
       "AllowUnexpectedOutput": true,
       "Env": [],
-      "DebugActionIndex": 131
+      "DebugActionIndex": 144
     },
     {
       "Annotation": "WriteText Library/Bee/artifacts/csharpactions/UnityEngine.TerrainPhysicsModule-FeaturesChecked.txt_1c3a.info",
@@ -1868,7 +2024,7 @@
         "Library/Bee/artifacts/csharpactions/UnityEngine.TerrainPhysicsModule-FeaturesChecked.txt_1c3a.info"
       ],
       "AllowUnwrittenOutputFiles": true,
-      "DebugActionIndex": 132
+      "DebugActionIndex": 145
     },
     {
       "Annotation": "ExtractUsedFeatures Library/Bee/artifacts/MacStandalonePlayerBuildProgram/Features/UnityEngine.TerrainPhysicsModule-FeaturesChecked.txt",
@@ -1923,12 +2079,12 @@
         "Library/Bee/artifacts/MacStandalonePlayerBuildProgram/Features/UnityEngine.TerrainPhysicsModule-FeaturesChecked.txt"
       ],
       "ToBuildDependencies": [
-        129,
-        132
+        142,
+        145
       ],
       "AllowUnexpectedOutput": true,
       "Env": [],
-      "DebugActionIndex": 133
+      "DebugActionIndex": 146
     },
     {
       "Annotation": "WriteText Library/Bee/artifacts/csharpactions/System.Xml.Linq-FeaturesChecked.txt_osyp.info",
@@ -1939,7 +2095,7 @@
         "Library/Bee/artifacts/csharpactions/System.Xml.Linq-FeaturesChecked.txt_osyp.info"
       ],
       "AllowUnwrittenOutputFiles": true,
-      "DebugActionIndex": 134
+      "DebugActionIndex": 147
     },
     {
       "Annotation": "ExtractUsedFeatures Library/Bee/artifacts/MacStandalonePlayerBuildProgram/Features/System.Xml.Linq-FeaturesChecked.txt",
@@ -1994,12 +2150,12 @@
         "Library/Bee/artifacts/MacStandalonePlayerBuildProgram/Features/System.Xml.Linq-FeaturesChecked.txt"
       ],
       "ToBuildDependencies": [
-        129,
-        134
+        142,
+        147
       ],
       "AllowUnexpectedOutput": true,
       "Env": [],
-      "DebugActionIndex": 135
+      "DebugActionIndex": 148
     },
     {
       "Annotation": "WriteText Library/Bee/artifacts/csharpactions/UnityEngine.SpriteMaskModule-FeaturesChecked.txt_4jzq.info",
@@ -2010,7 +2166,7 @@
         "Library/Bee/artifacts/csharpactions/UnityEngine.SpriteMaskModule-FeaturesChecked.txt_4jzq.info"
       ],
       "AllowUnwrittenOutputFiles": true,
-      "DebugActionIndex": 136
+      "DebugActionIndex": 149
     },
     {
       "Annotation": "ExtractUsedFeatures Library/Bee/artifacts/MacStandalonePlayerBuildProgram/Features/UnityEngine.SpriteMaskModule-FeaturesChecked.txt",
@@ -2065,12 +2221,12 @@
         "Library/Bee/artifacts/MacStandalonePlayerBuildProgram/Features/UnityEngine.SpriteMaskModule-FeaturesChecked.txt"
       ],
       "ToBuildDependencies": [
-        129,
-        136
+        142,
+        149
       ],
       "AllowUnexpectedOutput": true,
       "Env": [],
-      "DebugActionIndex": 137
+      "DebugActionIndex": 150
     },
     {
       "Annotation": "WriteText Library/Bee/artifacts/csharpactions/UnityEngine.CrashReportingModule-FeaturesChecked.txt_yyky.info",
@@ -2081,7 +2237,7 @@
         "Library/Bee/artifacts/csharpactions/UnityEngine.CrashReportingModule-FeaturesChecked.txt_yyky.info"
       ],
       "AllowUnwrittenOutputFiles": true,
-      "DebugActionIndex": 138
+      "DebugActionIndex": 151
     },
     {
       "Annotation": "ExtractUsedFeatures Library/Bee/artifacts/MacStandalonePlayerBuildProgram/Features/UnityEngine.CrashReportingModule-FeaturesChecked.txt",
@@ -2136,12 +2292,12 @@
         "Library/Bee/artifacts/MacStandalonePlayerBuildProgram/Features/UnityEngine.CrashReportingModule-FeaturesChecked.txt"
       ],
       "ToBuildDependencies": [
-        129,
-        138
+        142,
+        151
       ],
       "AllowUnexpectedOutput": true,
       "Env": [],
-      "DebugActionIndex": 139
+      "DebugActionIndex": 152
     },
     {
       "Annotation": "WriteText Library/Bee/artifacts/csharpactions/Unity.VisualScripting.Core-FeaturesChecked.txt_jz2l.info",
@@ -2152,7 +2308,7 @@
         "Library/Bee/artifacts/csharpactions/Unity.VisualScripting.Core-FeaturesChecked.txt_jz2l.info"
       ],
       "AllowUnwrittenOutputFiles": true,
-      "DebugActionIndex": 140
+      "DebugActionIndex": 153
     },
     {
       "Annotation": "ExtractUsedFeatures Library/Bee/artifacts/MacStandalonePlayerBuildProgram/Features/Unity.VisualScripting.Core-FeaturesChecked.txt",
@@ -2207,12 +2363,12 @@
         "Library/Bee/artifacts/MacStandalonePlayerBuildProgram/Features/Unity.VisualScripting.Core-FeaturesChecked.txt"
       ],
       "ToBuildDependencies": [
-        129,
-        140
+        142,
+        153
       ],
       "AllowUnexpectedOutput": true,
       "Env": [],
-      "DebugActionIndex": 141
+      "DebugActionIndex": 154
     },
     {
       "Annotation": "WriteText Library/Bee/artifacts/csharpactions/System.IO.Compression.FileSystem-FeaturesChecked.txt_84o4.info",
@@ -2223,7 +2379,7 @@
         "Library/Bee/artifacts/csharpactions/System.IO.Compression.FileSystem-FeaturesChecked.txt_84o4.info"
       ],
       "AllowUnwrittenOutputFiles": true,
-      "DebugActionIndex": 142
+      "DebugActionIndex": 155
     },
     {
       "Annotation": "ExtractUsedFeatures Library/Bee/artifacts/MacStandalonePlayerBuildProgram/Features/System.IO.Compression.FileSystem-FeaturesChecked.txt",
@@ -2278,12 +2434,12 @@
         "Library/Bee/artifacts/MacStandalonePlayerBuildProgram/Features/System.IO.Compression.FileSystem-FeaturesChecked.txt"
       ],
       "ToBuildDependencies": [
-        129,
-        142
+        142,
+        155
       ],
       "AllowUnexpectedOutput": true,
       "Env": [],
-      "DebugActionIndex": 143
+      "DebugActionIndex": 156
     },
     {
       "Annotation": "WriteText Library/Bee/artifacts/csharpactions/UnityEngine.ProfilerModule-FeaturesChecked.txt_wfeu.info",
@@ -2294,7 +2450,7 @@
         "Library/Bee/artifacts/csharpactions/UnityEngine.ProfilerModule-FeaturesChecked.txt_wfeu.info"
       ],
       "AllowUnwrittenOutputFiles": true,
-      "DebugActionIndex": 144
+      "DebugActionIndex": 157
     },
     {
       "Annotation": "ExtractUsedFeatures Library/Bee/artifacts/MacStandalonePlayerBuildProgram/Features/UnityEngine.ProfilerModule-FeaturesChecked.txt",
@@ -2349,12 +2505,12 @@
         "Library/Bee/artifacts/MacStandalonePlayerBuildProgram/Features/UnityEngine.ProfilerModule-FeaturesChecked.txt"
       ],
       "ToBuildDependencies": [
-        129,
-        144
+        142,
+        157
       ],
       "AllowUnexpectedOutput": true,
       "Env": [],
-      "DebugActionIndex": 145
+      "DebugActionIndex": 158
     },
     {
       "Annotation": "WriteText Library/Bee/artifacts/csharpactions/UnityEngine.UnityAnalyticsModule-FeaturesChecked.txt_cq48.info",
@@ -2365,7 +2521,7 @@
         "Library/Bee/artifacts/csharpactions/UnityEngine.UnityAnalyticsModule-FeaturesChecked.txt_cq48.info"
       ],
       "AllowUnwrittenOutputFiles": true,
-      "DebugActionIndex": 146
+      "DebugActionIndex": 159
     },
     {
       "Annotation": "ExtractUsedFeatures Library/Bee/artifacts/MacStandalonePlayerBuildProgram/Features/UnityEngine.UnityAnalyticsModule-FeaturesChecked.txt",
@@ -2420,12 +2576,12 @@
         "Library/Bee/artifacts/MacStandalonePlayerBuildProgram/Features/UnityEngine.UnityAnalyticsModule-FeaturesChecked.txt"
       ],
       "ToBuildDependencies": [
-        129,
-        146
+        142,
+        159
       ],
       "AllowUnexpectedOutput": true,
       "Env": [],
-      "DebugActionIndex": 147
+      "DebugActionIndex": 160
     },
     {
       "Annotation": "WriteText Library/Bee/artifacts/csharpactions/UnityEngine.UmbraModule-FeaturesChecked.txt_8xpa.info",
@@ -2436,7 +2592,7 @@
         "Library/Bee/artifacts/csharpactions/UnityEngine.UmbraModule-FeaturesChecked.txt_8xpa.info"
       ],
       "AllowUnwrittenOutputFiles": true,
-      "DebugActionIndex": 148
+      "DebugActionIndex": 161
     },
     {
       "Annotation": "ExtractUsedFeatures Library/Bee/artifacts/MacStandalonePlayerBuildProgram/Features/UnityEngine.UmbraModule-FeaturesChecked.txt",
@@ -2491,12 +2647,12 @@
         "Library/Bee/artifacts/MacStandalonePlayerBuildProgram/Features/UnityEngine.UmbraModule-FeaturesChecked.txt"
       ],
       "ToBuildDependencies": [
-        129,
-        148
+        142,
+        161
       ],
       "AllowUnexpectedOutput": true,
       "Env": [],
-      "DebugActionIndex": 149
+      "DebugActionIndex": 162
     },
     {
       "Annotation": "WriteText Library/Bee/artifacts/csharpactions/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule-FeaturesChecked.txt_5gns.info",
@@ -2507,7 +2663,7 @@
         "Library/Bee/artifacts/csharpactions/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule-FeaturesChecked.txt_5gns.info"
       ],
       "AllowUnwrittenOutputFiles": true,
-      "DebugActionIndex": 150
+      "DebugActionIndex": 163
     },
     {
       "Annotation": "ExtractUsedFeatures Library/Bee/artifacts/MacStandalonePlayerBuildProgram/Features/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule-FeaturesChecked.txt",
@@ -2562,12 +2718,12 @@
         "Library/Bee/artifacts/MacStandalonePlayerBuildProgram/Features/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule-FeaturesChecked.txt"
       ],
       "ToBuildDependencies": [
-        129,
-        150
+        142,
+        163
       ],
       "AllowUnexpectedOutput": true,
       "Env": [],
-      "DebugActionIndex": 151
+      "DebugActionIndex": 164
     },
     {
       "Annotation": "WriteText Library/Bee/artifacts/csharpactions/netstandard-FeaturesChecked.txt_cc0i.info",
@@ -2578,7 +2734,7 @@
         "Library/Bee/artifacts/csharpactions/netstandard-FeaturesChecked.txt_cc0i.info"
       ],
       "AllowUnwrittenOutputFiles": true,
-      "DebugActionIndex": 152
+      "DebugActionIndex": 165
     },
     {
       "Annotation": "ExtractUsedFeatures Library/Bee/artifacts/MacStandalonePlayerBuildProgram/Features/netstandard-FeaturesChecked.txt",
@@ -2633,12 +2789,12 @@
         "Library/Bee/artifacts/MacStandalonePlayerBuildProgram/Features/netstandard-FeaturesChecked.txt"
       ],
       "ToBuildDependencies": [
-        129,
-        152
+        142,
+        165
       ],
       "AllowUnexpectedOutput": true,
       "Env": [],
-      "DebugActionIndex": 153
+      "DebugActionIndex": 166
     },
     {
       "Annotation": "WriteText Library/Bee/artifacts/csharpactions/UnityEngine.VirtualTexturingModule-FeaturesChecked.txt_s9m7.info",
@@ -2649,7 +2805,7 @@
         "Library/Bee/artifacts/csharpactions/UnityEngine.VirtualTexturingModule-FeaturesChecked.txt_s9m7.info"
       ],
       "AllowUnwrittenOutputFiles": true,
-      "DebugActionIndex": 154
+      "DebugActionIndex": 167
     },
     {
       "Annotation": "ExtractUsedFeatures Library/Bee/artifacts/MacStandalonePlayerBuildProgram/Features/UnityEngine.VirtualTexturingModule-FeaturesChecked.txt",
@@ -2704,12 +2860,12 @@
         "Library/Bee/artifacts/MacStandalonePlayerBuildProgram/Features/UnityEngine.VirtualTexturingModule-FeaturesChecked.txt"
       ],
       "ToBuildDependencies": [
-        129,
-        154
+        142,
+        167
       ],
       "AllowUnexpectedOutput": true,
       "Env": [],
-      "DebugActionIndex": 155
+      "DebugActionIndex": 168
     },
     {
       "Annotation": "WriteText Library/Bee/artifacts/csharpactions/UnityEngine.UnityWebRequestWWWModule-FeaturesChecked.txt_qggm.info",
@@ -2720,7 +2876,7 @@
         "Library/Bee/artifacts/csharpactions/UnityEngine.UnityWebRequestWWWModule-FeaturesChecked.txt_qggm.info"
       ],
       "AllowUnwrittenOutputFiles": true,
-      "DebugActionIndex": 156
+      "DebugActionIndex": 169
     },
     {
       "Annotation": "ExtractUsedFeatures Library/Bee/artifacts/MacStandalonePlayerBuildProgram/Features/UnityEngine.UnityWebRequestWWWModule-FeaturesChecked.txt",
@@ -2775,12 +2931,12 @@
         "Library/Bee/artifacts/MacStandalonePlayerBuildProgram/Features/UnityEngine.UnityWebRequestWWWModule-FeaturesChecked.txt"
       ],
       "ToBuildDependencies": [
-        129,
-        156
+        142,
+        169
       ],
       "AllowUnexpectedOutput": true,
       "Env": [],
-      "DebugActionIndex": 157
+      "DebugActionIndex": 170
     },
     {
       "Annotation": "WriteText Library/Bee/artifacts/csharpactions/UnityEngine.ARModule-FeaturesChecked.txt_k4j9.info",
@@ -2791,7 +2947,7 @@
         "Library/Bee/artifacts/csharpactions/UnityEngine.ARModule-FeaturesChecked.txt_k4j9.info"
       ],
       "AllowUnwrittenOutputFiles": true,
-      "DebugActionIndex": 158
+      "DebugActionIndex": 171
     },
     {
       "Annotation": "ExtractUsedFeatures Library/Bee/artifacts/MacStandalonePlayerBuildProgram/Features/UnityEngine.ARModule-FeaturesChecked.txt",
@@ -2846,12 +3002,12 @@
         "Library/Bee/artifacts/MacStandalonePlayerBuildProgram/Features/UnityEngine.ARModule-FeaturesChecked.txt"
       ],
       "ToBuildDependencies": [
-        129,
-        158
+        142,
+        171
       ],
       "AllowUnexpectedOutput": true,
       "Env": [],
-      "DebugActionIndex": 159
+      "DebugActionIndex": 172
     },
     {
       "Annotation": "WriteText Library/Bee/artifacts/csharpactions/UnityEngine.AccessibilityModule-FeaturesChecked.txt_96g1.info",
@@ -2862,7 +3018,7 @@
         "Library/Bee/artifacts/csharpactions/UnityEngine.AccessibilityModule-FeaturesChecked.txt_96g1.info"
       ],
       "AllowUnwrittenOutputFiles": true,
-      "DebugActionIndex": 160
+      "DebugActionIndex": 173
     },
     {
       "Annotation": "ExtractUsedFeatures Library/Bee/artifacts/MacStandalonePlayerBuildProgram/Features/UnityEngine.AccessibilityModule-FeaturesChecked.txt",
@@ -2917,12 +3073,12 @@
         "Library/Bee/artifacts/MacStandalonePlayerBuildProgram/Features/UnityEngine.AccessibilityModule-FeaturesChecked.txt"
       ],
       "ToBuildDependencies": [
-        129,
-        160
+        142,
+        173
       ],
       "AllowUnexpectedOutput": true,
       "Env": [],
-      "DebugActionIndex": 161
+      "DebugActionIndex": 174
     },
     {
       "Annotation": "WriteText Library/Bee/artifacts/csharpactions/System.Configuration-FeaturesChecked.txt_3sq7.info",
@@ -2933,7 +3089,7 @@
         "Library/Bee/artifacts/csharpactions/System.Configuration-FeaturesChecked.txt_3sq7.info"
       ],
       "AllowUnwrittenOutputFiles": true,
-      "DebugActionIndex": 162
+      "DebugActionIndex": 175
     },
     {
       "Annotation": "ExtractUsedFeatures Library/Bee/artifacts/MacStandalonePlayerBuildProgram/Features/System.Configuration-FeaturesChecked.txt",
@@ -2988,12 +3144,12 @@
         "Library/Bee/artifacts/MacStandalonePlayerBuildProgram/Features/System.Configuration-FeaturesChecked.txt"
       ],
       "ToBuildDependencies": [
-        129,
-        162
+        142,
+        175
       ],
       "AllowUnexpectedOutput": true,
       "Env": [],
-      "DebugActionIndex": 163
+      "DebugActionIndex": 176
     },
     {
       "Annotation": "WriteText Library/Bee/artifacts/csharpactions/UnityEngine.GIModule-FeaturesChecked.txt_535t.info",
@@ -3004,7 +3160,7 @@
         "Library/Bee/artifacts/csharpactions/UnityEngine.GIModule-FeaturesChecked.txt_535t.info"
       ],
       "AllowUnwrittenOutputFiles": true,
-      "DebugActionIndex": 164
+      "DebugActionIndex": 177
     },
     {
       "Annotation": "ExtractUsedFeatures Library/Bee/artifacts/MacStandalonePlayerBuildProgram/Features/UnityEngine.GIModule-FeaturesChecked.txt",
@@ -3059,12 +3215,12 @@
         "Library/Bee/artifacts/MacStandalonePlayerBuildProgram/Features/UnityEngine.GIModule-FeaturesChecked.txt"
       ],
       "ToBuildDependencies": [
-        129,
-        164
+        142,
+        177
       ],
       "AllowUnexpectedOutput": true,
       "Env": [],
-      "DebugActionIndex": 165
+      "DebugActionIndex": 178
     },
     {
       "Annotation": "WriteText Library/Bee/artifacts/csharpactions/UnityEngine.SpriteShapeModule-FeaturesChecked.txt_rm0h.info",
@@ -3075,7 +3231,7 @@
         "Library/Bee/artifacts/csharpactions/UnityEngine.SpriteShapeModule-FeaturesChecked.txt_rm0h.info"
       ],
       "AllowUnwrittenOutputFiles": true,
-      "DebugActionIndex": 166
+      "DebugActionIndex": 179
     },
     {
       "Annotation": "ExtractUsedFeatures Library/Bee/artifacts/MacStandalonePlayerBuildProgram/Features/UnityEngine.SpriteShapeModule-FeaturesChecked.txt",
@@ -3130,12 +3286,12 @@
         "Library/Bee/artifacts/MacStandalonePlayerBuildProgram/Features/UnityEngine.SpriteShapeModule-FeaturesChecked.txt"
       ],
       "ToBuildDependencies": [
-        129,
-        166
+        142,
+        179
       ],
       "AllowUnexpectedOutput": true,
       "Env": [],
-      "DebugActionIndex": 167
+      "DebugActionIndex": 180
     },
     {
       "Annotation": "WriteText Library/Bee/artifacts/csharpactions/UnityEngine.TextRenderingModule-FeaturesChecked.txt_i1ny.info",
@@ -3146,7 +3302,7 @@
         "Library/Bee/artifacts/csharpactions/UnityEngine.TextRenderingModule-FeaturesChecked.txt_i1ny.info"
       ],
       "AllowUnwrittenOutputFiles": true,
-      "DebugActionIndex": 168
+      "DebugActionIndex": 181
     },
     {
       "Annotation": "ExtractUsedFeatures Library/Bee/artifacts/MacStandalonePlayerBuildProgram/Features/UnityEngine.TextRenderingModule-FeaturesChecked.txt",
@@ -3201,12 +3357,12 @@
         "Library/Bee/artifacts/MacStandalonePlayerBuildProgram/Features/UnityEngine.TextRenderingModule-FeaturesChecked.txt"
       ],
       "ToBuildDependencies": [
-        129,
-        168
+        142,
+        181
       ],
       "AllowUnexpectedOutput": true,
       "Env": [],
-      "DebugActionIndex": 169
+      "DebugActionIndex": 182
     },
     {
       "Annotation": "WriteText Library/Bee/artifacts/csharpactions/System.Net.Http-FeaturesChecked.txt_ebzk.info",
@@ -3217,7 +3373,7 @@
         "Library/Bee/artifacts/csharpactions/System.Net.Http-FeaturesChecked.txt_ebzk.info"
       ],
       "AllowUnwrittenOutputFiles": true,
-      "DebugActionIndex": 170
+      "DebugActionIndex": 183
     },
     {
       "Annotation": "ExtractUsedFeatures Library/Bee/artifacts/MacStandalonePlayerBuildProgram/Features/System.Net.Http-FeaturesChecked.txt",
@@ -3272,12 +3428,12 @@
         "Library/Bee/artifacts/MacStandalonePlayerBuildProgram/Features/System.Net.Http-FeaturesChecked.txt"
       ],
       "ToBuildDependencies": [
-        129,
-        170
+        142,
+        183
       ],
       "AllowUnexpectedOutput": true,
       "Env": [],
-      "DebugActionIndex": 171
+      "DebugActionIndex": 184
     },
     {
       "Annotation": "WriteText Library/Bee/artifacts/csharpactions/Assembly-CSharp-FeaturesChecked.txt_st52.info",
@@ -3288,7 +3444,7 @@
         "Library/Bee/artifacts/csharpactions/Assembly-CSharp-FeaturesChecked.txt_st52.info"
       ],
       "AllowUnwrittenOutputFiles": true,
-      "DebugActionIndex": 172
+      "DebugActionIndex": 185
     },
     {
       "Annotation": "ExtractUsedFeatures Library/Bee/artifacts/MacStandalonePlayerBuildProgram/Features/Assembly-CSharp-FeaturesChecked.txt",
@@ -3343,12 +3499,12 @@
         "Library/Bee/artifacts/MacStandalonePlayerBuildProgram/Features/Assembly-CSharp-FeaturesChecked.txt"
       ],
       "ToBuildDependencies": [
-        129,
-        172
+        142,
+        185
       ],
       "AllowUnexpectedOutput": true,
       "Env": [],
-      "DebugActionIndex": 173
+      "DebugActionIndex": 186
     },
     {
       "Annotation": "WriteText Library/Bee/artifacts/csharpactions/UnityEngine.DSPGraphModule-FeaturesChecked.txt_wsag.info",
@@ -3359,7 +3515,7 @@
         "Library/Bee/artifacts/csharpactions/UnityEngine.DSPGraphModule-FeaturesChecked.txt_wsag.info"
       ],
       "AllowUnwrittenOutputFiles": true,
-      "DebugActionIndex": 174
+      "DebugActionIndex": 187
     },
     {
       "Annotation": "ExtractUsedFeatures Library/Bee/artifacts/MacStandalonePlayerBuildProgram/Features/UnityEngine.DSPGraphModule-FeaturesChecked.txt",
@@ -3414,12 +3570,12 @@
         "Library/Bee/artifacts/MacStandalonePlayerBuildProgram/Features/UnityEngine.DSPGraphModule-FeaturesChecked.txt"
       ],
       "ToBuildDependencies": [
-        129,
-        174
+        142,
+        187
       ],
       "AllowUnexpectedOutput": true,
       "Env": [],
-      "DebugActionIndex": 175
+      "DebugActionIndex": 188
     },
     {
       "Annotation": "WriteText Library/Bee/artifacts/csharpactions/UnityEngine.LocalizationModule-FeaturesChecked.txt_kuvr.info",
@@ -3430,7 +3586,7 @@
         "Library/Bee/artifacts/csharpactions/UnityEngine.LocalizationModule-FeaturesChecked.txt_kuvr.info"
       ],
       "AllowUnwrittenOutputFiles": true,
-      "DebugActionIndex": 176
+      "DebugActionIndex": 189
     },
     {
       "Annotation": "ExtractUsedFeatures Library/Bee/artifacts/MacStandalonePlayerBuildProgram/Features/UnityEngine.LocalizationModule-FeaturesChecked.txt",
@@ -3485,12 +3641,12 @@
         "Library/Bee/artifacts/MacStandalonePlayerBuildProgram/Features/UnityEngine.LocalizationModule-FeaturesChecked.txt"
       ],
       "ToBuildDependencies": [
-        129,
-        176
+        142,
+        189
       ],
       "AllowUnexpectedOutput": true,
       "Env": [],
-      "DebugActionIndex": 177
+      "DebugActionIndex": 190
     },
     {
       "Annotation": "WriteText Library/Bee/artifacts/csharpactions/UnityEngine.UnityWebRequestTextureModule-FeaturesChecked.txt_ekwn.info",
@@ -3501,7 +3657,7 @@
         "Library/Bee/artifacts/csharpactions/UnityEngine.UnityWebRequestTextureModule-FeaturesChecked.txt_ekwn.info"
       ],
       "AllowUnwrittenOutputFiles": true,
-      "DebugActionIndex": 178
+      "DebugActionIndex": 191
     },
     {
       "Annotation": "ExtractUsedFeatures Library/Bee/artifacts/MacStandalonePlayerBuildProgram/Features/UnityEngine.UnityWebRequestTextureModule-FeaturesChecked.txt",
@@ -3556,12 +3712,12 @@
         "Library/Bee/artifacts/MacStandalonePlayerBuildProgram/Features/UnityEngine.UnityWebRequestTextureModule-FeaturesChecked.txt"
       ],
       "ToBuildDependencies": [
-        129,
-        178
+        142,
+        191
       ],
       "AllowUnexpectedOutput": true,
       "Env": [],
-      "DebugActionIndex": 179
+      "DebugActionIndex": 192
     },
     {
       "Annotation": "WriteText Library/Bee/artifacts/csharpactions/UnityEngine.AssetBundleModule-FeaturesChecked.txt_tbsh.info",
@@ -3572,7 +3728,7 @@
         "Library/Bee/artifacts/csharpactions/UnityEngine.AssetBundleModule-FeaturesChecked.txt_tbsh.info"
       ],
       "AllowUnwrittenOutputFiles": true,
-      "DebugActionIndex": 180
+      "DebugActionIndex": 193
     },
     {
       "Annotation": "ExtractUsedFeatures Library/Bee/artifacts/MacStandalonePlayerBuildProgram/Features/UnityEngine.AssetBundleModule-FeaturesChecked.txt",
@@ -3627,12 +3783,12 @@
         "Library/Bee/artifacts/MacStandalonePlayerBuildProgram/Features/UnityEngine.AssetBundleModule-FeaturesChecked.txt"
       ],
       "ToBuildDependencies": [
-        129,
-        180
+        142,
+        193
       ],
       "AllowUnexpectedOutput": true,
       "Env": [],
-      "DebugActionIndex": 181
+      "DebugActionIndex": 194
     },
     {
       "Annotation": "WriteText Library/Bee/artifacts/csharpactions/System.Runtime.Serialization-FeaturesChecked.txt_zqp0.info",
@@ -3643,7 +3799,7 @@
         "Library/Bee/artifacts/csharpactions/System.Runtime.Serialization-FeaturesChecked.txt_zqp0.info"
       ],
       "AllowUnwrittenOutputFiles": true,
-      "DebugActionIndex": 182
+      "DebugActionIndex": 195
     },
     {
       "Annotation": "ExtractUsedFeatures Library/Bee/artifacts/MacStandalonePlayerBuildProgram/Features/System.Runtime.Serialization-FeaturesChecked.txt",
@@ -3698,12 +3854,12 @@
         "Library/Bee/artifacts/MacStandalonePlayerBuildProgram/Features/System.Runtime.Serialization-FeaturesChecked.txt"
       ],
       "ToBuildDependencies": [
-        129,
-        182
+        142,
+        195
       ],
       "AllowUnexpectedOutput": true,
       "Env": [],
-      "DebugActionIndex": 183
+      "DebugActionIndex": 196
     },
     {
       "Annotation": "WriteText Library/Bee/artifacts/csharpactions/System.IO.Compression-FeaturesChecked.txt_zz9e.info",
@@ -3714,7 +3870,7 @@
         "Library/Bee/artifacts/csharpactions/System.IO.Compression-FeaturesChecked.txt_zz9e.info"
       ],
       "AllowUnwrittenOutputFiles": true,
-      "DebugActionIndex": 184
+      "DebugActionIndex": 197
     },
     {
       "Annotation": "ExtractUsedFeatures Library/Bee/artifacts/MacStandalonePlayerBuildProgram/Features/System.IO.Compression-FeaturesChecked.txt",
@@ -3769,12 +3925,12 @@
         "Library/Bee/artifacts/MacStandalonePlayerBuildProgram/Features/System.IO.Compression-FeaturesChecked.txt"
       ],
       "ToBuildDependencies": [
-        129,
-        184
+        142,
+        197
       ],
       "AllowUnexpectedOutput": true,
       "Env": [],
-      "DebugActionIndex": 185
+      "DebugActionIndex": 198
     },
     {
       "Annotation": "WriteText Library/Bee/artifacts/csharpactions/System.Data.DataSetExtensions-FeaturesChecked.txt_h20m.info",
@@ -3785,7 +3941,7 @@
         "Library/Bee/artifacts/csharpactions/System.Data.DataSetExtensions-FeaturesChecked.txt_h20m.info"
       ],
       "AllowUnwrittenOutputFiles": true,
-      "DebugActionIndex": 186
+      "DebugActionIndex": 199
     },
     {
       "Annotation": "ExtractUsedFeatures Library/Bee/artifacts/MacStandalonePlayerBuildProgram/Features/System.Data.DataSetExtensions-FeaturesChecked.txt",
@@ -3840,12 +3996,12 @@
         "Library/Bee/artifacts/MacStandalonePlayerBuildProgram/Features/System.Data.DataSetExtensions-FeaturesChecked.txt"
       ],
       "ToBuildDependencies": [
-        129,
-        186
+        142,
+        199
       ],
       "AllowUnexpectedOutput": true,
       "Env": [],
-      "DebugActionIndex": 187
+      "DebugActionIndex": 200
     },
     {
       "Annotation": "WriteText Library/Bee/artifacts/csharpactions/UnityEngine.AnimationModule-FeaturesChecked.txt_7c2x.info",
@@ -3856,7 +4012,7 @@
         "Library/Bee/artifacts/csharpactions/UnityEngine.AnimationModule-FeaturesChecked.txt_7c2x.info"
       ],
       "AllowUnwrittenOutputFiles": true,
-      "DebugActionIndex": 188
+      "DebugActionIndex": 201
     },
     {
       "Annotation": "ExtractUsedFeatures Library/Bee/artifacts/MacStandalonePlayerBuildProgram/Features/UnityEngine.AnimationModule-FeaturesChecked.txt",
@@ -3911,12 +4067,12 @@
         "Library/Bee/artifacts/MacStandalonePlayerBuildProgram/Features/UnityEngine.AnimationModule-FeaturesChecked.txt"
       ],
       "ToBuildDependencies": [
-        129,
-        188
+        142,
+        201
       ],
       "AllowUnexpectedOutput": true,
       "Env": [],
-      "DebugActionIndex": 189
+      "DebugActionIndex": 202
     },
     {
       "Annotation": "WriteText Library/Bee/artifacts/csharpactions/UnityEngine.AudioModule-FeaturesChecked.txt_twl2.info",
@@ -3927,7 +4083,7 @@
         "Library/Bee/artifacts/csharpactions/UnityEngine.AudioModule-FeaturesChecked.txt_twl2.info"
       ],
       "AllowUnwrittenOutputFiles": true,
-      "DebugActionIndex": 190
+      "DebugActionIndex": 203
     },
     {
       "Annotation": "ExtractUsedFeatures Library/Bee/artifacts/MacStandalonePlayerBuildProgram/Features/UnityEngine.AudioModule-FeaturesChecked.txt",
@@ -3982,12 +4138,12 @@
         "Library/Bee/artifacts/MacStandalonePlayerBuildProgram/Features/UnityEngine.AudioModule-FeaturesChecked.txt"
       ],
       "ToBuildDependencies": [
-        129,
-        190
+        142,
+        203
       ],
       "AllowUnexpectedOutput": true,
       "Env": [],
-      "DebugActionIndex": 191
+      "DebugActionIndex": 204
     },
     {
       "Annotation": "WriteText Library/Bee/artifacts/csharpactions/UnityEngine.XRModule-FeaturesChecked.txt_p5c9.info",
@@ -3998,7 +4154,7 @@
         "Library/Bee/artifacts/csharpactions/UnityEngine.XRModule-FeaturesChecked.txt_p5c9.info"
       ],
       "AllowUnwrittenOutputFiles": true,
-      "DebugActionIndex": 192
+      "DebugActionIndex": 205
     },
     {
       "Annotation": "ExtractUsedFeatures Library/Bee/artifacts/MacStandalonePlayerBuildProgram/Features/UnityEngine.XRModule-FeaturesChecked.txt",
@@ -4053,12 +4209,12 @@
         "Library/Bee/artifacts/MacStandalonePlayerBuildProgram/Features/UnityEngine.XRModule-FeaturesChecked.txt"
       ],
       "ToBuildDependencies": [
-        129,
-        192
+        142,
+        205
       ],
       "AllowUnexpectedOutput": true,
       "Env": [],
-      "DebugActionIndex": 193
+      "DebugActionIndex": 206
     },
     {
       "Annotation": "WriteText Library/Bee/artifacts/csharpactions/Unity.VisualScripting.Antlr3.Runtime-FeaturesChecked.txt_knev.info",
@@ -4069,7 +4225,7 @@
         "Library/Bee/artifacts/csharpactions/Unity.VisualScripting.Antlr3.Runtime-FeaturesChecked.txt_knev.info"
       ],
       "AllowUnwrittenOutputFiles": true,
-      "DebugActionIndex": 194
+      "DebugActionIndex": 207
     },
     {
       "Annotation": "ExtractUsedFeatures Library/Bee/artifacts/MacStandalonePlayerBuildProgram/Features/Unity.VisualScripting.Antlr3.Runtime-FeaturesChecked.txt",
@@ -4124,12 +4280,12 @@
         "Library/Bee/artifacts/MacStandalonePlayerBuildProgram/Features/Unity.VisualScripting.Antlr3.Runtime-FeaturesChecked.txt"
       ],
       "ToBuildDependencies": [
-        129,
-        194
+        142,
+        207
       ],
       "AllowUnexpectedOutput": true,
       "Env": [],
-      "DebugActionIndex": 195
+      "DebugActionIndex": 208
     },
     {
       "Annotation": "WriteText Library/Bee/artifacts/csharpactions/Unity.VisualScripting.State-FeaturesChecked.txt_nfic.info",
@@ -4140,7 +4296,7 @@
         "Library/Bee/artifacts/csharpactions/Unity.VisualScripting.State-FeaturesChecked.txt_nfic.info"
       ],
       "AllowUnwrittenOutputFiles": true,
-      "DebugActionIndex": 196
+      "DebugActionIndex": 209
     },
     {
       "Annotation": "ExtractUsedFeatures Library/Bee/artifacts/MacStandalonePlayerBuildProgram/Features/Unity.VisualScripting.State-FeaturesChecked.txt",
@@ -4195,12 +4351,12 @@
         "Library/Bee/artifacts/MacStandalonePlayerBuildProgram/Features/Unity.VisualScripting.State-FeaturesChecked.txt"
       ],
       "ToBuildDependencies": [
-        129,
-        196
+        142,
+        209
       ],
       "AllowUnexpectedOutput": true,
       "Env": [],
-      "DebugActionIndex": 197
+      "DebugActionIndex": 210
     },
     {
       "Annotation": "WriteText Library/Bee/artifacts/csharpactions/UnityEngine.ClusterInputModule-FeaturesChecked.txt_3bhx.info",
@@ -4211,7 +4367,7 @@
         "Library/Bee/artifacts/csharpactions/UnityEngine.ClusterInputModule-FeaturesChecked.txt_3bhx.info"
       ],
       "AllowUnwrittenOutputFiles": true,
-      "DebugActionIndex": 198
+      "DebugActionIndex": 211
     },
     {
       "Annotation": "ExtractUsedFeatures Library/Bee/artifacts/MacStandalonePlayerBuildProgram/Features/UnityEngine.ClusterInputModule-FeaturesChecked.txt",
@@ -4266,12 +4422,12 @@
         "Library/Bee/artifacts/MacStandalonePlayerBuildProgram/Features/UnityEngine.ClusterInputModule-FeaturesChecked.txt"
       ],
       "ToBuildDependencies": [
-        129,
-        198
+        142,
+        211
       ],
       "AllowUnexpectedOutput": true,
       "Env": [],
-      "DebugActionIndex": 199
+      "DebugActionIndex": 212
     },
     {
       "Annotation": "WriteText Library/Bee/artifacts/csharpactions/UnityEngine.VFXModule-FeaturesChecked.txt_bxls.info",
@@ -4282,7 +4438,7 @@
         "Library/Bee/artifacts/csharpactions/UnityEngine.VFXModule-FeaturesChecked.txt_bxls.info"
       ],
       "AllowUnwrittenOutputFiles": true,
-      "DebugActionIndex": 200
+      "DebugActionIndex": 213
     },
     {
       "Annotation": "ExtractUsedFeatures Library/Bee/artifacts/MacStandalonePlayerBuildProgram/Features/UnityEngine.VFXModule-FeaturesChecked.txt",
@@ -4337,12 +4493,12 @@
         "Library/Bee/artifacts/MacStandalonePlayerBuildProgram/Features/UnityEngine.VFXModule-FeaturesChecked.txt"
       ],
       "ToBuildDependencies": [
-        129,
-        200
+        142,
+        213
       ],
       "AllowUnexpectedOutput": true,
       "Env": [],
-      "DebugActionIndex": 201
+      "DebugActionIndex": 214
     },
     {
       "Annotation": "WriteText Library/Bee/artifacts/csharpactions/UnityEngine.InputLegacyModule-FeaturesChecked.txt_q0vy.info",
@@ -4353,7 +4509,7 @@
         "Library/Bee/artifacts/csharpactions/UnityEngine.InputLegacyModule-FeaturesChecked.txt_q0vy.info"
       ],
       "AllowUnwrittenOutputFiles": true,
-      "DebugActionIndex": 202
+      "DebugActionIndex": 215
     },
     {
       "Annotation": "ExtractUsedFeatures Library/Bee/artifacts/MacStandalonePlayerBuildProgram/Features/UnityEngine.InputLegacyModule-FeaturesChecked.txt",
@@ -4408,12 +4564,12 @@
         "Library/Bee/artifacts/MacStandalonePlayerBuildProgram/Features/UnityEngine.InputLegacyModule-FeaturesChecked.txt"
       ],
       "ToBuildDependencies": [
-        129,
-        202
+        142,
+        215
       ],
       "AllowUnexpectedOutput": true,
       "Env": [],
-      "DebugActionIndex": 203
+      "DebugActionIndex": 216
     },
     {
       "Annotation": "WriteText Library/Bee/artifacts/csharpactions/UnityEngine.InputModule-FeaturesChecked.txt_dp83.info",
@@ -4424,7 +4580,7 @@
         "Library/Bee/artifacts/csharpactions/UnityEngine.InputModule-FeaturesChecked.txt_dp83.info"
       ],
       "AllowUnwrittenOutputFiles": true,
-      "DebugActionIndex": 204
+      "DebugActionIndex": 217
     },
     {
       "Annotation": "ExtractUsedFeatures Library/Bee/artifacts/MacStandalonePlayerBuildProgram/Features/UnityEngine.InputModule-FeaturesChecked.txt",
@@ -4479,12 +4635,12 @@
         "Library/Bee/artifacts/MacStandalonePlayerBuildProgram/Features/UnityEngine.InputModule-FeaturesChecked.txt"
       ],
       "ToBuildDependencies": [
-        129,
-        204
+        142,
+        217
       ],
       "AllowUnexpectedOutput": true,
       "Env": [],
-      "DebugActionIndex": 205
+      "DebugActionIndex": 218
     },
     {
       "Annotation": "WriteText Library/Bee/artifacts/csharpactions/UnityEngine.DirectorModule-FeaturesChecked.txt_fk7w.info",
@@ -4495,7 +4651,7 @@
         "Library/Bee/artifacts/csharpactions/UnityEngine.DirectorModule-FeaturesChecked.txt_fk7w.info"
       ],
       "AllowUnwrittenOutputFiles": true,
-      "DebugActionIndex": 206
+      "DebugActionIndex": 219
     },
     {
       "Annotation": "ExtractUsedFeatures Library/Bee/artifacts/MacStandalonePlayerBuildProgram/Features/UnityEngine.DirectorModule-FeaturesChecked.txt",
@@ -4550,12 +4706,12 @@
         "Library/Bee/artifacts/MacStandalonePlayerBuildProgram/Features/UnityEngine.DirectorModule-FeaturesChecked.txt"
       ],
       "ToBuildDependencies": [
-        129,
-        206
+        142,
+        219
       ],
       "AllowUnexpectedOutput": true,
       "Env": [],
-      "DebugActionIndex": 207
+      "DebugActionIndex": 220
     },
     {
       "Annotation": "WriteText Library/Bee/artifacts/csharpactions/Unity.TextMeshPro-FeaturesChecked.txt_wbcl.info",
@@ -4566,7 +4722,7 @@
         "Library/Bee/artifacts/csharpactions/Unity.TextMeshPro-FeaturesChecked.txt_wbcl.info"
       ],
       "AllowUnwrittenOutputFiles": true,
-      "DebugActionIndex": 208
+      "DebugActionIndex": 221
     },
     {
       "Annotation": "ExtractUsedFeatures Library/Bee/artifacts/MacStandalonePlayerBuildProgram/Features/Unity.TextMeshPro-FeaturesChecked.txt",
@@ -4621,12 +4777,12 @@
         "Library/Bee/artifacts/MacStandalonePlayerBuildProgram/Features/Unity.TextMeshPro-FeaturesChecked.txt"
       ],
       "ToBuildDependencies": [
-        129,
-        208
+        142,
+        221
       ],
       "AllowUnexpectedOutput": true,
       "Env": [],
-      "DebugActionIndex": 209
+      "DebugActionIndex": 222
     },
     {
       "Annotation": "WriteText Library/Bee/artifacts/csharpactions/mscorlib-FeaturesChecked.txt_h5ip.info",
@@ -4637,7 +4793,7 @@
         "Library/Bee/artifacts/csharpactions/mscorlib-FeaturesChecked.txt_h5ip.info"
       ],
       "AllowUnwrittenOutputFiles": true,
-      "DebugActionIndex": 210
+      "DebugActionIndex": 223
     },
     {
       "Annotation": "ExtractUsedFeatures Library/Bee/artifacts/MacStandalonePlayerBuildProgram/Features/mscorlib-FeaturesChecked.txt",
@@ -4692,12 +4848,12 @@
         "Library/Bee/artifacts/MacStandalonePlayerBuildProgram/Features/mscorlib-FeaturesChecked.txt"
       ],
       "ToBuildDependencies": [
-        129,
-        210
+        142,
+        223
       ],
       "AllowUnexpectedOutput": true,
       "Env": [],
-      "DebugActionIndex": 211
+      "DebugActionIndex": 224
     },
     {
       "Annotation": "WriteText Library/Bee/artifacts/csharpactions/UnityEngine.GameCenterModule-FeaturesChecked.txt_a812.info",
@@ -4708,7 +4864,7 @@
         "Library/Bee/artifacts/csharpactions/UnityEngine.GameCenterModule-FeaturesChecked.txt_a812.info"
       ],
       "AllowUnwrittenOutputFiles": true,
-      "DebugActionIndex": 212
+      "DebugActionIndex": 225
     },
     {
       "Annotation": "ExtractUsedFeatures Library/Bee/artifacts/MacStandalonePlayerBuildProgram/Features/UnityEngine.GameCenterModule-FeaturesChecked.txt",
@@ -4763,12 +4919,12 @@
         "Library/Bee/artifacts/MacStandalonePlayerBuildProgram/Features/UnityEngine.GameCenterModule-FeaturesChecked.txt"
       ],
       "ToBuildDependencies": [
-        129,
-        212
+        142,
+        225
       ],
       "AllowUnexpectedOutput": true,
       "Env": [],
-      "DebugActionIndex": 213
+      "DebugActionIndex": 226
     },
     {
       "Annotation": "WriteText Library/Bee/artifacts/csharpactions/System.EnterpriseServices-FeaturesChecked.txt_kfl0.info",
@@ -4779,7 +4935,7 @@
         "Library/Bee/artifacts/csharpactions/System.EnterpriseServices-FeaturesChecked.txt_kfl0.info"
       ],
       "AllowUnwrittenOutputFiles": true,
-      "DebugActionIndex": 214
+      "DebugActionIndex": 227
     },
     {
       "Annotation": "ExtractUsedFeatures Library/Bee/artifacts/MacStandalonePlayerBuildProgram/Features/System.EnterpriseServices-FeaturesChecked.txt",
@@ -4834,12 +4990,12 @@
         "Library/Bee/artifacts/MacStandalonePlayerBuildProgram/Features/System.EnterpriseServices-FeaturesChecked.txt"
       ],
       "ToBuildDependencies": [
-        129,
-        214
+        142,
+        227
       ],
       "AllowUnexpectedOutput": true,
       "Env": [],
-      "DebugActionIndex": 215
+      "DebugActionIndex": 228
     },
     {
       "Annotation": "WriteText Library/Bee/artifacts/csharpactions/UnityEngine.TextCoreTextEngineModule-FeaturesChecked.txt_qdwu.info",
@@ -4850,7 +5006,7 @@
         "Library/Bee/artifacts/csharpactions/UnityEngine.TextCoreTextEngineModule-FeaturesChecked.txt_qdwu.info"
       ],
       "AllowUnwrittenOutputFiles": true,
-      "DebugActionIndex": 216
+      "DebugActionIndex": 229
     },
     {
       "Annotation": "ExtractUsedFeatures Library/Bee/artifacts/MacStandalonePlayerBuildProgram/Features/UnityEngine.TextCoreTextEngineModule-FeaturesChecked.txt",
@@ -4905,12 +5061,12 @@
         "Library/Bee/artifacts/MacStandalonePlayerBuildProgram/Features/UnityEngine.TextCoreTextEngineModule-FeaturesChecked.txt"
       ],
       "ToBuildDependencies": [
-        129,
-        216
+        142,
+        229
       ],
       "AllowUnexpectedOutput": true,
       "Env": [],
-      "DebugActionIndex": 217
+      "DebugActionIndex": 230
     },
     {
       "Annotation": "WriteText Library/Bee/artifacts/csharpactions/UnityEngine.StreamingModule-FeaturesChecked.txt_5cy3.info",
@@ -4921,7 +5077,7 @@
         "Library/Bee/artifacts/csharpactions/UnityEngine.StreamingModule-FeaturesChecked.txt_5cy3.info"
       ],
       "AllowUnwrittenOutputFiles": true,
-      "DebugActionIndex": 218
+      "DebugActionIndex": 231
     },
     {
       "Annotation": "ExtractUsedFeatures Library/Bee/artifacts/MacStandalonePlayerBuildProgram/Features/UnityEngine.StreamingModule-FeaturesChecked.txt",
@@ -4976,12 +5132,12 @@
         "Library/Bee/artifacts/MacStandalonePlayerBuildProgram/Features/UnityEngine.StreamingModule-FeaturesChecked.txt"
       ],
       "ToBuildDependencies": [
-        129,
-        218
+        142,
+        231
       ],
       "AllowUnexpectedOutput": true,
       "Env": [],
-      "DebugActionIndex": 219
+      "DebugActionIndex": 232
     },
     {
       "Annotation": "WriteText Library/Bee/artifacts/csharpactions/UnityEngine.Physics2DModule-FeaturesChecked.txt_sxp3.info",
@@ -4992,7 +5148,7 @@
         "Library/Bee/artifacts/csharpactions/UnityEngine.Physics2DModule-FeaturesChecked.txt_sxp3.info"
       ],
       "AllowUnwrittenOutputFiles": true,
-      "DebugActionIndex": 220
+      "DebugActionIndex": 233
     },
     {
       "Annotation": "ExtractUsedFeatures Library/Bee/artifacts/MacStandalonePlayerBuildProgram/Features/UnityEngine.Physics2DModule-FeaturesChecked.txt",
@@ -5047,12 +5203,12 @@
         "Library/Bee/artifacts/MacStandalonePlayerBuildProgram/Features/UnityEngine.Physics2DModule-FeaturesChecked.txt"
       ],
       "ToBuildDependencies": [
-        129,
-        220
+        142,
+        233
       ],
       "AllowUnexpectedOutput": true,
       "Env": [],
-      "DebugActionIndex": 221
+      "DebugActionIndex": 234
     },
     {
       "Annotation": "WriteText Library/Bee/artifacts/csharpactions/UnityEngine.UnityConnectModule-FeaturesChecked.txt_k9ga.info",
@@ -5063,7 +5219,7 @@
         "Library/Bee/artifacts/csharpactions/UnityEngine.UnityConnectModule-FeaturesChecked.txt_k9ga.info"
       ],
       "AllowUnwrittenOutputFiles": true,
-      "DebugActionIndex": 222
+      "DebugActionIndex": 235
     },
     {
       "Annotation": "ExtractUsedFeatures Library/Bee/artifacts/MacStandalonePlayerBuildProgram/Features/UnityEngine.UnityConnectModule-FeaturesChecked.txt",
@@ -5118,12 +5274,12 @@
         "Library/Bee/artifacts/MacStandalonePlayerBuildProgram/Features/UnityEngine.UnityConnectModule-FeaturesChecked.txt"
       ],
       "ToBuildDependencies": [
-        129,
-        222
+        142,
+        235
       ],
       "AllowUnexpectedOutput": true,
       "Env": [],
-      "DebugActionIndex": 223
+      "DebugActionIndex": 236
     },
     {
       "Annotation": "WriteText Library/Bee/artifacts/csharpactions/UnityEngine-FeaturesChecked.txt_dbvs.info",
@@ -5134,7 +5290,7 @@
         "Library/Bee/artifacts/csharpactions/UnityEngine-FeaturesChecked.txt_dbvs.info"
       ],
       "AllowUnwrittenOutputFiles": true,
-      "DebugActionIndex": 224
+      "DebugActionIndex": 237
     },
     {
       "Annotation": "ExtractUsedFeatures Library/Bee/artifacts/MacStandalonePlayerBuildProgram/Features/UnityEngine-FeaturesChecked.txt",
@@ -5189,12 +5345,12 @@
         "Library/Bee/artifacts/MacStandalonePlayerBuildProgram/Features/UnityEngine-FeaturesChecked.txt"
       ],
       "ToBuildDependencies": [
-        129,
-        224
+        142,
+        237
       ],
       "AllowUnexpectedOutput": true,
       "Env": [],
-      "DebugActionIndex": 225
+      "DebugActionIndex": 238
     },
     {
       "Annotation": "WriteText Library/Bee/artifacts/csharpactions/UnityEngine.UnityWebRequestAssetBundleModule-FeaturesChecked.txt_l4dl.info",
@@ -5205,7 +5361,7 @@
         "Library/Bee/artifacts/csharpactions/UnityEngine.UnityWebRequestAssetBundleModule-FeaturesChecked.txt_l4dl.info"
       ],
       "AllowUnwrittenOutputFiles": true,
-      "DebugActionIndex": 226
+      "DebugActionIndex": 239
     },
     {
       "Annotation": "ExtractUsedFeatures Library/Bee/artifacts/MacStandalonePlayerBuildProgram/Features/UnityEngine.UnityWebRequestAssetBundleModule-FeaturesChecked.txt",
@@ -5260,12 +5416,12 @@
         "Library/Bee/artifacts/MacStandalonePlayerBuildProgram/Features/UnityEngine.UnityWebRequestAssetBundleModule-FeaturesChecked.txt"
       ],
       "ToBuildDependencies": [
-        129,
-        226
+        142,
+        239
       ],
       "AllowUnexpectedOutput": true,
       "Env": [],
-      "DebugActionIndex": 227
+      "DebugActionIndex": 240
     },
     {
       "Annotation": "WriteText Library/Bee/artifacts/csharpactions/UnityEngine.UIElementsModule-FeaturesChecked.txt_yri2.info",
@@ -5276,7 +5432,7 @@
         "Library/Bee/artifacts/csharpactions/UnityEngine.UIElementsModule-FeaturesChecked.txt_yri2.info"
       ],
       "AllowUnwrittenOutputFiles": true,
-      "DebugActionIndex": 228
+      "DebugActionIndex": 241
     },
     {
       "Annotation": "ExtractUsedFeatures Library/Bee/artifacts/MacStandalonePlayerBuildProgram/Features/UnityEngine.UIElementsModule-FeaturesChecked.txt",
@@ -5331,12 +5487,12 @@
         "Library/Bee/artifacts/MacStandalonePlayerBuildProgram/Features/UnityEngine.UIElementsModule-FeaturesChecked.txt"
       ],
       "ToBuildDependencies": [
-        129,
-        228
+        142,
+        241
       ],
       "AllowUnexpectedOutput": true,
       "Env": [],
-      "DebugActionIndex": 229
+      "DebugActionIndex": 242
     },
     {
       "Annotation": "WriteText Library/Bee/artifacts/csharpactions/UnityEngine.UIModule-FeaturesChecked.txt_7nub.info",
@@ -5347,7 +5503,7 @@
         "Library/Bee/artifacts/csharpactions/UnityEngine.UIModule-FeaturesChecked.txt_7nub.info"
       ],
       "AllowUnwrittenOutputFiles": true,
-      "DebugActionIndex": 230
+      "DebugActionIndex": 243
     },
     {
       "Annotation": "ExtractUsedFeatures Library/Bee/artifacts/MacStandalonePlayerBuildProgram/Features/UnityEngine.UIModule-FeaturesChecked.txt",
@@ -5402,12 +5558,12 @@
         "Library/Bee/artifacts/MacStandalonePlayerBuildProgram/Features/UnityEngine.UIModule-FeaturesChecked.txt"
       ],
       "ToBuildDependencies": [
-        129,
-        230
+        142,
+        243
       ],
       "AllowUnexpectedOutput": true,
       "Env": [],
-      "DebugActionIndex": 231
+      "DebugActionIndex": 244
     },
     {
       "Annotation": "WriteText Library/Bee/artifacts/csharpactions/UnityEngine.UI-FeaturesChecked.txt_fzlo.info",
@@ -5418,7 +5574,7 @@
         "Library/Bee/artifacts/csharpactions/UnityEngine.UI-FeaturesChecked.txt_fzlo.info"
       ],
       "AllowUnwrittenOutputFiles": true,
-      "DebugActionIndex": 232
+      "DebugActionIndex": 245
     },
     {
       "Annotation": "ExtractUsedFeatures Library/Bee/artifacts/MacStandalonePlayerBuildProgram/Features/UnityEngine.UI-FeaturesChecked.txt",
@@ -5473,12 +5629,12 @@
         "Library/Bee/artifacts/MacStandalonePlayerBuildProgram/Features/UnityEngine.UI-FeaturesChecked.txt"
       ],
       "ToBuildDependencies": [
-        129,
-        232
+        142,
+        245
       ],
       "AllowUnexpectedOutput": true,
       "Env": [],
-      "DebugActionIndex": 233
+      "DebugActionIndex": 246
     },
     {
       "Annotation": "WriteText Library/Bee/artifacts/csharpactions/UnityEngine.UnityCurlModule-FeaturesChecked.txt_8vyn.info",
@@ -5489,7 +5645,7 @@
         "Library/Bee/artifacts/csharpactions/UnityEngine.UnityCurlModule-FeaturesChecked.txt_8vyn.info"
       ],
       "AllowUnwrittenOutputFiles": true,
-      "DebugActionIndex": 234
+      "DebugActionIndex": 247
     },
     {
       "Annotation": "ExtractUsedFeatures Library/Bee/artifacts/MacStandalonePlayerBuildProgram/Features/UnityEngine.UnityCurlModule-FeaturesChecked.txt",
@@ -5544,12 +5700,12 @@
         "Library/Bee/artifacts/MacStandalonePlayerBuildProgram/Features/UnityEngine.UnityCurlModule-FeaturesChecked.txt"
       ],
       "ToBuildDependencies": [
-        129,
-        234
+        142,
+        247
       ],
       "AllowUnexpectedOutput": true,
       "Env": [],
-      "DebugActionIndex": 235
+      "DebugActionIndex": 248
     },
     {
       "Annotation": "WriteText Library/Bee/artifacts/csharpactions/UnityEngine.SubstanceModule-FeaturesChecked.txt_732r.info",
@@ -5560,7 +5716,7 @@
         "Library/Bee/artifacts/csharpactions/UnityEngine.SubstanceModule-FeaturesChecked.txt_732r.info"
       ],
       "AllowUnwrittenOutputFiles": true,
-      "DebugActionIndex": 236
+      "DebugActionIndex": 249
     },
     {
       "Annotation": "ExtractUsedFeatures Library/Bee/artifacts/MacStandalonePlayerBuildProgram/Features/UnityEngine.SubstanceModule-FeaturesChecked.txt",
@@ -5615,12 +5771,12 @@
         "Library/Bee/artifacts/MacStandalonePlayerBuildProgram/Features/UnityEngine.SubstanceModule-FeaturesChecked.txt"
       ],
       "ToBuildDependencies": [
-        129,
-        236
+        142,
+        249
       ],
       "AllowUnexpectedOutput": true,
       "Env": [],
-      "DebugActionIndex": 237
+      "DebugActionIndex": 250
     },
     {
       "Annotation": "WriteText Library/Bee/artifacts/csharpactions/UnityEngine.HotReloadModule-FeaturesChecked.txt_5leg.info",
@@ -5631,7 +5787,7 @@
         "Library/Bee/artifacts/csharpactions/UnityEngine.HotReloadModule-FeaturesChecked.txt_5leg.info"
       ],
       "AllowUnwrittenOutputFiles": true,
-      "DebugActionIndex": 238
+      "DebugActionIndex": 251
     },
     {
       "Annotation": "ExtractUsedFeatures Library/Bee/artifacts/MacStandalonePlayerBuildProgram/Features/UnityEngine.HotReloadModule-FeaturesChecked.txt",
@@ -5686,12 +5842,12 @@
         "Library/Bee/artifacts/MacStandalonePlayerBuildProgram/Features/UnityEngine.HotReloadModule-FeaturesChecked.txt"
       ],
       "ToBuildDependencies": [
-        129,
-        238
+        142,
+        251
       ],
       "AllowUnexpectedOutput": true,
       "Env": [],
-      "DebugActionIndex": 239
+      "DebugActionIndex": 252
     },
     {
       "Annotation": "WriteText Library/Bee/artifacts/csharpactions/UnityEngine.UIElementsNativeModule-FeaturesChecked.txt_p3jx.info",
@@ -5702,7 +5858,7 @@
         "Library/Bee/artifacts/csharpactions/UnityEngine.UIElementsNativeModule-FeaturesChecked.txt_p3jx.info"
       ],
       "AllowUnwrittenOutputFiles": true,
-      "DebugActionIndex": 240
+      "DebugActionIndex": 253
     },
     {
       "Annotation": "ExtractUsedFeatures Library/Bee/artifacts/MacStandalonePlayerBuildProgram/Features/UnityEngine.UIElementsNativeModule-FeaturesChecked.txt",
@@ -5757,12 +5913,12 @@
         "Library/Bee/artifacts/MacStandalonePlayerBuildProgram/Features/UnityEngine.UIElementsNativeModule-FeaturesChecked.txt"
       ],
       "ToBuildDependencies": [
-        129,
-        240
+        142,
+        253
       ],
       "AllowUnexpectedOutput": true,
       "Env": [],
-      "DebugActionIndex": 241
+      "DebugActionIndex": 254
     },
     {
       "Annotation": "WriteText Library/Bee/artifacts/csharpactions/System.ServiceModel.Internals-FeaturesChecked.txt_9818.info",
@@ -5773,7 +5929,7 @@
         "Library/Bee/artifacts/csharpactions/System.ServiceModel.Internals-FeaturesChecked.txt_9818.info"
       ],
       "AllowUnwrittenOutputFiles": true,
-      "DebugActionIndex": 242
+      "DebugActionIndex": 255
     },
     {
       "Annotation": "ExtractUsedFeatures Library/Bee/artifacts/MacStandalonePlayerBuildProgram/Features/System.ServiceModel.Internals-FeaturesChecked.txt",
@@ -5828,12 +5984,12 @@
         "Library/Bee/artifacts/MacStandalonePlayerBuildProgram/Features/System.ServiceModel.Internals-FeaturesChecked.txt"
       ],
       "ToBuildDependencies": [
-        129,
-        242
+        142,
+        255
       ],
       "AllowUnexpectedOutput": true,
       "Env": [],
-      "DebugActionIndex": 243
+      "DebugActionIndex": 256
     },
     {
       "Annotation": "WriteText Library/Bee/artifacts/csharpactions/UnityEngine.AutoStreamingModule-FeaturesChecked.txt_qcee.info",
@@ -5844,7 +6000,7 @@
         "Library/Bee/artifacts/csharpactions/UnityEngine.AutoStreamingModule-FeaturesChecked.txt_qcee.info"
       ],
       "AllowUnwrittenOutputFiles": true,
-      "DebugActionIndex": 244
+      "DebugActionIndex": 257
     },
     {
       "Annotation": "ExtractUsedFeatures Library/Bee/artifacts/MacStandalonePlayerBuildProgram/Features/UnityEngine.AutoStreamingModule-FeaturesChecked.txt",
@@ -5899,12 +6055,12 @@
         "Library/Bee/artifacts/MacStandalonePlayerBuildProgram/Features/UnityEngine.AutoStreamingModule-FeaturesChecked.txt"
       ],
       "ToBuildDependencies": [
-        129,
-        244
+        142,
+        257
       ],
       "AllowUnexpectedOutput": true,
       "Env": [],
-      "DebugActionIndex": 245
+      "DebugActionIndex": 258
     },
     {
       "Annotation": "WriteText Library/Bee/artifacts/csharpactions/System.Transactions-FeaturesChecked.txt_y9v7.info",
@@ -5915,7 +6071,7 @@
         "Library/Bee/artifacts/csharpactions/System.Transactions-FeaturesChecked.txt_y9v7.info"
       ],
       "AllowUnwrittenOutputFiles": true,
-      "DebugActionIndex": 246
+      "DebugActionIndex": 259
     },
     {
       "Annotation": "ExtractUsedFeatures Library/Bee/artifacts/MacStandalonePlayerBuildProgram/Features/System.Transactions-FeaturesChecked.txt",
@@ -5970,12 +6126,12 @@
         "Library/Bee/artifacts/MacStandalonePlayerBuildProgram/Features/System.Transactions-FeaturesChecked.txt"
       ],
       "ToBuildDependencies": [
-        129,
-        246
+        142,
+        259
       ],
       "AllowUnexpectedOutput": true,
       "Env": [],
-      "DebugActionIndex": 247
+      "DebugActionIndex": 260
     },
     {
       "Annotation": "WriteText Library/Bee/artifacts/csharpactions/UnityEngine.GridModule-FeaturesChecked.txt_dzjq.info",
@@ -5986,7 +6142,7 @@
         "Library/Bee/artifacts/csharpactions/UnityEngine.GridModule-FeaturesChecked.txt_dzjq.info"
       ],
       "AllowUnwrittenOutputFiles": true,
-      "DebugActionIndex": 248
+      "DebugActionIndex": 261
     },
     {
       "Annotation": "ExtractUsedFeatures Library/Bee/artifacts/MacStandalonePlayerBuildProgram/Features/UnityEngine.GridModule-FeaturesChecked.txt",
@@ -6041,12 +6197,12 @@
         "Library/Bee/artifacts/MacStandalonePlayerBuildProgram/Features/UnityEngine.GridModule-FeaturesChecked.txt"
       ],
       "ToBuildDependencies": [
-        129,
-        248
+        142,
+        261
       ],
       "AllowUnexpectedOutput": true,
       "Env": [],
-      "DebugActionIndex": 249
+      "DebugActionIndex": 262
     },
     {
       "Annotation": "WriteText Library/Bee/artifacts/csharpactions/UnityEngine.TerrainModule-FeaturesChecked.txt_wj25.info",
@@ -6057,7 +6213,7 @@
         "Library/Bee/artifacts/csharpactions/UnityEngine.TerrainModule-FeaturesChecked.txt_wj25.info"
       ],
       "AllowUnwrittenOutputFiles": true,
-      "DebugActionIndex": 250
+      "DebugActionIndex": 263
     },
     {
       "Annotation": "ExtractUsedFeatures Library/Bee/artifacts/MacStandalonePlayerBuildProgram/Features/UnityEngine.TerrainModule-FeaturesChecked.txt",
@@ -6112,12 +6268,12 @@
         "Library/Bee/artifacts/MacStandalonePlayerBuildProgram/Features/UnityEngine.TerrainModule-FeaturesChecked.txt"
       ],
       "ToBuildDependencies": [
-        129,
-        250
+        142,
+        263
       ],
       "AllowUnexpectedOutput": true,
       "Env": [],
-      "DebugActionIndex": 251
+      "DebugActionIndex": 264
     },
     {
       "Annotation": "WriteText Library/Bee/artifacts/csharpactions/UnityEngine.VRModule-FeaturesChecked.txt_vcbw.info",
@@ -6128,7 +6284,7 @@
         "Library/Bee/artifacts/csharpactions/UnityEngine.VRModule-FeaturesChecked.txt_vcbw.info"
       ],
       "AllowUnwrittenOutputFiles": true,
-      "DebugActionIndex": 252
+      "DebugActionIndex": 265
     },
     {
       "Annotation": "ExtractUsedFeatures Library/Bee/artifacts/MacStandalonePlayerBuildProgram/Features/UnityEngine.VRModule-FeaturesChecked.txt",
@@ -6183,12 +6339,12 @@
         "Library/Bee/artifacts/MacStandalonePlayerBuildProgram/Features/UnityEngine.VRModule-FeaturesChecked.txt"
       ],
       "ToBuildDependencies": [
-        129,
-        252
+        142,
+        265
       ],
       "AllowUnexpectedOutput": true,
       "Env": [],
-      "DebugActionIndex": 253
+      "DebugActionIndex": 266
     },
     {
       "Annotation": "WriteText Library/Bee/artifacts/csharpactions/UnityEngine.JSONSerializeModule-FeaturesChecked.txt_v4ys.info",
@@ -6199,7 +6355,7 @@
         "Library/Bee/artifacts/csharpactions/UnityEngine.JSONSerializeModule-FeaturesChecked.txt_v4ys.info"
       ],
       "AllowUnwrittenOutputFiles": true,
-      "DebugActionIndex": 254
+      "DebugActionIndex": 267
     },
     {
       "Annotation": "ExtractUsedFeatures Library/Bee/artifacts/MacStandalonePlayerBuildProgram/Features/UnityEngine.JSONSerializeModule-FeaturesChecked.txt",
@@ -6254,12 +6410,12 @@
         "Library/Bee/artifacts/MacStandalonePlayerBuildProgram/Features/UnityEngine.JSONSerializeModule-FeaturesChecked.txt"
       ],
       "ToBuildDependencies": [
-        129,
-        254
+        142,
+        267
       ],
       "AllowUnexpectedOutput": true,
       "Env": [],
-      "DebugActionIndex": 255
+      "DebugActionIndex": 268
     },
     {
       "Annotation": "WriteText Library/Bee/artifacts/csharpactions/UnityEngine.UnityTestProtocolModule-FeaturesChecked.txt_284i.info",
@@ -6270,7 +6426,7 @@
         "Library/Bee/artifacts/csharpactions/UnityEngine.UnityTestProtocolModule-FeaturesChecked.txt_284i.info"
       ],
       "AllowUnwrittenOutputFiles": true,
-      "DebugActionIndex": 256
+      "DebugActionIndex": 269
     },
     {
       "Annotation": "ExtractUsedFeatures Library/Bee/artifacts/MacStandalonePlayerBuildProgram/Features/UnityEngine.UnityTestProtocolModule-FeaturesChecked.txt",
@@ -6325,12 +6481,12 @@
         "Library/Bee/artifacts/MacStandalonePlayerBuildProgram/Features/UnityEngine.UnityTestProtocolModule-FeaturesChecked.txt"
       ],
       "ToBuildDependencies": [
-        129,
-        256
+        142,
+        269
       ],
       "AllowUnexpectedOutput": true,
       "Env": [],
-      "DebugActionIndex": 257
+      "DebugActionIndex": 270
     },
     {
       "Annotation": "WriteText Library/Bee/artifacts/csharpactions/Mono.Security-FeaturesChecked.txt_tcfg.info",
@@ -6341,7 +6497,7 @@
         "Library/Bee/artifacts/csharpactions/Mono.Security-FeaturesChecked.txt_tcfg.info"
       ],
       "AllowUnwrittenOutputFiles": true,
-      "DebugActionIndex": 258
+      "DebugActionIndex": 271
     },
     {
       "Annotation": "ExtractUsedFeatures Library/Bee/artifacts/MacStandalonePlayerBuildProgram/Features/Mono.Security-FeaturesChecked.txt",
@@ -6396,12 +6552,12 @@
         "Library/Bee/artifacts/MacStandalonePlayerBuildProgram/Features/Mono.Security-FeaturesChecked.txt"
       ],
       "ToBuildDependencies": [
-        129,
-        258
+        142,
+        271
       ],
       "AllowUnexpectedOutput": true,
       "Env": [],
-      "DebugActionIndex": 259
+      "DebugActionIndex": 272
     },
     {
       "Annotation": "WriteText Library/Bee/artifacts/csharpactions/System.Data-FeaturesChecked.txt_7g7q.info",
@@ -6412,7 +6568,7 @@
         "Library/Bee/artifacts/csharpactions/System.Data-FeaturesChecked.txt_7g7q.info"
       ],
       "AllowUnwrittenOutputFiles": true,
-      "DebugActionIndex": 260
+      "DebugActionIndex": 273
     },
     {
       "Annotation": "ExtractUsedFeatures Library/Bee/artifacts/MacStandalonePlayerBuildProgram/Features/System.Data-FeaturesChecked.txt",
@@ -6467,12 +6623,12 @@
         "Library/Bee/artifacts/MacStandalonePlayerBuildProgram/Features/System.Data-FeaturesChecked.txt"
       ],
       "ToBuildDependencies": [
-        129,
-        260
+        142,
+        273
       ],
       "AllowUnexpectedOutput": true,
       "Env": [],
-      "DebugActionIndex": 261
+      "DebugActionIndex": 274
     },
     {
       "Annotation": "WriteText Library/Bee/artifacts/csharpactions/System-FeaturesChecked.txt_vs5j.info",
@@ -6483,7 +6639,7 @@
         "Library/Bee/artifacts/csharpactions/System-FeaturesChecked.txt_vs5j.info"
       ],
       "AllowUnwrittenOutputFiles": true,
-      "DebugActionIndex": 262
+      "DebugActionIndex": 275
     },
     {
       "Annotation": "ExtractUsedFeatures Library/Bee/artifacts/MacStandalonePlayerBuildProgram/Features/System-FeaturesChecked.txt",
@@ -6538,12 +6694,12 @@
         "Library/Bee/artifacts/MacStandalonePlayerBuildProgram/Features/System-FeaturesChecked.txt"
       ],
       "ToBuildDependencies": [
-        129,
-        262
+        142,
+        275
       ],
       "AllowUnexpectedOutput": true,
       "Env": [],
-      "DebugActionIndex": 263
+      "DebugActionIndex": 276
     },
     {
       "Annotation": "WriteText Library/Bee/artifacts/csharpactions/UnityEngine.UIWidgetsModule-FeaturesChecked.txt_am6j.info",
@@ -6554,7 +6710,7 @@
         "Library/Bee/artifacts/csharpactions/UnityEngine.UIWidgetsModule-FeaturesChecked.txt_am6j.info"
       ],
       "AllowUnwrittenOutputFiles": true,
-      "DebugActionIndex": 264
+      "DebugActionIndex": 277
     },
     {
       "Annotation": "ExtractUsedFeatures Library/Bee/artifacts/MacStandalonePlayerBuildProgram/Features/UnityEngine.UIWidgetsModule-FeaturesChecked.txt",
@@ -6609,12 +6765,12 @@
         "Library/Bee/artifacts/MacStandalonePlayerBuildProgram/Features/UnityEngine.UIWidgetsModule-FeaturesChecked.txt"
       ],
       "ToBuildDependencies": [
-        129,
-        264
+        142,
+        277
       ],
       "AllowUnexpectedOutput": true,
       "Env": [],
-      "DebugActionIndex": 265
+      "DebugActionIndex": 278
     },
     {
       "Annotation": "WriteText Library/Bee/artifacts/csharpactions/UnityEngine.SharedInternalsModule-FeaturesChecked.txt_ktjz.info",
@@ -6625,7 +6781,7 @@
         "Library/Bee/artifacts/csharpactions/UnityEngine.SharedInternalsModule-FeaturesChecked.txt_ktjz.info"
       ],
       "AllowUnwrittenOutputFiles": true,
-      "DebugActionIndex": 266
+      "DebugActionIndex": 279
     },
     {
       "Annotation": "ExtractUsedFeatures Library/Bee/artifacts/MacStandalonePlayerBuildProgram/Features/UnityEngine.SharedInternalsModule-FeaturesChecked.txt",
@@ -6680,12 +6836,12 @@
         "Library/Bee/artifacts/MacStandalonePlayerBuildProgram/Features/UnityEngine.SharedInternalsModule-FeaturesChecked.txt"
       ],
       "ToBuildDependencies": [
-        129,
-        266
+        142,
+        279
       ],
       "AllowUnexpectedOutput": true,
       "Env": [],
-      "DebugActionIndex": 267
+      "DebugActionIndex": 280
     },
     {
       "Annotation": "WriteText Library/Bee/artifacts/csharpactions/Unity.Timeline-FeaturesChecked.txt_2liy.info",
@@ -6696,7 +6852,7 @@
         "Library/Bee/artifacts/csharpactions/Unity.Timeline-FeaturesChecked.txt_2liy.info"
       ],
       "AllowUnwrittenOutputFiles": true,
-      "DebugActionIndex": 268
+      "DebugActionIndex": 281
     },
     {
       "Annotation": "ExtractUsedFeatures Library/Bee/artifacts/MacStandalonePlayerBuildProgram/Features/Unity.Timeline-FeaturesChecked.txt",
@@ -6751,12 +6907,12 @@
         "Library/Bee/artifacts/MacStandalonePlayerBuildProgram/Features/Unity.Timeline-FeaturesChecked.txt"
       ],
       "ToBuildDependencies": [
-        129,
-        268
+        142,
+        281
       ],
       "AllowUnexpectedOutput": true,
       "Env": [],
-      "DebugActionIndex": 269
+      "DebugActionIndex": 282
     },
     {
       "Annotation": "WriteText Library/Bee/artifacts/csharpactions/UnityEngine.ImageConversionModule-FeaturesChecked.txt_4svn.info",
@@ -6767,7 +6923,7 @@
         "Library/Bee/artifacts/csharpactions/UnityEngine.ImageConversionModule-FeaturesChecked.txt_4svn.info"
       ],
       "AllowUnwrittenOutputFiles": true,
-      "DebugActionIndex": 270
+      "DebugActionIndex": 283
     },
     {
       "Annotation": "ExtractUsedFeatures Library/Bee/artifacts/MacStandalonePlayerBuildProgram/Features/UnityEngine.ImageConversionModule-FeaturesChecked.txt",
@@ -6822,12 +6978,12 @@
         "Library/Bee/artifacts/MacStandalonePlayerBuildProgram/Features/UnityEngine.ImageConversionModule-FeaturesChecked.txt"
       ],
       "ToBuildDependencies": [
-        129,
-        270
+        142,
+        283
       ],
       "AllowUnexpectedOutput": true,
       "Env": [],
-      "DebugActionIndex": 271
+      "DebugActionIndex": 284
     },
     {
       "Annotation": "WriteText Library/Bee/artifacts/csharpactions/UnityEngine.TilemapModule-FeaturesChecked.txt_dq0e.info",
@@ -6838,7 +6994,7 @@
         "Library/Bee/artifacts/csharpactions/UnityEngine.TilemapModule-FeaturesChecked.txt_dq0e.info"
       ],
       "AllowUnwrittenOutputFiles": true,
-      "DebugActionIndex": 272
+      "DebugActionIndex": 285
     },
     {
       "Annotation": "ExtractUsedFeatures Library/Bee/artifacts/MacStandalonePlayerBuildProgram/Features/UnityEngine.TilemapModule-FeaturesChecked.txt",
@@ -6893,12 +7049,12 @@
         "Library/Bee/artifacts/MacStandalonePlayerBuildProgram/Features/UnityEngine.TilemapModule-FeaturesChecked.txt"
       ],
       "ToBuildDependencies": [
-        129,
-        272
+        142,
+        285
       ],
       "AllowUnexpectedOutput": true,
       "Env": [],
-      "DebugActionIndex": 273
+      "DebugActionIndex": 286
     },
     {
       "Annotation": "WriteText Library/Bee/artifacts/csharpactions/UnityEngine.ParticleSystemModule-FeaturesChecked.txt_khwv.info",
@@ -6909,7 +7065,7 @@
         "Library/Bee/artifacts/csharpactions/UnityEngine.ParticleSystemModule-FeaturesChecked.txt_khwv.info"
       ],
       "AllowUnwrittenOutputFiles": true,
-      "DebugActionIndex": 274
+      "DebugActionIndex": 287
     },
     {
       "Annotation": "ExtractUsedFeatures Library/Bee/artifacts/MacStandalonePlayerBuildProgram/Features/UnityEngine.ParticleSystemModule-FeaturesChecked.txt",
@@ -6964,12 +7120,12 @@
         "Library/Bee/artifacts/MacStandalonePlayerBuildProgram/Features/UnityEngine.ParticleSystemModule-FeaturesChecked.txt"
       ],
       "ToBuildDependencies": [
-        129,
-        274
+        142,
+        287
       ],
       "AllowUnexpectedOutput": true,
       "Env": [],
-      "DebugActionIndex": 275
+      "DebugActionIndex": 288
     },
     {
       "Annotation": "WriteText Library/Bee/artifacts/csharpactions/UnityEngine.VehiclesModule-FeaturesChecked.txt_yqqz.info",
@@ -6980,7 +7136,7 @@
         "Library/Bee/artifacts/csharpactions/UnityEngine.VehiclesModule-FeaturesChecked.txt_yqqz.info"
       ],
       "AllowUnwrittenOutputFiles": true,
-      "DebugActionIndex": 276
+      "DebugActionIndex": 289
     },
     {
       "Annotation": "ExtractUsedFeatures Library/Bee/artifacts/MacStandalonePlayerBuildProgram/Features/UnityEngine.VehiclesModule-FeaturesChecked.txt",
@@ -7035,12 +7191,12 @@
         "Library/Bee/artifacts/MacStandalonePlayerBuildProgram/Features/UnityEngine.VehiclesModule-FeaturesChecked.txt"
       ],
       "ToBuildDependencies": [
-        129,
-        276
+        142,
+        289
       ],
       "AllowUnexpectedOutput": true,
       "Env": [],
-      "DebugActionIndex": 277
+      "DebugActionIndex": 290
     },
     {
       "Annotation": "WriteText Library/Bee/artifacts/csharpactions/UnityEngine.TextCoreFontEngineModule-FeaturesChecked.txt_gk3c.info",
@@ -7051,7 +7207,7 @@
         "Library/Bee/artifacts/csharpactions/UnityEngine.TextCoreFontEngineModule-FeaturesChecked.txt_gk3c.info"
       ],
       "AllowUnwrittenOutputFiles": true,
-      "DebugActionIndex": 278
+      "DebugActionIndex": 291
     },
     {
       "Annotation": "ExtractUsedFeatures Library/Bee/artifacts/MacStandalonePlayerBuildProgram/Features/UnityEngine.TextCoreFontEngineModule-FeaturesChecked.txt",
@@ -7106,12 +7262,12 @@
         "Library/Bee/artifacts/MacStandalonePlayerBuildProgram/Features/UnityEngine.TextCoreFontEngineModule-FeaturesChecked.txt"
       ],
       "ToBuildDependencies": [
-        129,
-        278
+        142,
+        291
       ],
       "AllowUnexpectedOutput": true,
       "Env": [],
-      "DebugActionIndex": 279
+      "DebugActionIndex": 292
     },
     {
       "Annotation": "WriteText Library/Bee/artifacts/csharpactions/UnityEngine.PhysicsModule-FeaturesChecked.txt_26rb.info",
@@ -7122,7 +7278,7 @@
         "Library/Bee/artifacts/csharpactions/UnityEngine.PhysicsModule-FeaturesChecked.txt_26rb.info"
       ],
       "AllowUnwrittenOutputFiles": true,
-      "DebugActionIndex": 280
+      "DebugActionIndex": 293
     },
     {
       "Annotation": "ExtractUsedFeatures Library/Bee/artifacts/MacStandalonePlayerBuildProgram/Features/UnityEngine.PhysicsModule-FeaturesChecked.txt",
@@ -7177,12 +7333,12 @@
         "Library/Bee/artifacts/MacStandalonePlayerBuildProgram/Features/UnityEngine.PhysicsModule-FeaturesChecked.txt"
       ],
       "ToBuildDependencies": [
-        129,
-        280
+        142,
+        293
       ],
       "AllowUnexpectedOutput": true,
       "Env": [],
-      "DebugActionIndex": 281
+      "DebugActionIndex": 294
     },
     {
       "Annotation": "WriteText Library/Bee/artifacts/csharpactions/UnityEngine.CoreModule-FeaturesChecked.txt_ikd0.info",
@@ -7193,7 +7349,7 @@
         "Library/Bee/artifacts/csharpactions/UnityEngine.CoreModule-FeaturesChecked.txt_ikd0.info"
       ],
       "AllowUnwrittenOutputFiles": true,
-      "DebugActionIndex": 282
+      "DebugActionIndex": 295
     },
     {
       "Annotation": "ExtractUsedFeatures Library/Bee/artifacts/MacStandalonePlayerBuildProgram/Features/UnityEngine.CoreModule-FeaturesChecked.txt",
@@ -7248,12 +7404,12 @@
         "Library/Bee/artifacts/MacStandalonePlayerBuildProgram/Features/UnityEngine.CoreModule-FeaturesChecked.txt"
       ],
       "ToBuildDependencies": [
-        129,
-        282
+        142,
+        295
       ],
       "AllowUnexpectedOutput": true,
       "Env": [],
-      "DebugActionIndex": 283
+      "DebugActionIndex": 296
     },
     {
       "Annotation": "WriteText Library/Bee/artifacts/csharpactions/UnityEngine.PerformanceReportingModule-FeaturesChecked.txt_dxcc.info",
@@ -7264,7 +7420,7 @@
         "Library/Bee/artifacts/csharpactions/UnityEngine.PerformanceReportingModule-FeaturesChecked.txt_dxcc.info"
       ],
       "AllowUnwrittenOutputFiles": true,
-      "DebugActionIndex": 284
+      "DebugActionIndex": 297
     },
     {
       "Annotation": "ExtractUsedFeatures Library/Bee/artifacts/MacStandalonePlayerBuildProgram/Features/UnityEngine.PerformanceReportingModule-FeaturesChecked.txt",
@@ -7319,12 +7475,12 @@
         "Library/Bee/artifacts/MacStandalonePlayerBuildProgram/Features/UnityEngine.PerformanceReportingModule-FeaturesChecked.txt"
       ],
       "ToBuildDependencies": [
-        129,
-        284
+        142,
+        297
       ],
       "AllowUnexpectedOutput": true,
       "Env": [],
-      "DebugActionIndex": 285
+      "DebugActionIndex": 298
     },
     {
       "Annotation": "WriteText Library/Bee/artifacts/csharpactions/UnityEngine.SubsystemsModule-FeaturesChecked.txt_jhyo.info",
@@ -7335,7 +7491,7 @@
         "Library/Bee/artifacts/csharpactions/UnityEngine.SubsystemsModule-FeaturesChecked.txt_jhyo.info"
       ],
       "AllowUnwrittenOutputFiles": true,
-      "DebugActionIndex": 286
+      "DebugActionIndex": 299
     },
     {
       "Annotation": "ExtractUsedFeatures Library/Bee/artifacts/MacStandalonePlayerBuildProgram/Features/UnityEngine.SubsystemsModule-FeaturesChecked.txt",
@@ -7390,12 +7546,12 @@
         "Library/Bee/artifacts/MacStandalonePlayerBuildProgram/Features/UnityEngine.SubsystemsModule-FeaturesChecked.txt"
       ],
       "ToBuildDependencies": [
-        129,
-        286
+        142,
+        299
       ],
       "AllowUnexpectedOutput": true,
       "Env": [],
-      "DebugActionIndex": 287
+      "DebugActionIndex": 300
     },
     {
       "Annotation": "WriteText Library/Bee/artifacts/csharpactions/System.Numerics-FeaturesChecked.txt_rbrh.info",
@@ -7406,7 +7562,7 @@
         "Library/Bee/artifacts/csharpactions/System.Numerics-FeaturesChecked.txt_rbrh.info"
       ],
       "AllowUnwrittenOutputFiles": true,
-      "DebugActionIndex": 288
+      "DebugActionIndex": 301
     },
     {
       "Annotation": "ExtractUsedFeatures Library/Bee/artifacts/MacStandalonePlayerBuildProgram/Features/System.Numerics-FeaturesChecked.txt",
@@ -7461,12 +7617,12 @@
         "Library/Bee/artifacts/MacStandalonePlayerBuildProgram/Features/System.Numerics-FeaturesChecked.txt"
       ],
       "ToBuildDependencies": [
-        129,
-        288
+        142,
+        301
       ],
       "AllowUnexpectedOutput": true,
       "Env": [],
-      "DebugActionIndex": 289
+      "DebugActionIndex": 302
     },
     {
       "Annotation": "WriteText Library/Bee/artifacts/csharpactions/System.Xml-FeaturesChecked.txt_gyyq.info",
@@ -7477,7 +7633,7 @@
         "Library/Bee/artifacts/csharpactions/System.Xml-FeaturesChecked.txt_gyyq.info"
       ],
       "AllowUnwrittenOutputFiles": true,
-      "DebugActionIndex": 290
+      "DebugActionIndex": 303
     },
     {
       "Annotation": "ExtractUsedFeatures Library/Bee/artifacts/MacStandalonePlayerBuildProgram/Features/System.Xml-FeaturesChecked.txt",
@@ -7532,12 +7688,12 @@
         "Library/Bee/artifacts/MacStandalonePlayerBuildProgram/Features/System.Xml-FeaturesChecked.txt"
       ],
       "ToBuildDependencies": [
-        129,
-        290
+        142,
+        303
       ],
       "AllowUnexpectedOutput": true,
       "Env": [],
-      "DebugActionIndex": 291
+      "DebugActionIndex": 304
     },
     {
       "Annotation": "WriteText Library/Bee/artifacts/csharpactions/UnityEngine.WindModule-FeaturesChecked.txt_7k27.info",
@@ -7548,7 +7704,7 @@
         "Library/Bee/artifacts/csharpactions/UnityEngine.WindModule-FeaturesChecked.txt_7k27.info"
       ],
       "AllowUnwrittenOutputFiles": true,
-      "DebugActionIndex": 292
+      "DebugActionIndex": 305
     },
     {
       "Annotation": "ExtractUsedFeatures Library/Bee/artifacts/MacStandalonePlayerBuildProgram/Features/UnityEngine.WindModule-FeaturesChecked.txt",
@@ -7603,12 +7759,12 @@
         "Library/Bee/artifacts/MacStandalonePlayerBuildProgram/Features/UnityEngine.WindModule-FeaturesChecked.txt"
       ],
       "ToBuildDependencies": [
-        129,
-        292
+        142,
+        305
       ],
       "AllowUnexpectedOutput": true,
       "Env": [],
-      "DebugActionIndex": 293
+      "DebugActionIndex": 306
     },
     {
       "Annotation": "WriteText Library/Bee/artifacts/csharpactions/System.ComponentModel.Composition-FeaturesChecked.txt_tzo9.info",
@@ -7619,7 +7775,7 @@
         "Library/Bee/artifacts/csharpactions/System.ComponentModel.Composition-FeaturesChecked.txt_tzo9.info"
       ],
       "AllowUnwrittenOutputFiles": true,
-      "DebugActionIndex": 294
+      "DebugActionIndex": 307
     },
     {
       "Annotation": "ExtractUsedFeatures Library/Bee/artifacts/MacStandalonePlayerBuildProgram/Features/System.ComponentModel.Composition-FeaturesChecked.txt",
@@ -7674,12 +7830,12 @@
         "Library/Bee/artifacts/MacStandalonePlayerBuildProgram/Features/System.ComponentModel.Composition-FeaturesChecked.txt"
       ],
       "ToBuildDependencies": [
-        129,
-        294
+        142,
+        307
       ],
       "AllowUnexpectedOutput": true,
       "Env": [],
-      "DebugActionIndex": 295
+      "DebugActionIndex": 308
     },
     {
       "Annotation": "WriteText Library/Bee/artifacts/csharpactions/UnityEngine.UnityAnalyticsCommonModule-FeaturesChecked.txt_nin7.info",
@@ -7690,7 +7846,7 @@
         "Library/Bee/artifacts/csharpactions/UnityEngine.UnityAnalyticsCommonModule-FeaturesChecked.txt_nin7.info"
       ],
       "AllowUnwrittenOutputFiles": true,
-      "DebugActionIndex": 296
+      "DebugActionIndex": 309
     },
     {
       "Annotation": "ExtractUsedFeatures Library/Bee/artifacts/MacStandalonePlayerBuildProgram/Features/UnityEngine.UnityAnalyticsCommonModule-FeaturesChecked.txt",
@@ -7745,12 +7901,12 @@
         "Library/Bee/artifacts/MacStandalonePlayerBuildProgram/Features/UnityEngine.UnityAnalyticsCommonModule-FeaturesChecked.txt"
       ],
       "ToBuildDependencies": [
-        129,
-        296
+        142,
+        309
       ],
       "AllowUnexpectedOutput": true,
       "Env": [],
-      "DebugActionIndex": 297
+      "DebugActionIndex": 310
     },
     {
       "Annotation": "WriteText Library/Bee/artifacts/csharpactions/UnityEngine.ScreenCaptureModule-FeaturesChecked.txt_t5mg.info",
@@ -7761,7 +7917,7 @@
         "Library/Bee/artifacts/csharpactions/UnityEngine.ScreenCaptureModule-FeaturesChecked.txt_t5mg.info"
       ],
       "AllowUnwrittenOutputFiles": true,
-      "DebugActionIndex": 298
+      "DebugActionIndex": 311
     },
     {
       "Annotation": "ExtractUsedFeatures Library/Bee/artifacts/MacStandalonePlayerBuildProgram/Features/UnityEngine.ScreenCaptureModule-FeaturesChecked.txt",
@@ -7816,12 +7972,12 @@
         "Library/Bee/artifacts/MacStandalonePlayerBuildProgram/Features/UnityEngine.ScreenCaptureModule-FeaturesChecked.txt"
       ],
       "ToBuildDependencies": [
-        129,
-        298
+        142,
+        311
       ],
       "AllowUnexpectedOutput": true,
       "Env": [],
-      "DebugActionIndex": 299
+      "DebugActionIndex": 312
     },
     {
       "Annotation": "WriteText Library/Bee/artifacts/csharpactions/UnityEngine.ClusterRendererModule-FeaturesChecked.txt_cqm3.info",
@@ -7832,7 +7988,7 @@
         "Library/Bee/artifacts/csharpactions/UnityEngine.ClusterRendererModule-FeaturesChecked.txt_cqm3.info"
       ],
       "AllowUnwrittenOutputFiles": true,
-      "DebugActionIndex": 300
+      "DebugActionIndex": 313
     },
     {
       "Annotation": "ExtractUsedFeatures Library/Bee/artifacts/MacStandalonePlayerBuildProgram/Features/UnityEngine.ClusterRendererModule-FeaturesChecked.txt",
@@ -7887,12 +8043,12 @@
         "Library/Bee/artifacts/MacStandalonePlayerBuildProgram/Features/UnityEngine.ClusterRendererModule-FeaturesChecked.txt"
       ],
       "ToBuildDependencies": [
-        129,
-        300
+        142,
+        313
       ],
       "AllowUnexpectedOutput": true,
       "Env": [],
-      "DebugActionIndex": 301
+      "DebugActionIndex": 314
     },
     {
       "Annotation": "WriteText Library/Bee/artifacts/csharpactions/UnityEngine.UnityWebRequestModule-FeaturesChecked.txt_vyuy.info",
@@ -7903,7 +8059,7 @@
         "Library/Bee/artifacts/csharpactions/UnityEngine.UnityWebRequestModule-FeaturesChecked.txt_vyuy.info"
       ],
       "AllowUnwrittenOutputFiles": true,
-      "DebugActionIndex": 302
+      "DebugActionIndex": 315
     },
     {
       "Annotation": "ExtractUsedFeatures Library/Bee/artifacts/MacStandalonePlayerBuildProgram/Features/UnityEngine.UnityWebRequestModule-FeaturesChecked.txt",
@@ -7958,12 +8114,12 @@
         "Library/Bee/artifacts/MacStandalonePlayerBuildProgram/Features/UnityEngine.UnityWebRequestModule-FeaturesChecked.txt"
       ],
       "ToBuildDependencies": [
-        129,
-        302
+        142,
+        315
       ],
       "AllowUnexpectedOutput": true,
       "Env": [],
-      "DebugActionIndex": 303
+      "DebugActionIndex": 316
     },
     {
       "Annotation": "WriteText Library/Bee/artifacts/csharpactions/UnityEngine.UnityWebRequestAudioModule-FeaturesChecked.txt_p8ol.info",
@@ -7974,7 +8130,7 @@
         "Library/Bee/artifacts/csharpactions/UnityEngine.UnityWebRequestAudioModule-FeaturesChecked.txt_p8ol.info"
       ],
       "AllowUnwrittenOutputFiles": true,
-      "DebugActionIndex": 304
+      "DebugActionIndex": 317
     },
     {
       "Annotation": "ExtractUsedFeatures Library/Bee/artifacts/MacStandalonePlayerBuildProgram/Features/UnityEngine.UnityWebRequestAudioModule-FeaturesChecked.txt",
@@ -8029,12 +8185,12 @@
         "Library/Bee/artifacts/MacStandalonePlayerBuildProgram/Features/UnityEngine.UnityWebRequestAudioModule-FeaturesChecked.txt"
       ],
       "ToBuildDependencies": [
-        129,
-        304
+        142,
+        317
       ],
       "AllowUnexpectedOutput": true,
       "Env": [],
-      "DebugActionIndex": 305
+      "DebugActionIndex": 318
     },
     {
       "Annotation": "WriteText Library/Bee/artifacts/csharpactions/System.Drawing-FeaturesChecked.txt_z3qy.info",
@@ -8045,7 +8201,7 @@
         "Library/Bee/artifacts/csharpactions/System.Drawing-FeaturesChecked.txt_z3qy.info"
       ],
       "AllowUnwrittenOutputFiles": true,
-      "DebugActionIndex": 306
+      "DebugActionIndex": 319
     },
     {
       "Annotation": "ExtractUsedFeatures Library/Bee/artifacts/MacStandalonePlayerBuildProgram/Features/System.Drawing-FeaturesChecked.txt",
@@ -8100,12 +8256,12 @@
         "Library/Bee/artifacts/MacStandalonePlayerBuildProgram/Features/System.Drawing-FeaturesChecked.txt"
       ],
       "ToBuildDependencies": [
-        129,
-        306
+        142,
+        319
       ],
       "AllowUnexpectedOutput": true,
       "Env": [],
-      "DebugActionIndex": 307
+      "DebugActionIndex": 320
     },
     {
       "Annotation": "WriteText Library/Bee/artifacts/csharpactions/UnityEngine.UNETModule-FeaturesChecked.txt_jarw.info",
@@ -8116,7 +8272,7 @@
         "Library/Bee/artifacts/csharpactions/UnityEngine.UNETModule-FeaturesChecked.txt_jarw.info"
       ],
       "AllowUnwrittenOutputFiles": true,
-      "DebugActionIndex": 308
+      "DebugActionIndex": 321
     },
     {
       "Annotation": "ExtractUsedFeatures Library/Bee/artifacts/MacStandalonePlayerBuildProgram/Features/UnityEngine.UNETModule-FeaturesChecked.txt",
@@ -8171,12 +8327,12 @@
         "Library/Bee/artifacts/MacStandalonePlayerBuildProgram/Features/UnityEngine.UNETModule-FeaturesChecked.txt"
       ],
       "ToBuildDependencies": [
-        129,
-        308
+        142,
+        321
       ],
       "AllowUnexpectedOutput": true,
       "Env": [],
-      "DebugActionIndex": 309
+      "DebugActionIndex": 322
     },
     {
       "Annotation": "WriteText Library/Bee/artifacts/csharpactions/UnityEngine.ClothModule-FeaturesChecked.txt_9hky.info",
@@ -8187,7 +8343,7 @@
         "Library/Bee/artifacts/csharpactions/UnityEngine.ClothModule-FeaturesChecked.txt_9hky.info"
       ],
       "AllowUnwrittenOutputFiles": true,
-      "DebugActionIndex": 310
+      "DebugActionIndex": 323
     },
     {
       "Annotation": "ExtractUsedFeatures Library/Bee/artifacts/MacStandalonePlayerBuildProgram/Features/UnityEngine.ClothModule-FeaturesChecked.txt",
@@ -8242,12 +8398,12 @@
         "Library/Bee/artifacts/MacStandalonePlayerBuildProgram/Features/UnityEngine.ClothModule-FeaturesChecked.txt"
       ],
       "ToBuildDependencies": [
-        129,
-        310
+        142,
+        323
       ],
       "AllowUnexpectedOutput": true,
       "Env": [],
-      "DebugActionIndex": 311
+      "DebugActionIndex": 324
     },
     {
       "Annotation": "WriteText Library/Bee/artifacts/csharpactions/UnityEngine.AndroidJNIModule-FeaturesChecked.txt_llt1.info",
@@ -8258,7 +8414,7 @@
         "Library/Bee/artifacts/csharpactions/UnityEngine.AndroidJNIModule-FeaturesChecked.txt_llt1.info"
       ],
       "AllowUnwrittenOutputFiles": true,
-      "DebugActionIndex": 312
+      "DebugActionIndex": 325
     },
     {
       "Annotation": "ExtractUsedFeatures Library/Bee/artifacts/MacStandalonePlayerBuildProgram/Features/UnityEngine.AndroidJNIModule-FeaturesChecked.txt",
@@ -8313,12 +8469,12 @@
         "Library/Bee/artifacts/MacStandalonePlayerBuildProgram/Features/UnityEngine.AndroidJNIModule-FeaturesChecked.txt"
       ],
       "ToBuildDependencies": [
-        129,
-        312
+        142,
+        325
       ],
       "AllowUnexpectedOutput": true,
       "Env": [],
-      "DebugActionIndex": 313
+      "DebugActionIndex": 326
     },
     {
       "Annotation": "WriteText Library/Bee/artifacts/csharpactions/System.Security-FeaturesChecked.txt_hwii.info",
@@ -8329,7 +8485,7 @@
         "Library/Bee/artifacts/csharpactions/System.Security-FeaturesChecked.txt_hwii.info"
       ],
       "AllowUnwrittenOutputFiles": true,
-      "DebugActionIndex": 314
+      "DebugActionIndex": 327
     },
     {
       "Annotation": "ExtractUsedFeatures Library/Bee/artifacts/MacStandalonePlayerBuildProgram/Features/System.Security-FeaturesChecked.txt",
@@ -8384,12 +8540,12 @@
         "Library/Bee/artifacts/MacStandalonePlayerBuildProgram/Features/System.Security-FeaturesChecked.txt"
       ],
       "ToBuildDependencies": [
-        129,
-        314
+        142,
+        327
       ],
       "AllowUnexpectedOutput": true,
       "Env": [],
-      "DebugActionIndex": 315
+      "DebugActionIndex": 328
     },
     {
       "Annotation": "WriteText Library/Bee/artifacts/csharpactions/UnityEngine.AIModule-FeaturesChecked.txt_r425.info",
@@ -8400,7 +8556,7 @@
         "Library/Bee/artifacts/csharpactions/UnityEngine.AIModule-FeaturesChecked.txt_r425.info"
       ],
       "AllowUnwrittenOutputFiles": true,
-      "DebugActionIndex": 316
+      "DebugActionIndex": 329
     },
     {
       "Annotation": "ExtractUsedFeatures Library/Bee/artifacts/MacStandalonePlayerBuildProgram/Features/UnityEngine.AIModule-FeaturesChecked.txt",
@@ -8455,12 +8611,12 @@
         "Library/Bee/artifacts/MacStandalonePlayerBuildProgram/Features/UnityEngine.AIModule-FeaturesChecked.txt"
       ],
       "ToBuildDependencies": [
-        129,
-        316
+        142,
+        329
       ],
       "AllowUnexpectedOutput": true,
       "Env": [],
-      "DebugActionIndex": 317
+      "DebugActionIndex": 330
     },
     {
       "Annotation": "WriteText Library/Bee/artifacts/csharpactions/UnityEngine.TLSModule-FeaturesChecked.txt_2rm9.info",
@@ -8471,7 +8627,7 @@
         "Library/Bee/artifacts/csharpactions/UnityEngine.TLSModule-FeaturesChecked.txt_2rm9.info"
       ],
       "AllowUnwrittenOutputFiles": true,
-      "DebugActionIndex": 318
+      "DebugActionIndex": 331
     },
     {
       "Annotation": "ExtractUsedFeatures Library/Bee/artifacts/MacStandalonePlayerBuildProgram/Features/UnityEngine.TLSModule-FeaturesChecked.txt",
@@ -8526,12 +8682,12 @@
         "Library/Bee/artifacts/MacStandalonePlayerBuildProgram/Features/UnityEngine.TLSModule-FeaturesChecked.txt"
       ],
       "ToBuildDependencies": [
-        129,
-        318
+        142,
+        331
       ],
       "AllowUnexpectedOutput": true,
       "Env": [],
-      "DebugActionIndex": 319
+      "DebugActionIndex": 332
     },
     {
       "Annotation": "WriteText Library/Bee/artifacts/csharpactions/UnityEngine.IMGUIModule-FeaturesChecked.txt_at7m.info",
@@ -8542,7 +8698,7 @@
         "Library/Bee/artifacts/csharpactions/UnityEngine.IMGUIModule-FeaturesChecked.txt_at7m.info"
       ],
       "AllowUnwrittenOutputFiles": true,
-      "DebugActionIndex": 320
+      "DebugActionIndex": 333
     },
     {
       "Annotation": "ExtractUsedFeatures Library/Bee/artifacts/MacStandalonePlayerBuildProgram/Features/UnityEngine.IMGUIModule-FeaturesChecked.txt",
@@ -8597,12 +8753,12 @@
         "Library/Bee/artifacts/MacStandalonePlayerBuildProgram/Features/UnityEngine.IMGUIModule-FeaturesChecked.txt"
       ],
       "ToBuildDependencies": [
-        129,
-        320
+        142,
+        333
       ],
       "AllowUnexpectedOutput": true,
       "Env": [],
-      "DebugActionIndex": 321
+      "DebugActionIndex": 334
     },
     {
       "Annotation": "WriteText Library/Bee/artifacts/csharpactions/System.Core-FeaturesChecked.txt_0bzp.info",
@@ -8613,7 +8769,7 @@
         "Library/Bee/artifacts/csharpactions/System.Core-FeaturesChecked.txt_0bzp.info"
       ],
       "AllowUnwrittenOutputFiles": true,
-      "DebugActionIndex": 322
+      "DebugActionIndex": 335
     },
     {
       "Annotation": "ExtractUsedFeatures Library/Bee/artifacts/MacStandalonePlayerBuildProgram/Features/System.Core-FeaturesChecked.txt",
@@ -8668,12 +8824,12 @@
         "Library/Bee/artifacts/MacStandalonePlayerBuildProgram/Features/System.Core-FeaturesChecked.txt"
       ],
       "ToBuildDependencies": [
-        129,
-        322
+        142,
+        335
       ],
       "AllowUnexpectedOutput": true,
       "Env": [],
-      "DebugActionIndex": 323
+      "DebugActionIndex": 336
     },
     {
       "Annotation": "WriteText Library/Bee/artifacts/csharpactions/UnityEngine.VideoModule-FeaturesChecked.txt_iwkd.info",
@@ -8684,7 +8840,7 @@
         "Library/Bee/artifacts/csharpactions/UnityEngine.VideoModule-FeaturesChecked.txt_iwkd.info"
       ],
       "AllowUnwrittenOutputFiles": true,
-      "DebugActionIndex": 324
+      "DebugActionIndex": 337
     },
     {
       "Annotation": "ExtractUsedFeatures Library/Bee/artifacts/MacStandalonePlayerBuildProgram/Features/UnityEngine.VideoModule-FeaturesChecked.txt",
@@ -8739,12 +8895,12 @@
         "Library/Bee/artifacts/MacStandalonePlayerBuildProgram/Features/UnityEngine.VideoModule-FeaturesChecked.txt"
       ],
       "ToBuildDependencies": [
-        129,
-        324
+        142,
+        337
       ],
       "AllowUnexpectedOutput": true,
       "Env": [],
-      "DebugActionIndex": 325
+      "DebugActionIndex": 338
     },
     {
       "Annotation": "WriteText Library/Bee/artifacts/MacStandalonePlayerBuildProgram/Data/app.info",
@@ -8755,7 +8911,7 @@
         "Library/Bee/artifacts/MacStandalonePlayerBuildProgram/Data/app.info"
       ],
       "AllowUnwrittenOutputFiles": true,
-      "DebugActionIndex": 326
+      "DebugActionIndex": 339
     },
     {
       "Annotation": "CopyFiles /Users/mac/Desktop/5.app/Contents/Resources/unity default resources",
@@ -8766,7 +8922,7 @@
       "Outputs": [
         "/Users/mac/Desktop/5.app/Contents/Resources/unity default resources"
       ],
-      "DebugActionIndex": 327
+      "DebugActionIndex": 340
     },
     {
       "Annotation": "WriteText Library/Bee/artifacts/csharpactions/UnityPlayer.dylib_lsiw.info",
@@ -8777,7 +8933,7 @@
         "Library/Bee/artifacts/csharpactions/UnityPlayer.dylib_lsiw.info"
       ],
       "AllowUnwrittenOutputFiles": true,
-      "DebugActionIndex": 328
+      "DebugActionIndex": 341
     },
     {
       "Annotation": "MacOSCodeSignDylibCopy /Users/mac/Desktop/5.app/Contents/Frameworks/UnityPlayer.dylib",
@@ -8802,11 +8958,11 @@
         "/Users/mac/Desktop/5.app/Contents/Frameworks/UnityPlayer.dylib"
       ],
       "ToBuildDependencies": [
-        328
+        341
       ],
       "AllowUnexpectedOutput": true,
       "Env": [],
-      "DebugActionIndex": 329
+      "DebugActionIndex": 342
     },
     {
       "Annotation": "CopyFiles /Users/mac/Desktop/5.app/Contents/Frameworks/libMonoPosixHelper.dylib",
@@ -8817,7 +8973,7 @@
       "Outputs": [
         "/Users/mac/Desktop/5.app/Contents/Frameworks/libMonoPosixHelper.dylib"
       ],
-      "DebugActionIndex": 330
+      "DebugActionIndex": 343
     },
     {
       "Annotation": "CopyFiles /Users/mac/Desktop/5.app/Contents/Frameworks/libmonobdwgc-2.0.dylib",
@@ -8828,7 +8984,7 @@
       "Outputs": [
         "/Users/mac/Desktop/5.app/Contents/Frameworks/libmonobdwgc-2.0.dylib"
       ],
-      "DebugActionIndex": 331
+      "DebugActionIndex": 344
     },
     {
       "Annotation": "CopyFiles /Users/mac/Desktop/5.app/Contents/Frameworks/libmono-native.dylib",
@@ -8839,7 +8995,7 @@
       "Outputs": [
         "/Users/mac/Desktop/5.app/Contents/Frameworks/libmono-native.dylib"
       ],
-      "DebugActionIndex": 332
+      "DebugActionIndex": 345
     },
     {
       "Annotation": "CopyFiles /Users/mac/Desktop/5.app/Contents/MonoBleedingEdge/etc/mono/config",
@@ -8850,7 +9006,7 @@
       "Outputs": [
         "/Users/mac/Desktop/5.app/Contents/MonoBleedingEdge/etc/mono/config"
       ],
-      "DebugActionIndex": 333
+      "DebugActionIndex": 346
     },
     {
       "Annotation": "CopyFiles /Users/mac/Desktop/5.app/Contents/MonoBleedingEdge/etc/mono/browscap.ini",
@@ -8861,7 +9017,7 @@
       "Outputs": [
         "/Users/mac/Desktop/5.app/Contents/MonoBleedingEdge/etc/mono/browscap.ini"
       ],
-      "DebugActionIndex": 334
+      "DebugActionIndex": 347
     },
     {
       "Annotation": "CopyFiles /Users/mac/Desktop/5.app/Contents/MonoBleedingEdge/etc/mono/2.0/web.config",
@@ -8872,7 +9028,7 @@
       "Outputs": [
         "/Users/mac/Desktop/5.app/Contents/MonoBleedingEdge/etc/mono/2.0/web.config"
       ],
-      "DebugActionIndex": 335
+      "DebugActionIndex": 348
     },
     {
       "Annotation": "CopyFiles /Users/mac/Desktop/5.app/Contents/MonoBleedingEdge/etc/mono/2.0/machine.config",
@@ -8883,7 +9039,7 @@
       "Outputs": [
         "/Users/mac/Desktop/5.app/Contents/MonoBleedingEdge/etc/mono/2.0/machine.config"
       ],
-      "DebugActionIndex": 336
+      "DebugActionIndex": 349
     },
     {
       "Annotation": "CopyFiles /Users/mac/Desktop/5.app/Contents/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx",
@@ -8894,7 +9050,7 @@
       "Outputs": [
         "/Users/mac/Desktop/5.app/Contents/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx"
       ],
-      "DebugActionIndex": 337
+      "DebugActionIndex": 350
     },
     {
       "Annotation": "CopyFiles /Users/mac/Desktop/5.app/Contents/MonoBleedingEdge/etc/mono/2.0/settings.map",
@@ -8905,7 +9061,7 @@
       "Outputs": [
         "/Users/mac/Desktop/5.app/Contents/MonoBleedingEdge/etc/mono/2.0/settings.map"
       ],
-      "DebugActionIndex": 338
+      "DebugActionIndex": 351
     },
     {
       "Annotation": "CopyFiles /Users/mac/Desktop/5.app/Contents/MonoBleedingEdge/etc/mono/4.5/web.config",
@@ -8916,7 +9072,7 @@
       "Outputs": [
         "/Users/mac/Desktop/5.app/Contents/MonoBleedingEdge/etc/mono/4.5/web.config"
       ],
-      "DebugActionIndex": 339
+      "DebugActionIndex": 352
     },
     {
       "Annotation": "CopyFiles /Users/mac/Desktop/5.app/Contents/MonoBleedingEdge/etc/mono/4.5/machine.config",
@@ -8927,7 +9083,7 @@
       "Outputs": [
         "/Users/mac/Desktop/5.app/Contents/MonoBleedingEdge/etc/mono/4.5/machine.config"
       ],
-      "DebugActionIndex": 340
+      "DebugActionIndex": 353
     },
     {
       "Annotation": "CopyFiles /Users/mac/Desktop/5.app/Contents/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx",
@@ -8938,7 +9094,7 @@
       "Outputs": [
         "/Users/mac/Desktop/5.app/Contents/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx"
       ],
-      "DebugActionIndex": 341
+      "DebugActionIndex": 354
     },
     {
       "Annotation": "CopyFiles /Users/mac/Desktop/5.app/Contents/MonoBleedingEdge/etc/mono/4.5/settings.map",
@@ -8949,7 +9105,7 @@
       "Outputs": [
         "/Users/mac/Desktop/5.app/Contents/MonoBleedingEdge/etc/mono/4.5/settings.map"
       ],
-      "DebugActionIndex": 342
+      "DebugActionIndex": 355
     },
     {
       "Annotation": "CopyFiles /Users/mac/Desktop/5.app/Contents/MonoBleedingEdge/etc/mono/mconfig/config.xml",
@@ -8960,7 +9116,7 @@
       "Outputs": [
         "/Users/mac/Desktop/5.app/Contents/MonoBleedingEdge/etc/mono/mconfig/config.xml"
       ],
-      "DebugActionIndex": 343
+      "DebugActionIndex": 356
     },
     {
       "Annotation": "CopyFiles /Users/mac/Desktop/5.app/Contents/MonoBleedingEdge/etc/mono/4.0/web.config",
@@ -8971,7 +9127,7 @@
       "Outputs": [
         "/Users/mac/Desktop/5.app/Contents/MonoBleedingEdge/etc/mono/4.0/web.config"
       ],
-      "DebugActionIndex": 344
+      "DebugActionIndex": 357
     },
     {
       "Annotation": "CopyFiles /Users/mac/Desktop/5.app/Contents/MonoBleedingEdge/etc/mono/4.0/machine.config",
@@ -8982,7 +9138,7 @@
       "Outputs": [
         "/Users/mac/Desktop/5.app/Contents/MonoBleedingEdge/etc/mono/4.0/machine.config"
       ],
-      "DebugActionIndex": 345
+      "DebugActionIndex": 358
     },
     {
       "Annotation": "CopyFiles /Users/mac/Desktop/5.app/Contents/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx",
@@ -8993,7 +9149,7 @@
       "Outputs": [
         "/Users/mac/Desktop/5.app/Contents/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx"
       ],
-      "DebugActionIndex": 346
+      "DebugActionIndex": 359
     },
     {
       "Annotation": "CopyFiles /Users/mac/Desktop/5.app/Contents/MonoBleedingEdge/etc/mono/4.0/settings.map",
@@ -9004,7 +9160,7 @@
       "Outputs": [
         "/Users/mac/Desktop/5.app/Contents/MonoBleedingEdge/etc/mono/4.0/settings.map"
       ],
-      "DebugActionIndex": 347
+      "DebugActionIndex": 360
     },
     {
       "Annotation": "CopyFiles /Users/mac/Desktop/5.app/Contents/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser",
@@ -9015,7 +9171,7 @@
       "Outputs": [
         "/Users/mac/Desktop/5.app/Contents/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser"
       ],
-      "DebugActionIndex": 348
+      "DebugActionIndex": 361
     },
     {
       "Annotation": "CopyFiles /Users/mac/Desktop/5.app/Contents/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser",
@@ -9026,7 +9182,7 @@
       "Outputs": [
         "/Users/mac/Desktop/5.app/Contents/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser"
       ],
-      "DebugActionIndex": 349
+      "DebugActionIndex": 362
     },
     {
       "Annotation": "CopyFiles /Users/mac/Desktop/5.app/Contents/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser",
@@ -9037,7 +9193,7 @@
       "Outputs": [
         "/Users/mac/Desktop/5.app/Contents/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser"
       ],
-      "DebugActionIndex": 350
+      "DebugActionIndex": 363
     },
     {
       "Annotation": "CopyFiles /Users/mac/Desktop/5.app/Contents/Resources/Data/app.info",
@@ -9049,9 +9205,9 @@
         "/Users/mac/Desktop/5.app/Contents/Resources/Data/app.info"
       ],
       "ToBuildDependencies": [
-        326
+        339
       ],
-      "DebugActionIndex": 351
+      "DebugActionIndex": 364
     },
     {
       "Annotation": "CopyFiles /Users/mac/Desktop/5.app/Contents/Resources/DefaultPreferences.plist",
@@ -9062,7 +9218,7 @@
       "Outputs": [
         "/Users/mac/Desktop/5.app/Contents/Resources/DefaultPreferences.plist"
       ],
-      "DebugActionIndex": 352
+      "DebugActionIndex": 365
     },
     {
       "Annotation": "CopyFiles /Users/mac/Desktop/5.app/Contents/Resources/MainMenu.nib/keyedobjects.nib",
@@ -9073,7 +9229,7 @@
       "Outputs": [
         "/Users/mac/Desktop/5.app/Contents/Resources/MainMenu.nib/keyedobjects.nib"
       ],
-      "DebugActionIndex": 353
+      "DebugActionIndex": 366
     },
     {
       "Annotation": "CopyFiles /Users/mac/Desktop/5.app/Contents/Resources/MainMenu.nib/designable.nib",
@@ -9084,7 +9240,7 @@
       "Outputs": [
         "/Users/mac/Desktop/5.app/Contents/Resources/MainMenu.nib/designable.nib"
       ],
-      "DebugActionIndex": 354
+      "DebugActionIndex": 367
     },
     {
       "Annotation": "CopyFiles /Users/mac/Desktop/5.app/Contents/Resources/PlayerIcon.icns",
@@ -9095,7 +9251,7 @@
       "Outputs": [
         "/Users/mac/Desktop/5.app/Contents/Resources/PlayerIcon.icns"
       ],
-      "DebugActionIndex": 355
+      "DebugActionIndex": 368
     },
     {
       "Annotation": "WriteText /Users/mac/Desktop/5.app/Contents/Info.plist",
@@ -9106,18 +9262,18 @@
         "/Users/mac/Desktop/5.app/Contents/Info.plist"
       ],
       "AllowUnwrittenOutputFiles": true,
-      "DebugActionIndex": 356
+      "DebugActionIndex": 369
     },
     {
       "Annotation": "WriteText Library/Bee/artifacts/csharpactions/BuYuDaRen_kj07.info",
       "ActionType": "WriteTextFile",
-      "WriteTextFilePayload": "{\"MacOSCodeSignBundleInPlace+Data\":{\"bundle\":\"/Users/mac/Desktop/5.app\",\"executableSource\":\"/Applications/Unity/Hub/Editor/2021.3.34f1c1/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/Variations/macos_arm64_player_nondevelopment_mono/UnityPlayer.app/Contents/MacOS/UnityPlayer\",\"executableName\":\"BuYuDaRen\",\"hashCache\":\"Library/Bee/artifacts/MacStandalonePlayerBuildProgram/HashCache/5.app-65a9a5f0.json\"},\"Bee.TundraBackend.CSharpActionInvocationInformation\":{\"typeFullName\":\"MacOSCodeSignBundleInPlace\",\"methodName\":\"Run\",\"assemblyLocation\":\"/Applications/Unity/Hub/Editor/2021.3.34f1c1/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/MacStandalonePlayerBuildProgram.exe\",\"targets\":[\"/Users/mac/Desktop/5.app/Contents/MacOS/BuYuDaRen\",\"/Users/mac/Desktop/5.app/Contents/_CodeSignature/CodeResources\"],\"inputs\":[\"/Users/mac/Desktop/5.app/Contents/Resources/Data/sharedassets1.resource\",\"/Users/mac/Desktop/5.app/Contents/Resources/Data/sharedassets0.resource\",\"/Users/mac/Desktop/5.app/Contents/Resources/Data/globalgamemanagers\",\"/Users/mac/Desktop/5.app/Contents/Resources/Data/sharedassets1.assets.resS\",\"/Users/mac/Desktop/5.app/Contents/Resources/Data/sharedassets1.assets\",\"/Users/mac/Desktop/5.app/Contents/Resources/Data/boot.config\",\"/Users/mac/Desktop/5.app/Contents/Resources/Data/RuntimeInitializeOnLoads.json\",\"/Users/mac/Desktop/5.app/Contents/Resources/Data/resources.assets\",\"/Users/mac/Desktop/5.app/Contents/Resources/Data/resources.resource\",\"/Users/mac/Desktop/5.app/Contents/Resources/Data/ScriptingAssemblies.json\",\"/Users/mac/Desktop/5.app/Contents/Resources/Data/sharedassets0.assets.resS\",\"/Users/mac/Desktop/5.app/Contents/Resources/Data/level1.resS\",\"/Users/mac/Desktop/5.app/Contents/Resources/Data/sharedassets0.assets\",\"/Users/mac/Desktop/5.app/Contents/Resources/Data/level0.resS\",\"/Users/mac/Desktop/5.app/Contents/Resources/Data/level0\",\"/Users/mac/Desktop/5.app/Contents/Resources/Data/level1\",\"/Users/mac/Desktop/5.app/Contents/Resources/Data/resources.assets.resS\",\"/Users/mac/Desktop/5.app/Contents/Resources/Data/globalgamemanagers.assets\",\"/Users/mac/Desktop/5.app/Contents/Resources/Data/Resources/unity_builtin_extra\",\"/Users/mac/Desktop/5.app/Contents/Resources/Data/StreamingAssets/AssetBundle/ui\",\"/Users/mac/Desktop/5.app/Contents/Resources/Data/StreamingAssets/AssetBundle/ui.manifest\",\"/Users/mac/Desktop/5.app/Contents/Resources/Data/StreamingAssets/AssetBundle/AssetBundle.manifest\",\"/Users/mac/Desktop/5.app/Contents/Resources/Data/StreamingAssets/AssetBundle/fish.manifest\",\"/Users/mac/Desktop/5.app/Contents/Resources/Data/StreamingAssets/AssetBundle/AssetBundle\",\"/Users/mac/Desktop/5.app/Contents/Resources/Data/StreamingAssets/AssetBundle/fish\",\"/Users/mac/Desktop/5.app/Contents/Resources/Data/StreamingAssets/Data/GunBulletData.json\",\"/Users/mac/Desktop/5.app/Contents/Resources/Data/StreamingAssets/Data/WebData.json\",\"/Users/mac/Desktop/5.app/Contents/Resources/Data/StreamingAssets/Data/LevelNameData.json\",\"/Users/mac/Desktop/5.app/Contents/Resources/Data/StreamingAssets/Data/FishData.json\",\"/Users/mac/Desktop/5.app/Contents/Resources/Data/StreamingAssets/Data/ShootGunData.json\",\"/Users/mac/Desktop/5.app/Contents/Resources/Data/Managed/Unity.VisualScripting.Flow.dll\",\"/Users/mac/Desktop/5.app/Contents/Resources/Data/Managed/UnityEngine.TerrainPhysicsModule.dll\",\"/Users/mac/Desktop/5.app/Contents/Resources/Data/Managed/System.Xml.Linq.dll\",\"/Users/mac/Desktop/5.app/Contents/Resources/Data/Managed/UnityEngine.SpriteMaskModule.dll\",\"/Users/mac/Desktop/5.app/Contents/Resources/Data/Managed/UnityEngine.CrashReportingModule.dll\",\"/Users/mac/Desktop/5.app/Contents/Resources/Data/Managed/Unity.VisualScripting.Core.dll\",\"/Users/mac/Desktop/5.app/Contents/Resources/Data/Managed/System.IO.Compression.FileSystem.dll\",\"/Users/mac/Desktop/5.app/Contents/Resources/Data/Managed/UnityEngine.ProfilerModule.dll\",\"/Users/mac/Desktop/5.app/Contents/Resources/Data/Managed/UnityEngine.UnityAnalyticsModule.dll\",\"/Users/mac/Desktop/5.app/Contents/Resources/Data/Managed/UnityEngine.UmbraModule.dll\",\"/Users/mac/Desktop/5.app/Contents/Resources/Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll\",\"/Users/mac/Desktop/5.app/Contents/Resources/Data/Managed/netstandard.dll\",\"/Users/mac/Desktop/5.app/Contents/Resources/Data/Managed/UnityEngine.VirtualTexturingModule.dll\",\"/Users/mac/Desktop/5.app/Contents/Resources/Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll\",\"/Users/mac/Desktop/5.app/Contents/Resources/Data/Managed/UnityEngine.ARModule.dll\",\"/Users/mac/Desktop/5.app/Contents/Resources/Data/Managed/UnityEngine.AccessibilityModule.dll\",\"/Users/mac/Desktop/5.app/Contents/Resources/Data/Managed/System.Configuration.dll\",\"/Users/mac/Desktop/5.app/Contents/Resources/Data/Managed/UnityEngine.GIModule.dll\",\"/Users/mac/Desktop/5.app/Contents/Resources/Data/Managed/UnityEngine.SpriteShapeModule.dll\",\"/Users/mac/Desktop/5.app/Contents/Resources/Data/Managed/UnityEngine.TextRenderingModule.dll\",\"/Users/mac/Desktop/5.app/Contents/Resources/Data/Managed/System.Net.Http.dll\",\"/Users/mac/Desktop/5.app/Contents/Resources/Data/Managed/Assembly-CSharp.dll\",\"/Users/mac/Desktop/5.app/Contents/Resources/Data/Managed/UnityEngine.DSPGraphModule.dll\",\"/Users/mac/Desktop/5.app/Contents/Resources/Data/Managed/UnityEngine.LocalizationModule.dll\",\"/Users/mac/Desktop/5.app/Contents/Resources/Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll\",\"/Users/mac/Desktop/5.app/Contents/Resources/Data/Managed/UnityEngine.AssetBundleModule.dll\",\"/Users/mac/Desktop/5.app/Contents/Resources/Data/Managed/System.Runtime.Serialization.dll\",\"/Users/mac/Desktop/5.app/Contents/Resources/Data/Managed/System.IO.Compression.dll\",\"/Users/mac/Desktop/5.app/Contents/Resources/Data/Managed/System.Data.DataSetExtensions.dll\",\"/Users/mac/Desktop/5.app/Contents/Resources/Data/Managed/UnityEngine.AnimationModule.dll\",\"/Users/mac/Desktop/5.app/Contents/Resources/Data/Managed/UnityEngine.AudioModule.dll\",\"/Users/mac/Desktop/5.app/Contents/Resources/Data/Managed/UnityEngine.XRModule.dll\",\"/Users/mac/Desktop/5.app/Contents/Resources/Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll\",\"/Users/mac/Desktop/5.app/Contents/Resources/Data/Managed/Unity.VisualScripting.State.dll\",\"/Users/mac/Desktop/5.app/Contents/Resources/Data/Managed/UnityEngine.ClusterInputModule.dll\",\"/Users/mac/Desktop/5.app/Contents/Resources/Data/Managed/UnityEngine.VFXModule.dll\",\"/Users/mac/Desktop/5.app/Contents/Resources/Data/Managed/UnityEngine.InputLegacyModule.dll\",\"/Users/mac/Desktop/5.app/Contents/Resources/Data/Managed/UnityEngine.InputModule.dll\",\"/Users/mac/Desktop/5.app/Contents/Resources/Data/Managed/UnityEngine.DirectorModule.dll\",\"/Users/mac/Desktop/5.app/Contents/Resources/Data/Managed/Unity.TextMeshPro.dll\",\"/Users/mac/Desktop/5.app/Contents/Resources/Data/Managed/mscorlib.dll\",\"/Users/mac/Desktop/5.app/Contents/Resources/Data/Managed/UnityEngine.GameCenterModule.dll\",\"/Users/mac/Desktop/5.app/Contents/Resources/Data/Managed/System.EnterpriseServices.dll\",\"/Users/mac/Desktop/5.app/Contents/Resources/Data/Managed/UnityEngine.TextCoreTextEngineModule.dll\",\"/Users/mac/Desktop/5.app/Contents/Resources/Data/Managed/UnityEngine.StreamingModule.dll\",\"/Users/mac/Desktop/5.app/Contents/Resources/Data/Managed/UnityEngine.Physics2DModule.dll\",\"/Users/mac/Desktop/5.app/Contents/Resources/Data/Managed/UnityEngine.UnityConnectModule.dll\",\"/Users/mac/Desktop/5.app/Contents/Resources/Data/Managed/UnityEngine.dll\",\"/Users/mac/Desktop/5.app/Contents/Resources/Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll\",\"/Users/mac/Desktop/5.app/Contents/Resources/Data/Managed/UnityEngine.UIElementsModule.dll\",\"/Users/mac/Desktop/5.app/Contents/Resources/Data/Managed/UnityEngine.UIModule.dll\",\"/Users/mac/Desktop/5.app/Contents/Resources/Data/Managed/UnityEngine.UI.dll\",\"/Users/mac/Desktop/5.app/Contents/Resources/Data/Managed/UnityEngine.UnityCurlModule.dll\",\"/Users/mac/Desktop/5.app/Contents/Resources/Data/Managed/UnityEngine.SubstanceModule.dll\",\"/Users/mac/Desktop/5.app/Contents/Resources/Data/Managed/UnityEngine.HotReloadModule.dll\",\"/Users/mac/Desktop/5.app/Contents/Resources/Data/Managed/UnityEngine.UIElementsNativeModule.dll\",\"/Users/mac/Desktop/5.app/Contents/Resources/Data/Managed/System.ServiceModel.Internals.dll\",\"/Users/mac/Desktop/5.app/Contents/Resources/Data/Managed/UnityEngine.AutoStreamingModule.dll\",\"/Users/mac/Desktop/5.app/Contents/Resources/Data/Managed/System.Transactions.dll\",\"/Users/mac/Desktop/5.app/Contents/Resources/Data/Managed/UnityEngine.GridModule.dll\",\"/Users/mac/Desktop/5.app/Contents/Resources/Data/Managed/UnityEngine.TerrainModule.dll\",\"/Users/mac/Desktop/5.app/Contents/Resources/Data/Managed/UnityEngine.VRModule.dll\",\"/Users/mac/Desktop/5.app/Contents/Resources/Data/Managed/UnityEngine.JSONSerializeModule.dll\",\"/Users/mac/Desktop/5.app/Contents/Resources/Data/Managed/UnityEngine.UnityTestProtocolModule.dll\",\"/Users/mac/Desktop/5.app/Contents/Resources/Data/Managed/Mono.Security.dll\",\"/Users/mac/Desktop/5.app/Contents/Resources/Data/Managed/System.Data.dll\",\"/Users/mac/Desktop/5.app/Contents/Resources/Data/Managed/System.dll\",\"/Users/mac/Desktop/5.app/Contents/Resources/Data/Managed/UnityEngine.UIWidgetsModule.dll\",\"/Users/mac/Desktop/5.app/Contents/Resources/Data/Managed/UnityEngine.SharedInternalsModule.dll\",\"/Users/mac/Desktop/5.app/Contents/Resources/Data/Managed/Unity.Timeline.dll\",\"/Users/mac/Desktop/5.app/Contents/Resources/Data/Managed/UnityEngine.ImageConversionModule.dll\",\"/Users/mac/Desktop/5.app/Contents/Resources/Data/Managed/UnityEngine.TilemapModule.dll\",\"/Users/mac/Desktop/5.app/Contents/Resources/Data/Managed/UnityEngine.ParticleSystemModule.dll\",\"/Users/mac/Desktop/5.app/Contents/Resources/Data/Managed/UnityEngine.VehiclesModule.dll\",\"/Users/mac/Desktop/5.app/Contents/Resources/Data/Managed/UnityEngine.TextCoreFontEngineModule.dll\",\"/Users/mac/Desktop/5.app/Contents/Resources/Data/Managed/UnityEngine.PhysicsModule.dll\",\"/Users/mac/Desktop/5.app/Contents/Resources/Data/Managed/UnityEngine.CoreModule.dll\",\"/Users/mac/Desktop/5.app/Contents/Resources/Data/Managed/UnityEngine.PerformanceReportingModule.dll\",\"/Users/mac/Desktop/5.app/Contents/Resources/Data/Managed/UnityEngine.SubsystemsModule.dll\",\"/Users/mac/Desktop/5.app/Contents/Resources/Data/Managed/System.Numerics.dll\",\"/Users/mac/Desktop/5.app/Contents/Resources/Data/Managed/System.Xml.dll\",\"/Users/mac/Desktop/5.app/Contents/Resources/Data/Managed/UnityEngine.WindModule.dll\",\"/Users/mac/Desktop/5.app/Contents/Resources/Data/Managed/System.ComponentModel.Composition.dll\",\"/Users/mac/Desktop/5.app/Contents/Resources/Data/Managed/UnityEngine.UnityAnalyticsCommonModule.dll\",\"/Users/mac/Desktop/5.app/Contents/Resources/Data/Managed/UnityEngine.ScreenCaptureModule.dll\",\"/Users/mac/Desktop/5.app/Contents/Resources/Data/Managed/UnityEngine.ClusterRendererModule.dll\",\"/Users/mac/Desktop/5.app/Contents/Resources/Data/Managed/UnityEngine.UnityWebRequestModule.dll\",\"/Users/mac/Desktop/5.app/Contents/Resources/Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll\",\"/Users/mac/Desktop/5.app/Contents/Resources/Data/Managed/System.Drawing.dll\",\"/Users/mac/Desktop/5.app/Contents/Resources/Data/Managed/UnityEngine.UNETModule.dll\",\"/Users/mac/Desktop/5.app/Contents/Resources/Data/Managed/UnityEngine.ClothModule.dll\",\"/Users/mac/Desktop/5.app/Contents/Resources/Data/Managed/UnityEngine.AndroidJNIModule.dll\",\"/Users/mac/Desktop/5.app/Contents/Resources/Data/Managed/System.Security.dll\",\"/Users/mac/Desktop/5.app/Contents/Resources/Data/Managed/UnityEngine.AIModule.dll\",\"/Users/mac/Desktop/5.app/Contents/Resources/Data/Managed/UnityEngine.TLSModule.dll\",\"/Users/mac/Desktop/5.app/Contents/Resources/Data/Managed/UnityEngine.IMGUIModule.dll\",\"/Users/mac/Desktop/5.app/Contents/Resources/Data/Managed/System.Core.dll\",\"/Users/mac/Desktop/5.app/Contents/Resources/Data/Managed/UnityEngine.VideoModule.dll\",\"/Users/mac/Desktop/5.app/Contents/Resources/unity default resources\",\"/Users/mac/Desktop/5.app/Contents/Frameworks/UnityPlayer.dylib\",\"/Users/mac/Desktop/5.app/Contents/Frameworks/libMonoPosixHelper.dylib\",\"/Users/mac/Desktop/5.app/Contents/Frameworks/libmonobdwgc-2.0.dylib\",\"/Users/mac/Desktop/5.app/Contents/Frameworks/libmono-native.dylib\",\"/Users/mac/Desktop/5.app/Contents/MonoBleedingEdge/etc/mono/config\",\"/Users/mac/Desktop/5.app/Contents/MonoBleedingEdge/etc/mono/browscap.ini\",\"/Users/mac/Desktop/5.app/Contents/MonoBleedingEdge/etc/mono/2.0/web.config\",\"/Users/mac/Desktop/5.app/Contents/MonoBleedingEdge/etc/mono/2.0/machine.config\",\"/Users/mac/Desktop/5.app/Contents/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx\",\"/Users/mac/Desktop/5.app/Contents/MonoBleedingEdge/etc/mono/2.0/settings.map\",\"/Users/mac/Desktop/5.app/Contents/MonoBleedingEdge/etc/mono/4.5/web.config\",\"/Users/mac/Desktop/5.app/Contents/MonoBleedingEdge/etc/mono/4.5/machine.config\",\"/Users/mac/Desktop/5.app/Contents/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx\",\"/Users/mac/Desktop/5.app/Contents/MonoBleedingEdge/etc/mono/4.5/settings.map\",\"/Users/mac/Desktop/5.app/Contents/MonoBleedingEdge/etc/mono/mconfig/config.xml\",\"/Users/mac/Desktop/5.app/Contents/MonoBleedingEdge/etc/mono/4.0/web.config\",\"/Users/mac/Desktop/5.app/Contents/MonoBleedingEdge/etc/mono/4.0/machine.config\",\"/Users/mac/Desktop/5.app/Contents/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx\",\"/Users/mac/Desktop/5.app/Contents/MonoBleedingEdge/etc/mono/4.0/settings.map\",\"/Users/mac/Desktop/5.app/Contents/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser\",\"/Users/mac/Desktop/5.app/Contents/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser\",\"/Users/mac/Desktop/5.app/Contents/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser\",\"/Users/mac/Desktop/5.app/Contents/Resources/Data/app.info\",\"/Users/mac/Desktop/5.app/Contents/Resources/DefaultPreferences.plist\",\"/Users/mac/Desktop/5.app/Contents/Resources/MainMenu.nib/keyedobjects.nib\",\"/Users/mac/Desktop/5.app/Contents/Resources/MainMenu.nib/designable.nib\",\"/Users/mac/Desktop/5.app/Contents/Resources/PlayerIcon.icns\",\"/Users/mac/Desktop/5.app/Contents/Info.plist\",\"/Applications/Unity/Hub/Editor/2021.3.34f1c1/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/Variations/macos_arm64_player_nondevelopment_mono/UnityPlayer.app/Contents/MacOS/UnityPlayer\"],\"targetDirectories\":[]}}",
+      "WriteTextFilePayload": "{\"MacOSCodeSignBundleInPlace+Data\":{\"bundle\":\"/Users/mac/Desktop/5.app\",\"executableSource\":\"/Applications/Unity/Hub/Editor/2021.3.34f1c1/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/Variations/macos_arm64_player_nondevelopment_mono/UnityPlayer.app/Contents/MacOS/UnityPlayer\",\"executableName\":\"BuYuDaRen\",\"hashCache\":\"Library/Bee/artifacts/MacStandalonePlayerBuildProgram/HashCache/5.app-65a9a5f0.json\"},\"Bee.TundraBackend.CSharpActionInvocationInformation\":{\"typeFullName\":\"MacOSCodeSignBundleInPlace\",\"methodName\":\"Run\",\"assemblyLocation\":\"/Applications/Unity/Hub/Editor/2021.3.34f1c1/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/MacStandalonePlayerBuildProgram.exe\",\"targets\":[\"/Users/mac/Desktop/5.app/Contents/MacOS/BuYuDaRen\",\"/Users/mac/Desktop/5.app/Contents/_CodeSignature/CodeResources\"],\"inputs\":[\"/Users/mac/Desktop/5.app/Contents/Resources/Data/sharedassets1.resource\",\"/Users/mac/Desktop/5.app/Contents/Resources/Data/sharedassets0.resource\",\"/Users/mac/Desktop/5.app/Contents/Resources/Data/globalgamemanagers\",\"/Users/mac/Desktop/5.app/Contents/Resources/Data/sharedassets1.assets.resS\",\"/Users/mac/Desktop/5.app/Contents/Resources/Data/sharedassets1.assets\",\"/Users/mac/Desktop/5.app/Contents/Resources/Data/boot.config\",\"/Users/mac/Desktop/5.app/Contents/Resources/Data/RuntimeInitializeOnLoads.json\",\"/Users/mac/Desktop/5.app/Contents/Resources/Data/ScriptingAssemblies.json\",\"/Users/mac/Desktop/5.app/Contents/Resources/Data/sharedassets0.assets.resS\",\"/Users/mac/Desktop/5.app/Contents/Resources/Data/level1.resS\",\"/Users/mac/Desktop/5.app/Contents/Resources/Data/sharedassets0.assets\",\"/Users/mac/Desktop/5.app/Contents/Resources/Data/level0.resS\",\"/Users/mac/Desktop/5.app/Contents/Resources/Data/level0\",\"/Users/mac/Desktop/5.app/Contents/Resources/Data/level1\",\"/Users/mac/Desktop/5.app/Contents/Resources/Data/globalgamemanagers.assets\",\"/Users/mac/Desktop/5.app/Contents/Resources/Data/Resources/unity_builtin_extra\",\"/Users/mac/Desktop/5.app/Contents/Resources/Data/StreamingAssets/AssetBundle/seawave\",\"/Users/mac/Desktop/5.app/Contents/Resources/Data/StreamingAssets/AssetBundle/ui\",\"/Users/mac/Desktop/5.app/Contents/Resources/Data/StreamingAssets/AssetBundle/bullets\",\"/Users/mac/Desktop/5.app/Contents/Resources/Data/StreamingAssets/AssetBundle/bk\",\"/Users/mac/Desktop/5.app/Contents/Resources/Data/StreamingAssets/AssetBundle/web\",\"/Users/mac/Desktop/5.app/Contents/Resources/Data/StreamingAssets/AssetBundle/bk.manifest\",\"/Users/mac/Desktop/5.app/Contents/Resources/Data/StreamingAssets/AssetBundle/ui.manifest\",\"/Users/mac/Desktop/5.app/Contents/Resources/Data/StreamingAssets/AssetBundle/effect\",\"/Users/mac/Desktop/5.app/Contents/Resources/Data/StreamingAssets/AssetBundle/coin\",\"/Users/mac/Desktop/5.app/Contents/Resources/Data/StreamingAssets/AssetBundle/coin.manifest\",\"/Users/mac/Desktop/5.app/Contents/Resources/Data/StreamingAssets/AssetBundle/gun\",\"/Users/mac/Desktop/5.app/Contents/Resources/Data/StreamingAssets/AssetBundle/AssetBundle.manifest\",\"/Users/mac/Desktop/5.app/Contents/Resources/Data/StreamingAssets/AssetBundle/fish.manifest\",\"/Users/mac/Desktop/5.app/Contents/Resources/Data/StreamingAssets/AssetBundle/gun.manifest\",\"/Users/mac/Desktop/5.app/Contents/Resources/Data/StreamingAssets/AssetBundle/seawave.manifest\",\"/Users/mac/Desktop/5.app/Contents/Resources/Data/StreamingAssets/AssetBundle/AssetBundle\",\"/Users/mac/Desktop/5.app/Contents/Resources/Data/StreamingAssets/AssetBundle/bullets.manifest\",\"/Users/mac/Desktop/5.app/Contents/Resources/Data/StreamingAssets/AssetBundle/web.manifest\",\"/Users/mac/Desktop/5.app/Contents/Resources/Data/StreamingAssets/AssetBundle/sound\",\"/Users/mac/Desktop/5.app/Contents/Resources/Data/StreamingAssets/AssetBundle/fish\",\"/Users/mac/Desktop/5.app/Contents/Resources/Data/StreamingAssets/AssetBundle/effect.manifest\",\"/Users/mac/Desktop/5.app/Contents/Resources/Data/StreamingAssets/AssetBundle/sound.manifest\",\"/Users/mac/Desktop/5.app/Contents/Resources/Data/StreamingAssets/Data/GunBulletData.json\",\"/Users/mac/Desktop/5.app/Contents/Resources/Data/StreamingAssets/Data/WebData.json\",\"/Users/mac/Desktop/5.app/Contents/Resources/Data/StreamingAssets/Data/LevelNameData.json\",\"/Users/mac/Desktop/5.app/Contents/Resources/Data/StreamingAssets/Data/FishData.json\",\"/Users/mac/Desktop/5.app/Contents/Resources/Data/StreamingAssets/Data/ShootGunData.json\",\"/Users/mac/Desktop/5.app/Contents/Resources/Data/Managed/Unity.VisualScripting.Flow.dll\",\"/Users/mac/Desktop/5.app/Contents/Resources/Data/Managed/UnityEngine.TerrainPhysicsModule.dll\",\"/Users/mac/Desktop/5.app/Contents/Resources/Data/Managed/System.Xml.Linq.dll\",\"/Users/mac/Desktop/5.app/Contents/Resources/Data/Managed/UnityEngine.SpriteMaskModule.dll\",\"/Users/mac/Desktop/5.app/Contents/Resources/Data/Managed/UnityEngine.CrashReportingModule.dll\",\"/Users/mac/Desktop/5.app/Contents/Resources/Data/Managed/Unity.VisualScripting.Core.dll\",\"/Users/mac/Desktop/5.app/Contents/Resources/Data/Managed/System.IO.Compression.FileSystem.dll\",\"/Users/mac/Desktop/5.app/Contents/Resources/Data/Managed/UnityEngine.ProfilerModule.dll\",\"/Users/mac/Desktop/5.app/Contents/Resources/Data/Managed/UnityEngine.UnityAnalyticsModule.dll\",\"/Users/mac/Desktop/5.app/Contents/Resources/Data/Managed/UnityEngine.UmbraModule.dll\",\"/Users/mac/Desktop/5.app/Contents/Resources/Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll\",\"/Users/mac/Desktop/5.app/Contents/Resources/Data/Managed/netstandard.dll\",\"/Users/mac/Desktop/5.app/Contents/Resources/Data/Managed/UnityEngine.VirtualTexturingModule.dll\",\"/Users/mac/Desktop/5.app/Contents/Resources/Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll\",\"/Users/mac/Desktop/5.app/Contents/Resources/Data/Managed/UnityEngine.ARModule.dll\",\"/Users/mac/Desktop/5.app/Contents/Resources/Data/Managed/UnityEngine.AccessibilityModule.dll\",\"/Users/mac/Desktop/5.app/Contents/Resources/Data/Managed/System.Configuration.dll\",\"/Users/mac/Desktop/5.app/Contents/Resources/Data/Managed/UnityEngine.GIModule.dll\",\"/Users/mac/Desktop/5.app/Contents/Resources/Data/Managed/UnityEngine.SpriteShapeModule.dll\",\"/Users/mac/Desktop/5.app/Contents/Resources/Data/Managed/UnityEngine.TextRenderingModule.dll\",\"/Users/mac/Desktop/5.app/Contents/Resources/Data/Managed/System.Net.Http.dll\",\"/Users/mac/Desktop/5.app/Contents/Resources/Data/Managed/Assembly-CSharp.dll\",\"/Users/mac/Desktop/5.app/Contents/Resources/Data/Managed/UnityEngine.DSPGraphModule.dll\",\"/Users/mac/Desktop/5.app/Contents/Resources/Data/Managed/UnityEngine.LocalizationModule.dll\",\"/Users/mac/Desktop/5.app/Contents/Resources/Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll\",\"/Users/mac/Desktop/5.app/Contents/Resources/Data/Managed/UnityEngine.AssetBundleModule.dll\",\"/Users/mac/Desktop/5.app/Contents/Resources/Data/Managed/System.Runtime.Serialization.dll\",\"/Users/mac/Desktop/5.app/Contents/Resources/Data/Managed/System.IO.Compression.dll\",\"/Users/mac/Desktop/5.app/Contents/Resources/Data/Managed/System.Data.DataSetExtensions.dll\",\"/Users/mac/Desktop/5.app/Contents/Resources/Data/Managed/UnityEngine.AnimationModule.dll\",\"/Users/mac/Desktop/5.app/Contents/Resources/Data/Managed/UnityEngine.AudioModule.dll\",\"/Users/mac/Desktop/5.app/Contents/Resources/Data/Managed/UnityEngine.XRModule.dll\",\"/Users/mac/Desktop/5.app/Contents/Resources/Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll\",\"/Users/mac/Desktop/5.app/Contents/Resources/Data/Managed/Unity.VisualScripting.State.dll\",\"/Users/mac/Desktop/5.app/Contents/Resources/Data/Managed/UnityEngine.ClusterInputModule.dll\",\"/Users/mac/Desktop/5.app/Contents/Resources/Data/Managed/UnityEngine.VFXModule.dll\",\"/Users/mac/Desktop/5.app/Contents/Resources/Data/Managed/UnityEngine.InputLegacyModule.dll\",\"/Users/mac/Desktop/5.app/Contents/Resources/Data/Managed/UnityEngine.InputModule.dll\",\"/Users/mac/Desktop/5.app/Contents/Resources/Data/Managed/UnityEngine.DirectorModule.dll\",\"/Users/mac/Desktop/5.app/Contents/Resources/Data/Managed/Unity.TextMeshPro.dll\",\"/Users/mac/Desktop/5.app/Contents/Resources/Data/Managed/mscorlib.dll\",\"/Users/mac/Desktop/5.app/Contents/Resources/Data/Managed/UnityEngine.GameCenterModule.dll\",\"/Users/mac/Desktop/5.app/Contents/Resources/Data/Managed/System.EnterpriseServices.dll\",\"/Users/mac/Desktop/5.app/Contents/Resources/Data/Managed/UnityEngine.TextCoreTextEngineModule.dll\",\"/Users/mac/Desktop/5.app/Contents/Resources/Data/Managed/UnityEngine.StreamingModule.dll\",\"/Users/mac/Desktop/5.app/Contents/Resources/Data/Managed/UnityEngine.Physics2DModule.dll\",\"/Users/mac/Desktop/5.app/Contents/Resources/Data/Managed/UnityEngine.UnityConnectModule.dll\",\"/Users/mac/Desktop/5.app/Contents/Resources/Data/Managed/UnityEngine.dll\",\"/Users/mac/Desktop/5.app/Contents/Resources/Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll\",\"/Users/mac/Desktop/5.app/Contents/Resources/Data/Managed/UnityEngine.UIElementsModule.dll\",\"/Users/mac/Desktop/5.app/Contents/Resources/Data/Managed/UnityEngine.UIModule.dll\",\"/Users/mac/Desktop/5.app/Contents/Resources/Data/Managed/UnityEngine.UI.dll\",\"/Users/mac/Desktop/5.app/Contents/Resources/Data/Managed/UnityEngine.UnityCurlModule.dll\",\"/Users/mac/Desktop/5.app/Contents/Resources/Data/Managed/UnityEngine.SubstanceModule.dll\",\"/Users/mac/Desktop/5.app/Contents/Resources/Data/Managed/UnityEngine.HotReloadModule.dll\",\"/Users/mac/Desktop/5.app/Contents/Resources/Data/Managed/UnityEngine.UIElementsNativeModule.dll\",\"/Users/mac/Desktop/5.app/Contents/Resources/Data/Managed/System.ServiceModel.Internals.dll\",\"/Users/mac/Desktop/5.app/Contents/Resources/Data/Managed/UnityEngine.AutoStreamingModule.dll\",\"/Users/mac/Desktop/5.app/Contents/Resources/Data/Managed/System.Transactions.dll\",\"/Users/mac/Desktop/5.app/Contents/Resources/Data/Managed/UnityEngine.GridModule.dll\",\"/Users/mac/Desktop/5.app/Contents/Resources/Data/Managed/UnityEngine.TerrainModule.dll\",\"/Users/mac/Desktop/5.app/Contents/Resources/Data/Managed/UnityEngine.VRModule.dll\",\"/Users/mac/Desktop/5.app/Contents/Resources/Data/Managed/UnityEngine.JSONSerializeModule.dll\",\"/Users/mac/Desktop/5.app/Contents/Resources/Data/Managed/UnityEngine.UnityTestProtocolModule.dll\",\"/Users/mac/Desktop/5.app/Contents/Resources/Data/Managed/Mono.Security.dll\",\"/Users/mac/Desktop/5.app/Contents/Resources/Data/Managed/System.Data.dll\",\"/Users/mac/Desktop/5.app/Contents/Resources/Data/Managed/System.dll\",\"/Users/mac/Desktop/5.app/Contents/Resources/Data/Managed/UnityEngine.UIWidgetsModule.dll\",\"/Users/mac/Desktop/5.app/Contents/Resources/Data/Managed/UnityEngine.SharedInternalsModule.dll\",\"/Users/mac/Desktop/5.app/Contents/Resources/Data/Managed/Unity.Timeline.dll\",\"/Users/mac/Desktop/5.app/Contents/Resources/Data/Managed/UnityEngine.ImageConversionModule.dll\",\"/Users/mac/Desktop/5.app/Contents/Resources/Data/Managed/UnityEngine.TilemapModule.dll\",\"/Users/mac/Desktop/5.app/Contents/Resources/Data/Managed/UnityEngine.ParticleSystemModule.dll\",\"/Users/mac/Desktop/5.app/Contents/Resources/Data/Managed/UnityEngine.VehiclesModule.dll\",\"/Users/mac/Desktop/5.app/Contents/Resources/Data/Managed/UnityEngine.TextCoreFontEngineModule.dll\",\"/Users/mac/Desktop/5.app/Contents/Resources/Data/Managed/UnityEngine.PhysicsModule.dll\",\"/Users/mac/Desktop/5.app/Contents/Resources/Data/Managed/UnityEngine.CoreModule.dll\",\"/Users/mac/Desktop/5.app/Contents/Resources/Data/Managed/UnityEngine.PerformanceReportingModule.dll\",\"/Users/mac/Desktop/5.app/Contents/Resources/Data/Managed/UnityEngine.SubsystemsModule.dll\",\"/Users/mac/Desktop/5.app/Contents/Resources/Data/Managed/System.Numerics.dll\",\"/Users/mac/Desktop/5.app/Contents/Resources/Data/Managed/System.Xml.dll\",\"/Users/mac/Desktop/5.app/Contents/Resources/Data/Managed/UnityEngine.WindModule.dll\",\"/Users/mac/Desktop/5.app/Contents/Resources/Data/Managed/System.ComponentModel.Composition.dll\",\"/Users/mac/Desktop/5.app/Contents/Resources/Data/Managed/UnityEngine.UnityAnalyticsCommonModule.dll\",\"/Users/mac/Desktop/5.app/Contents/Resources/Data/Managed/UnityEngine.ScreenCaptureModule.dll\",\"/Users/mac/Desktop/5.app/Contents/Resources/Data/Managed/UnityEngine.ClusterRendererModule.dll\",\"/Users/mac/Desktop/5.app/Contents/Resources/Data/Managed/UnityEngine.UnityWebRequestModule.dll\",\"/Users/mac/Desktop/5.app/Contents/Resources/Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll\",\"/Users/mac/Desktop/5.app/Contents/Resources/Data/Managed/System.Drawing.dll\",\"/Users/mac/Desktop/5.app/Contents/Resources/Data/Managed/UnityEngine.UNETModule.dll\",\"/Users/mac/Desktop/5.app/Contents/Resources/Data/Managed/UnityEngine.ClothModule.dll\",\"/Users/mac/Desktop/5.app/Contents/Resources/Data/Managed/UnityEngine.AndroidJNIModule.dll\",\"/Users/mac/Desktop/5.app/Contents/Resources/Data/Managed/System.Security.dll\",\"/Users/mac/Desktop/5.app/Contents/Resources/Data/Managed/UnityEngine.AIModule.dll\",\"/Users/mac/Desktop/5.app/Contents/Resources/Data/Managed/UnityEngine.TLSModule.dll\",\"/Users/mac/Desktop/5.app/Contents/Resources/Data/Managed/UnityEngine.IMGUIModule.dll\",\"/Users/mac/Desktop/5.app/Contents/Resources/Data/Managed/System.Core.dll\",\"/Users/mac/Desktop/5.app/Contents/Resources/Data/Managed/UnityEngine.VideoModule.dll\",\"/Users/mac/Desktop/5.app/Contents/Resources/unity default resources\",\"/Users/mac/Desktop/5.app/Contents/Frameworks/UnityPlayer.dylib\",\"/Users/mac/Desktop/5.app/Contents/Frameworks/libMonoPosixHelper.dylib\",\"/Users/mac/Desktop/5.app/Contents/Frameworks/libmonobdwgc-2.0.dylib\",\"/Users/mac/Desktop/5.app/Contents/Frameworks/libmono-native.dylib\",\"/Users/mac/Desktop/5.app/Contents/MonoBleedingEdge/etc/mono/config\",\"/Users/mac/Desktop/5.app/Contents/MonoBleedingEdge/etc/mono/browscap.ini\",\"/Users/mac/Desktop/5.app/Contents/MonoBleedingEdge/etc/mono/2.0/web.config\",\"/Users/mac/Desktop/5.app/Contents/MonoBleedingEdge/etc/mono/2.0/machine.config\",\"/Users/mac/Desktop/5.app/Contents/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx\",\"/Users/mac/Desktop/5.app/Contents/MonoBleedingEdge/etc/mono/2.0/settings.map\",\"/Users/mac/Desktop/5.app/Contents/MonoBleedingEdge/etc/mono/4.5/web.config\",\"/Users/mac/Desktop/5.app/Contents/MonoBleedingEdge/etc/mono/4.5/machine.config\",\"/Users/mac/Desktop/5.app/Contents/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx\",\"/Users/mac/Desktop/5.app/Contents/MonoBleedingEdge/etc/mono/4.5/settings.map\",\"/Users/mac/Desktop/5.app/Contents/MonoBleedingEdge/etc/mono/mconfig/config.xml\",\"/Users/mac/Desktop/5.app/Contents/MonoBleedingEdge/etc/mono/4.0/web.config\",\"/Users/mac/Desktop/5.app/Contents/MonoBleedingEdge/etc/mono/4.0/machine.config\",\"/Users/mac/Desktop/5.app/Contents/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx\",\"/Users/mac/Desktop/5.app/Contents/MonoBleedingEdge/etc/mono/4.0/settings.map\",\"/Users/mac/Desktop/5.app/Contents/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser\",\"/Users/mac/Desktop/5.app/Contents/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser\",\"/Users/mac/Desktop/5.app/Contents/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser\",\"/Users/mac/Desktop/5.app/Contents/Resources/Data/app.info\",\"/Users/mac/Desktop/5.app/Contents/Resources/DefaultPreferences.plist\",\"/Users/mac/Desktop/5.app/Contents/Resources/MainMenu.nib/keyedobjects.nib\",\"/Users/mac/Desktop/5.app/Contents/Resources/MainMenu.nib/designable.nib\",\"/Users/mac/Desktop/5.app/Contents/Resources/PlayerIcon.icns\",\"/Users/mac/Desktop/5.app/Contents/Info.plist\",\"/Applications/Unity/Hub/Editor/2021.3.34f1c1/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/Variations/macos_arm64_player_nondevelopment_mono/UnityPlayer.app/Contents/MacOS/UnityPlayer\"],\"targetDirectories\":[]}}",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/csharpactions/BuYuDaRen_kj07.info"
       ],
       "AllowUnwrittenOutputFiles": true,
-      "DebugActionIndex": 357
+      "DebugActionIndex": 370
     },
     {
       "Annotation": "MacOSCodeSignBundleInPlace /Users/mac/Desktop/5.app/Contents/MacOS/BuYuDaRen (+1 other)",
@@ -9130,8 +9286,6 @@
         "/Users/mac/Desktop/5.app/Contents/Resources/Data/sharedassets1.assets",
         "/Users/mac/Desktop/5.app/Contents/Resources/Data/boot.config",
         "/Users/mac/Desktop/5.app/Contents/Resources/Data/RuntimeInitializeOnLoads.json",
-        "/Users/mac/Desktop/5.app/Contents/Resources/Data/resources.assets",
-        "/Users/mac/Desktop/5.app/Contents/Resources/Data/resources.resource",
         "/Users/mac/Desktop/5.app/Contents/Resources/Data/ScriptingAssemblies.json",
         "/Users/mac/Desktop/5.app/Contents/Resources/Data/sharedassets0.assets.resS",
         "/Users/mac/Desktop/5.app/Contents/Resources/Data/level1.resS",
@@ -9139,15 +9293,30 @@
         "/Users/mac/Desktop/5.app/Contents/Resources/Data/level0.resS",
         "/Users/mac/Desktop/5.app/Contents/Resources/Data/level0",
         "/Users/mac/Desktop/5.app/Contents/Resources/Data/level1",
-        "/Users/mac/Desktop/5.app/Contents/Resources/Data/resources.assets.resS",
         "/Users/mac/Desktop/5.app/Contents/Resources/Data/globalgamemanagers.assets",
         "/Users/mac/Desktop/5.app/Contents/Resources/Data/Resources/unity_builtin_extra",
+        "/Users/mac/Desktop/5.app/Contents/Resources/Data/StreamingAssets/AssetBundle/seawave",
         "/Users/mac/Desktop/5.app/Contents/Resources/Data/StreamingAssets/AssetBundle/ui",
+        "/Users/mac/Desktop/5.app/Contents/Resources/Data/StreamingAssets/AssetBundle/bullets",
+        "/Users/mac/Desktop/5.app/Contents/Resources/Data/StreamingAssets/AssetBundle/bk",
+        "/Users/mac/Desktop/5.app/Contents/Resources/Data/StreamingAssets/AssetBundle/web",
+        "/Users/mac/Desktop/5.app/Contents/Resources/Data/StreamingAssets/AssetBundle/bk.manifest",
         "/Users/mac/Desktop/5.app/Contents/Resources/Data/StreamingAssets/AssetBundle/ui.manifest",
+        "/Users/mac/Desktop/5.app/Contents/Resources/Data/StreamingAssets/AssetBundle/effect",
+        "/Users/mac/Desktop/5.app/Contents/Resources/Data/StreamingAssets/AssetBundle/coin",
+        "/Users/mac/Desktop/5.app/Contents/Resources/Data/StreamingAssets/AssetBundle/coin.manifest",
+        "/Users/mac/Desktop/5.app/Contents/Resources/Data/StreamingAssets/AssetBundle/gun",
         "/Users/mac/Desktop/5.app/Contents/Resources/Data/StreamingAssets/AssetBundle/AssetBundle.manifest",
         "/Users/mac/Desktop/5.app/Contents/Resources/Data/StreamingAssets/AssetBundle/fish.manifest",
+        "/Users/mac/Desktop/5.app/Contents/Resources/Data/StreamingAssets/AssetBundle/gun.manifest",
+        "/Users/mac/Desktop/5.app/Contents/Resources/Data/StreamingAssets/AssetBundle/seawave.manifest",
         "/Users/mac/Desktop/5.app/Contents/Resources/Data/StreamingAssets/AssetBundle/AssetBundle",
+        "/Users/mac/Desktop/5.app/Contents/Resources/Data/StreamingAssets/AssetBundle/bullets.manifest",
+        "/Users/mac/Desktop/5.app/Contents/Resources/Data/StreamingAssets/AssetBundle/web.manifest",
+        "/Users/mac/Desktop/5.app/Contents/Resources/Data/StreamingAssets/AssetBundle/sound",
         "/Users/mac/Desktop/5.app/Contents/Resources/Data/StreamingAssets/AssetBundle/fish",
+        "/Users/mac/Desktop/5.app/Contents/Resources/Data/StreamingAssets/AssetBundle/effect.manifest",
+        "/Users/mac/Desktop/5.app/Contents/Resources/Data/StreamingAssets/AssetBundle/sound.manifest",
         "/Users/mac/Desktop/5.app/Contents/Resources/Data/StreamingAssets/Data/GunBulletData.json",
         "/Users/mac/Desktop/5.app/Contents/Resources/Data/StreamingAssets/Data/WebData.json",
         "/Users/mac/Desktop/5.app/Contents/Resources/Data/StreamingAssets/Data/LevelNameData.json",
@@ -9428,20 +9597,20 @@
         126,
         127,
         128,
-        327,
-        329,
-        330,
-        331,
-        332,
-        333,
-        334,
-        335,
-        336,
-        337,
-        338,
-        339,
+        129,
+        130,
+        131,
+        132,
+        133,
+        134,
+        135,
+        136,
+        137,
+        138,
+        139,
+        140,
+        141,
         340,
-        341,
         342,
         343,
         344,
@@ -9457,11 +9626,24 @@
         354,
         355,
         356,
-        357
+        357,
+        358,
+        359,
+        360,
+        361,
+        362,
+        363,
+        364,
+        365,
+        366,
+        367,
+        368,
+        369,
+        370
       ],
       "AllowUnexpectedOutput": true,
       "Env": [],
-      "DebugActionIndex": 358
+      "DebugActionIndex": 371
     },
     {
       "Annotation": "Player",
@@ -9597,118 +9779,118 @@
         126,
         127,
         128,
+        129,
+        130,
         131,
+        132,
         133,
+        134,
         135,
+        136,
         137,
+        138,
         139,
+        140,
         141,
-        143,
-        145,
-        147,
-        149,
-        151,
-        153,
-        155,
-        157,
-        159,
-        161,
-        163,
-        165,
-        167,
-        169,
-        171,
-        173,
-        175,
-        177,
-        179,
-        181,
-        183,
-        185,
-        187,
-        189,
-        191,
-        193,
-        195,
-        197,
-        199,
-        201,
-        203,
-        205,
-        207,
-        209,
-        211,
-        213,
-        215,
-        217,
-        219,
-        221,
-        223,
-        225,
-        227,
-        229,
-        231,
-        233,
-        235,
-        237,
-        239,
-        241,
-        243,
-        245,
-        247,
-        249,
-        251,
-        253,
-        255,
-        257,
-        259,
-        261,
-        263,
-        265,
-        267,
-        269,
-        271,
-        273,
-        275,
-        277,
-        279,
-        281,
-        283,
-        285,
-        287,
-        289,
-        291,
-        293,
-        295,
-        297,
-        299,
-        301,
-        303,
-        305,
-        307,
-        309,
-        311,
-        313,
-        315,
-        317,
-        319,
-        321,
-        323,
-        325,
-        327,
-        329,
+        144,
+        146,
+        148,
+        150,
+        152,
+        154,
+        156,
+        158,
+        160,
+        162,
+        164,
+        166,
+        168,
+        170,
+        172,
+        174,
+        176,
+        178,
+        180,
+        182,
+        184,
+        186,
+        188,
+        190,
+        192,
+        194,
+        196,
+        198,
+        200,
+        202,
+        204,
+        206,
+        208,
+        210,
+        212,
+        214,
+        216,
+        218,
+        220,
+        222,
+        224,
+        226,
+        228,
+        230,
+        232,
+        234,
+        236,
+        238,
+        240,
+        242,
+        244,
+        246,
+        248,
+        250,
+        252,
+        254,
+        256,
+        258,
+        260,
+        262,
+        264,
+        266,
+        268,
+        270,
+        272,
+        274,
+        276,
+        278,
+        280,
+        282,
+        284,
+        286,
+        288,
+        290,
+        292,
+        294,
+        296,
+        298,
+        300,
+        302,
+        304,
+        306,
+        308,
+        310,
+        312,
+        314,
+        316,
+        318,
+        320,
+        322,
+        324,
+        326,
+        328,
         330,
-        331,
         332,
-        333,
         334,
-        335,
         336,
-        337,
         338,
-        339,
         340,
-        341,
         342,
         343,
         344,
@@ -9724,10 +9906,23 @@
         354,
         355,
         356,
-        358
+        357,
+        358,
+        359,
+        360,
+        361,
+        362,
+        363,
+        364,
+        365,
+        366,
+        367,
+        368,
+        369,
+        371
       ],
       "AllowUnexpectedOutput": true,
-      "DebugActionIndex": 359
+      "DebugActionIndex": 372
     }
   ],
   "FileSignatures": [
@@ -9940,7 +10135,7 @@
   "EmitDataForBeeWhy": 0,
         "NamedNodes": {
           "all_tundra_nodes": 0,
-          "Player": 359
+          "Player": 372
         }
 ,  "DefaultNodes": [
     0
