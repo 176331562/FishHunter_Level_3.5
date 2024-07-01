@@ -365,6 +365,7 @@
 "Assets/Scripts/BeginScene/Obj/BeginSceneMain.cs"
 "Assets/Scripts/BeginScene/UI/BasePanel.cs"
 "Assets/Scripts/BeginScene/UI/BeginPanel.cs"
+"Assets/Scripts/BeginScene/UI/LoadPanel.cs"
 "Assets/Scripts/BeginScene/UI/LoginPanel.cs"
 "Assets/Scripts/BeginScene/UI/RegisterPanel.cs"
 "Assets/Scripts/BeginScene/UI/SettingPanel.cs"

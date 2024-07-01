@@ -76,15 +76,15 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 16032}
     - Class: 114
-      Script: {instanceID: 17096}
+      Script: {instanceID: 17094}
     - Class: 114
-      Script: {instanceID: 17298}
+      Script: {instanceID: 17296}
     - Class: 114
-      Script: {instanceID: 19544}
+      Script: {instanceID: 19542}
     - Class: 114
-      Script: {instanceID: 20584}
+      Script: {instanceID: 20582}
     - Class: 114
-      Script: {instanceID: 22406}
+      Script: {instanceID: 22404}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 157
@@ -153,33 +153,33 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 16032}
     - Class: 114
-      Script: {instanceID: 16380}
+      Script: {instanceID: 16378}
     - Class: 114
-      Script: {instanceID: 17096}
+      Script: {instanceID: 17094}
     - Class: 114
-      Script: {instanceID: 17298}
+      Script: {instanceID: 17296}
     - Class: 114
-      Script: {instanceID: 17736}
+      Script: {instanceID: 17734}
     - Class: 114
-      Script: {instanceID: 17774}
+      Script: {instanceID: 17772}
     - Class: 114
-      Script: {instanceID: 18010}
+      Script: {instanceID: 18008}
     - Class: 114
-      Script: {instanceID: 18206}
+      Script: {instanceID: 18204}
     - Class: 114
-      Script: {instanceID: 19000}
+      Script: {instanceID: 18998}
     - Class: 114
-      Script: {instanceID: 20584}
+      Script: {instanceID: 20582}
     - Class: 114
-      Script: {instanceID: 20928}
+      Script: {instanceID: 20926}
     - Class: 114
-      Script: {instanceID: 21852}
+      Script: {instanceID: 21850}
     - Class: 114
-      Script: {instanceID: 22310}
+      Script: {instanceID: 22308}
     - Class: 114
-      Script: {instanceID: 22398}
+      Script: {instanceID: 22396}
     - Class: 114
-      Script: {instanceID: 22406}
+      Script: {instanceID: 22404}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 157
@@ -1141,4 +1141,4 @@ ScriptsOnlyBuild:
   scenePathNames:
   - Assets/Scenes/BeginScene.unity
   - Assets/Scenes/GameScene.unity
-  playerPath: /Users/mac/Desktop/123/BuYuDaRen.exe
+  playerPath: /Users/mac/Desktop/FishCounter/1/FishCounter/BuYuDaRen.exe

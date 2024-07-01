@@ -103,4 +103,14 @@ public class UIManager
 
         return null;
     }
+
+    public void RemovePanel<T>() where T : BasePanel
+    {
+        string panelName = typeof(T).Name;
+
+        if(panelDic.ContainsKey(panelName))
+        {
+            panelDic.Remove(panelName);
+        }
+    }
 }

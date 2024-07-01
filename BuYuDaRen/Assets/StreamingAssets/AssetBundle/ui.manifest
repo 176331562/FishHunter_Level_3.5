@@ -1,12 +1,12 @@
 ManifestFileVersion: 0
-CRC: 3657469092
+CRC: 4098162188
 Hashes:
   AssetFileHash:
     serializedVersion: 2
-    Hash: de9ca02d73fa445bbfbdb3f87a95534b
+    Hash: 9de93903538973154a49c99a35b87faf
   TypeTreeHash:
     serializedVersion: 2
-    Hash: 53321bac4c669eb7d682442fdc6f05e0
+    Hash: ac4f0c8fdb54b0ba86c612339b20f4da
 HashAppended: 0
 ClassTypes:
 - Class: 1
@@ -63,6 +63,8 @@ ClassTypes:
   Script: {fileID: 11500000, guid: a4bb2f68d03b149d79bf950c0e831c6d, type: 3}
 - Class: 114
   Script: {fileID: 11500000, guid: 4f231c4fb786f3946a6b90b886c48677, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: f6434a4ff2ff14bb48b7ef36e685a3db, type: 3}
 - Class: 115
   Script: {instanceID: 0}
 - Class: 128
@@ -111,6 +113,7 @@ SerializeReferenceClassIdentifiers:
 Assets:
 - Assets/Arts/Prefabs/UI/SettingPanel.prefab
 - Assets/Arts/Prefabs/UI/BeginPanel.prefab
+- Assets/Arts/Prefabs/UI/LoadPanel.prefab
 - Assets/Arts/Prefabs/UI/LoginPanel.prefab
 - Assets/Arts/Prefabs/UI/RegisterPanel.prefab
 - Assets/Arts/Prefabs/UI/LevelUpPanel.prefab

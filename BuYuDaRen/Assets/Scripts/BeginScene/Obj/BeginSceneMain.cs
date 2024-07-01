@@ -8,5 +8,7 @@ public class BeginSceneMain : MonoBehaviour
     private void Awake()
     {
         UIManager.Instance.ShowThisPanel<LoginPanel>();
+
+        Debug.LogError(Application.persistentDataPath);
     }  
 }

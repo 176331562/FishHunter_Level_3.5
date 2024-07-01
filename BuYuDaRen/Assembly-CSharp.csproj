@@ -108,6 +108,7 @@
     <Compile Include="Assets/Scripts/GameScene/Obj/FishPointFather.cs" />
     <Compile Include="Assets/Scripts/Manager/FishMusicMgr.cs" />
     <Compile Include="Assets/Scripts/Manager/BKMusicMgr.cs" />
+    <Compile Include="Assets/Scripts/BeginScene/UI/LoadPanel.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">

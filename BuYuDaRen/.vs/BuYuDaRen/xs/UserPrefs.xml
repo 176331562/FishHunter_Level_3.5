@@ -1,24 +1,25 @@
 ﻿<Properties StartupConfiguration="{29FC136A-2AE3-442A-5FB2-6E2509A4FAAC}|">
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/GameScene/UI/LevelUpPanel.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/BeginScene/Obj/BeginSceneMain.cs">
     <Files>
       <File FileName="Assets/Scripts/Manager/GameDataMgr.cs" Line="83" Column="9" />
-      <File FileName="Assets/Scripts/Manager/AssetBundleMgr.cs" Line="74" Column="15" />
-      <File FileName="Assets/Scripts/Manager/UIManager.cs" Line="28" Column="110" />
-      <File FileName="Assets/Scripts/GameScene/Obj/GameSceneMain.cs" Line="13" Column="64" />
-      <File FileName="Assets/Scripts/BeginScene/UI/BeginPanel.cs" Line="36" Column="58" />
-      <File FileName="Assets/Scripts/GameScene/Obj/FishPointFather.cs" Line="1" Column="1" />
-      <File FileName="Assets/Scripts/GameScene/Obj/FishPoint.cs" Line="45" Column="13" />
-      <File FileName="Assets/Scripts/GameScene/Obj/WebObj.cs" Line="21" Column="14" />
-      <File FileName="Assets/Scripts/GameScene/Obj/FishObj.cs" Line="88" Column="10" />
-      <File FileName="Assets/Scripts/GameScene/Obj/BulletObj.cs" Line="40" Column="1" />
-      <File FileName="Assets/Scripts/Manager/BKMusicMgr.cs" Line="1" Column="1" />
-      <File FileName="Assets/Scripts/Manager/FireMusicMgr.cs" Line="43" Column="45" />
-      <File FileName="Assets/Scripts/Manager/FishMusicMgr.cs" Line="45" Column="35" />
-      <File FileName="Assets/Scripts/Manager/WebMusicMgr.cs" Line="42" Column="48" />
-      <File FileName="Assets/Scripts/GameScene/UI/GamePanel.cs" Line="223" Column="80" />
-      <File FileName="Assets/Scripts/GameScene/Obj/ShootGun.cs" Line="86" Column="61" />
-      <File FileName="Assets/Scripts/GameScene/Obj/GunFather.cs" Line="31" Column="101" />
-      <File FileName="Assets/Scripts/GameScene/UI/LevelUpPanel.cs" Line="58" Column="53" />
+      <File FileName="Assets/Scripts/Manager/AssetBundleMgr.cs" Line="59" Column="24" />
+      <File FileName="Assets/Scripts/Manager/UIManager.cs" Line="113" Column="40" />
+      <File FileName="Assets/Scripts/GameScene/Obj/GameSceneMain.cs" />
+      <File FileName="Assets/Scripts/BeginScene/UI/BeginPanel.cs" Line="27" Column="59" />
+      <File FileName="Assets/Scripts/GameScene/Obj/FishPointFather.cs" />
+      <File FileName="Assets/Scripts/GameScene/Obj/FishPoint.cs" />
+      <File FileName="Assets/Scripts/GameScene/Obj/WebObj.cs" />
+      <File FileName="Assets/Scripts/GameScene/Obj/FishObj.cs" />
+      <File FileName="Assets/Scripts/GameScene/Obj/BulletObj.cs" />
+      <File FileName="Assets/Scripts/Manager/BKMusicMgr.cs" />
+      <File FileName="Assets/Scripts/Manager/FireMusicMgr.cs" />
+      <File FileName="Assets/Scripts/Manager/FishMusicMgr.cs" />
+      <File FileName="Assets/Scripts/Manager/WebMusicMgr.cs" />
+      <File FileName="Assets/Scripts/GameScene/UI/GamePanel.cs" />
+      <File FileName="Assets/Scripts/GameScene/Obj/ShootGun.cs" />
+      <File FileName="Assets/Scripts/GameScene/Obj/GunFather.cs" />
+      <File FileName="Assets/Scripts/BeginScene/UI/LoadPanel.cs" Line="37" Column="57" />
+      <File FileName="Assets/Scripts/BeginScene/Obj/BeginSceneMain.cs" Line="12" Column="30" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
@@ -32,15 +33,15 @@
               </Node>
               <Node name="Scripts" expanded="True">
                 <Node name="BeginScene" expanded="True">
-                  <Node name="Obj" expanded="True" />
+                  <Node name="Obj" expanded="True">
+                    <Node name="BeginSceneMain.cs" selected="True" />
+                  </Node>
                   <Node name="UI" expanded="True" />
                 </Node>
                 <Node name="Data" expanded="True" />
                 <Node name="GameScene" expanded="True">
                   <Node name="Obj" expanded="True" />
-                  <Node name="UI" expanded="True">
-                    <Node name="LevelUpPanel.cs" selected="True" />
-                  </Node>
+                  <Node name="UI" expanded="True" />
                 </Node>
                 <Node name="Manager" expanded="True" />
               </Node>
@@ -52,7 +53,7 @@
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="636c13c0-723c-4397-b92b-13cd942dd1bc" />
+  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="3ffacd21-777a-4582-a590-b5806849d248" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>

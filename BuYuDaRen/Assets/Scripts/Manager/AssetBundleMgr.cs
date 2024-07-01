@@ -45,7 +45,7 @@ public class AssetBundleMgr
 
             ar.completed += (ao) =>
             {
-                Debug.LogError(132);
+                //Debug.LogError(132);
             };
 
             loadedAssetBundle.Add(assetBundleName, ab);

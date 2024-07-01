@@ -18,24 +18,25 @@ public class BeginPanel : BasePanel
         btnQuit = this.transform.Find("BeginBG/BtnFather/QuitBtn").GetComponent<Button>();
     }
 
+
     public override void Init()
     {
         btnStart.onClick.AddListener(() =>
         {
             UIManager.Instance.CloseThisPanel<BeginPanel>(true);
+            UIManager.Instance.ShowThisPanel<LoadPanel>();
 
-            AsyncOperation ao = SceneManager.LoadSceneAsync("GameScene");
-            ao.completed += (ao) =>
-            {
-                AssetBundleMgr.Instance.GetAB("fish");
-                AssetBundleMgr.Instance.GetAB("web");
-                AssetBundleMgr.Instance.GetAB("gun");
-                AssetBundleMgr.Instance.GetAB("bullets");
-                AssetBundleMgr.Instance.GetAB("coin");
-                AssetBundleMgr.Instance.GetAB("effect");
-                AssetBundleMgr.Instance.GetAB("seawave");
-                AssetBundleMgr.Instance.GetAB("sound");
-            };
+
+            //AssetBundleMgr.Instance.GetAB("fish");
+            //AssetBundleMgr.Instance.GetAB("web");
+            //AssetBundleMgr.Instance.GetAB("gun");
+            //AssetBundleMgr.Instance.GetAB("bullets");
+            //AssetBundleMgr.Instance.GetAB("coin");
+            //AssetBundleMgr.Instance.GetAB("effect");
+            //AssetBundleMgr.Instance.GetAB("seawave");
+            //AssetBundleMgr.Instance.GetAB("sound");
+            //StartCoroutine(LoadAb());
+
         });
 
         btnSetting.onClick.AddListener(() =>
