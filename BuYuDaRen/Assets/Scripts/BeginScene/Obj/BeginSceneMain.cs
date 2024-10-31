@@ -9,6 +9,6 @@ public class BeginSceneMain : MonoBehaviour
     {
         UIManager.Instance.ShowThisPanel<LoginPanel>();
 
-        Debug.LogError(Application.persistentDataPath);
+        Debug.Log(Application.persistentDataPath);
     }  
 }
