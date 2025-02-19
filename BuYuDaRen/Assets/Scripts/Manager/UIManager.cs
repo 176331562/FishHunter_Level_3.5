@@ -12,6 +12,8 @@ public class UIManager
 
     private Dictionary<string, BasePanel> panelDic = new Dictionary<string, BasePanel>();
 
+    public GameObject panelObj = null;
+
     private UIManager()
     {
 
@@ -19,6 +21,8 @@ public class UIManager
 
     public T ShowThisPanel<T>() where T : BasePanel
     {
+        
+
         if(canvasObj == null)
         {
             canvasObj = GameObject.FindGameObjectWithTag("Canvas");
@@ -40,26 +44,32 @@ public class UIManager
 
         string panelName = typeof(T).Name;
 
-        if(panelDic.ContainsKey(panelName))
+        if(panelDic.ContainsKey(panelName) && panelObj != null)
         {
             return panelDic[panelName] as T;
         }
+        else if (!panelDic.ContainsKey(panelName))
+        {
+            panelObj = GameObject.Instantiate(AssetBundleMgr.Instance.LoadAsset<GameObject>("ui", panelName));
 
+
+            panelObj.name = panelName;
+            panelObj.transform.SetParent(canvasObj.transform, false);
+
+            T panel = panelObj.GetComponent<T>();
+
+            panelDic.Add(panelName, panel);
+            panelDic[panelName].ShowThisPanel();
+
+
+
+            return panelDic[panelName] as T;
+        }
         //GameObject panelObj = GameObject.Instantiate(Resources.Load<GameObject>("UI/" + panelName));
         //ResourceRequest rq = Resources.LoadAsync<GameObject>("UI/" + panelName);
         //GameObject panelObj = GameObject.Instantiate(rq.asset as GameObject);
-        GameObject panelObj = GameObject.Instantiate(AssetBundleMgr.Instance.LoadAsset<GameObject>("ui",panelName));
 
-
-        panelObj.name = panelName;
-        panelObj.transform.SetParent(canvasObj.transform,false);
-
-        T panel = panelObj.GetComponent<T>();
-
-        panelDic.Add(panelName, panel);
-        panelDic[panelName].ShowThisPanel();
-        return panelDic[panelName] as T;
-
+        return null;
     }
 
     public void CloseThisPanel<T>(bool isFade = false,UnityAction unityAction = null) where T:BasePanel
